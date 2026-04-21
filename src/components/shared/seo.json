@@ -2,7 +2,7 @@
   "collectionName": "components_shared_seos",
   "info": {
     "name": "Seo",
-    "icon": "allergies",
+    "icon": "cast",
     "displayName": "Seo",
     "description": ""
   },
@@ -10,17 +10,49 @@
   "attributes": {
     "metaTitle": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 60
     },
     "metaDescription": {
       "type": "text",
-      "required": true
+      "required": true,
+      "maxLength": 155
     },
-    "shareImage": {
+    "canonicalUrl": {
+      "type": "string"
+    },
+    "ogTitle": {
+      "type": "string",
+      "maxLength": 70
+    },
+    "ogDescription": {
+      "type": "text"
+    },
+    "ogImage": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "twitterCard": {
+      "type": "enumeration",
+      "default": "summary_large_image",
+      "enum": [
+        "summary",
+        "summary_large_image"
+      ]
+    },
+    "noIndex": {
+      "type": "boolean",
+      "default": false
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "keywords": {
+      "type": "string"
     }
   }
 }

@@ -4,7 +4,7 @@
     "defaultSeo": {
       "metaTitle": "Page",
       "metaDescription": "A blog made with Strapi",
-      "shareImage": null
+      "ogImage": null
     },
     "siteDescription": "A Blog made with Strapi",
     "favicon": null

@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "city_industry_pages",
+  "info": {
+    "singularName": "city-industry-page",
+    "pluralName": "city-industry-pages",
+    "displayName": "City Industry Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true,
+      "unique": true
+    },
+    "heroHeading": {
+      "type": "string"
+    },
+    "comboIntro": {
+      "type": "richtext"
+    },
+    "comboFAQs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "city-industry.faq"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    },
+    "aiGeneratedAt": {
+      "type": "datetime"
+    },
+    "contentStatus": {
+      "type": "enumeration",
+      "default": "needs-content",
+      "enum": [
+        "needs-content",
+        "ai-draft",
+        "human-reviewed",
+        "published"
+      ]
+    },
+    "wordCount": {
+      "type": "integer",
+      "default": 0
+    },
+    "uniqueWordCount": {
+      "type": "integer",
+      "default": 0
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "city": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::city.city",
+      "inversedBy": "cityIndustryPages"
+    },
+    "industry": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::industry.industry",
+      "inversedBy": "cityIndustryPages"
+    },
+    "nearbyComboPages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::city-industry-page.city-industry-page",
+      "inversedBy": "nearbyComboPages"
+    }
+  }
+}

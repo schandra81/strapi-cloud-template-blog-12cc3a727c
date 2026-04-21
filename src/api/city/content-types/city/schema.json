@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cities",
+  "info": {
+    "singularName": "city",
+    "pluralName": "cities",
+    "displayName": "City",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "stateCode": {
+      "type": "string",
+      "required": true,
+      "maxLength": 2
+    },
+    "cityIntro": {
+      "type": "richtext"
+    },
+    "cityVendingScene": {
+      "type": "richtext"
+    },
+    "cityStats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    },
+    "cityFAQs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "city.faq"
+    },
+    "aiGeneratedAt": {
+      "type": "datetime"
+    },
+    "contentStatus": {
+      "type": "enumeration",
+      "default": "needs-content",
+      "enum": [
+        "needs-content",
+        "ai-draft",
+        "human-reviewed",
+        "published"
+      ]
+    },
+    "wordCount": {
+      "type": "integer",
+      "default": 0
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "cityIndustryPages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::city-industry-page.city-industry-page",
+      "mappedBy": "city"
+    },
+    "industries": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::industry.industry",
+      "inversedBy": "cities"
+    }
+  }
+}

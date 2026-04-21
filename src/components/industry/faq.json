@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_industry_faqs",
+  "info": {
+    "displayName": "Faq",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

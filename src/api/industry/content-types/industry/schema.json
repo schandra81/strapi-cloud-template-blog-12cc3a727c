@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industries",
+  "info": {
+    "singularName": "industry",
+    "pluralName": "industries",
+    "displayName": "Industry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "displayName": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "maxLength": 160
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "industryIntro": {
+      "type": "richtext"
+    },
+    "industryBodyContent": {
+      "type": "richtext"
+    },
+    "complianceNotes": {
+      "type": "richtext"
+    },
+    "industryFAQs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "industry.faq"
+    },
+    "aiGeneratedAt": {
+      "type": "datetime"
+    },
+    "contentStatus": {
+      "type": "enumeration",
+      "default": "needs-content",
+      "enum": [
+        "needs-content",
+        "ai-draft",
+        "human-reviewed",
+        "published"
+      ]
+    },
+    "wordCount": {
+      "type": "integer",
+      "default": 0
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "cityIndustryPages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::city-industry-page.city-industry-page",
+      "mappedBy": "industry"
+    },
+    "cities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::city.city",
+      "mappedBy": "industries"
+    }
+  }
+}
