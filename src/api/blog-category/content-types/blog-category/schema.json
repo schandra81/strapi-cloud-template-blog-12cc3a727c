@@ -48,6 +48,12 @@
       "relation": "oneToMany",
       "target": "api::blog-post.blog-post",
       "mappedBy": "category"
+    },
+    "section": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::blog-section.blog-section",
+      "inversedBy": "blogCategories"
     }
   }
 }
