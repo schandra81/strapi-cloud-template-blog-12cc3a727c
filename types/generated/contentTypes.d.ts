@@ -531,6 +531,45 @@ export interface ApiAuthorAuthor extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiBlogCategoryBlogCategory
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'blog_categories';
+  info: {
+    description: 'Top-level category page that groups nested blog/resource pages';
+    displayName: 'Blog Category';
+    pluralName: 'blog-categories';
+    singularName: 'blog-category';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    body: Schema.Attribute.RichText & Schema.Attribute.Required;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    excerpt: Schema.Attribute.Text &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 160;
+      }>;
+    featuredImage: Schema.Attribute.Media<'images'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::blog-category.blog-category'
+    > &
+      Schema.Attribute.Private;
+    posts: Schema.Attribute.Relation<'oneToMany', 'api::blog-post.blog-post'>;
+    publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'shared.seo', false>;
+    slug: Schema.Attribute.UID<'title'> & Schema.Attribute.Required;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
   collectionName: 'blog_posts';
   info: {
@@ -544,6 +583,10 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
   };
   attributes: {
     body: Schema.Attribute.RichText & Schema.Attribute.Required;
+    category: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::blog-category.blog-category'
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1347,6 +1390,7 @@ declare module '@strapi/strapi' {
       'api::about.about': ApiAboutAbout;
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
+      'api::blog-category.blog-category': ApiBlogCategoryBlogCategory;
       'api::blog-post.blog-post': ApiBlogPostBlogPost;
       'api::category.category': ApiCategoryCategory;
       'api::city-industry-page.city-industry-page': ApiCityIndustryPageCityIndustryPage;
