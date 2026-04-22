@@ -1,11 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "resource_sections",
+  "collectionName": "blog_sections",
   "info": {
     "singularName": "blog-section",
     "pluralName": "blog-sections",
     "displayName": "Blog Section",
-    "description": "Top-level section that groups blog categories"
+    "description": "A section within a blog category that groups related blog posts"
   },
   "options": {
     "draftAndPublish": true
@@ -24,10 +24,16 @@
     "order": {
       "type": "integer"
     },
-    "blogCategories": {
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::blog-category.blog-category",
+      "inversedBy": "sections"
+    },
+    "posts": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::blog-category.blog-category",
+      "target": "api::blog-post.blog-post",
       "mappedBy": "section"
     }
   }

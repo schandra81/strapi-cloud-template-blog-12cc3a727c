@@ -75,7 +75,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::city-industry-page.city-industry-page",
-      "inversedBy": "nearbyComboPages"
+      "mappedBy": "nearbyComboPages"
     }
   }
 }
