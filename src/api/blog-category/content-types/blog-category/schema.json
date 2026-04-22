@@ -43,6 +43,12 @@
       "repeatable": false,
       "component": "shared.seo"
     },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-post.blog-post",
+      "mappedBy": "category"
+    },
     "sections": {
       "type": "relation",
       "relation": "oneToMany",

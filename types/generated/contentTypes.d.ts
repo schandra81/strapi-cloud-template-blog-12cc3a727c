@@ -559,6 +559,7 @@ export interface ApiBlogCategoryBlogCategory
       'api::blog-category.blog-category'
     > &
       Schema.Attribute.Private;
+    posts: Schema.Attribute.Relation<'oneToMany', 'api::blog-post.blog-post'>;
     publishedAt: Schema.Attribute.DateTime;
     sections: Schema.Attribute.Relation<
       'oneToMany',
@@ -578,7 +579,7 @@ export interface ApiBlogCategoryBlogCategory
 export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
   collectionName: 'blog_posts';
   info: {
-    description: 'Blog post within a blog section';
+    description: 'Blog post that belongs to a category and can also be grouped into a section';
     displayName: 'Blog Post';
     pluralName: 'blog-posts';
     singularName: 'blog-post';
@@ -588,6 +589,10 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
   };
   attributes: {
     body: Schema.Attribute.RichText & Schema.Attribute.Required;
+    category: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::blog-category.blog-category'
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
