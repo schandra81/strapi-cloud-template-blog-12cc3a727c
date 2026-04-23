@@ -57,6 +57,12 @@
       "target": "api::blog-category.blog-category",
       "inversedBy": "posts"
     },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "blogPosts"
+    },
     "section": {
       "type": "relation",
       "relation": "manyToOne",

@@ -3,7 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const mime = require('mime-types');
-const { categories, authors, articles, global, about } = require('../data/data.json');
+const { authors, global, about } = require('../data/data.json');
 
 async function seedExampleApp() {
   const shouldImportSeedData = await isFirstRun();
@@ -166,24 +166,6 @@ async function updateBlocks(blocks) {
   return updatedBlocks;
 }
 
-async function importArticles() {
-  for (const article of articles) {
-    const cover = await checkFileExistsBeforeUpload([`${article.slug}.jpg`]);
-    const updatedBlocks = await updateBlocks(article.blocks);
-
-    await createEntry({
-      model: 'article',
-      entry: {
-        ...article,
-        cover,
-        blocks: updatedBlocks,
-        // Make sure it's not a draft
-        publishedAt: Date.now(),
-      },
-    });
-  }
-}
-
 async function importGlobal() {
   const favicon = await checkFileExistsBeforeUpload(['favicon.png']);
   const ogImage = await checkFileExistsBeforeUpload(['default-image.png']);
@@ -216,12 +198,6 @@ async function importAbout() {
   });
 }
 
-async function importCategories() {
-  for (const category of categories) {
-    await createEntry({ model: 'category', entry: category });
-  }
-}
-
 async function importAuthors() {
   for (const author of authors) {
     const avatar = await checkFileExistsBeforeUpload([author.avatar]);
@@ -239,17 +215,16 @@ async function importAuthors() {
 async function importSeedData() {
   // Allow read of application content types
   await setPublicPermissions({
-    article: ['find', 'findOne'],
-    category: ['find', 'findOne'],
     author: ['find', 'findOne'],
+    'blog-category': ['find', 'findOne'],
+    'blog-section': ['find', 'findOne'],
+    'blog-post': ['find', 'findOne'],
     global: ['find', 'findOne'],
     about: ['find', 'findOne'],
   });
 
   // Create all entries
-  await importCategories();
   await importAuthors();
-  await importArticles();
   await importGlobal();
   await importAbout();
 }
