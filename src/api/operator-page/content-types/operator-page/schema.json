@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "operator_pages",
+  "info": {
+    "singularName": "operator-page",
+    "pluralName": "operator-pages",
+    "displayName": "Operator Page",
+    "description": "Flexible page builder for the operator landing page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true,
+      "unique": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "page_builder": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.hero",
+        "blocks.how-it-works",
+        "blocks.why-choose-us",
+        "blocks.locations-grid",
+        "blocks.testimonials",
+        "blocks.faq",
+        "blocks.cta"
+      ]
+    }
+  }
+}

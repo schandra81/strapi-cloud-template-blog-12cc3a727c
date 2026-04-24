@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blocks_ctas",
+  "info": {
+    "displayName": "Cta",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "primary_cta_text": {
+      "type": "string",
+      "required": true
+    },
+    "primary_cta_link": {
+      "type": "string",
+      "required": true
+    },
+    "secondary_cta_text": {
+      "type": "string",
+      "required": false
+    },
+    "secondary_cta_link": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

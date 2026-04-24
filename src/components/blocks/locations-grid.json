@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_locations_grids",
+  "info": {
+    "displayName": "Locations Grid",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.location-card"
+    }
+  }
+}

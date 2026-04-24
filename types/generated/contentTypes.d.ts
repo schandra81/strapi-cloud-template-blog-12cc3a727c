@@ -817,6 +817,50 @@ export interface ApiIndustryIndustry extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiOperatorPageOperatorPage extends Struct.SingleTypeSchema {
+  collectionName: 'operator_pages';
+  info: {
+    description: 'Flexible page builder for the operator landing page';
+    displayName: 'Operator Page';
+    pluralName: 'operator-pages';
+    singularName: 'operator-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::operator-page.operator-page'
+    > &
+      Schema.Attribute.Private;
+    page_builder: Schema.Attribute.DynamicZone<
+      [
+        'blocks.hero',
+        'blocks.how-it-works',
+        'blocks.why-choose-us',
+        'blocks.locations-grid',
+        'blocks.testimonials',
+        'blocks.faq',
+        'blocks.cta',
+      ]
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'shared.seo', false>;
+    slug: Schema.Attribute.UID<'title'> &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -1337,6 +1381,7 @@ declare module '@strapi/strapi' {
       'api::city.city': ApiCityCity;
       'api::global.global': ApiGlobalGlobal;
       'api::industry.industry': ApiIndustryIndustry;
+      'api::operator-page.operator-page': ApiOperatorPageOperatorPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

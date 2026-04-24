@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_location_cards",
+  "info": {
+    "displayName": "Location Card",
+    "icon": "map-marker",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

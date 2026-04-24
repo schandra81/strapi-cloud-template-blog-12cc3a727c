@@ -1,5 +1,105 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface BlocksCta extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_ctas';
+  info: {
+    description: '';
+    displayName: 'Cta';
+    icon: 'cursor';
+  };
+  attributes: {
+    primary_cta_link: Schema.Attribute.String & Schema.Attribute.Required;
+    primary_cta_text: Schema.Attribute.String & Schema.Attribute.Required;
+    secondary_cta_link: Schema.Attribute.String;
+    secondary_cta_text: Schema.Attribute.String;
+    subtitle: Schema.Attribute.Text & Schema.Attribute.Required;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksFaq extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_faqs';
+  info: {
+    description: '';
+    displayName: 'Faq';
+    icon: 'question';
+  };
+  attributes: {
+    faqs: Schema.Attribute.Component<'shared.faq-item', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksHero extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_heroes';
+  info: {
+    description: '';
+    displayName: 'Hero';
+    icon: 'home';
+  };
+  attributes: {
+    background_image: Schema.Attribute.Media<'images'>;
+    heading: Schema.Attribute.String & Schema.Attribute.Required;
+    primary_cta_link: Schema.Attribute.String & Schema.Attribute.Required;
+    primary_cta_text: Schema.Attribute.String & Schema.Attribute.Required;
+    secondary_cta_link: Schema.Attribute.String;
+    secondary_cta_text: Schema.Attribute.String;
+    subheading: Schema.Attribute.Text & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksHowItWorks extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_how_it_works';
+  info: {
+    description: '';
+    displayName: 'How It Works';
+    icon: 'cog';
+  };
+  attributes: {
+    steps: Schema.Attribute.Component<'shared.step', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksLocationsGrid extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_locations_grids';
+  info: {
+    description: '';
+    displayName: 'Locations Grid';
+    icon: 'grid';
+  };
+  attributes: {
+    items: Schema.Attribute.Component<'shared.location-card', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksTestimonials extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_testimonials';
+  info: {
+    description: '';
+    displayName: 'Testimonials';
+    icon: 'message';
+  };
+  attributes: {
+    testimonials: Schema.Attribute.Component<'shared.testimonial', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksWhyChooseUs extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_why_choose_us';
+  info: {
+    description: '';
+    displayName: 'Why Choose Us';
+    icon: 'star';
+  };
+  attributes: {
+    points: Schema.Attribute.Component<'shared.point', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlogFaq extends Struct.ComponentSchema {
   collectionName: 'components_blog_faqs';
   info: {
@@ -65,6 +165,33 @@ export interface ResourceFaq extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedFaqItem extends Struct.ComponentSchema {
+  collectionName: 'components_shared_faq_items';
+  info: {
+    description: '';
+    displayName: 'Faq Item';
+    icon: 'question';
+  };
+  attributes: {
+    answer: Schema.Attribute.RichText & Schema.Attribute.Required;
+    question: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface SharedLocationCard extends Struct.ComponentSchema {
+  collectionName: 'components_shared_location_cards';
+  info: {
+    description: '';
+    displayName: 'Location Card';
+    icon: 'map-marker';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images'>;
+    subtitle: Schema.Attribute.String & Schema.Attribute.Required;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -73,6 +200,20 @@ export interface SharedMedia extends Struct.ComponentSchema {
   };
   attributes: {
     file: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
+  };
+}
+
+export interface SharedPoint extends Struct.ComponentSchema {
+  collectionName: 'components_shared_points';
+  info: {
+    description: '';
+    displayName: 'Point';
+    icon: 'star';
+  };
+  attributes: {
+    description: Schema.Attribute.Text & Schema.Attribute.Required;
+    icon: Schema.Attribute.Media<'images'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
 
@@ -162,20 +303,62 @@ export interface SharedStat extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedStep extends Struct.ComponentSchema {
+  collectionName: 'components_shared_steps';
+  info: {
+    description: '';
+    displayName: 'Step';
+    icon: 'check';
+  };
+  attributes: {
+    description: Schema.Attribute.Text & Schema.Attribute.Required;
+    icon: Schema.Attribute.Media<'images'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface SharedTestimonial extends Struct.ComponentSchema {
+  collectionName: 'components_shared_testimonials';
+  info: {
+    description: '';
+    displayName: 'Testimonial';
+    icon: 'quote-right';
+  };
+  attributes: {
+    designation: Schema.Attribute.String & Schema.Attribute.Required;
+    image: Schema.Attribute.Media<'images'>;
+    name: Schema.Attribute.String & Schema.Attribute.Required;
+    rating: Schema.Attribute.Integer & Schema.Attribute.Required;
+    review: Schema.Attribute.Text & Schema.Attribute.Required;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'blocks.cta': BlocksCta;
+      'blocks.faq': BlocksFaq;
+      'blocks.hero': BlocksHero;
+      'blocks.how-it-works': BlocksHowItWorks;
+      'blocks.locations-grid': BlocksLocationsGrid;
+      'blocks.testimonials': BlocksTestimonials;
+      'blocks.why-choose-us': BlocksWhyChooseUs;
       'blog.faq': BlogFaq;
       'city-industry.faq': CityIndustryFaq;
       'city.faq': CityFaq;
       'industry.faq': IndustryFaq;
       'resource.faq': ResourceFaq;
+      'shared.faq-item': SharedFaqItem;
+      'shared.location-card': SharedLocationCard;
       'shared.media': SharedMedia;
+      'shared.point': SharedPoint;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
       'shared.slider': SharedSlider;
       'shared.stat': SharedStat;
+      'shared.step': SharedStep;
+      'shared.testimonial': SharedTestimonial;
     }
   }
 }
