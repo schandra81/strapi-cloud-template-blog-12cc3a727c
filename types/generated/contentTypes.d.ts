@@ -706,9 +706,12 @@ export interface ApiCityCity extends Struct.CollectionTypeSchema {
       'manyToMany',
       'api::industry.industry'
     >;
+    latitude: Schema.Attribute.Decimal;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::city.city'> &
       Schema.Attribute.Private;
+    locationName: Schema.Attribute.String;
+    longitude: Schema.Attribute.Decimal;
     name: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;

@@ -74,8 +74,7 @@
     "nearbyComboPages": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::city-industry-page.city-industry-page",
-      "mappedBy": "nearbyComboPages"
+      "target": "api::city-industry-page.city-industry-page"
     }
   }
 }

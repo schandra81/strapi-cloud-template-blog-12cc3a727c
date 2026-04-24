@@ -80,6 +80,15 @@
       "relation": "manyToMany",
       "target": "api::industry.industry",
       "inversedBy": "cities"
+    },
+    "locationName": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "decimal"
+    },
+    "longitude": {
+      "type": "decimal"
     }
   }
 }

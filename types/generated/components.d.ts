@@ -156,7 +156,7 @@ export interface SharedStat extends Struct.ComponentSchema {
     icon: 'hashtag';
   };
   attributes: {
-    icon: Schema.Attribute.String;
+    icon: Schema.Attribute.Media<'images'>;
     label: Schema.Attribute.String & Schema.Attribute.Required;
     value: Schema.Attribute.String & Schema.Attribute.Required;
   };
