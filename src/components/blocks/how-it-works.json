@@ -11,6 +11,11 @@
       "type": "string",
       "required": true
     },
+    "subheading": {
+      "type": "text",
+      "required": false,
+      "default": "Our streamlined process helps operators find qualified location leads in minutes."
+    },
     "steps": {
       "type": "component",
       "repeatable": true,

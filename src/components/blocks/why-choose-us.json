@@ -7,6 +7,14 @@
   },
   "options": {},
   "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "title": {
       "type": "string",
       "required": true

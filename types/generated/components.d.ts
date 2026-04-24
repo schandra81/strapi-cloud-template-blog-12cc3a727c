@@ -8,6 +8,12 @@ export interface BlocksCta extends Struct.ComponentSchema {
     icon: 'cursor';
   };
   attributes: {
+    phone_icon: Schema.Attribute.Media<'images'>;
+    phone_label: Schema.Attribute.String & Schema.Attribute.DefaultTo<'Call'>;
+    phone_link: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'tel:8005550199'>;
+    phone_number: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'(800) 555-0199'>;
     primary_cta_link: Schema.Attribute.String & Schema.Attribute.Required;
     primary_cta_text: Schema.Attribute.String & Schema.Attribute.Required;
     secondary_cta_link: Schema.Attribute.String;
@@ -40,6 +46,13 @@ export interface BlocksHero extends Struct.ComponentSchema {
   attributes: {
     background_image: Schema.Attribute.Media<'images'>;
     heading: Schema.Attribute.String & Schema.Attribute.Required;
+    phone_icon: Schema.Attribute.Media<'images'>;
+    phone_label: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Direct Hotline'>;
+    phone_link: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'tel:8005550199'>;
+    phone_number: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'(800) 555-0199'>;
     primary_cta_link: Schema.Attribute.String & Schema.Attribute.Required;
     primary_cta_text: Schema.Attribute.String & Schema.Attribute.Required;
     secondary_cta_link: Schema.Attribute.String;
@@ -57,6 +70,8 @@ export interface BlocksHowItWorks extends Struct.ComponentSchema {
   };
   attributes: {
     steps: Schema.Attribute.Component<'shared.step', true>;
+    subheading: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'Our streamlined process helps operators find qualified location leads in minutes.'>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -70,6 +85,8 @@ export interface BlocksLocationsGrid extends Struct.ComponentSchema {
   };
   attributes: {
     items: Schema.Attribute.Component<'shared.location-card', true>;
+    subheading: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'Our platform has pre-qualified leads across all major business categories. Find the perfect fit for your machines.'>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -82,6 +99,8 @@ export interface BlocksTestimonials extends Struct.ComponentSchema {
     icon: 'message';
   };
   attributes: {
+    subheading: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'Join hundreds of operators who have expanded their routes with our platform.'>;
     testimonials: Schema.Attribute.Component<'shared.testimonial', true>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
@@ -95,6 +114,7 @@ export interface BlocksWhyChooseUs extends Struct.ComponentSchema {
     icon: 'star';
   };
   attributes: {
+    image: Schema.Attribute.Media<'images'>;
     points: Schema.Attribute.Component<'shared.point', true>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };

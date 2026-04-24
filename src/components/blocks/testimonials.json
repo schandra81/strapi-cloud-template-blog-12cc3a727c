@@ -11,6 +11,11 @@
       "type": "string",
       "required": true
     },
+    "subheading": {
+      "type": "text",
+      "required": false,
+      "default": "Join hundreds of operators who have expanded their routes with our platform."
+    },
     "testimonials": {
       "type": "component",
       "repeatable": true,

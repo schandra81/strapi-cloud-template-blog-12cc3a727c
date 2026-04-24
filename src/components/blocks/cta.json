@@ -15,6 +15,29 @@
       "type": "text",
       "required": true
     },
+    "phone_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phone_label": {
+      "type": "string",
+      "required": false,
+      "default": "Call"
+    },
+    "phone_number": {
+      "type": "string",
+      "required": false,
+      "default": "(800) 555-0199"
+    },
+    "phone_link": {
+      "type": "string",
+      "required": false,
+      "default": "tel:8005550199"
+    },
     "primary_cta_text": {
       "type": "string",
       "required": true

@@ -11,6 +11,11 @@
       "type": "string",
       "required": true
     },
+    "subheading": {
+      "type": "text",
+      "required": false,
+      "default": "Our platform has pre-qualified leads across all major business categories. Find the perfect fit for your machines."
+    },
     "items": {
       "type": "component",
       "repeatable": true,

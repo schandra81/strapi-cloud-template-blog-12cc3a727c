@@ -31,6 +31,29 @@
       "type": "string",
       "required": true
     },
+    "phone_label": {
+      "type": "string",
+      "required": false,
+      "default": "Direct Hotline"
+    },
+    "phone_number": {
+      "type": "string",
+      "required": false,
+      "default": "(800) 555-0199"
+    },
+    "phone_link": {
+      "type": "string",
+      "required": false,
+      "default": "tel:8005550199"
+    },
+    "phone_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "secondary_cta_text": {
       "type": "string",
       "required": false
