@@ -23,6 +23,14 @@
         "images"
       ]
     },
+    "advertising_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "primary_cta_text": {
       "type": "string",
       "required": true
@@ -45,14 +53,6 @@
       "type": "string",
       "required": false,
       "default": "tel:8005550199"
-    },
-    "phone_icon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
     },
     "secondary_cta_text": {
       "type": "string",

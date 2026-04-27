@@ -8,7 +8,6 @@ export interface BlocksCta extends Struct.ComponentSchema {
     icon: 'cursor';
   };
   attributes: {
-    phone_icon: Schema.Attribute.Media<'images'>;
     phone_label: Schema.Attribute.String & Schema.Attribute.DefaultTo<'Call'>;
     phone_link: Schema.Attribute.String &
       Schema.Attribute.DefaultTo<'tel:8005550199'>;
@@ -44,9 +43,9 @@ export interface BlocksHero extends Struct.ComponentSchema {
     icon: 'home';
   };
   attributes: {
+    advertising_image: Schema.Attribute.Media<'images'>;
     background_image: Schema.Attribute.Media<'images'>;
     heading: Schema.Attribute.String & Schema.Attribute.Required;
-    phone_icon: Schema.Attribute.Media<'images'>;
     phone_label: Schema.Attribute.String &
       Schema.Attribute.DefaultTo<'Direct Hotline'>;
     phone_link: Schema.Attribute.String &
@@ -332,6 +331,7 @@ export interface SharedStep extends Struct.ComponentSchema {
   };
   attributes: {
     description: Schema.Attribute.Text & Schema.Attribute.Required;
+    hover_icon: Schema.Attribute.Media<'images'>;
     icon: Schema.Attribute.Media<'images'>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
