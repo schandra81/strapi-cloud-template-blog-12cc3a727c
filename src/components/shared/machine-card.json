@@ -1,20 +1,12 @@
 {
-  "collectionName": "components_shared_location_cards",
+  "collectionName": "components_shared_machine_cards",
   "info": {
-    "displayName": "Location Card",
-    "icon": "map-marker",
+    "displayName": "Machine Card",
+    "icon": "apps",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -27,12 +19,16 @@
       "type": "string",
       "required": true
     },
-    "subtitle": {
-      "type": "string",
-      "required": true
-    },
     "description": {
       "type": "text",
+      "required": false
+    },
+    "cta_text": {
+      "type": "string",
+      "required": false
+    },
+    "cta_link": {
+      "type": "string",
       "required": false
     }
   }

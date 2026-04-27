@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_landing_stats_strips",
+  "info": {
+    "displayName": "Stats Strip",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    }
+  }
+}

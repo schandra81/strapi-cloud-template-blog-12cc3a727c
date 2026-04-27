@@ -221,6 +221,8 @@ async function importSeedData() {
     'blog-post': ['find', 'findOne'],
     global: ['find', 'findOne'],
     about: ['find', 'findOne'],
+    'operator-page': ['find', 'findOne'],
+    'landing-page': ['find', 'findOne'],
   });
 
   // Create all entries

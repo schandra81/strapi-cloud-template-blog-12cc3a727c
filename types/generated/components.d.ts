@@ -75,6 +75,130 @@ export interface BlocksHowItWorks extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksLandingCta extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_landing_ctas';
+  info: {
+    description: '';
+    displayName: 'Cta';
+    icon: 'cursor';
+  };
+  attributes: {
+    badge_text: Schema.Attribute.String;
+    primary_cta_link: Schema.Attribute.String & Schema.Attribute.Required;
+    primary_cta_text: Schema.Attribute.String & Schema.Attribute.Required;
+    secondary_cta_link: Schema.Attribute.String;
+    secondary_cta_text: Schema.Attribute.String;
+    service_list: Schema.Attribute.Component<'shared.checklist-item', true>;
+    subtitle: Schema.Attribute.Text & Schema.Attribute.Required;
+    tagline: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksLandingHero extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_landing_heroes';
+  info: {
+    description: '';
+    displayName: 'Hero';
+    icon: 'home';
+  };
+  attributes: {
+    background_image: Schema.Attribute.Media<'images'>;
+    heading: Schema.Attribute.String & Schema.Attribute.Required;
+    phone_label: Schema.Attribute.String & Schema.Attribute.DefaultTo<'Call'>;
+    phone_link: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'tel:8005550199'>;
+    phone_number: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'(800) 555-0199'>;
+    primary_cta_link: Schema.Attribute.String & Schema.Attribute.Required;
+    primary_cta_text: Schema.Attribute.String & Schema.Attribute.Required;
+    secondary_cta_link: Schema.Attribute.String;
+    secondary_cta_text: Schema.Attribute.String;
+    subheading: Schema.Attribute.Text & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksLandingLeadFormShowcase extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_landing_lead_form_showcases';
+  info: {
+    description: '';
+    displayName: 'Lead Form Showcase';
+    icon: 'write';
+  };
+  attributes: {
+    checklist: Schema.Attribute.Component<'shared.checklist-item', true>;
+    phone_label: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Prefer to talk? Call us now for exclusive offline leads'>;
+    phone_link: Schema.Attribute.String;
+    phone_number: Schema.Attribute.String;
+    side_image: Schema.Attribute.Media<'images'>;
+    subheading: Schema.Attribute.Text;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksLandingLocationsGrid extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_landing_locations_grids';
+  info: {
+    description: '';
+    displayName: 'Locations Grid';
+    icon: 'grid';
+  };
+  attributes: {
+    items: Schema.Attribute.Component<'shared.landing-location-card', true>;
+    subheading: Schema.Attribute.Text;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksLandingStatsStrip extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_landing_stats_strips';
+  info: {
+    description: '';
+    displayName: 'Stats Strip';
+    icon: 'dashboard';
+  };
+  attributes: {
+    stats: Schema.Attribute.Component<'shared.stat', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksLandingWhyChooseUs extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_landing_why_choose_us';
+  info: {
+    description: '';
+    displayName: 'Why Choose Us';
+    icon: 'star';
+  };
+  attributes: {
+    heading: Schema.Attribute.String;
+    image: Schema.Attribute.Media<'images'>;
+    points: Schema.Attribute.Component<'shared.point', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksLeadFormShowcase extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_lead_form_showcases';
+  info: {
+    description: '';
+    displayName: 'Lead Form Showcase';
+    icon: 'write';
+  };
+  attributes: {
+    checklist: Schema.Attribute.Component<'shared.checklist-item', true>;
+    form_image: Schema.Attribute.Media<'images'>;
+    phone_label: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Prefer to talk? Call us now for exclusive offline leads'>;
+    phone_link: Schema.Attribute.String;
+    phone_number: Schema.Attribute.String;
+    side_image: Schema.Attribute.Media<'images'>;
+    subheading: Schema.Attribute.Text;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksLocationsGrid extends Struct.ComponentSchema {
   collectionName: 'components_blocks_locations_grids';
   info: {
@@ -87,6 +211,34 @@ export interface BlocksLocationsGrid extends Struct.ComponentSchema {
     subheading: Schema.Attribute.Text &
       Schema.Attribute.DefaultTo<'Our platform has pre-qualified leads across all major business categories. Find the perfect fit for your machines.'>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksMachineTypes extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_machine_types';
+  info: {
+    description: '';
+    displayName: 'Machine Types';
+    icon: 'apps';
+  };
+  attributes: {
+    items: Schema.Attribute.Component<'shared.machine-card', true>;
+    subheading: Schema.Attribute.Text;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface BlocksStatsStrip extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_stats_strips';
+  info: {
+    description: '';
+    displayName: 'Stats Strip';
+    icon: 'dashboard';
+  };
+  attributes: {
+    eyebrow: Schema.Attribute.String;
+    stats: Schema.Attribute.Component<'shared.stat', true>;
+    title: Schema.Attribute.String;
   };
 }
 
@@ -184,6 +336,18 @@ export interface ResourceFaq extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedChecklistItem extends Struct.ComponentSchema {
+  collectionName: 'components_shared_checklist_items';
+  info: {
+    description: '';
+    displayName: 'Checklist Item';
+    icon: 'check';
+  };
+  attributes: {
+    text: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedFaqItem extends Struct.ComponentSchema {
   collectionName: 'components_shared_faq_items';
   info: {
@@ -197,6 +361,21 @@ export interface SharedFaqItem extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedLandingLocationCard extends Struct.ComponentSchema {
+  collectionName: 'components_shared_landing_location_cards';
+  info: {
+    description: '';
+    displayName: 'Landing Location Card';
+    icon: 'map-marker';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    icon: Schema.Attribute.Media<'images'>;
+    image: Schema.Attribute.Media<'images'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedLocationCard extends Struct.ComponentSchema {
   collectionName: 'components_shared_location_cards';
   info: {
@@ -205,8 +384,26 @@ export interface SharedLocationCard extends Struct.ComponentSchema {
     icon: 'map-marker';
   };
   attributes: {
+    description: Schema.Attribute.Text;
+    icon: Schema.Attribute.Media<'images'>;
     image: Schema.Attribute.Media<'images'>;
     subtitle: Schema.Attribute.String & Schema.Attribute.Required;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface SharedMachineCard extends Struct.ComponentSchema {
+  collectionName: 'components_shared_machine_cards';
+  info: {
+    description: '';
+    displayName: 'Machine Card';
+    icon: 'apps';
+  };
+  attributes: {
+    cta_link: Schema.Attribute.String;
+    cta_text: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
+    image: Schema.Attribute.Media<'images'>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -360,7 +557,16 @@ declare module '@strapi/strapi' {
       'blocks.faq': BlocksFaq;
       'blocks.hero': BlocksHero;
       'blocks.how-it-works': BlocksHowItWorks;
+      'blocks.landing-cta': BlocksLandingCta;
+      'blocks.landing-hero': BlocksLandingHero;
+      'blocks.landing-lead-form-showcase': BlocksLandingLeadFormShowcase;
+      'blocks.landing-locations-grid': BlocksLandingLocationsGrid;
+      'blocks.landing-stats-strip': BlocksLandingStatsStrip;
+      'blocks.landing-why-choose-us': BlocksLandingWhyChooseUs;
+      'blocks.lead-form-showcase': BlocksLeadFormShowcase;
       'blocks.locations-grid': BlocksLocationsGrid;
+      'blocks.machine-types': BlocksMachineTypes;
+      'blocks.stats-strip': BlocksStatsStrip;
       'blocks.testimonials': BlocksTestimonials;
       'blocks.why-choose-us': BlocksWhyChooseUs;
       'blog.faq': BlogFaq;
@@ -368,8 +574,11 @@ declare module '@strapi/strapi' {
       'city.faq': CityFaq;
       'industry.faq': IndustryFaq;
       'resource.faq': ResourceFaq;
+      'shared.checklist-item': SharedChecklistItem;
       'shared.faq-item': SharedFaqItem;
+      'shared.landing-location-card': SharedLandingLocationCard;
       'shared.location-card': SharedLocationCard;
+      'shared.machine-card': SharedMachineCard;
       'shared.media': SharedMedia;
       'shared.point': SharedPoint;
       'shared.quote': SharedQuote;

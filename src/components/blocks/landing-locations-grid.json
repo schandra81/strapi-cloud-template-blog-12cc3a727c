@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_landing_locations_grids",
+  "info": {
+    "displayName": "Locations Grid",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text",
+      "required": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.landing-location-card"
+    }
+  }
+}

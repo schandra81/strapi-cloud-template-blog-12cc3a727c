@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_machine_types",
+  "info": {
+    "displayName": "Machine Types",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text",
+      "required": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.machine-card"
+    }
+  }
+}

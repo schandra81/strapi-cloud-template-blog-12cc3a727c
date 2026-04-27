@@ -817,6 +817,52 @@ export interface ApiIndustryIndustry extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiLandingPageLandingPage extends Struct.SingleTypeSchema {
+  collectionName: 'landing_pages';
+  info: {
+    description: 'Flexible page builder for the vending landing page';
+    displayName: 'Landing Page';
+    pluralName: 'landing-pages';
+    singularName: 'landing-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::landing-page.landing-page'
+    > &
+      Schema.Attribute.Private;
+    page_builder: Schema.Attribute.DynamicZone<
+      [
+        'blocks.landing-hero',
+        'blocks.landing-stats-strip',
+        'blocks.how-it-works',
+        'blocks.machine-types',
+        'blocks.landing-why-choose-us',
+        'blocks.landing-locations-grid',
+        'blocks.landing-lead-form-showcase',
+        'blocks.testimonials',
+        'blocks.landing-cta',
+      ]
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'shared.seo', false>;
+    slug: Schema.Attribute.UID<'title'> &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiOperatorPageOperatorPage extends Struct.SingleTypeSchema {
   collectionName: 'operator_pages';
   info: {
@@ -1381,6 +1427,7 @@ declare module '@strapi/strapi' {
       'api::city.city': ApiCityCity;
       'api::global.global': ApiGlobalGlobal;
       'api::industry.industry': ApiIndustryIndustry;
+      'api::landing-page.landing-page': ApiLandingPageLandingPage;
       'api::operator-page.operator-page': ApiOperatorPageOperatorPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

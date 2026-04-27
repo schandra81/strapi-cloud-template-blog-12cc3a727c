@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blocks_landing_why_choose_us",
+  "info": {
+    "displayName": "Why Choose Us",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.point"
+    }
+  }
+}

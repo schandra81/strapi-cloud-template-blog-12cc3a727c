@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_blocks_landing_ctas",
+  "info": {
+    "displayName": "Cta",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "badge_text": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "primary_cta_text": {
+      "type": "string",
+      "required": true
+    },
+    "primary_cta_link": {
+      "type": "string",
+      "required": true
+    },
+    "secondary_cta_text": {
+      "type": "string",
+      "required": false
+    },
+    "secondary_cta_link": {
+      "type": "string",
+      "required": false
+    },
+    "service_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.checklist-item"
+    },
+    "tagline": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

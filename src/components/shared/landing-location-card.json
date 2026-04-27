@@ -1,20 +1,12 @@
 {
-  "collectionName": "components_shared_location_cards",
+  "collectionName": "components_shared_landing_location_cards",
   "info": {
-    "displayName": "Location Card",
+    "displayName": "Landing Location Card",
     "icon": "map-marker",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -23,11 +15,15 @@
         "images"
       ]
     },
-    "title": {
-      "type": "string",
-      "required": true
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "subtitle": {
+    "title": {
       "type": "string",
       "required": true
     },

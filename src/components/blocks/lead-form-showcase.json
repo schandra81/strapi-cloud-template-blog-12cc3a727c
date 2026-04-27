@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_blocks_lead_form_showcases",
+  "info": {
+    "displayName": "Lead Form Showcase",
+    "icon": "write",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text",
+      "required": false
+    },
+    "phone_label": {
+      "type": "string",
+      "required": false,
+      "default": "Prefer to talk? Call us now for exclusive offline leads"
+    },
+    "phone_number": {
+      "type": "string",
+      "required": false
+    },
+    "phone_link": {
+      "type": "string",
+      "required": false
+    },
+    "checklist": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.checklist-item"
+    },
+    "form_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "side_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
