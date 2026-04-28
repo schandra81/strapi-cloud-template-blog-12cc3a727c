@@ -28,8 +28,8 @@
     },
     "stateCode": {
       "type": "string",
-      "required": true,
-      "maxLength": 2
+      "maxLength": 2,
+      "required": true
     },
     "cityIntro": {
       "type": "richtext"
@@ -39,13 +39,13 @@
     },
     "cityStats": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.stat"
+      "component": "shared.stat",
+      "repeatable": true
     },
     "cityFAQs": {
       "type": "component",
-      "repeatable": true,
-      "component": "city.faq"
+      "component": "city.faq",
+      "repeatable": true
     },
     "aiGeneratedAt": {
       "type": "datetime"
@@ -66,8 +66,8 @@
     },
     "seo": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "repeatable": false
     },
     "cityIndustryPages": {
       "type": "relation",
@@ -89,6 +89,16 @@
     },
     "longitude": {
       "type": "decimal"
+    },
+    "cityImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

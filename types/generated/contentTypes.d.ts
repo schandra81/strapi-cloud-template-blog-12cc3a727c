@@ -688,6 +688,7 @@ export interface ApiCityCity extends Struct.CollectionTypeSchema {
   attributes: {
     aiGeneratedAt: Schema.Attribute.DateTime;
     cityFAQs: Schema.Attribute.Component<'city.faq', true>;
+    cityImage: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     cityIndustryPages: Schema.Attribute.Relation<
       'oneToMany',
       'api::city-industry-page.city-industry-page'
