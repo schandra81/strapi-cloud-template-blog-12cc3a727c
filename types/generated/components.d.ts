@@ -8,6 +8,9 @@ export interface BlocksCta extends Struct.ComponentSchema {
     icon: 'cursor';
   };
   attributes: {
+    badge: Schema.Attribute.String;
+    features: Schema.Attribute.Component<'shared.checklist-item', true>;
+    note: Schema.Attribute.String;
     phone_label: Schema.Attribute.String & Schema.Attribute.DefaultTo<'Call'>;
     phone_link: Schema.Attribute.String &
       Schema.Attribute.DefaultTo<'tel:8005550199'>;

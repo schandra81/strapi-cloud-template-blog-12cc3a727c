@@ -7,6 +7,10 @@
   },
   "options": {},
   "attributes": {
+    "badge": {
+      "type": "string",
+      "required": false
+    },
     "title": {
       "type": "string",
       "required": true
@@ -43,6 +47,15 @@
       "required": false
     },
     "secondary_cta_link": {
+      "type": "string",
+      "required": false
+    },
+    "features": {
+      "type": "component",
+      "component": "shared.checklist-item",
+      "repeatable": true
+    },
+    "note": {
       "type": "string",
       "required": false
     }

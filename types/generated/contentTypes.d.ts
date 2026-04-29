@@ -687,6 +687,7 @@ export interface ApiCityCity extends Struct.CollectionTypeSchema {
   };
   attributes: {
     aiGeneratedAt: Schema.Attribute.DateTime;
+    cityCta: Schema.Attribute.Component<'blocks.cta', false>;
     cityFAQs: Schema.Attribute.Component<'city.faq', true>;
     cityImage: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     cityIndustryPages: Schema.Attribute.Relation<
@@ -694,6 +695,8 @@ export interface ApiCityCity extends Struct.CollectionTypeSchema {
       'api::city-industry-page.city-industry-page'
     >;
     cityIntro: Schema.Attribute.RichText;
+    cityLocationGrid: Schema.Attribute.Component<'shared.location-card', true>;
+    cityReviews: Schema.Attribute.Component<'shared.testimonial', true>;
     cityStats: Schema.Attribute.Component<'shared.stat', true>;
     cityVendingScene: Schema.Attribute.RichText;
     contentStatus: Schema.Attribute.Enumeration<

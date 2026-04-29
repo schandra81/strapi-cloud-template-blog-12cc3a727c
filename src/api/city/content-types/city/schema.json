@@ -99,6 +99,21 @@
         "videos",
         "audios"
       ]
+    },
+    "cityCta": {
+      "type": "component",
+      "component": "blocks.cta",
+      "repeatable": false
+    },
+    "cityReviews": {
+      "type": "component",
+      "component": "shared.testimonial",
+      "repeatable": true
+    },
+    "cityLocationGrid": {
+      "type": "component",
+      "component": "shared.location-card",
+      "repeatable": true
     }
   }
 }
