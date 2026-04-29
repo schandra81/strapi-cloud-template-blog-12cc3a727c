@@ -33,9 +33,17 @@ export interface BlocksEmailNotification extends Struct.ComponentSchema {
     icon: 'envelop';
   };
   attributes: {
-    images: Schema.Attribute.Media<'images', true>;
+    document_icon: Schema.Attribute.Media<'images'>;
+    dollar_icon: Schema.Attribute.Media<'images'>;
+    footer: Schema.Attribute.Media<'images'>;
+    header: Schema.Attribute.Media<'images'>;
+    id_icon: Schema.Attribute.Media<'images'>;
+    like_icon: Schema.Attribute.Media<'images'>;
+    logo: Schema.Attribute.Media<'images'>;
+    side_image: Schema.Attribute.Media<'images'>;
     title: Schema.Attribute.String &
       Schema.Attribute.DefaultTo<'Email Notification'>;
+    user_icon: Schema.Attribute.Media<'images'>;
   };
 }
 
