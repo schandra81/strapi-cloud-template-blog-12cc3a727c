@@ -899,6 +899,7 @@ export interface ApiOperatorPageOperatorPage extends Struct.SingleTypeSchema {
         'blocks.locations-grid',
         'blocks.testimonials',
         'blocks.faq',
+        'blocks.email-notification',
         'blocks.cta',
       ]
     >;

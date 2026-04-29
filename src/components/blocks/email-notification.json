@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_email_notifications",
+  "info": {
+    "displayName": "Email Notification",
+    "icon": "envelop",
+    "description": "Images used in email notifications"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Email Notification"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

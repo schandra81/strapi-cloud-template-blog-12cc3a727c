@@ -25,6 +25,20 @@ export interface BlocksCta extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksEmailNotification extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_email_notifications';
+  info: {
+    description: 'Images used in email notifications';
+    displayName: 'Email Notification';
+    icon: 'envelop';
+  };
+  attributes: {
+    images: Schema.Attribute.Media<'images', true>;
+    title: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Email Notification'>;
+  };
+}
+
 export interface BlocksFaq extends Struct.ComponentSchema {
   collectionName: 'components_blocks_faqs';
   info: {
@@ -556,6 +570,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'blocks.cta': BlocksCta;
+      'blocks.email-notification': BlocksEmailNotification;
       'blocks.faq': BlocksFaq;
       'blocks.hero': BlocksHero;
       'blocks.how-it-works': BlocksHowItWorks;
