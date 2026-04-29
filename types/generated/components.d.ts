@@ -390,7 +390,6 @@ export interface SharedLocationCard extends Struct.ComponentSchema {
     description: Schema.Attribute.Text;
     icon: Schema.Attribute.Media<'images'>;
     image: Schema.Attribute.Media<'images'>;
-    subtitle: Schema.Attribute.String & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
