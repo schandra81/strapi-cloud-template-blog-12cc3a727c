@@ -695,7 +695,10 @@ export interface ApiCityCity extends Struct.CollectionTypeSchema {
       'api::city-industry-page.city-industry-page'
     >;
     cityIntro: Schema.Attribute.RichText;
-    cityLocationGrid: Schema.Attribute.Component<'shared.location-card', true>;
+    cityLocationGrid: Schema.Attribute.Component<
+      'blocks.locations-grid',
+      false
+    >;
     cityReviews: Schema.Attribute.Component<'shared.testimonial', true>;
     cityStats: Schema.Attribute.Component<'shared.stat', true>;
     cityVendingScene: Schema.Attribute.RichText;

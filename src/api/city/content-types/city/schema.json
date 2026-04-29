@@ -112,8 +112,8 @@
     },
     "cityLocationGrid": {
       "type": "component",
-      "component": "shared.location-card",
-      "repeatable": true
+      "component": "blocks.locations-grid",
+      "repeatable": false
     }
   }
 }
