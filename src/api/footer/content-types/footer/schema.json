@@ -1,0 +1,83 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": "Manage the website footer content"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "brand_name": {
+      "type": "string",
+      "required": true,
+      "default": "LET US VENDING"
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "quick_links_title": {
+      "type": "string",
+      "required": false,
+      "default": "Quick Links"
+    },
+    "quick_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.link"
+    },
+    "services_title": {
+      "type": "string",
+      "required": false,
+      "default": "Services"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.link"
+    },
+    "contact_title": {
+      "type": "string",
+      "required": false,
+      "default": "Contact Info"
+    },
+    "contact_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.contact-item"
+    },
+    "social_title": {
+      "type": "string",
+      "required": false,
+      "default": "Stay In Touch"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.social-link"
+    },
+    "copyright_text": {
+      "type": "string",
+      "required": false,
+      "default": "© 2026 Vending Marketplace. All rights reserved."
+    },
+    "legal_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.link"
+    }
+  }
+}

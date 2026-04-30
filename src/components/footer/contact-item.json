@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_footer_contact_items",
+  "info": {
+    "displayName": "Contact Item",
+    "icon": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "default": "phone",
+      "enum": [
+        "phone",
+        "email",
+        "address",
+        "other"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

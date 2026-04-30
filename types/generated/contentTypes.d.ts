@@ -738,6 +738,54 @@ export interface ApiCityCity extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiFooterFooter extends Struct.SingleTypeSchema {
+  collectionName: 'footers';
+  info: {
+    description: 'Manage the website footer content';
+    displayName: 'Footer';
+    pluralName: 'footers';
+    singularName: 'footer';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    brand_logo: Schema.Attribute.Media<'images'>;
+    brand_name: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'LET US VENDING'>;
+    contact_items: Schema.Attribute.Component<'footer.contact-item', true>;
+    contact_title: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Contact Info'>;
+    copyright_text: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'\u00A9 2026 Vending Marketplace. All rights reserved.'>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    legal_links: Schema.Attribute.Component<'footer.link', true>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::footer.footer'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    quick_links: Schema.Attribute.Component<'footer.link', true>;
+    quick_links_title: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Quick Links'>;
+    services: Schema.Attribute.Component<'footer.link', true>;
+    services_title: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Services'>;
+    social_links: Schema.Attribute.Component<'footer.social-link', true>;
+    social_title: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Stay In Touch'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   collectionName: 'globals';
   info: {
@@ -1436,6 +1484,7 @@ declare module '@strapi/strapi' {
       'api::blog-section.blog-section': ApiBlogSectionBlogSection;
       'api::city-industry-page.city-industry-page': ApiCityIndustryPageCityIndustryPage;
       'api::city.city': ApiCityCity;
+      'api::footer.footer': ApiFooterFooter;
       'api::global.global': ApiGlobalGlobal;
       'api::industry.industry': ApiIndustryIndustry;
       'api::landing-page.landing-page': ApiLandingPageLandingPage;

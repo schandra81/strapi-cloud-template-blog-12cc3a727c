@@ -335,6 +335,54 @@ export interface CityFaq extends Struct.ComponentSchema {
   };
 }
 
+export interface FooterContactItem extends Struct.ComponentSchema {
+  collectionName: 'components_footer_contact_items';
+  info: {
+    description: '';
+    displayName: 'Contact Item';
+    icon: 'phone';
+  };
+  attributes: {
+    label: Schema.Attribute.String & Schema.Attribute.Required;
+    type: Schema.Attribute.Enumeration<['phone', 'email', 'address', 'other']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'phone'>;
+    url: Schema.Attribute.String;
+  };
+}
+
+export interface FooterLink extends Struct.ComponentSchema {
+  collectionName: 'components_footer_links';
+  info: {
+    description: '';
+    displayName: 'Link';
+    icon: 'link';
+  };
+  attributes: {
+    label: Schema.Attribute.String & Schema.Attribute.Required;
+    open_in_new_tab: Schema.Attribute.Boolean &
+      Schema.Attribute.DefaultTo<false>;
+    url: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface FooterSocialLink extends Struct.ComponentSchema {
+  collectionName: 'components_footer_social_links';
+  info: {
+    description: '';
+    displayName: 'Social Link';
+    icon: 'share';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    platform: Schema.Attribute.Enumeration<
+      ['facebook', 'instagram', 'linkedin', 'x', 'youtube', 'tiktok', 'other']
+    > &
+      Schema.Attribute.Required;
+    url: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface IndustryFaq extends Struct.ComponentSchema {
   collectionName: 'components_industry_faqs';
   info: {
@@ -597,6 +645,9 @@ declare module '@strapi/strapi' {
       'blog.faq': BlogFaq;
       'city-industry.faq': CityIndustryFaq;
       'city.faq': CityFaq;
+      'footer.contact-item': FooterContactItem;
+      'footer.link': FooterLink;
+      'footer.social-link': FooterSocialLink;
       'industry.faq': IndustryFaq;
       'resource.faq': ResourceFaq;
       'shared.checklist-item': SharedChecklistItem;
