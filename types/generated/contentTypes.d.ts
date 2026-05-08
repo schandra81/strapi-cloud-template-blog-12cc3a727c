@@ -702,6 +702,7 @@ export interface ApiCityCity extends Struct.CollectionTypeSchema {
     cityReviews: Schema.Attribute.Component<'shared.testimonial', true>;
     cityStats: Schema.Attribute.Component<'shared.stat', true>;
     cityVendingScene: Schema.Attribute.RichText;
+    cityYoutubeVideoUrl: Schema.Attribute.String;
     contentStatus: Schema.Attribute.Enumeration<
       ['needs-content', 'ai-draft', 'human-reviewed', 'published']
     > &
