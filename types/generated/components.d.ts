@@ -317,7 +317,7 @@ export interface BlogPoint extends Struct.ComponentSchema {
     icon: 'star';
   };
   attributes: {
-    text: Schema.Attribute.RichText & Schema.Attribute.Required;
+    text: Schema.Attribute.Text & Schema.Attribute.Required;
   };
 }
 
@@ -329,7 +329,7 @@ export interface BlogPointsSection extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
-    description: Schema.Attribute.Text;
+    description: Schema.Attribute.RichText;
     heading: Schema.Attribute.String & Schema.Attribute.Required;
     image: Schema.Attribute.Media<'images'>;
     points: Schema.Attribute.Component<'blog.point', true>;
