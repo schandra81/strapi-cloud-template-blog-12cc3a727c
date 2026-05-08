@@ -552,6 +552,8 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
   };
   attributes: {
     author: Schema.Attribute.Relation<'manyToOne', 'api::author.author'>;
+    blogHeading: Schema.Attribute.String;
+    blogPoints: Schema.Attribute.Component<'blog.points-section', false>;
     body: Schema.Attribute.RichText & Schema.Attribute.Required;
     category: Schema.Attribute.Relation<
       'manyToOne',

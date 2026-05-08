@@ -309,6 +309,33 @@ export interface BlogFaq extends Struct.ComponentSchema {
   };
 }
 
+export interface BlogPoint extends Struct.ComponentSchema {
+  collectionName: 'components_blog_points';
+  info: {
+    description: '';
+    displayName: 'Point';
+    icon: 'star';
+  };
+  attributes: {
+    text: Schema.Attribute.RichText & Schema.Attribute.Required;
+  };
+}
+
+export interface BlogPointsSection extends Struct.ComponentSchema {
+  collectionName: 'components_blog_points_sections';
+  info: {
+    description: '';
+    displayName: 'Points Section';
+    icon: 'bulletList';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    heading: Schema.Attribute.String & Schema.Attribute.Required;
+    image: Schema.Attribute.Media<'images'>;
+    points: Schema.Attribute.Component<'blog.point', true>;
+  };
+}
+
 export interface CityIndustryFaq extends Struct.ComponentSchema {
   collectionName: 'components_city_industry_faqs';
   info: {
@@ -643,6 +670,8 @@ declare module '@strapi/strapi' {
       'blocks.testimonials': BlocksTestimonials;
       'blocks.why-choose-us': BlocksWhyChooseUs;
       'blog.faq': BlogFaq;
+      'blog.point': BlogPoint;
+      'blog.points-section': BlogPointsSection;
       'city-industry.faq': CityIndustryFaq;
       'city.faq': CityFaq;
       'footer.contact-item': FooterContactItem;
