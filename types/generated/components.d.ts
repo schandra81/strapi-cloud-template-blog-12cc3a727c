@@ -233,7 +233,7 @@ export interface BlocksLocationsGrid extends Struct.ComponentSchema {
   };
   attributes: {
     items: Schema.Attribute.Component<'shared.location-card', true>;
-    subheading: Schema.Attribute.Text &
+    subheading: Schema.Attribute.RichText &
       Schema.Attribute.DefaultTo<'Our platform has pre-qualified leads across all major business categories. Find the perfect fit for your machines.'>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };

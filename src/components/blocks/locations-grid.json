@@ -12,7 +12,7 @@
       "required": true
     },
     "subheading": {
-      "type": "text",
+      "type": "richtext",
       "required": false,
       "default": "Our platform has pre-qualified leads across all major business categories. Find the perfect fit for your machines."
     },
