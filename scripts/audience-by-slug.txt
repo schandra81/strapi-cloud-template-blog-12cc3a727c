@@ -1,0 +1,1181 @@
+Audience focus per slug — 1036 total
+Generated 2026-05-17T12:35:48.827Z
+
+
+==============================================
+  OPERATOR
+==============================================
+
+  [ai-vending-coolers]
+    ai-vending-coolers-for-hotels                                 op:7 host:1 mix:0
+    coffee-and-energy-vending-campus                              op:2 host:1 mix:5
+    how-to-get-vending-machines-on-campus                         op:5 host:2 mix:1
+    social-media-campus-vending-promo                             op:4 host:0 mix:4
+    vending-campus-dining-impact                                  op:2 host:0 mix:6
+    vending-product-trends-college                                op:4 host:1 mix:3
+    vending-surveys-of-student-preferences                        op:3 host:1 mix:4
+
+  [blog-category]
+    office-coffee-solutions-for-co-working-spaces                 op:8 host:0 mix:0
+
+  [healthy-vending-service]
+    healthy-vending-in-hospitals-and-healthcare                   op:2 host:0 mix:6
+
+  [office-vending-services]
+    can-you-make-money-with-office-vending-machines               op:8 host:0 mix:0
+    vending-for-shared-workspaces                                 op:8 host:0 mix:0
+
+  [specialty-vending-machines]
+    art-supply-vending-machines                                   op:4 host:2 mix:2
+
+  [vending-business-startup]
+    are-healthy-vending-machines-profitable                       op:6 host:2 mix:0
+    best-vending-machines-for-beginners                           op:0 host:0 mix:8
+    buying-vs-leasing-vending-machines                            op:7 host:0 mix:1
+    cash-vs-credit-card-readers-in-vending                        op:6 host:2 mix:0
+    common-mistakes-new-vending-operators-make                    op:0 host:0 mix:8
+    cost-to-start-a-vending-business                              op:0 host:0 mix:8
+    do-you-need-a-license-for-vending                             op:0 host:0 mix:8
+    how-many-machines-do-you-need-to-be-profitable                op:8 host:0 mix:0
+    how-much-money-can-you-make-in-vending                        op:0 host:0 mix:8
+    how-to-find-your-first-vending-location                       op:0 host:0 mix:8
+    how-to-grow-your-vending-business                             op:5 host:2 mix:1
+    how-to-maintain-a-vending-machine                             op:8 host:0 mix:0
+    how-to-price-items-in-your-vending-machine                    op:8 host:0 mix:0
+    how-to-start-a-vending-machine-business                       op:0 host:0 mix:8
+    how-to-stock-your-first-vending-machine                       op:0 host:0 mix:8
+    how-to-talk-to-businesses-about-vending                       op:8 host:0 mix:0
+    is-vending-a-good-business-for-retirees                       op:0 host:0 mix:8
+    is-vending-a-profitable-business                              op:6 host:0 mix:2
+    permits-and-insurance-for-vending-business                    op:5 host:2 mix:1
+    pros-and-cons-of-owning-a-vending-machine                     op:0 host:0 mix:8
+    tips-for-solo-vending-operators                               op:8 host:0 mix:0
+    tools-and-software-for-vending-businesses                     op:0 host:0 mix:8
+    vending-business-checklist                                    op:0 host:0 mix:8
+    vending-business-taxes-and-deductions                         op:0 host:0 mix:8
+    vending-business-vs-other-side-hustles                        op:0 host:0 mix:8
+    vending-machine-financing-options                             op:8 host:0 mix:0
+    vending-machine-repair-basics                                 op:8 host:0 mix:0
+    what-products-sell-best-in-vending-machines                   op:8 host:0 mix:0
+    what-to-know-before-starting-a-vending-business               op:0 host:0 mix:8
+    where-to-buy-vending-machines                                 op:5 host:0 mix:3
+
+  [vending-faq]
+    can-vending-machines-run-24-7                                 op:8 host:0 mix:0
+    do-vending-machines-need-wifi                                 op:5 host:1 mix:2
+    how-do-vending-machine-refunds-work                           op:4 host:0 mix:4
+    where-to-place-vending-machines                               op:6 host:2 mix:0
+
+  [vending-for-airports]
+    airport-vending-contracts-and-permits                         op:7 host:1 mix:0
+    cost-of-vending-for-airports                                  op:7 host:0 mix:1
+    luxury-item-vending-at-airports                               op:2 host:0 mix:6
+    managing-airport-vending-logistics                            op:4 host:0 mix:4
+    vending-at-train-and-bus-stations                             op:3 host:1 mix:4
+
+  [vending-for-dealerships]
+    dealership-vending-logistics                                  op:3 host:0 mix:5
+
+  [vending-for-entertainment-venues]
+    case-study-stadium-vending-success                            op:4 host:2 mix:2
+    revenue-opportunities-entertainment-vending                   op:4 host:1 mix:3
+    touchless-vending-in-entertainment-venues                     op:5 host:0 mix:3
+
+  [vending-for-gyms]
+    case-study-24-hour-gym-vending                                op:6 host:1 mix:1
+    gym-franchise-vending-programs                                op:5 host:0 mix:3
+    gym-vending-profit                                            op:2 host:1 mix:5
+    healthy-vs-indulgent-gym-vending                              op:6 host:2 mix:0
+    outdoor-vending-for-sports-facilities                         op:8 host:0 mix:0
+    prepaid-vending-cards-gyms                                    op:7 host:1 mix:0
+    stocking-gym-vending-machines                                 op:2 host:1 mix:5
+    vending-advertising-in-gyms                                   op:8 host:0 mix:0
+    vending-for-different-gym-types                               op:1 host:0 mix:7
+    vending-for-yoga-studios                                      op:2 host:0 mix:6
+    vending-gym-software-integration                              op:8 host:0 mix:0
+
+  [vending-for-hotels]
+    ai-vending-coolers-for-hotel-guests                           op:7 host:1 mix:0
+    best-vending-machines-for-hotel-lobbies                       op:7 host:1 mix:0
+    beverage-vending-machines-for-hotel-floors                    op:5 host:1 mix:2
+    cost-of-vending-services-for-hotels                           op:6 host:2 mix:0
+    custom-branded-vending-machines-for-hotels                    op:3 host:0 mix:5
+    hotel-future-vending-ai-robotics                              op:7 host:1 mix:0
+    hotel-vending-inventory-management                            op:4 host:1 mix:3
+    how-to-install-vending-machines-in-hotels                     op:4 host:2 mix:2
+    snack-vending-machines-in-hotel-common-areas                  op:4 host:2 mix:2
+    touchless-vending-machines-in-hotels                          op:8 host:0 mix:0
+
+  [vending-for-logistics-hubs]
+    touchless-vending-in-logistics-centers                        op:2 host:1 mix:5
+
+  [vending-for-manufacturing-companies]
+    vending-ventilation-factories                                 op:3 host:1 mix:4
+
+  [vending-for-public-buildings]
+    military-base-vending-services                                op:4 host:0 mix:4
+    outdoor-vending-for-parks-and-pools                           op:4 host:2 mix:2
+    vending-in-courthouse-waiting-areas                           op:1 host:0 mix:7
+    vending-in-public-libraries                                   op:3 host:1 mix:4
+    vending-performance-public-libraries                          op:2 host:0 mix:6
+    vending-public-park-events                                    op:1 host:0 mix:7
+
+  [vending-for-retail-locations]
+    mall-food-court-vending                                       op:1 host:0 mix:7
+
+  [vending-for-warehouses]
+    psychology-snack-choices-industrial                           op:5 host:2 mix:1
+    vending-machine-security-industrial-sites                     op:5 host:0 mix:3
+
+  [vending-franchises]
+    case-study-vending-franchise-success                          op:4 host:0 mix:4
+    common-mistakes-in-vending-franchises                         op:0 host:0 mix:8
+    cost-of-vending-franchise                                     op:0 host:0 mix:8
+    eco-friendly-vending-franchises                               op:1 host:1 mix:6
+    exit-strategies-for-vending-franchise-owners                  op:0 host:0 mix:8
+    financing-options-for-vending-franchises                      op:0 host:0 mix:8
+    franchise-territories-in-vending                              op:2 host:0 mix:6
+    future-of-vending-franchises                                  op:1 host:0 mix:7
+    marketing-support-in-vending-franchises                       op:2 host:0 mix:6
+    multi-unit-vending-franchise-ownership                        op:2 host:0 mix:6
+    pros-and-cons-of-vending-franchises                           op:8 host:0 mix:0
+    top-vending-franchises                                        op:0 host:0 mix:8
+    training-and-support-in-vending-franchises                    op:0 host:0 mix:8
+    vending-franchise-contracts                                   op:0 host:0 mix:8
+    vending-franchise-faq                                         op:1 host:0 mix:7
+    vending-franchise-growth-potential                            op:1 host:0 mix:7
+    vending-franchise-overview                                    op:1 host:0 mix:7
+    vending-franchise-royalty-fees                                op:0 host:0 mix:8
+    vending-franchise-vs-independent                              op:8 host:0 mix:0
+    vending-franchise-vs-licensing                                op:7 host:1 mix:0
+
+  [vending-machine-locators]
+    can-you-place-machines-in-multiple-locations                  op:7 host:1 mix:0
+    cold-calling-tips-for-vending-operators                       op:8 host:0 mix:0
+    common-location-deal-breakers                                 op:8 host:0 mix:0
+    free-vending-location-leads-vs-paid-leads                     op:8 host:0 mix:0
+    high-traffic-vs-low-traffic-location-strategy                 op:8 host:0 mix:0
+    how-many-locations-do-you-need-to-be-profitable               op:8 host:0 mix:0
+    how-to-approach-businesses-for-vending                        op:8 host:0 mix:0
+    how-to-close-a-deal-with-a-location                           op:8 host:0 mix:0
+    how-to-evaluate-a-vending-location                            op:8 host:0 mix:0
+    how-to-find-vending-machine-locations                         op:8 host:0 mix:0
+    how-to-get-locations-if-youre-new-to-vending                  op:8 host:0 mix:0
+    how-to-get-locations-without-cold-calling                     op:8 host:0 mix:0
+    how-to-renegotiate-location-terms                             op:6 host:1 mix:1
+    how-to-write-a-vending-machine-proposal                       op:8 host:0 mix:0
+    how-vending-locator-services-work                             op:8 host:0 mix:0
+    is-it-worth-paying-monthly-for-leads                          op:8 host:0 mix:0
+    mistakes-to-avoid-when-landing-new-locations                  op:8 host:0 mix:0
+    questions-to-ask-before-accepting-a-location                  op:8 host:0 mix:0
+    should-you-pay-for-vending-locations                          op:8 host:0 mix:0
+    should-you-use-a-vending-locator-service                      op:6 host:2 mix:0
+    tools-to-track-vending-location-opportunities                 op:8 host:0 mix:0
+    what-to-do-if-a-location-is-underperforming                   op:8 host:0 mix:0
+    what-types-of-businesses-accept-vending-machines              op:3 host:5 mix:0
+
+  [vending-management-companies]
+    automated-vending-management-tech                             op:5 host:3 mix:0
+    can-small-businesses-use-vending-management-services          op:0 host:0 mix:8
+
+  [vending-technology]
+    data-analytics-vending-machine-optimization                   op:6 host:2 mix:0
+
+==============================================
+  OPERATOR-LEAN
+==============================================
+
+  [specialty-vending-machines]
+    luxury-item-vending-machines                                  op:3 host:2 mix:3
+
+  [vending-faq]
+    can-vending-machines-dispense-non-food-items                  op:4 host:3 mix:1
+    how-often-are-vending-machines-refilled                       op:5 host:3 mix:0
+    vending-machine-inventory-management-tips                     op:5 host:3 mix:0
+
+==============================================
+  MIXED
+==============================================
+
+  [(uncategorized)]
+    ai-vending-coolers                                            op:0 host:0 mix:0
+    eco-friendly-vending                                          op:0 host:0 mix:0
+    healthy-vending-service                                       op:0 host:0 mix:0
+    how-to-buy-your-first-vending-machine                         op:0 host:0 mix:0
+    managing-vending-contracts-for-university-campuses            op:0 host:0 mix:0
+    measuring-roi-of-office-vending-servi                         op:0 host:0 mix:0
+    micro-market-services                                         op:0 host:0 mix:0
+    micro-markets-vs-vending-in-manufacturing                     op:0 host:0 mix:0
+    office-coffee-services                                        op:0 host:0 mix:0
+    office-vending-services                                       op:0 host:0 mix:0
+    sample-blog-title                                             op:0 host:0 mix:0
+    specialty-vending-machines                                    op:0 host:0 mix:0
+    vending-business-startup                                      op:0 host:0 mix:0
+    vending-contracts                                             op:0 host:0 mix:0
+    vending-FAQs                                                  op:0 host:0 mix:0
+    vending-for-airports                                          op:0 host:0 mix:0
+    vending-for-apartments                                        op:0 host:0 mix:0
+    vending-for-colleges                                          op:0 host:0 mix:0
+    vending-for-construction-sites                                op:0 host:0 mix:0
+    vending-for-dealerships                                       op:0 host:0 mix:0
+    vending-for-entertainment-venues                              op:0 host:0 mix:0
+    vending-for-gyms                                              op:0 host:0 mix:0
+    vending-for-healthcare                                        op:0 host:0 mix:0
+    vending-for-hotels                                            op:0 host:0 mix:0
+    vending-for-logistics-hubs                                    op:0 host:0 mix:0
+    vending-for-manufacturing                                     op:0 host:0 mix:0
+    vending-for-public-buildings                                  op:0 host:0 mix:0
+    vending-for-retail-locations                                  op:0 host:0 mix:0
+    vending-for-warehouses                                        op:0 host:0 mix:0
+    vending-franchises                                            op:0 host:0 mix:0
+    vending-Info-for-businesses                                   op:0 host:0 mix:0
+    vending-machine-locators                                      op:0 host:0 mix:0
+    vending-management-companies                                  op:0 host:0 mix:0
+    vending-services-for-elementary-schools2                      op:0 host:0 mix:0
+    vending-services-for-elementary-schools3                      op:0 host:0 mix:0
+    vending-technology                                            op:0 host:0 mix:0
+
+  [resources]
+    vending-for-schools                                           op:0 host:0 mix:0
+
+  [vending-faq]
+    how-do-vending-machine-inventories-get-updated                op:4 host:4 mix:0
+
+  [vending-Info-for-businesses]
+    seasonal-vending-machine-products                             op:4 host:4 mix:0
+
+  [vending-technology]
+    mobile-apps-for-vending-purchases                             op:4 host:4 mix:0
+    qr-code-vending-payments                                      op:4 host:4 mix:0
+    remote-vending-machine-diagnostics                            op:4 host:4 mix:0
+    smart-vending-machines-overview                               op:3 host:3 mix:2
+    touchless-vending-machines                                    op:4 host:4 mix:0
+
+==============================================
+  HOST-LEAN
+==============================================
+
+  [(uncategorized)]
+    how-do-vending-machine-commissions-work                       op:3 host:5 mix:0
+    what-security-features-do-vending-machines-have               op:3 host:5 mix:0
+
+  [vending-faq]
+    can-employees-request-products-in-vending                     op:2 host:3 mix:3
+    can-vending-machines-sell-fresh-food                          op:2 host:3 mix:3
+    how-much-space-does-a-vending-machine-need                    op:3 host:5 mix:0
+    troubleshooting-vending-machine-issues                        op:3 host:4 mix:1
+    what-are-combo-vending-machines                               op:3 host:5 mix:0
+
+  [vending-Info-for-businesses]
+    remote-vending-machine-monitoring                             op:3 host:5 mix:0
+    resolve-vending-machine-issues                                op:3 host:4 mix:1
+
+  [vending-technology]
+    smart-vending-machine-design-principles                       op:3 host:5 mix:0
+
+==============================================
+  HOST
+==============================================
+
+  [(uncategorized)]
+    what-are-the-dimensions-of-a-vending-machine                  op:2 host:6 mix:0
+
+  [ai-vending-coolers]
+    24-7-vending-for-college-campuses                             op:0 host:2 mix:6
+    accessible-campus-vending-features                            op:1 host:4 mix:3
+    addressing-student-food-insecurity-vending                    op:0 host:0 mix:8
+    ai-cooler-security-and-loss-prevention                        op:0 host:4 mix:4
+    ai-coolers-loyalty-programs                                   op:0 host:8 mix:0
+    ai-coolers-vs-traditional-vending-machines                    op:1 host:5 mix:2
+    ai-vending-coolers-for-apartments                             op:0 host:8 mix:0
+    ai-vending-coolers-in-schools                                 op:0 host:7 mix:1
+    ai-vending-coolers-vs-micro-markets                           op:0 host:7 mix:1
+    ai-vending-data-analytics-product-trends                      op:2 host:6 mix:0
+    ai-vending-in-employee-breakrooms                             op:0 host:7 mix:1
+    ai-vending-solutions-for-offices                              op:2 host:5 mix:1
+    ai-vending-university-innovation-labs                         op:0 host:2 mix:6
+    benefits-of-vending-on-campus                                 op:0 host:1 mix:7
+    best-ai-vending-companies-2025                                op:0 host:6 mix:2
+    best-vending-machines-for-college-campuses                    op:0 host:4 mix:4
+    brand-partnerships-campus-vending                             op:0 host:3 mix:5
+    campus-vending-security-measures                              op:0 host:7 mix:1
+    career-center-and-gym-vending-on-campus                       op:0 host:0 mix:8
+    case-study-ai-vending-in-warehouse-facility                   op:0 host:8 mix:0
+    case-study-vending-in-university                              op:0 host:4 mix:4
+    cashless-vending-at-universities                              op:0 host:2 mix:6
+    cost-of-ai-vending-coolers                                    op:0 host:7 mix:1
+    cost-of-vending-for-colleges                                  op:1 host:7 mix:0
+    custom-branded-ai-vending-coolers                             op:0 host:8 mix:0
+    custom-vending-campus-culture                                 op:0 host:2 mix:6
+    emergency-campus-vending-planning                             op:2 host:3 mix:3
+    energy-efficiency-of-ai-vending-coolers                       op:0 host:8 mix:0
+    future-of-frictionless-vending-technology                     op:2 host:6 mix:0
+    future-university-vending-tech                                op:0 host:1 mix:7
+    gamification-campus-vending-rewards                           op:0 host:2 mix:6
+    green-vending-initiatives-campus                              op:0 host:7 mix:1
+    healthy-vending-for-college-students                          op:0 host:1 mix:7
+    how-smart-vending-coolers-work                                op:2 host:5 mix:1
+    inventory-tracking-with-ai-coolers                            op:3 host:3 mix:2
+    laundry-and-snack-vending-in-dorms                            op:0 host:0 mix:8
+    maximize-campus-vending-revenue-share                         op:0 host:2 mix:6
+    micro-markets-vs-vending-on-campus                            op:0 host:4 mix:4
+    optimize-campus-vending-placement                             op:1 host:1 mix:6
+    preventing-theft-unattended-retail-ai                         op:0 host:4 mix:4
+    renewable-energy-campus-vending                               op:0 host:8 mix:0
+    seasonal-vending-campus-events                                op:1 host:2 mix:5
+    setup-and-installation-for-ai-vending-coolers                 op:0 host:7 mix:1
+    smart-cooler-remote-work-hubs                                 op:3 host:3 mix:2
+    smart-fridge-vending-for-breakrooms                           op:0 host:7 mix:1
+    specialty-vending-campus-needs                                op:0 host:2 mix:6
+    student-feedback-vending-management                           op:1 host:1 mix:6
+    touchless-vending-technology-explained                        op:0 host:7 mix:1
+    university-vending-maintenance-guide                          op:0 host:2 mix:6
+    university-vending-procurement-guide                          op:0 host:5 mix:3
+    vending-contracts-for-universities                            op:0 host:6 mix:2
+    vending-data-campus-systems-integration                       op:1 host:1 mix:6
+    vending-in-dormitories-and-residence-halls                    op:0 host:2 mix:6
+    vending-in-university-libraries-and-study-areas               op:0 host:2 mix:6
+    vending-machines-and-student-food-insecurity                  op:0 host:0 mix:8
+    vending-machines-for-student-fundraising                      op:0 host:2 mix:6
+    vending-services-for-colleges-and-universities                op:0 host:3 mix:5
+    vending-student-mental-wellness                               op:0 host:0 mix:8
+    what-is-an-ai-vending-cooler                                  op:1 host:3 mix:4
+
+  [blog-category]
+    bean-to-cup-coffee-machines-office                            op:0 host:8 mix:0
+    best-coffee-services-for-law-offices                          op:0 host:5 mix:3
+    best-office-coffee-machines-for-small-teams                   op:0 host:8 mix:0
+    breakroom-coffee-and-snack-bundles                            op:0 host:7 mix:1
+    breakroom-coffee-station-ideas                                op:0 host:7 mix:1
+    coffee-machines-with-milk-frothers-for-offices                op:1 host:7 mix:0
+    coffee-maker-cleaning-sanitation                              op:0 host:7 mix:1
+    coffee-service-providers                                      op:0 host:7 mix:1
+    coffee-subscription-services-for-offices                      op:0 host:8 mix:0
+    cold-brew-iced-coffee-office                                  op:2 host:6 mix:0
+    commercial-office-coffee-makers                               op:0 host:8 mix:0
+    comparing-office-coffee-machine-brands                        op:0 host:8 mix:0
+    cost-of-office-coffee-service                                 op:0 host:8 mix:0
+    custom-coffee-service-packages-for-corporate-offices          op:0 host:8 mix:0
+    customizing-office-coffee-bar                                 op:0 host:8 mix:0
+    eco-friendly-office-coffee-options                            op:0 host:5 mix:3
+    employee-feedback-office-coffee                               op:0 host:6 mix:2
+    ethical-sourcing-office-coffee                                op:0 host:4 mix:4
+    fair-trade-coffee-workplace                                   op:0 host:8 mix:0
+    high-capacity-coffee-makers-for-large-offices                 op:0 host:8 mix:0
+    how-to-choose-office-coffee-service                           op:0 host:8 mix:0
+    how-to-stock-an-office-coffee-station                         op:0 host:8 mix:0
+    interactive-coffee-brewing-office                             op:0 host:8 mix:0
+    keurig-office-coffee-solutions                                op:0 host:8 mix:0
+    office-coffee-creative-agencies                               op:0 host:5 mix:3
+    office-coffee-delivery-services                               op:0 host:8 mix:0
+    office-coffee-hospitality-industry                            op:0 host:6 mix:2
+    office-coffee-machine-maintenance                             op:1 host:7 mix:0
+    office-coffee-vendors-near-me                                 op:0 host:8 mix:0
+    office-coffee-vs-local-coffee-shop                            op:0 host:8 mix:0
+    pod-free-office-coffee-solutions                              op:0 host:8 mix:0
+    psychology-office-coffee-breaks                               op:0 host:8 mix:0
+    refillable-pod-systems-office                                 op:0 host:8 mix:0
+    remote-employee-coffee-stipend                                op:0 host:8 mix:0
+    seasonal-coffee-blends-office                                 op:0 host:8 mix:0
+    single-origin-coffee-workplaces                               op:0 host:8 mix:0
+    smart-office-coffee-machine-features                          op:1 host:7 mix:0
+    touchless-coffee-machines-for-offices                         op:0 host:6 mix:2
+    water-filtration-office-coffee                                op:0 host:6 mix:2
+
+  [eco-friendly-vending]
+    biodegradable-products-in-vending                             op:0 host:8 mix:0
+    biodiversity-vending-machine-locations                        op:0 host:7 mix:1
+    carbon-footprint-of-vending-machines                          op:2 host:6 mix:0
+    case-study-green-vending-success                              op:0 host:6 mix:2
+    corporate-sustainability-and-vending                          op:0 host:7 mix:1
+    eco-friendly-commissions-and-revenue                          op:0 host:6 mix:2
+    eco-friendly-vending-in-offices                               op:1 host:7 mix:0
+    eco-friendly-vending-in-schools                               op:0 host:3 mix:5
+    eco-friendly-vending-machines-overview                        op:0 host:6 mix:2
+    eco-friendly-vending-products                                 op:0 host:8 mix:0
+    energy-star-vending-machines                                  op:0 host:8 mix:0
+    ethical-sourcing-vending-products                             op:0 host:5 mix:3
+    future-trends-in-eco-vending                                  op:0 host:5 mix:3
+    government-policies-on-eco-vending                            op:0 host:6 mix:2
+    green-initiatives-in-vending-contracts                        op:1 host:7 mix:0
+    led-lighting-in-vending-machines                              op:0 host:7 mix:1
+    low-power-vending-cooling-systems                             op:0 host:8 mix:0
+    recycling-programs-for-vending-machines                       op:0 host:6 mix:2
+    renewable-energy-in-vending                                   op:0 host:7 mix:1
+    solar-powered-vending-machines                                op:0 host:8 mix:0
+    sustainable-packaging-in-vending                              op:0 host:5 mix:3
+    sustainable-supply-chains-vending                             op:0 host:4 mix:4
+    vending-machine-life-cycle-sustainability                     op:0 host:5 mix:3
+    water-conservation-vending-operations                         op:0 host:4 mix:4
+    zero-waste-vending-solutions                                  op:0 host:8 mix:0
+
+  [healthy-vending-service]
+    allergen-friendly-vending-solutions                           op:0 host:4 mix:4
+    best-locations-for-healthy-vending-machines                   op:1 host:6 mix:1
+    cost-of-healthy-vending-services                              op:0 host:8 mix:0
+    electrolyte-drinks-vending-machines                           op:3 host:5 mix:0
+    gluten-free-vending-machine-options                           op:3 host:5 mix:0
+    healthy-drink-options-in-vending                              op:1 host:7 mix:0
+    healthy-snack-options-for-vending-machines                    op:2 host:6 mix:0
+    healthy-vending-compliance-for-schools                        op:2 host:2 mix:4
+    healthy-vending-machine-programs-for-gyms                     op:2 host:2 mix:4
+    healthy-vending-machines-for-offices                          op:2 host:6 mix:0
+    healthy-vending-machines-for-schools                          op:1 host:3 mix:4
+    healthy-vending-vs-traditional-vending                        op:0 host:8 mix:0
+    high-protein-snacks-for-vending-machines                      op:4 host:4 mix:0
+    how-to-start-a-healthy-vending-machine-business               op:0 host:0 mix:8
+    low-calorie-snacks-for-vending                                op:2 host:6 mix:0
+    low-sugar-vending-machine-products                            op:2 host:6 mix:0
+    mindful-snacking-vending-options                              op:1 host:7 mix:0
+    non-gmo-vending-products                                      op:1 host:7 mix:0
+    organic-vending-machine-snacks                                op:2 host:6 mix:0
+    plant-based-protein-vending-choices                           op:0 host:8 mix:0
+    state-regulations-for-healthy-vending                         op:0 host:6 mix:2
+    sustainable-eco-conscious-vending-products                    op:0 host:8 mix:0
+    top-healthy-vending-machine-companies                         op:0 host:8 mix:0
+    vegan-options-in-healthy-vending                              op:2 host:6 mix:0
+
+  [micro-market-services]
+    24-7-micro-market-vending                                     op:0 host:7 mix:1
+    benefits-of-micro-markets-for-employees                       op:0 host:8 mix:0
+    best-micro-market-vendors-near-me                             op:0 host:8 mix:0
+    branding-office-micro-market                                  op:0 host:7 mix:1
+    cost-of-micro-market-services                                 op:0 host:8 mix:0
+    difference-between-micro-market-and-mini-mart                 op:0 host:8 mix:0
+    energy-efficiency-micro-markets                               op:1 host:7 mix:0
+    healthy-options-in-micro-markets                              op:0 host:7 mix:1
+    how-micro-markets-improve-employee-satisfaction               op:0 host:6 mix:2
+    how-to-set-up-a-micro-market-in-your-office                   op:0 host:7 mix:1
+    inventory-management-in-micro-markets                         op:0 host:3 mix:5
+    legal-aspects-operating-micro-markets                         op:0 host:6 mix:2
+    micro-market-design-ideas-for-offices                         op:0 host:6 mix:2
+    micro-market-employee-feedback-strategies                     op:1 host:7 mix:0
+    micro-market-for-manufacturing-facilities                     op:0 host:8 mix:0
+    micro-market-installation-checklist                           op:0 host:3 mix:5
+    micro-market-kiosk-installation-guide                         op:0 host:6 mix:2
+    micro-market-services-for-apartment-complexes                 op:0 host:3 mix:5
+    micro-market-solutions-for-schools                            op:0 host:3 mix:5
+    micro-market-vs-vending-machines                              op:0 host:7 mix:1
+    micro-markets-in-warehouses                                   op:0 host:6 mix:2
+    micro-markets-remote-work-hubs                                op:0 host:7 mix:1
+    self-checkout-kiosk-for-breakrooms                            op:0 host:7 mix:1
+    touchless-payment-micro-market-solutions                      op:0 host:8 mix:0
+    what-is-a-micro-market-vending-kiosk                          op:0 host:6 mix:2
+
+  [office-vending-services]
+    best-snack-machines-for-corporate-offices                     op:0 host:8 mix:0
+    branding-office-vending                                       op:0 host:8 mix:0
+    breakroom-refreshment-solutions                               op:0 host:8 mix:0
+    breakroom-snack-and-beverage-packages                         op:0 host:8 mix:0
+    breakroom-vending-machine-ideas                               op:0 host:8 mix:0
+    combo-vending-machines-for-office-breakrooms                  op:0 host:8 mix:0
+    cost-of-office-vending-services                               op:0 host:8 mix:0
+    custom-branded-vending-machines-for-offices                   op:0 host:8 mix:0
+    employee-snack-programs                                       op:0 host:8 mix:0
+    employee-vending-feedback                                     op:0 host:7 mix:1
+    energy-efficient-vending-offices                              op:0 host:8 mix:0
+    free-vending-machine-options-for-offices                      op:0 host:7 mix:1
+    healthy-snack-machines-for-offices                            op:2 host:6 mix:0
+    how-office-managers-benefit-from-vending-services             op:0 host:7 mix:1
+    how-to-stock-your-office-breakroom                            op:0 host:8 mix:0
+    low-maintenance-office-snack-machines                         op:0 host:8 mix:0
+    office-vending-service-vs-buying-machines                     op:0 host:8 mix:0
+    office-vending-solutions-for-facility-managers                op:0 host:6 mix:2
+    refrigerated-vending-machines-for-offices                     op:0 host:8 mix:0
+    remote-vending-monitoring                                     op:0 host:7 mix:1
+    roi-office-vending                                            op:0 host:8 mix:0
+    seasonal-promotional-vending                                  op:0 host:8 mix:0
+    snack-machine-options-for-employees                           op:0 host:8 mix:0
+    snack-machines-for-small-offices                              op:0 host:6 mix:2
+    touchless-office-vending-machines                             op:0 host:6 mix:2
+    vending-data-analytics-offices                                op:2 host:6 mix:0
+    vending-diverse-diets                                         op:2 host:6 mix:0
+    vending-employee-wellness-programs                            op:0 host:8 mix:0
+    vending-for-coworking-offices                                 op:0 host:6 mix:2
+    vending-for-law-firms                                         op:0 host:7 mix:1
+    vending-machines-for-tech-startups                            op:0 host:5 mix:3
+    vending-office-software-integration                           op:0 host:1 mix:7
+    vending-services-for-20-employee-offices                      op:0 host:8 mix:0
+    vending-services-for-office-administrators                    op:0 host:7 mix:1
+    vending-theft-vandalism-prevention                            op:1 host:6 mix:1
+    vending-vs-company-snacks                                     op:0 host:6 mix:2
+    waste-recycling-vending                                       op:0 host:5 mix:3
+    why-hr-managers-choose-office-vending                         op:0 host:7 mix:1
+
+  [specialty-vending-machines]
+    airport-specialty-vending                                     op:0 host:4 mix:4
+    book-vending-machines                                         op:0 host:3 mix:5
+    building-material-vending                                     op:0 host:5 mix:3
+    case-study-ppe-vending                                        op:0 host:5 mix:3
+    case-study-specialty-vending-success                          op:0 host:7 mix:1
+    clothing-and-accessories-vending                              op:0 host:4 mix:4
+    coffee-vending-machines                                       op:0 host:8 mix:0
+    custom-branded-specialty-vending                              op:0 host:7 mix:1
+    electronics-vending-machines                                  op:0 host:6 mix:2
+    frozen-food-vending-machines                                  op:0 host:6 mix:2
+    future-of-specialty-vending                                   op:0 host:7 mix:1
+    healthy-snack-specialty-vending                               op:0 host:8 mix:0
+    hot-food-vending-machine-solutions                            op:0 host:7 mix:1
+    ice-cream-vending-machines                                    op:0 host:7 mix:1
+    industrial-parts-vending-machines                             op:0 host:6 mix:2
+    medical-supply-vending-machines                               op:0 host:6 mix:2
+    micro-market-vs-specialty-vending                             op:0 host:6 mix:2
+    pet-supplies-vending-machines                                 op:0 host:6 mix:2
+    pharmacy-vending-machines                                     op:0 host:8 mix:0
+    ppe-vending-machines                                          op:0 host:4 mix:4
+    school-supply-vending-machines                                op:0 host:4 mix:4
+    specialty-vending-overview                                    op:0 host:6 mix:2
+    toy-vending-machines                                          op:0 host:5 mix:3
+
+  [vending-business-startup]
+    benefits-of-vending-machines-in-the-workplace                 op:0 host:3 mix:5
+    should-you-offer-healthy-vending-options                      op:1 host:4 mix:3
+    understanding-vending-machine-technology                      op:0 host:7 mix:1
+    what-is-an-ai-vending-machine                                 op:0 host:4 mix:4
+
+  [vending-contracts]
+    case-study-vending-contract-success                           op:0 host:4 mix:4
+    commissions-in-vending-contracts                              op:0 host:7 mix:1
+    common-clauses-in-vending-contracts                           op:0 host:5 mix:3
+    compliance-requirements-in-vending-contracts                  op:2 host:6 mix:0
+    early-termination-of-vending-contracts                        op:0 host:6 mix:2
+    exclusivity-in-vending-contracts                              op:0 host:7 mix:1
+    how-to-cancel-a-vending-contract                              op:0 host:8 mix:0
+    how-to-negotiate-a-vending-contract                           op:0 host:6 mix:2
+    liability-and-insurance-in-vending-contracts                  op:0 host:5 mix:3
+    multi-location-vending-contracts                              op:0 host:6 mix:2
+    questions-to-ask-before-signing-vending-contract              op:0 host:5 mix:3
+    renewal-notices-in-vending-contracts                          op:0 host:7 mix:1
+    sample-vending-contract-template                              op:0 host:8 mix:0
+    short-term-vs-long-term-vending-contracts                     op:0 host:8 mix:0
+    termination-clauses-in-vending-agreements                     op:0 host:8 mix:0
+    understanding-vending-service-contracts                       op:0 host:8 mix:0
+    vending-contract-disputes                                     op:0 host:8 mix:0
+    vending-contract-lengths-and-renewals                         op:0 host:8 mix:0
+    vending-contracts-for-hospitals                               op:0 host:6 mix:2
+    vending-contracts-for-schools                                 op:0 host:3 mix:5
+
+  [vending-faq]
+    are-there-commissions-from-vending                            op:0 host:5 mix:3
+    are-there-contracts-for-vending-services                      op:0 host:6 mix:2
+    are-there-eco-friendly-vending-machines                       op:0 host:7 mix:1
+    are-there-hidden-fees-in-vending-services                     op:0 host:8 mix:0
+    are-vending-machines-ada-compliant                            op:0 host:8 mix:0
+    are-vending-machines-noisy                                    op:0 host:8 mix:0
+    are-vending-machines-safe-and-secure                          op:0 host:8 mix:0
+    can-a-business-move-a-vending-machine                         op:1 host:7 mix:0
+    can-a-business-request-specific-brands                        op:0 host:8 mix:0
+    can-vending-machines-be-customized                            op:1 host:7 mix:0
+    can-vending-machines-be-placed-outdoors                       op:2 host:6 mix:0
+    can-vending-machines-offer-healthy-options                    op:1 host:7 mix:0
+    can-vending-machines-provide-receipts                         op:0 host:1 mix:7
+    can-we-choose-products-in-vending-machine                     op:0 host:8 mix:0
+    can-you-get-both-snack-and-drink-machines                     op:0 host:8 mix:0
+    do-businesses-earn-commission-from-vending                    op:0 host:7 mix:1
+    do-businesses-pay-for-vending-electricity                     op:0 host:7 mix:1
+    do-vending-machines-accept-credit-cards                       op:2 host:4 mix:2
+    do-vending-machines-need-insurance                            op:0 host:8 mix:0
+    do-vending-machines-require-special-outlets                   op:0 host:8 mix:0
+    do-vending-machines-work-in-power-outages                     op:2 host:4 mix:2
+    how-are-vending-machines-cleaned                              op:2 host:6 mix:0
+    how-are-vending-machines-installed                            op:2 host:6 mix:0
+    how-are-vending-prices-determined                             op:0 host:8 mix:0
+    how-do-vending-companies-make-money                           op:0 host:7 mix:1
+    how-does-cashless-vending-work                                op:0 host:5 mix:3
+    how-long-do-vending-machines-last                             op:2 host:6 mix:0
+    how-much-electricity-does-a-vending-machine-use               op:0 host:8 mix:0
+    how-much-weight-does-a-vending-machine-hold                   op:1 host:7 mix:0
+    how-quickly-are-service-calls-handled                         op:2 host:6 mix:0
+    refunds-for-vending-machine-errors                            op:0 host:2 mix:6
+    requirements-to-qualify-for-vending-services                  op:0 host:8 mix:0
+    what-happens-if-a-vending-machine-breaks                      op:0 host:8 mix:0
+    what-if-a-vending-machine-is-rarely-used                      op:1 host:7 mix:0
+    what-if-vending-machine-products-expire                       op:1 host:6 mix:1
+    what-is-the-minimum-number-of-employees-for-vending           op:2 host:6 mix:0
+    what-to-look-for-in-a-vending-company                         op:0 host:7 mix:1
+    who-pays-for-vending-machine-repairs                          op:0 host:6 mix:2
+    who-restocks-and-maintains-vending-machines                   op:0 host:8 mix:0
+
+  [vending-for-airports]
+    accessible-airport-vending                                    op:2 host:6 mix:0
+    airport-vending-design-evolution                              op:0 host:8 mix:0
+    airport-vending-dietary-needs                                 op:3 host:5 mix:0
+    airport-vending-maintenance-uptime                            op:3 host:5 mix:0
+    airport-vending-revenue-potential                             op:0 host:3 mix:5
+    airport-vending-security-and-monitoring                       op:2 host:4 mix:2
+    airport-vending-supply-chain                                  op:1 host:7 mix:0
+    benefits-of-vending-in-airports                               op:0 host:4 mix:4
+    best-places-for-airport-vending                               op:1 host:6 mix:1
+    best-selling-airport-vending-products                         op:0 host:5 mix:3
+    case-study-airport-vending-success                            op:0 host:8 mix:0
+    cashless-multi-language-vending                               op:0 host:7 mix:1
+    custom-vending-airport-brands                                 op:2 host:3 mix:3
+    data-optimization-airport-vending                             op:2 host:6 mix:0
+    employee-vending-airport-staff                                op:4 host:3 mix:1
+    future-airport-vending-ai-robotics                            op:0 host:8 mix:0
+    high-traffic-vending-for-airports                             op:4 host:3 mix:1
+    how-to-place-vending-machine-in-airport                       op:0 host:6 mix:2
+    inflight-vending-kiosks                                       op:0 host:8 mix:0
+    marketing-airport-vending-products                            op:3 host:5 mix:0
+    negotiating-airport-vending-partnerships                      op:0 host:8 mix:0
+    psychology-airport-vending-purchases                          op:5 host:3 mix:0
+    seasonal-airport-vending-trends                               op:5 host:3 mix:0
+    snack-and-beverage-vending-for-airports                       op:0 host:8 mix:0
+    sustainable-airport-vending                                   op:0 host:8 mix:0
+    toiletry-and-ppe-vending-for-travelers                        op:0 host:6 mix:2
+    touchless-vending-in-airports                                 op:0 host:2 mix:6
+    travel-essentials-vending-machines                            op:0 host:5 mix:3
+    vending-air-cargo-logistics                                   op:4 host:4 mix:0
+    vending-airport-concessions-partnerships                      op:0 host:6 mix:2
+    vending-airport-customer-service                              op:0 host:6 mix:2
+    vending-airport-emergency-preparedness                        op:1 host:7 mix:0
+    vending-airport-food-beverage-revenue                         op:1 host:6 mix:1
+    vending-airport-lounges-vip                                   op:2 host:5 mix:1
+    vending-services-for-airports-and-transit-hubs                op:0 host:7 mix:1
+
+  [vending-for-apartments]
+    ai-vending-coolers-in-apartments                              op:2 host:5 mix:1
+    apartment-complex-vending-solutions                           op:0 host:8 mix:0
+    benefits-of-vending-in-apartments                             op:0 host:7 mix:1
+    beverage-vending-machines-in-apartments                       op:0 host:8 mix:0
+    branding-apartment-vending-machines                           op:0 host:7 mix:1
+    cost-of-vending-in-apartment-buildings                        op:1 host:7 mix:0
+    custom-vending-options-for-multifamily                        op:0 host:6 mix:2
+    data-driven-vending-product-mix                               op:0 host:8 mix:0
+    free-vending-machines-for-apartments                          op:0 host:8 mix:0
+    future-apartment-vending-trends                               op:1 host:4 mix:3
+    healthy-vending-for-apartment-residents                       op:0 host:8 mix:0
+    how-to-get-vending-in-your-apartment-building                 op:0 host:8 mix:0
+    legal-vending-residential-properties                          op:0 host:8 mix:0
+    micro-markets-in-apartment-clubhouses                         op:0 host:4 mix:4
+    psychology-vending-resident-habits                            op:3 host:5 mix:0
+    revenue-sharing-for-apartment-vending                         op:0 host:8 mix:0
+    roi-vending-mixed-use-properties                              op:0 host:8 mix:0
+    seasonal-vending-apartment-products                           op:4 host:4 mix:0
+    smart-building-vending-integration                            op:0 host:4 mix:4
+    snack-vending-for-resident-lounges                            op:0 host:8 mix:0
+    specialty-vending-apartment-amenities                         op:0 host:7 mix:1
+    sustainability-apartment-vending                              op:0 host:5 mix:3
+    touchless-vending-for-apartments                              op:0 host:6 mix:2
+    vending-apartment-crisis-preparedness                         op:0 host:6 mix:2
+    vending-co-living-shared-amenity                              op:1 host:7 mix:0
+    vending-community-engagement-apartments                       op:0 host:8 mix:0
+    vending-contracts-for-property-managers                       op:0 host:8 mix:0
+    vending-customer-service-troubleshooting                      op:0 host:8 mix:0
+    vending-for-pet-friendly-apartment-complexes                  op:4 host:4 mix:0
+    vending-for-student-housing                                   op:2 host:6 mix:0
+    vending-machine-design-aesthetics                             op:0 host:6 mix:2
+    vending-machine-security-apartments                           op:0 host:8 mix:0
+    vending-machine-size-apartment-layout                         op:0 host:7 mix:1
+    vending-machines-in-luxury-apartments                         op:0 host:7 mix:1
+    vending-programs-for-mixed-use-developments                   op:0 host:4 mix:4
+    vending-resident-loyalty-programs                             op:0 host:8 mix:0
+    vending-senior-living-communities                             op:0 host:2 mix:6
+    vending-service-amenities-for-leasing                         op:0 host:8 mix:0
+    vending-services-for-apartment-buildings                      op:0 host:8 mix:0
+    vending-temporary-furnished-apartments                        op:0 host:8 mix:0
+
+  [vending-for-construction-sites]
+    after-hours-vending-for-construction-crews                    op:0 host:6 mix:2
+    benefits-of-vending-in-construction-sites                     op:0 host:7 mix:1
+    case-study-construction-site-vending                          op:3 host:5 mix:0
+    coffee-vending-for-job-sites                                  op:5 host:3 mix:0
+    custom-branding-construction-vending                          op:0 host:6 mix:2
+    data-driven-vending-construction                              op:3 host:5 mix:0
+    eco-friendly-vending-for-construction-sites                   op:2 host:6 mix:0
+    emergency-vending-construction                                op:3 host:5 mix:0
+    employee-feedback-construction-vending                        op:2 host:6 mix:0
+    energy-drink-vending-for-construction-workers                 op:3 host:5 mix:0
+    food-vending-machines-for-construction-sites                  op:4 host:4 mix:0
+    healthy-vending-for-construction-crews                        op:4 host:4 mix:0
+    hydration-station-vending-for-sites                           op:3 host:2 mix:3
+    managing-multiple-job-site-vending                            op:0 host:8 mix:0
+    mobile-vending-for-job-sites                                  op:2 host:6 mix:0
+    multi-vendor-vending-construction                             op:0 host:8 mix:0
+    noise-reduction-vending-construction                          op:3 host:5 mix:0
+    outdoor-vending-machines-for-job-sites                        op:2 host:6 mix:0
+    payment-innovations-construction-vending                      op:1 host:6 mix:1
+    placement-of-vending-on-construction-sites                    op:3 host:5 mix:0
+    portable-vending-temporary-construction                       op:2 host:4 mix:2
+    revenue-opportunities-construction-vending                    op:0 host:5 mix:3
+    security-for-construction-site-vending                        op:3 host:3 mix:1
+    snack-vending-for-construction-workers                        op:4 host:4 mix:0
+    supplier-relationships-construction-vending                   op:1 host:7 mix:0
+    touchless-vending-for-construction-workers                    op:3 host:5 mix:0
+    vending-in-remote-construction-sites                          op:0 host:8 mix:0
+    vending-logistics-for-construction-projects                   op:3 host:5 mix:0
+    vending-services-for-construction-sites                       op:0 host:7 mix:1
+    worker-wellness-construction-vending                          op:2 host:6 mix:0
+
+  [vending-for-dealerships]
+    after-hours-vending-in-dealerships                            op:1 host:6 mix:1
+    benefits-of-vending-in-car-dealerships                        op:0 host:8 mix:0
+    beverage-vending-in-dealership-waiting-areas                  op:1 host:7 mix:0
+    branded-vending-for-dealerships                               op:0 host:8 mix:0
+    case-study-dealership-vending-success                         op:0 host:5 mix:3
+    coffee-and-energy-drink-vending-for-dealerships               op:1 host:4 mix:3
+    cost-of-vending-in-auto-dealerships                           op:0 host:8 mix:0
+    custom-vending-wraps-dealerships                              op:0 host:6 mix:2
+    customer-experience-vending-in-dealerships                    op:0 host:8 mix:0
+    customer-lounge-vending-for-dealerships                       op:0 host:8 mix:0
+    dealership-vending-compliance-regs                            op:0 host:5 mix:3
+    dealership-vending-data-analytics                             op:1 host:6 mix:1
+    dealership-vending-payment-systems                            op:0 host:7 mix:1
+    dealership-vending-placement-flow                             op:0 host:8 mix:0
+    dealership-vending-revenue-opportunities                      op:0 host:8 mix:0
+    dealership-vending-staff-training                             op:0 host:6 mix:2
+    dealership-vending-uptime-strategies                          op:0 host:5 mix:3
+    eco-friendly-dealership-vending                               op:0 host:8 mix:0
+    employee-breakroom-vending-in-dealerships                     op:2 host:6 mix:0
+    future-dealership-vending-trends                              op:0 host:7 mix:1
+    luxury-auto-dealership-vending                                op:2 host:2 mix:4
+    seasonal-dealership-vending-products                          op:1 host:6 mix:1
+    service-bay-vending-for-auto-centers                          op:3 host:4 mix:1
+    service-bay-vending-inventory                                 op:3 host:5 mix:0
+    snack-and-drink-vending-for-service-centers                   op:3 host:3 mix:2
+    snacks-for-mechanics-in-dealerships                           op:2 host:6 mix:0
+    touchless-vending-in-dealerships                              op:0 host:5 mix:3
+    vending-in-independent-vs-franchise-dealerships               op:0 host:7 mix:1
+    vending-services-for-auto-dealerships                         op:0 host:5 mix:3
+
+  [vending-for-entertainment-venues]
+    amusement-park-vending-machines                               op:0 host:7 mix:1
+    benefits-of-vending-in-entertainment-venues                   op:0 host:4 mix:4
+    best-selling-entertainment-venue-vending-products             op:0 host:1 mix:7
+    bowling-alley-vending-services                                op:0 host:6 mix:2
+    carnival-and-fair-vending-options                             op:2 host:6 mix:0
+    concert-venue-vending-options                                 op:0 host:4 mix:4
+    custom-branding-venue-vending                                 op:0 host:8 mix:0
+    custom-vending-theme-parks                                    op:0 host:4 mix:4
+    data-analytics-venue-vending                                  op:0 host:1 mix:7
+    eco-friendly-vending-for-entertainment                        op:0 host:6 mix:2
+    emergency-vending-preparedness                                op:0 host:7 mix:1
+    future-vending-entertainment-venues                           op:2 host:6 mix:0
+    interactive-vending-fan-engagement                            op:0 host:3 mix:5
+    late-night-vending-in-venues                                  op:3 host:4 mix:1
+    loyalty-programs-vending-entertainment                        op:0 host:7 mix:1
+    luxury-vending-in-entertainment-venues                        op:0 host:4 mix:4
+    managing-vending-logistics-in-large-venues                    op:0 host:7 mix:1
+    merchandising-strategies-venue-vending                        op:0 host:3 mix:5
+    pop-up-vending-special-events                                 op:0 host:4 mix:4
+    psychology-vending-purchases-events                           op:0 host:6 mix:2
+    safety-and-security-of-vending-in-venues                      op:1 host:6 mix:1
+    sound-light-vending-experiences                               op:0 host:8 mix:0
+    stadium-and-arena-vending-services                            op:0 host:5 mix:3
+    staff-training-vending-management                             op:1 host:7 mix:0
+    vending-in-gaming-arcades                                     op:0 host:6 mix:2
+    vending-in-indoor-sports-centers                              op:0 host:5 mix:3
+    vending-in-movie-theaters                                     op:1 host:6 mix:1
+    vending-licensing-venue-permits                               op:4 host:4 mix:0
+    vending-machine-accessibility-guests                          op:0 host:8 mix:0
+    vending-machine-placement-in-venues                           op:3 host:4 mix:1
+    vending-machine-uptime-venues                                 op:0 host:6 mix:2
+    vending-maintenance-event-season                              op:0 host:7 mix:1
+    vending-power-energy-solutions                                op:0 host:7 mix:1
+    vending-security-measures-anti-vandalism                      op:0 host:6 mix:2
+    vending-services-for-theaters-and-arenas                      op:0 host:7 mix:1
+    vending-vip-suites-premium                                    op:0 host:4 mix:4
+    winterization-outdoor-vending                                 op:0 host:7 mix:1
+
+  [vending-for-gyms]
+    24-7-vending-for-24-hour-gyms                                 op:2 host:2 mix:4
+    benefits-of-vending-in-gyms                                   op:1 host:3 mix:4
+    best-vending-machines-for-gyms                                op:2 host:4 mix:2
+    branded-vending-machines-for-gyms                             op:0 host:3 mix:5
+    case-study-gym-vending-satisfaction                           op:0 host:5 mix:3
+    cost-of-vending-for-gyms                                      op:1 host:5 mix:2
+    custom-gym-vending-branding                                   op:0 host:7 mix:1
+    diy-gym-vending-maintenance                                   op:0 host:2 mix:6
+    energy-drinks-pre-workout-gym-vending                         op:3 host:4 mix:1
+    gamified-gym-vending                                          op:1 host:1 mix:6
+    gym-member-feedback-vending                                   op:0 host:2 mix:6
+    gym-staff-vending-oversight                                   op:0 host:1 mix:7
+    gym-vending-roi-calculator                                    op:0 host:4 mix:4
+    gym-vending-security                                          op:0 host:4 mix:4
+    gym-vending-sponsorships                                      op:1 host:2 mix:5
+    high-protein-snacks-for-gym-vending                           op:2 host:4 mix:2
+    how-to-get-vending-machines-in-your-gym                       op:1 host:3 mix:4
+    nutrition-counseling-gym-vending                              op:0 host:3 mix:5
+    protein-and-supplement-vending-gyms                           op:3 host:2 mix:3
+    psychology-gym-vending-buys                                   op:0 host:7 mix:1
+    seasonal-gym-vending-trends                                   op:1 host:6 mix:1
+    smoothie-vending-machines-for-gyms                            op:0 host:3 mix:5
+    subscription-vending-gyms                                     op:0 host:5 mix:3
+    sustainable-gym-vending                                       op:1 host:6 mix:1
+    tax-benefits-gym-vending                                      op:0 host:6 mix:2
+    touchless-vending-machines-for-gyms                           op:2 host:3 mix:3
+    vending-at-boutique-fitness-studios                           op:0 host:4 mix:4
+    vending-machine-placement-in-gyms                             op:1 host:3 mix:4
+    vending-services-for-gyms-and-fitness-centers                 op:0 host:4 mix:4
+
+  [vending-for-healthcare]
+    24-7-vending-solutions-for-hospitals                          op:0 host:7 mix:1
+    automated-retail-hospital-gift-shops                          op:0 host:4 mix:4
+    benefits-of-vending-in-healthcare-facilities                  op:0 host:4 mix:4
+    best-vending-machines-for-hospitals                           op:0 host:7 mix:1
+    case-study-vending-in-hospital                                op:0 host:4 mix:4
+    coffee-vending-in-hospitals                                   op:0 host:7 mix:1
+    custom-vending-hospital-departments                           op:0 host:6 mix:2
+    energy-efficient-vending-for-healthcare                       op:0 host:8 mix:0
+    healthy-beverage-vending-hospitals                            op:0 host:3 mix:5
+    hospital-vending-emergency-departments                        op:0 host:5 mix:3
+    hospital-vending-maintenance-schedules                        op:1 host:5 mix:2
+    hospital-vending-placement-guide                              op:0 host:5 mix:3
+    hospital-vending-revenue                                      op:0 host:7 mix:1
+    hospital-vending-revenue-use                                  op:0 host:6 mix:2
+    how-to-get-vending-machines-in-your-hospital                  op:1 host:6 mix:1
+    how-to-stock-hospital-vending-machines                        op:2 host:3 mix:3
+    managing-hospital-vending-multiple-locations                  op:0 host:7 mix:1
+    medical-supply-vending-for-healthcare                         op:0 host:3 mix:5
+    micro-markets-vs-vending-in-hospitals                         op:0 host:6 mix:2
+    on-demand-vending-medical-device-reps                         op:0 host:2 mix:6
+    ppe-vending-machines-for-hospitals                            op:0 host:1 mix:7
+    prescription-medication-vending-machines                      op:0 host:3 mix:5
+    promoting-hospital-wellness-vending                           op:0 host:8 mix:0
+    sanitation-and-compliance-for-hospital-vending                op:2 host:4 mix:2
+    secure-vending-controlled-medical-samples                     op:0 host:5 mix:3
+    touchless-vending-in-hospitals                                op:0 host:7 mix:1
+    vending-contracts-for-healthcare                              op:0 host:6 mix:2
+    vending-for-clinics-and-urgent-care                           op:0 host:5 mix:3
+    vending-for-nursing-homes                                     op:0 host:3 mix:5
+    vending-for-rehab-centers                                     op:0 host:6 mix:2
+    vending-hospital-construction-sites                           op:0 host:3 mix:5
+    vending-hospital-volunteer-lounges                            op:0 host:4 mix:4
+    vending-in-childrens-hospitals                                op:0 host:2 mix:6
+    vending-kiosks-hospital-patient-rooms                         op:0 host:3 mix:5
+    vending-machines-for-hospital-waiting-rooms                   op:0 host:8 mix:0
+    vending-machines-for-outpatient-clinics                       op:0 host:5 mix:3
+    vending-services-for-hospitals-and-clinics                    op:0 host:6 mix:2
+    vending-solutions-for-healthcare-staff-lounges                op:0 host:6 mix:2
+    vending-vs-cafeteria-in-hospitals                             op:0 host:6 mix:2
+    wheelchair-accessible-vending-options                         op:0 host:8 mix:0
+
+  [vending-for-hotels]
+    24-7-vending-services-for-hotel-guests                        op:0 host:8 mix:0
+    accessibility-hotel-vending-machines                          op:4 host:4 mix:0
+    guest-feedback-on-hotel-vending-machines                      op:0 host:3 mix:5
+    healthy-vending-options-in-hotels                             op:0 host:7 mix:1
+    hotel-eco-friendly-vending                                    op:0 host:6 mix:2
+    hotel-vending-accessibility-ada                               op:0 host:8 mix:0
+    hotel-vending-contracts-guide                                 op:2 host:5 mix:1
+    hotel-vending-electrical-needs                                op:0 host:7 mix:1
+    hotel-vending-extended-stays                                  op:0 host:7 mix:1
+    hotel-vending-guest-satisfaction                              op:0 host:5 mix:3
+    hotel-vending-interface-branding                              op:0 host:8 mix:0
+    hotel-vending-leasing-vs-buying                               op:4 host:3 mix:1
+    hotel-vending-loyalty-programs                                op:0 host:7 mix:1
+    hotel-vending-maintenance-checklist                           op:0 host:6 mix:2
+    hotel-vending-marketing-guests                                op:0 host:0 mix:8
+    hotel-vending-payment-options                                 op:0 host:8 mix:0
+    hotel-vending-pos-integration                                 op:0 host:6 mix:2
+    hotel-vending-regulatory-compliance                           op:0 host:7 mix:1
+    hotel-vending-revenue-analytics                               op:0 host:8 mix:0
+    hotel-vending-seasonal-products                               op:1 host:3 mix:4
+    hotel-vending-security-measures                               op:0 host:6 mix:2
+    hotel-vending-staff-training                                  op:0 host:6 mix:2
+    hotel-vending-troubleshooting-guide                           op:0 host:4 mix:4
+    mini-mart-vs-vending-in-hotel-settings                        op:0 host:3 mix:5
+    seasonal-vending-hotel-offerings                              op:0 host:8 mix:0
+    vending-hotel-loyalty-programs                                op:0 host:8 mix:0
+    vending-machine-placement-strategies-for-hotels               op:0 host:7 mix:1
+    vending-machine-security-hotel                                op:0 host:4 mix:4
+    vending-services-for-hotels                                   op:0 host:4 mix:4
+    vending-solutions-for-boutique-hotels                         op:0 host:2 mix:6
+
+  [vending-for-logistics-hubs]
+    after-hours-vending-in-logistics-centers                      op:0 host:7 mix:1
+    benefits-of-vending-in-logistics-centers                      op:1 host:2 mix:5
+    breakroom-vending-in-logistics-centers                        op:0 host:7 mix:1
+    case-study-logistics-hub-vending                              op:0 host:8 mix:0
+    case-study-micro-markets-logistics                            op:0 host:8 mix:0
+    coffee-vending-for-logistics-facilities                       op:0 host:8 mix:0
+    cost-benefit-self-full-service-vending-logistics              op:0 host:8 mix:0
+    customized-vending-for-logistics                              op:0 host:8 mix:0
+    eco-friendly-vending-in-logistics-hubs                        op:0 host:8 mix:0
+    energy-drink-vending-in-logistics-centers                     op:3 host:2 mix:3
+    energy-management-vending-fleets-logistics                    op:0 host:6 mix:2
+    future-vending-trends-logistics                               op:0 host:8 mix:0
+    healthy-vending-in-logistics-centers                          op:0 host:8 mix:0
+    large-scale-logistics-vending                                 op:0 host:8 mix:0
+    legal-compliance-vending-logistics                            op:0 host:7 mix:1
+    managing-logistics-hub-vending                                op:0 host:7 mix:1
+    placement-of-vending-in-logistics-hubs                        op:0 host:7 mix:1
+    revenue-opportunities-logistics-vending                       op:0 host:8 mix:0
+    security-of-vending-in-logistics-hubs                         op:0 host:6 mix:2
+    snack-and-drink-vending-for-logistics-workers                 op:0 host:8 mix:0
+    sustainability-features-logistics-vending                     op:0 host:4 mix:4
+    technology-in-logistics-vending                               op:0 host:7 mix:1
+    vending-in-3pl-facilities                                     op:0 host:8 mix:0
+    vending-remote-logistics-locations                            op:0 host:8 mix:0
+    vending-services-for-logistics-hubs                           op:1 host:6 mix:1
+    vending-supply-chain-disruptions-logistics                    op:0 host:8 mix:0
+    vending-warehouse-worker-retention                            op:0 host:8 mix:0
+    water-vending-for-logistics-workers                           op:0 host:7 mix:1
+    worker-safety-vending-placement-logistics                     op:0 host:4 mix:4
+
+  [vending-for-manufacturing-companies]
+    ada-vending-standards-factories                               op:0 host:7 mix:1
+    benefits-of-vending-in-industrial-settings                    op:0 host:7 mix:1
+    breakroom-vending-upgrades-for-production-floors              op:0 host:8 mix:0
+    case-study-vending-in-a-manufacturing-facility                op:2 host:5 mix:1
+    cost-of-vending-for-manufacturing-plants                      op:2 host:6 mix:0
+    custom-branding-factory-vending                               op:0 host:6 mix:2
+    custom-branding-vending-factory-culture                       op:0 host:6 mix:2
+    custom-vending-programs-for-manufacturing                     op:0 host:8 mix:0
+    data-driven-inventory-manufacturing-vending                   op:0 host:6 mix:2
+    durable-vending-harsh-factory                                 op:0 host:4 mix:4
+    energy-efficient-vending-manufacturing                        op:0 host:6 mix:2
+    ergonomic-vending-placement-factories                         op:0 host:5 mix:3
+    handling-vending-issues-production-line                       op:3 host:2 mix:3
+    healthy-vending-for-factory-workers                           op:1 host:7 mix:0
+    how-to-set-up-vending-in-a-manufacturing-plant                op:1 host:6 mix:1
+    hydration-vending-factories                                   op:2 host:2 mix:4
+    integrating-vending-data-factory-operations                   op:0 host:5 mix:3
+    preventative-maintenance-manufacturing-vending                op:0 host:8 mix:0
+    psychology-breakroom-design-factories                         op:0 host:7 mix:1
+    robotics-automation-factory-vending                           op:0 host:8 mix:0
+    seasonal-vending-manufacturing-breakrooms                     op:0 host:5 mix:3
+    shift-friendly-vending-options                                op:0 host:8 mix:0
+    smart-vending-lean-manufacturing                              op:0 host:4 mix:4
+    snack-and-beverage-options-for-factories                      op:3 host:5 mix:0
+    supply-chain-vending-manufacturing                            op:0 host:7 mix:1
+    touchless-vending-in-manufacturing-environments               op:0 host:8 mix:0
+    union-approval-for-employee-vending-services                  op:0 host:8 mix:0
+    vending-cleaning-protocols-factories                          op:0 host:3 mix:5
+    vending-energy-cost-savings-factories                         op:0 host:3 mix:5
+    vending-machine-breakroom-solutions                           op:0 host:8 mix:0
+    vending-machine-security-industrial-facilities                op:0 host:3 mix:5
+    vending-machines-for-industrial-facilities                    op:0 host:4 mix:4
+    vending-manufacturing-productivity-benefits                   op:0 host:7 mix:1
+    vending-services-for-manufacturing-plants                     op:0 host:7 mix:1
+    vending-solutions-remote-manufacturing                        op:0 host:7 mix:1
+    vending-specialized-manufacturing-zones                       op:0 host:8 mix:0
+    vending-telemetry-factory-insights                            op:0 host:7 mix:1
+    vending-worker-retention-manufacturing                        op:1 host:7 mix:0
+
+  [vending-for-public-buildings]
+    accessibility-in-public-vending                               op:0 host:7 mix:1
+    accessibility-standards-vending-public                        op:0 host:4 mix:4
+    advanced-payment-systems-government-vending                   op:0 host:6 mix:2
+    after-hours-public-building-vending                           op:3 host:5 mix:0
+    case-study-city-hall-vending-success                          op:0 host:6 mix:2
+    community-center-vending-services                             op:0 host:3 mix:5
+    custom-branding-government-vending                            op:0 host:6 mix:2
+    data-driven-vending-government                                op:0 host:8 mix:0
+    emergency-vending-public-shelters                             op:0 host:2 mix:6
+    employee-lounge-vending-for-government                        op:0 host:8 mix:0
+    energy-efficient-vending-public-service                       op:0 host:8 mix:0
+    green-vending-in-public-sector                                op:0 host:7 mix:1
+    healthy-vending-in-government-facilities                      op:0 host:8 mix:0
+    healthy-vending-policy-compliance                             op:0 host:8 mix:0
+    interactive-vending-civic-centers                             op:3 host:5 mix:0
+    legal-vending-government-property                             op:0 host:8 mix:0
+    managing-vending-contracts-agencies                           op:1 host:7 mix:0
+    optimizing-vending-placement-public-spaces                    op:1 host:7 mix:0
+    procurement-of-vending-services-for-government                op:1 host:7 mix:0
+    public-building-vending-logistics                             op:4 host:4 mix:0
+    revenue-sharing-public-building-vending                       op:0 host:7 mix:1
+    secure-vending-design-public                                  op:1 host:7 mix:0
+    security-for-public-building-vending                          op:0 host:8 mix:0
+    smart-vending-government-facilities                           op:0 host:8 mix:0
+    specialty-vending-public-facilities                           op:4 host:4 mix:0
+    streamlining-inventory-public-vending                         op:0 host:6 mix:2
+    sustainable-vending-government-operations                     op:0 host:8 mix:0
+    transit-station-vending-services                              op:3 host:4 mix:1
+    vending-government-employee-wellness                          op:1 host:7 mix:0
+    vending-in-courthouses-and-dmv                                op:0 host:4 mix:4
+    vending-public-health-initiatives                             op:0 host:1 mix:7
+    vending-remote-government-offices                             op:2 host:6 mix:0
+    vending-services-for-civic-centers                            op:0 host:5 mix:3
+    vending-services-for-government-buildings-and-offices         op:1 host:7 mix:0
+
+  [vending-for-retail-locations]
+    after-hours-retail-vending                                    op:0 host:7 mix:1
+    benefits-of-vending-in-retail-centers                         op:0 host:4 mix:4
+    boutique-store-vending-options                                op:0 host:2 mix:6
+    case-study-mall-vending-success                               op:0 host:2 mix:6
+    convenience-store-vending-machines                            op:2 host:4 mix:2
+    customer-experience-retail-vending                            op:0 host:4 mix:4
+    eco-friendly-vending-for-retail                               op:0 host:8 mix:0
+    employee-breakroom-vending-in-retail                          op:3 host:2 mix:3
+    interactive-vending-retail-experience                         op:0 host:8 mix:0
+    luxury-vending-in-retail-centers                              op:0 host:6 mix:2
+    placement-of-vending-in-retail-centers                        op:0 host:6 mix:2
+    promotional-retail-vending-roi                                op:1 host:3 mix:4
+    retail-product-showcase-vending                               op:1 host:5 mix:2
+    retail-vending-logistics                                      op:4 host:4 mix:0
+    retail-vending-merchandising-strategies                       op:0 host:8 mix:0
+    retail-vending-payment-trends                                 op:1 host:4 mix:3
+    retail-vending-security-high-traffic                          op:3 host:4 mix:1
+    retail-vending-vendor-selection                               op:0 host:8 mix:0
+    revenue-opportunities-retail-vending                          op:0 host:8 mix:0
+    seasonal-retail-vending-strategies                            op:2 host:6 mix:0
+    small-footprint-boutique-vending                              op:0 host:1 mix:7
+    snack-and-drink-vending-in-retail                             op:0 host:4 mix:4
+    staff-lounge-vending-in-retail                                op:3 host:3 mix:2
+    technology-in-retail-vending                                  op:3 host:5 mix:0
+    vending-for-outlet-malls                                      op:4 host:4 mix:0
+    vending-in-big-box-stores                                     op:4 host:4 mix:0
+    vending-in-department-stores                                  op:0 host:8 mix:0
+    vending-retail-loyalty-programs                               op:4 host:4 mix:0
+    vending-services-for-shopping-malls                           op:1 host:1 mix:6
+
+  [vending-for-schools]
+    best-vending-machine-types-for-schools                        op:0 host:4 mix:4
+    community-partnerships-school-vending                         op:0 host:4 mix:4
+    cost-of-vending-services-for-schools                          op:0 host:5 mix:3
+    cross-curricular-learning-school-vending                      op:0 host:4 mix:4
+    emergency-preparedness-school-vending                         op:0 host:2 mix:6
+    energy-efficient-vending-green-schools                        op:0 host:6 mix:2
+    future-school-vending-trends                                  op:0 host:4 mix:4
+    gamification-school-vending                                   op:0 host:5 mix:3
+    healthy-snack-policy-for-schools                              op:0 host:4 mix:4
+    healthy-vending-for-schools                                   op:0 host:3 mix:5
+    how-to-get-vending-machines-in-your-school                    op:0 host:7 mix:1
+    leveraging-vending-data-school-operations                     op:0 host:2 mix:6
+    managing-vending-in-school-campuses                           op:0 host:5 mix:3
+    micro-markets-in-education-facilities                         op:0 host:1 mix:7
+    minimizing-food-waste-school-vending                          op:2 host:4 mix:2
+    nutritional-education-school-vending                          op:3 host:4 mix:1
+    parent-and-staff-approval-for-school-vending                  op:0 host:5 mix:3
+    payment-system-options-school-vending                         op:0 host:8 mix:0
+    school-administrator-guide-to-vending                         op:0 host:3 mix:5
+    school-compliant-vending-options                              op:0 host:5 mix:3
+    school-fundraising-through-vending                            op:0 host:8 mix:0
+    school-vending-machine-guidelines-by-state                    op:0 host:8 mix:0
+    school-vending-machines-vs-concession-stands                  op:0 host:7 mix:1
+    seasonal-event-based-vending-schools                          op:0 host:4 mix:4
+    sensory-friendly-vending-schools                              op:0 host:4 mix:4
+    snack-and-beverage-programs-for-schools                       op:0 host:7 mix:1
+    student-feedback-school-vending                               op:0 host:4 mix:4
+    touchless-vending-for-schools                                 op:0 host:8 mix:0
+    vending-in-private-vs-public-schools                          op:0 host:4 mix:4
+    vending-machine-accessibility-students                        op:0 host:3 mix:5
+    vending-machine-customization-school-spirit                   op:0 host:6 mix:2
+    vending-machine-design-school-aesthetics                      op:0 host:5 mix:3
+    vending-machine-placement-student-flow                        op:0 host:6 mix:2
+    vending-machine-safety-in-schools                             op:0 host:6 mix:2
+    vending-machine-security-vandalism                            op:0 host:5 mix:3
+    vending-machines-for-high-schools                             op:0 host:7 mix:1
+    vending-role-school-nutrition-programs                        op:0 host:4 mix:4
+    vending-service-learning-project                              op:0 host:6 mix:2
+    vending-services-for-elementary-schools                       op:0 host:5 mix:3
+    vending-solutions-for-school-districts                        op:0 host:5 mix:3
+
+  [vending-for-warehouses]
+    24-7-vending-solutions-for-shift-workers                      op:1 host:7 mix:0
+    benefits-of-vending-in-warehouse-settings                     op:1 host:2 mix:5
+    best-vending-machines-for-industrial-facilities               op:0 host:7 mix:1
+    beverage-vending-machines-in-warehouses                       op:1 host:4 mix:3
+    branding-customization-industrial-vending                     op:1 host:3 mix:4
+    cost-of-vending-services-for-warehouses                       op:1 host:7 mix:0
+    custom-vending-machine-programs-for-warehouses                op:0 host:7 mix:1
+    customizing-vending-inventory-shift-workers                   op:0 host:8 mix:0
+    customizing-vending-user-interfaces                           op:0 host:5 mix:3
+    emergency-vending-factories                                   op:2 host:2 mix:4
+    employee-feedback-industrial-vending                          op:2 host:4 mix:2
+    equipment-durability-for-industrial-vending                   op:1 host:5 mix:2
+    ergonomic-vending-industrial-workflows                        op:0 host:3 mix:5
+    future-industrial-vending-tech                                op:0 host:6 mix:2
+    healthy-vending-for-warehouse-employees                       op:1 host:5 mix:2
+    hot-food-vending-industrial-teams                             op:0 host:7 mix:1
+    how-to-install-vending-in-your-warehouse                      op:0 host:6 mix:2
+    industrial-vending-machine-placement                          op:0 host:5 mix:3
+    industrial-vending-maintenance-guide                          op:1 host:3 mix:4
+    managing-vending-inventory-high-volume                        op:4 host:4 mix:0
+    noise-reduction-vending-quiet-zones                           op:0 host:8 mix:0
+    powering-vending-remote-industrial-sites                      op:0 host:4 mix:4
+    powering-vending-remote-warehouses                            op:2 host:5 mix:1
+    preventative-maintenance-industrial-vending                   op:0 host:8 mix:0
+    roi-vending-industrial-environments                           op:0 host:7 mix:1
+    snack-options-for-warehouse-workers                           op:0 host:7 mix:1
+    supplier-selection-industrial-vending                         op:0 host:8 mix:0
+    sustainability-industrial-vending                             op:0 host:8 mix:0
+    temperature-controlled-vending-perishables                    op:0 host:7 mix:1
+    touchless-vending-machines-in-warehouses                      op:2 host:6 mix:0
+    vending-accessibility-all-workers                             op:0 host:7 mix:1
+    vending-data-analytics-industrial                             op:0 host:8 mix:0
+    vending-employee-id-systems                                   op:0 host:7 mix:1
+    vending-energy-consumption-warehouses                         op:3 host:5 mix:0
+    vending-for-large-logistics-centers                           op:1 host:2 mix:5
+    vending-machines-for-warehouse-breakrooms                     op:0 host:8 mix:0
+    vending-machines-vs-micro-markets-in-warehouses               op:0 host:7 mix:1
+    vending-services-for-warehouses                               op:0 host:7 mix:1
+
+  [vending-Info-for-businesses]
+    can-you-get-a-vending-machine-for-free                        op:0 host:8 mix:0
+    customize-vending-machine-inventory                           op:2 host:6 mix:0
+    difference-between-vending-and-micro-markets                  op:0 host:8 mix:0
+    do-vending-machines-need-wifi-or-power                        op:2 host:6 mix:0
+    employee-feedback-vending-services                            op:1 host:7 mix:0
+    how-long-does-it-take-to-install-a-vending-machine            op:2 host:6 mix:0
+    how-much-do-vending-services-cost                             op:0 host:8 mix:0
+    how-to-get-a-vending-machine-for-your-business                op:0 host:8 mix:0
+    how-vending-contracts-work                                    op:0 host:8 mix:0
+    measure-vending-machine-performance                           op:0 host:8 mix:0
+    vending-machine-environmental-impact                          op:0 host:7 mix:1
+    vending-machine-placement-strategies                          op:2 host:6 mix:0
+    vending-machine-size-and-space-requirements                   op:0 host:8 mix:0
+    vending-payment-system-options                                op:0 host:8 mix:0
+    vending-vendor-selection-criteria                             op:0 host:8 mix:0
+    what-is-full-service-vending                                  op:0 host:8 mix:0
+    who-fills-and-restocks-vending-machines                       op:2 host:6 mix:0
+
+  [vending-machine-locators]
+    best-locations-for-vending-machines                           op:2 host:6 mix:0
+    best-places-to-put-vending-machines-by-industry               op:2 host:6 mix:0
+    how-we-match-vendors-to-locations                             op:0 host:8 mix:0
+    understanding-vending-location-exclusivity                    op:0 host:4 mix:4
+    vending-location-agreements-and-contracts                     op:0 host:8 mix:0
+    vending-location-commission-explained                         op:0 host:8 mix:0
+    vending-machine-location-success-stories                      op:0 host:8 mix:0
+
+  [vending-management-companies]
+    benchmarking-vending-performance                              op:0 host:7 mix:1
+    benefits-of-using-a-vending-management-company                op:0 host:8 mix:0
+    contract-terms-with-vending-management-companies              op:0 host:8 mix:0
+    cost-of-vending-management-services                           op:0 host:8 mix:0
+    custom-vending-solutions-from-management-companies            op:0 host:5 mix:3
+    customer-satisfaction-vending-management                      op:0 host:3 mix:5
+    do-vending-management-companies-own-the-machines              op:1 host:7 mix:0
+    how-to-choose-a-vending-management-company                    op:0 host:8 mix:0
+    how-vending-management-companies-make-money                   op:0 host:8 mix:0
+    how-vending-management-companies-select-vendors               op:0 host:8 mix:0
+    national-vs-local-vending-companies                           op:0 host:8 mix:0
+    questions-to-ask-a-vending-management-company                 op:0 host:8 mix:0
+    red-flags-when-hiring-a-vending-company                       op:1 host:7 mix:0
+    top-vending-management-companies-in-the-us                    op:0 host:8 mix:0
+    vending-management-employee-wellness                          op:0 host:5 mix:3
+    vending-management-for-franchise-locations                    op:0 host:1 mix:7
+    vending-management-for-multi-location-businesses              op:0 host:7 mix:1
+    vending-management-hybrid-work                                op:0 host:6 mix:2
+    vending-management-legal-compliance                           op:0 host:6 mix:2
+    vending-management-multi-tenant-offices                       op:0 host:7 mix:1
+    vending-management-post-implementation                        op:0 host:2 mix:6
+    vending-management-productivity                               op:0 host:3 mix:5
+    vending-management-service-level-agreements-explained         op:0 host:8 mix:0
+    vending-management-vs-self-managed                            op:0 host:8 mix:0
+    vending-management-vs-vending-lead-services                   op:2 host:4 mix:2
+    vendor-relationship-vending-services                          op:0 host:6 mix:2
+    what-is-a-vending-management-company                          op:0 host:8 mix:0
+    why-corporate-offices-use-vending-management-companies        op:0 host:8 mix:0
+
+  [vending-technology]
+    ai-powered-vending-machines                                   op:0 host:6 mix:2
+    augmented-reality-vending-experiences                         op:0 host:7 mix:1
+    biometric-vending-machines                                    op:2 host:6 mix:0
+    blockchain-in-vending-payments                                op:1 host:5 mix:2
+    case-study-smart-vending-implementation                       op:0 host:3 mix:5
+    cashless-vending-payment-options                              op:2 host:6 mix:0
+    cloud-based-vending-management                                op:0 host:8 mix:0
+    cybersecurity-smart-vending-networks                          op:0 host:8 mix:0
+    digital-advertising-on-vending-machines                       op:0 host:6 mix:2
+    energy-efficient-vending-technology                           op:0 host:8 mix:0
+    future-trends-in-vending-technology                           op:2 host:5 mix:1
+    interactive-vending-screens                                   op:0 host:8 mix:0
+    iot-integration-in-vending                                    op:0 host:5 mix:3
+    personalized-vending-experiences-ai                           op:0 host:8 mix:0
+    predictive-maintenance-vending-machines                       op:0 host:8 mix:0
+    telemetry-in-vending-machines                                 op:0 host:7 mix:1
+    vending-machine-inventory-tracking                            op:0 host:6 mix:2
+    voice-enabled-vending-machines                                op:0 host:8 mix:0

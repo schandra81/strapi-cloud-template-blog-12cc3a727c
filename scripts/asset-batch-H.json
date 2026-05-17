@@ -1,0 +1,116 @@
+[
+  {
+    "type": "pack",
+    "slug": "common-mistakes-in-vending-franchises",
+    "category": "vending-franchises",
+    "excerpt": "Get the franchise diligence packet — Want the vending franchise diligence packet (Item 19 audit template + current-franchisee call script + attorney-review checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-payment-system-options",
+    "category": "vending-Info-for-businesses",
+    "excerpt": "Get the payment spec packet — Want the vending payment system spec (EMV + contactless + mobile wallet + closed-loop + PCI)?"
+  },
+  {
+    "type": "pack",
+    "slug": "can-small-businesses-use-vending-management-services",
+    "category": "vending-management-companies",
+    "excerpt": "Get the small-business VMS pack — Want the small-business VMS evaluation pack (operator shortlist, qualification template, contract checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "custom-vending-solutions-from-management-companies",
+    "category": "vending-management-companies",
+    "excerpt": "Get the custom vending pack — Want the custom vending RFP template (5-dimension customization spec, operator scoring matrix, contract addendum)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-management-hybrid-work",
+    "category": "vending-management-companies",
+    "excerpt": "Get the hybrid restructure pack — Want the hybrid vending restructure pack (occupancy analysis, equipment rightsizing, commission renegotiation)?"
+  },
+  {
+    "type": "pack",
+    "slug": "case-study-smart-vending-implementation",
+    "category": "vending-technology",
+    "excerpt": "Get the smart vending pack — Want the smart vending implementation pack (RFP template, SLA framework, QBR template, hyper-care plan)?"
+  },
+  {
+    "type": "pack",
+    "slug": "cybersecurity-smart-vending-networks",
+    "category": "vending-technology",
+    "excerpt": "Get the cybersecurity RFP pack — Want the smart vending cybersecurity RFP scorecard (compliance attestations, MFA, breach SLA, audit log, pentest, disclosure program)?"
+  },
+  {
+    "type": "pack",
+    "slug": "personalized-vending-experiences-ai",
+    "category": "vending-technology",
+    "excerpt": "Get the personalization pilot pack — Want the personalized vending pilot framework (placement fit, recommendation models, privacy architecture, opt-in design, pilot measurement)?"
+  },
+  {
+    "type": "pack",
+    "slug": "voice-enabled-vending-machines",
+    "category": "vending-technology",
+    "excerpt": "Get the voice vending pilot pack — Want the voice-enabled vending pilot framework (placement fit, hardware spec, privacy architecture, NLU training, pilot measurement)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "ai-coolers-loyalty-programs",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the loyalty playbook — Want the AI cooler loyalty integration playbook (SSO + accrual + tier-based pricing + behavior triggers)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "coffee-and-energy-vending-campus",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the campus caffeine playbook — Want the campus caffeine planogram playbook (sub-categories, placement weighting, finals pivots)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "seasonal-vending-campus-events",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the campus seasonal playbook — Want the campus seasonal vending playbook (calendar pivots, planogram shifts, route schedules)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-campus-dining-impact",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the alignment playbook — Want the dining-vending alignment playbook (placement, pricing, meal-plan integration)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "bean-to-cup-coffee-machines-office",
+    "category": "blog-category",
+    "excerpt": "Get the coffee playbook — Want the bean-to-cup office coffee playbook — tier selection, supply quality, milk-system discipline, and operator SLA?"
+  },
+  {
+    "type": "playbook",
+    "slug": "breakroom-coffee-and-snack-bundles",
+    "category": "blog-category",
+    "excerpt": "Get the bundle playbook — Want the breakroom bundle playbook — tier design, operator selection, and per-employee economics?"
+  },
+  {
+    "type": "playbook",
+    "slug": "breakroom-coffee-station-ideas",
+    "category": "blog-category",
+    "excerpt": "Get the coffee station playbook — Want the breakroom coffee station playbook — equipment tier, accompaniments, water source, layout, cleaning discipline, and subsidy structure?"
+  },
+  {
+    "type": "playbook",
+    "slug": "office-coffee-delivery-services",
+    "category": "blog-category",
+    "excerpt": "Get the coffee program playbook — Want the office coffee delivery playbook — provider tier selection, equipment scoping, supply cadence, and service-SLA structure?"
+  },
+  {
+    "type": "playbook",
+    "slug": "healthy-vending-compliance-for-schools",
+    "category": "healthy-vending-service",
+    "excerpt": "Get the compliance playbook — Want the Smart Snacks vending compliance playbook — SKU verification workflow, grade-level planogram templates, state overlay alignment guidance?"
+  },
+  {
+    "type": "playbook",
+    "slug": "24-7-micro-market-vending",
+    "category": "micro-market-services",
+    "excerpt": "Get the 24/7 micro-market playbook — Want the 24/7 micro-market vending playbook — kiosk, refrigerated case bank, healthy-share, shrinkage, telemetry, and subsidy integration?"
+  }
+]

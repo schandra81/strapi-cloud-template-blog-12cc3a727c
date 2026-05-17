@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Vending Economics Analysis Pack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Vending Economics Analysis Pack</h1>
+  <p class="subtitle">Unit economics model, operator selection framework, commission negotiation template</p>
+</header>
+<p>Understanding vending unit economics on the operator side gives hosts realistic commission expectations and a sharper RFP. This pack codifies the cost structure, the operator selection criteria, and a negotiation template grounded in operator P&amp;L mechanics.</p>
+<h2>1. Operator unit economics — per machine, per month</h2><p>Industry benchmarks from Automatic Merchandiser State of the Industry, NAMA, and operator P&amp;L disclosures.</p><table><thead><tr><th>Line item</th><th>% of gross revenue</th><th>Notes</th></tr></thead><tbody><tr><td>Cost of goods sold (COGS)</td><td>48-58%</td><td>Snack 50-55%, beverage 45-52%, fresh 55-65%</td></tr><tr><td>Route labor + truck</td><td>12-18%</td><td>Driver wage + fuel + vehicle depreciation per stop</td></tr><tr><td>Equipment depreciation</td><td>5-8%</td><td>$3,500-$8,500 capex per machine, 7-10 year useful life</td></tr><tr><td>Payment processing</td><td>3-5%</td><td>1.9-2.9% per cashless transaction + telemetry data fees</td></tr><tr><td>Telemetry + software</td><td>1-2%</td><td>$25-$60 per machine per month subscription</td></tr><tr><td>Commissions paid to host</td><td>0-15%</td><td>Tiered by revenue — see Section 4</td></tr><tr><td>Insurance / overhead</td><td>3-5%</td><td>GL, auto, product liability, back office</td></tr><tr><td>Operator margin</td><td>8-15%</td><td>Industry median ~10-12%</td></tr></tbody></table>
+<h2>2. Why commissions vary so widely</h2><dl><dt>Revenue volume</dt><dd>A $300/month machine cannot support a 10% commission because service cost is fixed (~$60-$90/visit). Commission scales with revenue, not flat-rate.</dd><dt>Service intensity</dt><dd>Daily-restock sites get less commission room than weekly-restock sites; COGS + labor consume more of the revenue.</dd><dt>Customization</dt><dd>Brand wraps, member-app SDK integration, BI exports add operator cost. Commission tier reflects them.</dd><dt>Contract term</dt><dd>5-year contracts unlock equipment refresh + commission upside; 1-year contracts reflect amortization risk.</dd><dt>Exclusivity</dt><dd>Site-wide exclusivity is worth 2-4 percentage points to the operator&#39;s underwriting; reflected in commission tier.</dd></dl>
+<h2>3. Operator revenue model variants</h2><table><thead><tr><th>Model</th><th>Revenue flow</th><th>Host commission room</th></tr></thead><tbody><tr><td>Traditional retail vending</td><td>Operator sells to consumer, owns inventory + risk</td><td>0-15% of gross</td></tr><tr><td>Free vending (host-paid)</td><td>Host pays per-unit invoice; consumer pays $0</td><td>N/A — host pays cost + margin</td></tr><tr><td>Subsidized vending</td><td>Host pays delta between sell price and consumer pay</td><td>N/A — host pays delta</td></tr><tr><td>Micro-market</td><td>Operator owns inventory; self-checkout kiosk</td><td>5-12% of gross typical</td></tr><tr><td>Smart cooler (RFID / AI vision)</td><td>Operator owns inventory; tap-and-go</td><td>5-12% of gross typical</td></tr><tr><td>Member-app closed loop</td><td>Member pays via badge or app; pricing tiered</td><td>5-15% of gross or service-fee model</td></tr></tbody></table>
+<h2>4. Commission tier framework (realistic ranges)</h2><table><thead><tr><th>Monthly gross / machine</th><th>Snack / beverage commission</th><th>Fresh / specialty commission</th></tr></thead><tbody><tr><td>&lt; $300</td><td>0-2%</td><td>0% (often a placement-fee model instead)</td></tr><tr><td>$300-$700</td><td>3-6%</td><td>0-3%</td></tr><tr><td>$700-$1,500</td><td>6-12%</td><td>3-8%</td></tr><tr><td>$1,500-$3,000</td><td>12-18%</td><td>8-12%</td></tr><tr><td>$3,000-$6,000</td><td>18-25%</td><td>12-18%</td></tr><tr><td>&gt; $6,000</td><td>25-35%</td><td>18-25%</td></tr></tbody></table>
+<h2>5. Operator selection framework</h2><ol class="steps"><li><strong>Telemetry-equipped fleet</strong><p>100% telemetry coverage (Cantaloupe / Nayax / 365). No &#39;we&#39;ll add it later&#39; — that is a capability gap.</p></li><li><strong>Cashless 80%+</strong><p>Mix of cashless transactions ≥ 80% indicates modern payment platform + member confidence.</p></li><li><strong>Route density</strong><p>Operator has 5+ accounts within 10 miles of the placement; service cost is amortized.</p></li><li><strong>Insurance + permits</strong><p>$2M general liability + $1M auto + product liability; state retail food permit if fresh.</p></li><li><strong>Reporting</strong><p>Monthly host reporting standard, telemetry-backed; not handwritten &#39;sell sheets.&#39;</p></li><li><strong>References</strong><p>3+ comparable hosts (same vertical, similar size) reachable for reference call.</p></li><li><strong>Capital + equipment age</strong><p>Average fleet age &lt; 7 years; capex plan for refresh.</p></li></ol>
+<h2>6. Commission negotiation template</h2><p>Use during operator selection. Each clause should be in the executed contract addendum.</p><dl><dt>Tier definition</dt><dd>Commission tiers defined per Section 4 above, settled monthly, with telemetry-export evidence.</dd><dt>Settlement cadence</dt><dd>Monthly within 15 days of month-end; ACH preferred; commission statement includes per-machine breakdown.</dd><dt>Audit rights</dt><dd>Host can pull telemetry data and reconcile against settlement statement quarterly; 30-day cure period for discrepancy.</dd><dt>Price-change notice</dt><dd>Operator gives host 30-day written notice of consumer price changes; host can decline.</dd><dt>Below-threshold remedy</dt><dd>If gross &lt; $300/machine/month for 3 consecutive months, parties review planogram + placement; option to remove + relocate.</dd><dt>Termination</dt><dd>30-day or 60-day notice without cause after Year 1; material breach 30-day cure; equipment removal at operator cost.</dd></dl>
+<h2>7. Red flags in operator economics</h2><ul class="checklist"><li><span class="box"></span>Promised commission &gt; 30% on a sub-$1,500/month machine — economically implausible.</li><li><span class="box"></span>Refusal to provide telemetry-backed settlement statements.</li><li><span class="box"></span>No reference accounts in the host&#39;s vertical.</li><li><span class="box"></span>Equipment average age &gt; 10 years; no capex refresh plan.</li><li><span class="box"></span>Cashless mix &lt; 50%; signals payment-platform gap.</li><li><span class="box"></span>Insurance certificate not provided at intake.</li><li><span class="box"></span>Sub-contracted route labor with no service SLA pass-through.</li></ul>
+<h2>8. Capability framing</h2><p>We are equipped to surface operators that can attest to telemetry coverage, cashless mix, and route density consistent with the commission framework above. Where economics do not support a host&#39;s desired commission tier, we describe the gap honestly — capability framing only.</p>
+<footer>Commission ranges and cost-line shares are industry references. Specific operator P&amp;L will vary by vertical, region, and equipment mix.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

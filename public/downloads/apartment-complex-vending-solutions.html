@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Apartment Vending Program Design Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Apartment Vending Program Design Template</h1>
+  <p class="subtitle">Property-type sizing, zone planning, operator RFP framework</p>
+</header>
+<p>Apartment vending sizing depends on property type, unit count, zone-by-zone resident behavior, and amenity-grade target. This template gives owners and property managers a defensible operator RFP grounded in NMHC and NAA benchmarks.</p>
+<h2>1. Property-type sizing matrix</h2><p>Unit count alone is not enough — sizing depends on resident demographic, building format, and amenity-stack target.</p><table><thead><tr><th>Property type</th><th>Unit-count range</th><th>Typical machines</th><th>Format mix</th></tr></thead><tbody><tr><td>Garden-style (3-story)</td><td>100-300 units</td><td>1-2 placements</td><td>1 snack/beverage combo OR 1 micro-market</td></tr><tr><td>Mid-rise (4-7 story)</td><td>200-500 units</td><td>2-4 placements</td><td>Combo + beverage cooler + fitness-zone snack</td></tr><tr><td>High-rise (8+ story)</td><td>300-800 units</td><td>3-6 placements</td><td>Lobby micro-market + amenity-floor cooler + fitness + pool</td></tr><tr><td>Lifestyle / luxury</td><td>150-600 units</td><td>3-5 placements</td><td>Premium micro-market + smart cooler + specialty (ice cream / spa)</td></tr><tr><td>Student / co-living</td><td>200-1,000 beds</td><td>3-8 placements</td><td>Lounge snack + beverage cooler + 24/7 essentials</td></tr><tr><td>Senior / 55+</td><td>100-400 units</td><td>2-3 placements</td><td>Lobby beverage + lounge snack; accessibility-spec mandatory</td></tr></tbody></table>
+<h2>2. Zone planning framework</h2><p>Resident behavior varies by amenity zone. Planogram + format choices follow zone, not building.</p><dl><dt>Lobby / mail / package room</dt><dd>Highest dwell — 1.5-3 min per visit. Best for beverage cooler, premium snack, micro-market. Convenience SKUs (umbrellas, batteries) viable.</dd><dt>Fitness center</dt><dd>Pre + post-workout traffic. Sports drinks, water, protein bars, recovery snacks. Avoid sugary sodas in branded fitness spaces.</dd><dt>Pool deck</dt><dd>Seasonal Q2-Q3 peak. Bottled water, sports drinks, kid snacks, sunblock, ice cream (if cabinet available). Hardened outdoor cabinet required.</dd><dt>Resident lounge / co-work</dt><dd>All-day dwell. Coffee + tea + snack + beverage. Member-app pricing tier recommended.</dd><dt>Dog wash / pet area</dt><dd>Niche but high-engagement. Treat dispenser, waste-bag dispenser, paw-wipe — small-format specialty machine.</dd><dt>Bike room / parking corridor</dt><dd>Quick-grab essentials. Cold beverage + snack combo.</dd></dl>
+<h2>3. Format selection framework</h2><table><thead><tr><th>Format</th><th>Property tier fit</th><th>Capex (operator-funded)</th><th>Resident UX</th></tr></thead><tbody><tr><td>Traditional combo (snack + beverage)</td><td>Workforce / mid-tier</td><td>$3,500-$6,500</td><td>Buttons + cashless tap</td></tr><tr><td>Glass-front beverage cooler</td><td>All tiers</td><td>$4,500-$7,500</td><td>Door-open dispense</td></tr><tr><td>Micro-market (open shelf + kiosk)</td><td>Mid-tier / lifestyle</td><td>$15K-$35K</td><td>Self-checkout kiosk</td></tr><tr><td>Smart cooler (RFID)</td><td>Lifestyle / luxury</td><td>$12K-$22K per cabinet</td><td>Tap-and-go</td></tr><tr><td>AI vision cooler (AWM)</td><td>Luxury</td><td>$18K-$30K per cabinet</td><td>Open-take-go</td></tr><tr><td>Specialty (ice cream / coffee / pet)</td><td>All tiers, niche</td><td>$5K-$25K</td><td>Format-specific</td></tr></tbody></table>
+<h2>4. Operator RFP template</h2><p>Issue to 3-5 operators. Score using the rubric in Section 5.</p><ol class="steps"><li><strong>Background</strong><p>Operator company, years in multifamily, references with comparable unit-count + tier.</p></li><li><strong>Equipment proposal</strong><p>Cabinet make/model per zone, ENERGY STAR certification, finish + branding options, telemetry platform.</p></li><li><strong>Service spec</strong><p>Restock cadence, telemetry-driven dispatch, four-tier SLA, refund SLA, monthly scorecard format.</p></li><li><strong>Planogram</strong><p>Per-zone SKU mix with healthy-vending share, allergen labeling, member-app pricing tier, seasonal cadence.</p></li><li><strong>Commission framework</strong><p>Tiered commission per gross-revenue range; settlement cadence; audit rights.</p></li><li><strong>Closed-loop integration</strong><p>Member-app or building-app SDK support (badge / QR / app pay); credit-funding model.</p></li><li><strong>Insurance + compliance</strong><p>GL $2M, auto, product liability; ADA attestation; state retail food permit if fresh.</p></li><li><strong>Term + exit</strong><p>Term length, removal cost responsibility, equipment-return condition.</p></li></ol>
+<h2>5. Operator scoring rubric</h2><table><thead><tr><th>Criterion</th><th>Weight</th><th>Max score</th></tr></thead><tbody><tr><td>Multifamily references — comparable tier</td><td>1.5x</td><td>4.5</td></tr><tr><td>Telemetry coverage + reporting</td><td>1.5x</td><td>4.5</td></tr><tr><td>ENERGY STAR + eco-spec compliance</td><td>1.0x</td><td>3</td></tr><tr><td>Healthy-vending + allergen-labeling</td><td>1.0x</td><td>3</td></tr><tr><td>Four-tier SLA + service-credit clause</td><td>1.5x</td><td>4.5</td></tr><tr><td>Closed-loop / member-app integration</td><td>1.0x</td><td>3</td></tr><tr><td>Commission tier + audit rights</td><td>1.0x</td><td>3</td></tr><tr><td>Insurance + ADA attestation</td><td>1.0x</td><td>3</td></tr></tbody></table>
+<h2>6. Commission expectations by tier</h2><p>Commissions follow revenue volume. A typical 250-unit garden community supports a $700-$1,400/month gross per placement; lifestyle high-rise can reach $2,500-$5,000/month per anchor placement.</p><table><thead><tr><th>Monthly gross / placement</th><th>Commission tier (snack / beverage)</th></tr></thead><tbody><tr><td>&lt; $300</td><td>Placement fee model — 0-2%</td></tr><tr><td>$300-$700</td><td>3-6%</td></tr><tr><td>$700-$1,500</td><td>6-12%</td></tr><tr><td>$1,500-$3,000</td><td>12-18%</td></tr><tr><td>&gt; $3,000</td><td>18-25%</td></tr></tbody></table>
+<h2>7. Resident communication plan</h2><ul class="checklist"><li><span class="box"></span>Resident-portal announcement at install — location, SKUs, payment methods, refund flow.</li><li><span class="box"></span>Resident-app deep link to operator app (member-pricing tier if applicable).</li><li><span class="box"></span>Lobby signage with QR-to-refund + service ticket.</li><li><span class="box"></span>Onboarding email for new leases — amenity-stack section includes vending FAQs.</li><li><span class="box"></span>Quarterly resident-feedback survey — top SKU requests, satisfaction score.</li><li><span class="box"></span>Property-manager direct-line to operator dispatch for resident escalations.</li></ul>
+<h2>8. Capability framing</h2><p>We are equipped to surface multifamily-experienced operators against the framework above. Where a property&#39;s unit count + zone mix supports placement, we match against operators with route density in the submarket — capability framing only.</p>
+<footer>Sizing, commission, and capex ranges are reference values. Confirm against operator proposals and your property&#39;s specific resident demographics.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

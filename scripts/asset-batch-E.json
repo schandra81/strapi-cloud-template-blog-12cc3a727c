@@ -1,0 +1,116 @@
+[
+  {
+    "type": "pack",
+    "slug": "vending-kiosks-hospital-patient-rooms",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the patient-room pack — Want the patient-room vending pack (clinical coordination memo template, restricted planogram framework, hospital-grade equipment spec, quarterly review template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-solutions-for-healthcare-staff-lounges",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the healthcare staff pack — Want the healthcare staff lounge vending pack (badge access + shift-worker wellness + HACCP fresh food + dietary inclusivity + infection-control + HIPAA-adjacent)?"
+  },
+  {
+    "type": "pack",
+    "slug": "wheelchair-accessible-vending-options",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the accessibility audit pack — Want the wheelchair-accessible vending audit checklist (reach range, clear floor space, operable parts, VPAT framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "hotel-vending-maintenance-checklist",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the hotel maintenance pack — Want the printable hotel vending maintenance checklist (daily housekeeping, weekly operator, monthly PM, quarterly deep service)?"
+  },
+  {
+    "type": "pack",
+    "slug": "hotel-vending-regulatory-compliance",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the framework — Want the hotel vending compliance review framework (seven regimes + documentation packet + quarterly cadence)?"
+  },
+  {
+    "type": "pack",
+    "slug": "cost-benefit-self-full-service-vending-logistics",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the cost-benefit pack — Want the logistics hub vending cost-benefit pack (5-year economic comparison template, hybrid model analysis, operator selection framework, integration checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "eco-friendly-vending-in-logistics-hubs",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the eco logistics pack — Want the eco-friendly logistics hub vending pack (RFP language, equipment spec, supplier verification framework, ESG metrics template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "placement-of-vending-in-logistics-hubs",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the logistics placement pack — Want the logistics hub placement framework (5-zone map + survey methodology + safety walk-through + equipment spec)?"
+  },
+  {
+    "type": "pack",
+    "slug": "snack-and-drink-vending-for-logistics-workers",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the logistics vending pack — Want the logistics vending program framework (planogram + service model + AI cooler decision + subsidy mechanics)?"
+  },
+  {
+    "type": "pack",
+    "slug": "sustainability-features-logistics-vending",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the ESG vending pack — Want the logistics hub ESG-aligned vending pack (equipment specification matrix, ESG dimension mapping, operator selection criteria, quarterly ESG reporting template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-in-3pl-facilities",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the 3PL vending pack — Want the 3PL vending program design pack (layered stack, peak-season plan, contract SLA)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-remote-logistics-locations",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the remote logistics pack — Want the remote logistics vending pack (operator availability assessment, equipment hardening matrix, cellular telemetry verification, realistic-SLA framework, longer-c"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-supply-chain-disruptions-logistics",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the resilience pack — Want the logistics hub vending resilience pack (disruption risk assessment, operator selection criteria, contract terms, severe-weather playbook, quarterly review template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "water-vending-for-logistics-workers",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the hydration program pack — Want the logistics hub water vending pack (heat-illness program framework, placement matrix, subsidy model, operator selection)?"
+  },
+  {
+    "type": "pack",
+    "slug": "worker-safety-vending-placement-logistics",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the safety placement pack — Want the logistics hub safety-integrated placement pack (placement matrix, safety review framework, PPE overlay, fire-code checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "case-study-vending-in-a-manufacturing-facility",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the case study pack — Want the manufacturing vending case study pack (deployment workflow, operator RFP, retention-impact reporting framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "cost-of-vending-for-manufacturing-plants",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the cost pack — Want the manufacturing vending cost pack (contract structures, commission negotiation, scenario pricing, operator selection checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "handling-vending-issues-production-line",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the issue-handling pack — Want the production-line vending issue-handling pack (telemetry SLA, self-service refund, escalation path)?"
+  },
+  {
+    "type": "pack",
+    "slug": "how-to-set-up-vending-in-a-manufacturing-plant",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the setup pack — Want the manufacturing vending setup pack (RFP criteria, site survey checklist, contract framework, transition playbook)?"
+  }
+]

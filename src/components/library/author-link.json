@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_author_links",
+  "info": {
+    "displayName": "Author link",
+    "description": "Outbound link shown on the AuthorCard"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "href": { "type": "string", "required": true }
+  }
+}

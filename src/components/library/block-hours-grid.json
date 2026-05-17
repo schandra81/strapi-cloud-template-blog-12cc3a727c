@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_block_hours_grid",
+  "info": {
+    "displayName": "Block · Hours grid",
+    "icon": "calendar",
+    "description": "Weekly operating-hours grid. `rows[].slots` is JSON array of 7 status entries (open/partial/locked/weekend)."
+  },
+  "options": {},
+  "attributes": {
+    "caption": { "type": "string" },
+    "rows": { "type": "component", "repeatable": true, "component": "library.hours-row" }
+  }
+}

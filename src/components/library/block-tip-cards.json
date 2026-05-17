@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_tip_cards",
+  "info": {
+    "displayName": "Block · Tip / mistake cards",
+    "icon": "exclamation",
+    "description": "Numbered tip / mistake cards. \"X mistakes to avoid\" pattern."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "startNumber": { "type": "integer", "default": 1 },
+    "items": { "type": "component", "repeatable": true, "component": "library.tip-item" }
+  }
+}

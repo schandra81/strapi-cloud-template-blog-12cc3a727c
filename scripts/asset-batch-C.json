@@ -1,0 +1,116 @@
+[
+  {
+    "type": "pack",
+    "slug": "ice-cream-vending-machines",
+    "category": "specialty-vending-machines",
+    "excerpt": "Get the ice cream pack — Want the ice cream vending placement pack (equipment match, cold-chain SLA template, seasonal plan, commission framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "are-there-eco-friendly-vending-machines",
+    "category": "vending-faq",
+    "excerpt": "Get the eco-friendly framework — Want the eco-friendly vending RFP framework (ENERGY STAR, refrigerant, telemetry, packaging)?"
+  },
+  {
+    "type": "pack",
+    "slug": "can-vending-machines-be-customized",
+    "category": "vending-faq",
+    "excerpt": "Get the customization pack — Want the vending customization pack (six-dimension framework, brand finish spec, closed-loop SDK timeline, tier-based pricing setup, BI export configuration)?"
+  },
+  {
+    "type": "pack",
+    "slug": "can-vending-machines-sell-fresh-food",
+    "category": "vending-faq",
+    "excerpt": "Get the fresh-food evaluation pack — Want the fresh-food vending site qualification checklist + operator-evaluation rubric (with supply-chain interview script)?"
+  },
+  {
+    "type": "pack",
+    "slug": "how-do-vending-companies-make-money",
+    "category": "vending-faq",
+    "excerpt": "Get the vending economics pack — Want the vending economics analysis pack (unit economics model, operator selection framework, commission negotiation template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "how-quickly-are-service-calls-handled",
+    "category": "vending-faq",
+    "excerpt": "Get the service-call pack — Want the vending service-call SLA pack (four-tier framework, refund standards, telemetry spec, credit mechanism, monthly scorecard)?"
+  },
+  {
+    "type": "pack",
+    "slug": "high-traffic-vending-for-airports",
+    "category": "vending-for-airports",
+    "excerpt": "Get the airport vending pack — Want the high-traffic airport vending pack (99.5% uptime + multi-lingual + multi-currency + international wallet + hardened security + concession compliance)?"
+  },
+  {
+    "type": "pack",
+    "slug": "luxury-item-vending-at-airports",
+    "category": "vending-for-airports",
+    "excerpt": "Get the luxury vending packet — Want the luxury vending evaluation packet (gateway-traffic data, equipment vendor list, ROI model)?"
+  },
+  {
+    "type": "pack",
+    "slug": "apartment-complex-vending-solutions",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the apartment vending pack — Want the apartment vending program design template (property-type sizing, zone planning, operator RFP)?"
+  },
+  {
+    "type": "pack",
+    "slug": "beverage-vending-machines-in-apartments",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the apartment beverage pack — Want the apartment beverage cabinet design template (cabinet selection, planogram per zone, operator RFP scorecard)?"
+  },
+  {
+    "type": "pack",
+    "slug": "custom-vending-options-for-multifamily",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the multifamily custom pack — Want the multifamily custom vending RFP template (5-dimension spec, operator scoring matrix, contract addendum)?"
+  },
+  {
+    "type": "pack",
+    "slug": "free-vending-machines-for-apartments",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the free vending pack — Want the apartment free vending framework (service-model variants + operator qualification + contract template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "psychology-vending-resident-habits",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the apartment planogram pack — Want the apartment vending behavior-aware planogram pack?"
+  },
+  {
+    "type": "pack",
+    "slug": "snack-vending-for-resident-lounges",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the lounge snack pack — Want the resident lounge snack vending design template (cabinet selection, planogram per lounge type, operator RFP)?"
+  },
+  {
+    "type": "pack",
+    "slug": "specialty-vending-apartment-amenities",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the specialty vending pack — Want the specialty vending selection framework (demographic match, equipment specs, operator capability checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-apartment-crisis-preparedness",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the crisis-preparedness pack — Want the apartment vending crisis-preparedness pack (staples planogram, backup power spec, continuity SOP template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-co-living-shared-amenity",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the co-living vending pack — Want the co-living vending pack (format selection framework, equipment spec, planogram template, member-app SDK integration checklist, brand finish framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-machine-design-aesthetics",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the aesthetic design pack — Want the apartment vending aesthetic design pack (vinyl-wrap design brief, cabinet finish specs, surrounding zone integration)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-temporary-furnished-apartments",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the corporate housing pack — Want the corporate housing vending design pack (planogram template, AI cooler decision tree, operator SLA)?"
+  }
+]

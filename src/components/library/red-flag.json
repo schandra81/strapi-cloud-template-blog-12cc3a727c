@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_red_flags",
+  "info": {
+    "displayName": "Red flag",
+    "description": "Single red flag with severity"
+  },
+  "options": {},
+  "attributes": {
+    "text": { "type": "string", "required": true },
+    "detail": { "type": "string" },
+    "severity": { "type": "enumeration", "enum": ["high", "med", "low"], "default": "high" }
+  }
+}

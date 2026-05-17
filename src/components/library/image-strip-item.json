@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_image_strip_items",
+  "info": {
+    "displayName": "Image strip item",
+    "description": "Single image with caption in a CityImageStrip."
+  },
+  "options": {},
+  "attributes": {
+    "src": { "type": "string", "required": true },
+    "alt": { "type": "string", "required": true },
+    "caption": { "type": "text", "required": true },
+    "label": { "type": "string" }
+  }
+}

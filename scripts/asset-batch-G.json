@@ -1,0 +1,116 @@
+[
+  {
+    "type": "pack",
+    "slug": "seasonal-retail-vending-strategies",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the seasonal pack — Want the seasonal retail vending pack (quarterly pivot calendar, capacity expansion playbook, measurement framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "best-vending-machine-types-for-schools",
+    "category": "vending-for-schools",
+    "excerpt": "Get the K-12 equipment pack — Want the K-12 vending equipment selection template (combo, beverage cooler, fresh-food, AI cooler, after-school)?"
+  },
+  {
+    "type": "pack",
+    "slug": "future-school-vending-trends",
+    "category": "vending-for-schools",
+    "excerpt": "Get the future schools pack — Want the future school vending adoption roadmap (5-year sequenced trend plan + AI cooler + Smart Snacks + cashless)?"
+  },
+  {
+    "type": "pack",
+    "slug": "minimizing-food-waste-school-vending",
+    "category": "vending-for-schools",
+    "excerpt": "Get the food-waste reduction framework — Want the school vending food-waste reduction framework (telemetry + shelf-life + donation + packaging + dashboard)?"
+  },
+  {
+    "type": "pack",
+    "slug": "parent-and-staff-approval-for-school-vending",
+    "category": "vending-for-schools",
+    "excerpt": "Get the school approval packet — Want the school vending approval packet (Smart Snacks docs + parent communication + wellness committee workflow)?"
+  },
+  {
+    "type": "pack",
+    "slug": "school-administrator-guide-to-vending",
+    "category": "vending-for-schools",
+    "excerpt": "Get the administrator pack — Want the school administrator vending pack (procurement framework, compliance overlay tracker, contract structure template, category review cadence)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-in-private-vs-public-schools",
+    "category": "vending-for-schools",
+    "excerpt": "Get the K-12 program pack — Want the private vs public K-12 vending pack (Smart Snacks scope, governance + procurement framework, operator specialization, fundraising mechanism mapping)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-machine-placement-student-flow",
+    "category": "vending-for-schools",
+    "excerpt": "Get the student-flow placement pack — Want the student-flow placement pack (flow analysis framework, K-12 + college placement matrix, Smart Snacks checklist, operator selection)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-machines-for-high-schools",
+    "category": "vending-for-schools",
+    "excerpt": "Get the K-12 vending pack — Want the high school vending program design template (compliance, placement, contract SLA)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-services-for-elementary-schools",
+    "category": "vending-for-schools",
+    "excerpt": "Get the elementary vending pack — Want the elementary school vending pack (placement options, planogram by audience, Smart Snacks compliance checklist, allergen protocol framework, PTA partnership tem"
+  },
+  {
+    "type": "pack",
+    "slug": "cost-of-vending-services-for-warehouses",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the warehouse cost pack — Want the warehouse vending cost pack (contract structures, commission negotiation, scenario pricing, operator selection checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "customizing-vending-user-interfaces",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the industrial UI pack — Want the industrial vending UI customization pack (requirements scoping, RFP language, deployment timeline)?"
+  },
+  {
+    "type": "pack",
+    "slug": "ergonomic-vending-industrial-workflows",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the ergonomic vending pack — Want the ergonomic industrial vending pack (placement framework, equipment spec, PPE-aware product mix, ANSI Z535 signage template, quarterly review framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "healthy-vending-for-warehouse-employees",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the warehouse healthy pack — Want the warehouse healthy vending pack (heat-illness planogram, protein-forward catalog, hot-meal vending playbook, safety + HR coordination)?"
+  },
+  {
+    "type": "pack",
+    "slug": "managing-vending-inventory-high-volume",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the high-volume inventory pack — Want the high-volume warehouse vending inventory pack (operator capability checklist, telemetry RFP language, planogram tiering framework, QBR template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "supplier-selection-industrial-vending",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the industrial RFP pack — Want the industrial vending supplier-selection RFP framework (six-dimension scorecard, reference-check template, contract review checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "sustainability-industrial-vending",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the industrial sustainability framework — Want the sustainable industrial vending framework (energy + refrigerant + packaging + e-waste + ESG reporting)?"
+  },
+  {
+    "type": "pack",
+    "slug": "temperature-controlled-vending-perishables",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the cold-chain pack — Want the perishable vending program design template (cold-chain SOP, equipment specification, restock cadence)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-machines-for-warehouse-breakrooms",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the warehouse breakroom pack — Want the warehouse breakroom vending implementation pack (equipment lineup, footprint plan, SLA framework, planogram template)?"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_pipe_stages",
+  "info": {
+    "displayName": "Pipeline stage",
+    "description": "One column in a sales pipeline"
+  },
+  "options": {},
+  "attributes": {
+    "stage": { "type": "string", "required": true },
+    "count": { "type": "integer", "default": 0 },
+    "cards": { "type": "component", "repeatable": true, "component": "library.pipe-card" }
+  }
+}

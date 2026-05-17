@@ -1,0 +1,116 @@
+[
+  {
+    "type": "playbook",
+    "slug": "vending-machine-breakroom-solutions",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the breakroom solution playbook — Want the manufacturing breakroom vending solution playbook — equipment ensemble, site survey, layout, and operational support structure?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-machines-for-industrial-facilities",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the industrial playbook — Want the industrial facility vending equipment and operations playbook?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-solutions-remote-manufacturing",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the remote manufacturing vending playbook — Want the remote manufacturing vending playbook — equipment specification, telemetry redundancy, restock cadence, service SLA, on-site spare parts, and c"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-specialized-manufacturing-zones",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the specialized-zone playbook — Want the specialized-zone vending playbook — cleanroom, hazmat, foundry, food-processing, and pharma placement design and operational discipline?"
+  },
+  {
+    "type": "playbook",
+    "slug": "green-vending-in-public-sector",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the public-sector playbook — Want the public-sector green vending playbook (eight dimensions, FAR Part 23 / EO 14057 framework, small-business credentialing, annual reporting template)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-in-department-stores",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the department store playbook — Want the department store vending playbook (brand standards + adjacency strategy + planogram fit + AI cooler option)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-retail-loyalty-programs",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the loyalty playbook — Want the retail vending loyalty integration playbook (eight patterns, API requirements, data-sharing agreement template)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "managing-vending-in-school-campuses",
+    "category": "vending-for-schools",
+    "excerpt": "Get the district playbook — Want the multi-campus district vending management playbook (master agreement, per-campus addenda, scorecard, audit calendar)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "micro-markets-in-education-facilities",
+    "category": "vending-for-schools",
+    "excerpt": "Get the education framework — Want the education micro-market framework (K-12 Smart Snacks compliance overlay, higher-ed meal-plan integration playbook, RFP template)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "payment-system-options-school-vending",
+    "category": "vending-for-schools",
+    "excerpt": "Get the school payment playbook — Want the school vending payment playbook — K-12 prepaid integration, higher-ed campus badge, compliance framework, and DPA structure?"
+  },
+  {
+    "type": "playbook",
+    "slug": "school-fundraising-through-vending",
+    "category": "vending-for-schools",
+    "excerpt": "Get the school fundraising playbook — Want the school vending fundraising playbook (Smart Snacks checklist, RFP framework, sponsor agreement template, planogram by placement type, quarterly review tem"
+  },
+  {
+    "type": "playbook",
+    "slug": "seasonal-event-based-vending-schools",
+    "category": "vending-for-schools",
+    "excerpt": "Get the school vending playbook — Want the seasonal school vending playbook (seven planning cycles + academic calendar coordination + event-day surge protocols)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "24-7-vending-solutions-for-shift-workers",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the 24/7 vending playbook — Want the 24/7 shift-work vending operational playbook — restock cadence, service SLA, shift-aware planogram, and refund procedure?"
+  },
+  {
+    "type": "playbook",
+    "slug": "branding-customization-industrial-vending",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the branding playbook — Want the industrial vending branding playbook (channel selection + wrap spec + approval workflow + multi-warehouse asset library)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "noise-reduction-vending-quiet-zones",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the quiet-zone playbook — Want the warehouse quiet-zone vending playbook (placement + low-noise spec + acoustic infrastructure)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "psychology-snack-choices-industrial",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the industrial vending playbook — Want the industrial vending planogram playbook (high-calorie, familiar-brand, shift-aligned)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "exit-strategies-for-vending-franchise-owners",
+    "category": "vending-franchises",
+    "excerpt": "Get the franchise exit playbook — Want the vending franchise exit playbook (preparation timeline, valuation, broker engagement)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "seasonal-vending-machine-products",
+    "category": "vending-Info-for-businesses",
+    "excerpt": "Get the seasonal playbook — Want the seasonal vending rotation playbook (4 rotations + holiday overlays + telemetry-driven iteration)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "high-traffic-vs-low-traffic-location-strategy",
+    "category": "vending-machine-locators",
+    "excerpt": "Get the traffic-tier playbook — Want the high-traffic vs low-traffic playbook (equipment + telemetry + service + commission + portfolio discipline)?"
+  }
+]

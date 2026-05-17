@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_nutrient_rows",
+  "info": {
+    "displayName": "Nutrient row",
+    "description": "Row inside an FDA-style nutrition label"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "value": { "type": "string" },
+    "dv": { "type": "string" },
+    "bold": { "type": "boolean", "default": false },
+    "indent": { "type": "boolean", "default": false }
+  }
+}

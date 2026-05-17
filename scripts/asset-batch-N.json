@@ -1,0 +1,116 @@
+[
+  {
+    "type": "checklist",
+    "slug": "liability-and-insurance-in-vending-contracts",
+    "category": "vending-contracts",
+    "excerpt": "Get the contract review framework — Want the vending contract liability + insurance review framework (eight-component checklist, coverage benchmarks, risk-category allocation patterns, clause template"
+  },
+  {
+    "type": "checklist",
+    "slug": "questions-to-ask-before-signing-vending-contract",
+    "category": "vending-contracts",
+    "excerpt": "Get the contract review checklist — Want the full 30+ question contract review framework as a printable checklist?"
+  },
+  {
+    "type": "checklist",
+    "slug": "understanding-vending-service-contracts",
+    "category": "vending-contracts",
+    "excerpt": "Get the contract framework — Want the 12-dimension vending contract framework + attorney review checklist?"
+  },
+  {
+    "type": "checklist",
+    "slug": "are-there-hidden-fees-in-vending-services",
+    "category": "vending-faq",
+    "excerpt": "Get the contract fee checklist — Want the vending contract fee review checklist (commission, relocation, termination, processing)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "can-vending-machines-be-placed-outdoors",
+    "category": "vending-faq",
+    "excerpt": "Get the outdoor placement checklist — Want the outdoor vending placement checklist (equipment + power + overhead + climate + anchoring + cellular)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "can-vending-machines-run-24-7",
+    "category": "vending-faq",
+    "excerpt": "Get the 24/7 ops checklist — Want the 24/7 vending operations checklist (telemetry spec, on-call SLA template, shift-aware planogram guidance)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "do-vending-machines-require-special-outlets",
+    "category": "vending-faq",
+    "excerpt": "Get the install checklist — Want the vending machine electrical install checklist (voltage, circuit, GFCI, plumbing)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "how-much-space-does-a-vending-machine-need",
+    "category": "vending-faq",
+    "excerpt": "Get the install survey checklist — Want the vending space + clearance install survey checklist (footprint + clearance + ceiling + doorway + load + ADA)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "how-much-weight-does-a-vending-machine-hold",
+    "category": "vending-faq",
+    "excerpt": "Get the install survey checklist — Want the vending machine install survey checklist (weight, floor load, clearance, electrical)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "how-to-place-vending-machine-in-airport",
+    "category": "vending-for-airports",
+    "excerpt": "Get the airport framework — Want the airport vending placement framework (concession model determination, TSA security checklist, operator capability matrix, master sub-agreement template)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "toiletry-and-ppe-vending-for-travelers",
+    "category": "vending-for-airports",
+    "excerpt": "Get the specialty framework — Want the traveler specialty vending framework (nine-category SKU mix, FDA labeling checklist, multi-currency and multi-language spec, operator capability matrix)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "vending-machine-size-apartment-layout",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the survey checklist — Want the apartment vending pre-installation survey checklist (dimensions, delivery path, floor loading, power, ADA)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "vending-machine-accessibility-guests",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the accessibility framework — Want the venue accessibility audit framework (annual walk checklist, post-event encroachment walk, sensory-friendly protocol, operator RFP language)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "tax-benefits-gym-vending",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the framework — Want the gym vending tax framework (four buckets + realistic posture + advisor review checklist)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "vending-machine-placement-in-gyms",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the placement checklist — Want the gym vending zone-mapping checklist for your facility?"
+  },
+  {
+    "type": "checklist",
+    "slug": "accessibility-hotel-vending-machines",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the accessibility framework — Want the hotel accessibility framework (7-dimension audit checklist + state-specific enhancements + operator contract clauses)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "hotel-vending-accessibility-ada",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the ADA checklist — Want the ADA hotel vending placement checklist (reach range + clear floor space + signage + audible / visual feedback)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "how-to-install-vending-machines-in-hotels",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the hotel install checklist — Want the hotel vending install checklist (placement zones + brand-finish + PMS integration + per-alcove electrical + scheduling)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "legal-compliance-vending-logistics",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the compliance framework — Want the logistics vending compliance framework (7-layer stack + contract clauses + audit walk checklist + multi-tenant attribution)?"
+  }
+]

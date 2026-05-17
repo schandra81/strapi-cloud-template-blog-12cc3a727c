@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_library_nearby_cities",
+  "info": {
+    "displayName": "Nearby city card",
+    "description": "Single card in the Nearby Cities grid (with optional photo)"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "state": { "type": "string" },
+    "href": { "type": "string", "required": true },
+    "distanceMiles": { "type": "integer" },
+    "population": { "type": "string" },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "imageUrl": { "type": "string" },
+    "imageAlt": { "type": "string" }
+  }
+}

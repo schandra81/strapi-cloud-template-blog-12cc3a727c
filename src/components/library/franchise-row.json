@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_library_franchise_rows",
+  "info": {
+    "displayName": "Franchise row",
+    "description": "Row in a franchise comparison matrix"
+  },
+  "options": {},
+  "attributes": {
+    "logoText": { "type": "string", "required": true },
+    "name": { "type": "string", "required": true },
+    "niche": { "type": "string" },
+    "initialInvestment": { "type": "string", "required": true },
+    "franchiseFee": { "type": "string", "required": true },
+    "royaltyLabel": { "type": "string", "required": true },
+    "royaltyTone": { "type": "enumeration", "enum": ["lo", "mid", "hi"], "default": "lo" },
+    "territory": { "type": "string" },
+    "training": { "type": "string" }
+  }
+}

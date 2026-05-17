@@ -1,0 +1,116 @@
+[
+  {
+    "type": "pack",
+    "slug": "integrating-vending-data-factory-operations",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the data integration pack — Want the manufacturing vending data integration pack (use case framework, integration patterns, operator capability profile, implementation roadmap)?"
+  },
+  {
+    "type": "pack",
+    "slug": "seasonal-vending-manufacturing-breakrooms",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the seasonal program pack — Want the seasonal manufacturing vending pack (rotation framework, overlay checklists, pre-season equipment verification, promotional calendar)?"
+  },
+  {
+    "type": "pack",
+    "slug": "snack-and-beverage-options-for-factories",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the planogram pack — Want the manufacturing planogram pack (meal-format coverage, hydration share, shift-tuned SKU velocity, healthy share alignment)?"
+  },
+  {
+    "type": "pack",
+    "slug": "union-approval-for-employee-vending-services",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the union-coordinated pack — Want the union-coordinated vending services pack (CBA provision review, RFP criteria, labor-management committee governance)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-cleaning-protocols-factories",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the cleaning protocol pack — Want the manufacturing vending cleaning protocol pack (cadence checklist, operator + facility responsibility split, documentation templates, GMP-zone coordination guid"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-energy-cost-savings-factories",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the energy savings pack — Want the manufacturing vending energy pack (refresh ROI calculator, ENERGY STAR equipment list, Scope 2 reporting templates, telemetry dashboard framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-ventilation-factories",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the ventilation pack — Want the factory vending ventilation pack (outdoor-rated equipment specs, clearance + service access, HVAC engineering coordination)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-worker-retention-manufacturing",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the retention pack — Want the manufacturing retention-vending pack (meal-format planogram, shift-specific SKU coverage, retention-impact reporting framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "after-hours-public-building-vending",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the after-hours pack — Want the after-hours public-building vending pack (circuit checklist + cellular telemetry spec + shift-change service protocol)?"
+  },
+  {
+    "type": "pack",
+    "slug": "community-center-vending-services",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the community center pack — Want the community center vending pack (multi-program planogram template + parks-and-rec procurement scope + weekend-event surge protocol)?"
+  },
+  {
+    "type": "pack",
+    "slug": "outdoor-vending-for-parks-and-pools",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the outdoor pack — Want the outdoor park and pool vending pack (outdoor-rated equipment spec + winterization protocol + seasonal planogram)?"
+  },
+  {
+    "type": "pack",
+    "slug": "transit-station-vending-services",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the transit-station pack — Want the transit-station vending framework (placement-type matrix + FTA procurement scope + planogram weighting by station type)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-in-courthouse-waiting-areas",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the courthouse vending pack — Want the courthouse-specific planogram template (glass-free, meal-replacement weighted) and pre-clearance checklist?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-in-courthouses-and-dmv",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the combined pack — Want the combined courthouse and DMV vending pack (state-procurement scope + captive-audience planogram + multi-language signage template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-services-for-government-buildings-and-offices",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the lifecycle pack — Want the government building and office vending lifecycle pack (contract scope + installation checklist + quarterly review template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "eco-friendly-vending-for-retail",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the eco-spec packet — Want the eco-friendly retail vending spec (ENERGY STAR + low-GWP + sustainable planogram + ESG reporting)?"
+  },
+  {
+    "type": "pack",
+    "slug": "promotional-retail-vending-roi",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the campaign pack — Want the promotional vending campaign pack (campaign type menu, ROI calculation framework, measurement infrastructure template, operator scorecard)?"
+  },
+  {
+    "type": "pack",
+    "slug": "retail-vending-payment-trends",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the retail payment pack — Want the retail vending payment pack (2026 method-mix benchmarks, RFP language, SDK integration checklist, PCI DSS verification template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "retail-vending-vendor-selection",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the vendor selection pack — Want the retail vending vendor selection framework (7-dimension RFP scoring + reference check + contract template)?"
+  }
+]

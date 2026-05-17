@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_library_block_compliance_card",
+  "info": {
+    "displayName": "Block · Compliance card",
+    "icon": "shield",
+    "description": "Regulatory limits grid (Smart Snacks, ADA, OSHA, FDA)."
+  },
+  "options": {},
+  "attributes": {
+    "badge": { "type": "string" },
+    "heading": { "type": "string", "required": true },
+    "description": { "type": "text" },
+    "limits": { "type": "component", "repeatable": true, "component": "library.compliance-limit" },
+    "citation": { "type": "component", "repeatable": false, "component": "library.citation" },
+    "decorativeImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] }
+  }
+}

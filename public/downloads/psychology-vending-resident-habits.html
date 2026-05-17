@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Apartment Vending Behavior-Aware Planogram Pack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Apartment Vending Behavior-Aware Planogram Pack</h1>
+  <p class="subtitle">Time-of-day patterns, dwell-zone heuristics, SKU positioning rules</p>
+</header>
+<p>Resident purchase behavior in apartment vending is shaped by zone, time-of-day, and weather — not by demographic alone. This pack codifies the behavior heuristics behind a planogram that drives 20-35% higher per-cabinet velocity than a default mix.</p>
+<h2>1. Time-of-day pattern framework</h2><p>Telemetry data from multifamily portfolios shows four dominant time-of-day pulses. The planogram should weight SKUs against the pulse-mix at each cabinet.</p><table><thead><tr><th>Pulse</th><th>Window</th><th>Dominant SKUs</th></tr></thead><tbody><tr><td>Morning commute (06:00-09:00)</td><td>Pre-leave</td><td>Bottled water, RTD coffee, breakfast bar, fresh fruit cup, banana</td></tr><tr><td>Midday peak (11:00-14:00)</td><td>Work-from-home lunch + package pickup</td><td>Snack combo, sparkling water, kombucha, salad / sandwich (fresh cabinet)</td></tr><tr><td>Post-work / fitness (17:00-21:00)</td><td>Return home, gym, social</td><td>Sports drinks, recovery bars, premium beverages, kid snacks, ice cream</td></tr><tr><td>Late-night (22:00-02:00)</td><td>WFH late, weekend social</td><td>Caffeinated beverages, snacks, comfort-food, frozen treats</td></tr></tbody></table>
+<h2>2. Dwell-zone heuristics</h2><p>Resident dwell-time differs by zone — and dwell-time correlates with SKU breadth.</p><dl><dt>Lobby / package room — 1.5-3 min dwell</dt><dd>Highest SKU breadth justified (35-45 SKUs). Eye-level shelves get premium beverages + premium snacks; bottom shelves get value SKUs.</dd><dt>Fitness center — 0.5-1.5 min dwell, pre/post-workout</dt><dd>Narrow SKU set (20-25); top shelves = pre-workout (electrolyte, water); bottom = post-workout (protein, recovery).</dd><dt>Pool deck — 1-2 min dwell, sun + kids</dt><dd>Compact 15-20 SKUs; eye-level kid snacks + sunscreen; bottom water.</dd><dt>Lounge / co-work — 30 sec to 5 min dwell, repeat visits</dt><dd>Mid-breadth 25-30 SKUs with rotation; premium coffee RTD + healthy snacks; member-pricing tier activates here.</dd><dt>Corridor / bike room — &lt; 30 sec dwell</dt><dd>Narrow 8-12 SKUs grab-and-go; cold water + sports drink + canned coffee + snack.</dd></dl>
+<h2>3. SKU positioning rules</h2><dl><dt>Eye-level (rows 2-3)</dt><dd>Highest-margin or strategically-promoted SKUs. ~50% of velocity. Premium beverages, member-app promo SKU.</dd><dt>Reach shelves (rows 1, 4)</dt><dd>Mid-velocity SKUs; staples that residents seek directly (water, top-selling snacks).</dd><dt>Bottom shelf (row 5)</dt><dd>Value-tier or bulk SKUs; less-visible position. Generic water, multi-packs.</dd><dt>Endcap / featured slot</dt><dd>Seasonal or new-SKU launch. Rotated monthly; tracked via telemetry uplift test.</dd><dt>Allergen-flag SKUs</dt><dd>Visually grouped on a single shelf or columned slot. Shelf signage + allergen-summary card on cabinet face per FALCPA convention.</dd></dl>
+<h2>4. Weather + seasonal modifier</h2><p>Multifamily telemetry shows 15-40% per-SKU shift in summer vs winter. Use NOAA temperature averages to modulate planogram by season.</p><table><thead><tr><th>Season + condition</th><th>SKU weight adjustment</th></tr></thead><tbody><tr><td>Q1 (Jan-Mar) cold</td><td>Hot drinks +30%, comfort snacks +20%, frozen treats -40%</td></tr><tr><td>Q2 (Apr-Jun) warming</td><td>Sports drinks +20%, water +15%, frozen treats +30%, kid SKUs +25%</td></tr><tr><td>Q3 (Jul-Sep) hot</td><td>Cold beverages +30%, ice cream +50%, electrolyte +25%, sunscreen if stocked +40%</td></tr><tr><td>Q4 (Oct-Dec) cooling + holiday</td><td>Hot drinks +25%, premium snack baskets +20%, seasonal SKUs (peppermint / pumpkin spice) test</td></tr></tbody></table>
+<h2>5. Member-app behavior amplifiers</h2><dl><dt>First-purchase nudge</dt><dd>New residents see 30% off first member purchase in welcome email; conversion to member-tier ~22-35% with this incentive.</dd><dt>Time-windowed promo</dt><dd>Post-fitness 18:00-21:00 sports-drink discount; uplift typically 15-25%.</dd><dt>Reorder rewards</dt><dd>Buy-5-get-1 on member-app tracked SKU; loyalty driver for high-margin SKUs.</dd><dt>Member exclusives</dt><dd>Premium SKU (cold-brew, kombucha) available only at member tier; conversion accelerator.</dd><dt>Stockout transparency</dt><dd>Member-app shows live stock per cabinet; reduces wasted-trip frustration; cited by NMHC surveys as top resident-amenity-app feature.</dd></dl>
+<h2>6. Demographic-aware planogram tilts</h2><p>Tilts — not replacements. Default planogram still applies; weight is adjusted by resident-mix.</p><dl><dt>Family / 3-bedroom-heavy property</dt><dd>+20% kid-juice + kid-snack share; visible kid-friendly SKUs at lower-reach height.</dd><dt>Student / co-living</dt><dd>+25% energy drinks + late-night caffeinated SKUs; comfort snacks; lower price tier (value SKU emphasis).</dd><dt>Senior / 55+</dt><dd>Hydration + electrolyte + low-sugar SKUs; large-print pricing labels; ADA reach-range strict compliance.</dd><dt>Lifestyle / luxury</dt><dd>Premium-tier emphasis (Olipop, La Colombe, Spindrift, Liquid Death); allergen + clean-label labeling prominent.</dd><dt>Workforce / value-tier</dt><dd>Value-tier emphasis (store-brand water, name-brand snacks at mid-price); avoid premium-only stocking.</dd></dl>
+<h2>7. Telemetry-driven planogram refresh</h2><ul class="checklist"><li><span class="box"></span>Quarterly per-SKU velocity report from telemetry; flag bottom-quartile SKUs.</li><li><span class="box"></span>15-25% SKU rotation per quarter — replace bottom-quartile with operator-recommended SKUs or resident-survey requests.</li><li><span class="box"></span>A/B test endcap / featured slot monthly with 4-week measurement.</li><li><span class="box"></span>Member-app pricing-tier test — measure conversion uplift on new promos.</li><li><span class="box"></span>Seasonal swap at Q1/Q2/Q3/Q4 turn; weather-modifier table applied to baseline.</li><li><span class="box"></span>Refund-rate audit — any SKU with &gt; 4% refund rate is a quality flag for review.</li></ul>
+<h2>8. Operator scorecard for behavior-aware planogram</h2><table><thead><tr><th>Criterion</th><th>Evidence</th><th>Weight</th></tr></thead><tbody><tr><td>Per-zone planogram differentiation</td><td>Documented separate plans per zone type</td><td>1.5x</td></tr><tr><td>Telemetry-driven refresh</td><td>Quarterly velocity report + rotation log</td><td>1.5x</td></tr><tr><td>Member-app pricing-tier capability</td><td>SDK integration + A/B test history</td><td>1.0x</td></tr><tr><td>Seasonal modifier discipline</td><td>Quarterly planogram swap evidence</td><td>1.0x</td></tr><tr><td>Resident-feedback loop</td><td>Annual resident survey results</td><td>1.0x</td></tr><tr><td>Refund-rate audit</td><td>Monthly refund-rate report + remediation</td><td>1.0x</td></tr></tbody></table>
+<h2>9. Capability framing</h2><p>We are equipped to surface operators that run behavior-aware, telemetry-driven planograms — not default-mix operators. Specific velocity uplift depends on starting baseline, resident demographic, and member-app adoption — described honestly at intake. Capability framing only.</p>
+<footer>Velocity uplifts and weather modifiers are reference values from portfolio benchmarks; results in any single property will vary.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

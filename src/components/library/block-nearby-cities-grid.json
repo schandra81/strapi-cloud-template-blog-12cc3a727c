@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_nearby_cities_grid",
+  "info": {
+    "displayName": "Block · Nearby cities grid",
+    "icon": "map",
+    "description": "Photo-grid of nearby cities with internal links for local SEO."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "default": "Nearby cities we serve" },
+    "sub": { "type": "text" },
+    "cities": { "type": "component", "repeatable": true, "component": "library.nearby-city", "min": 1 }
+  }
+}

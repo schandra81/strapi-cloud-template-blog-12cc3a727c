@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>High-Volume Warehouse Vending Inventory Pack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>High-Volume Warehouse Vending Inventory Pack</h1>
+  <p class="subtitle">Operator capability checklist, telemetry RFP language, planogram tiering, QBR template</p>
+</header>
+<p>High-volume warehouse vending — 600+ workers, 24/7 shifts, $80-150K/year revenue per site — fails on inventory before it fails on anything else. Stockouts above 5% drive cashless mix down 10-15 points and refund rate up 1-2 points. This pack codifies four artifacts — operator capability checklist, telemetry RFP language, planogram tiering, QBR template — so a high-volume program is equipped to keep stockouts under 3% across all SKUs and all shifts.</p>
+<h2>1. Operator capability checklist</h2><p>Validate operator capability before commit. Each item ties to a high-volume failure mode.</p><ul class="checklist"><li><span class="box"></span>Operator has 24+ months of placements at facilities ≥ 500 workers.</li><li><span class="box"></span>Operator&#39;s telemetry reports sub-15-minute heartbeat per machine.</li><li><span class="box"></span>Operator can demonstrate per-shift velocity tracking (shift-1 vs shift-2 vs shift-3).</li><li><span class="box"></span>Operator has surge labor for high-velocity days (month-end, holiday weekends).</li><li><span class="box"></span>Operator&#39;s restock crew supports 24/7 access including 3rd-shift restock.</li><li><span class="box"></span>Operator can mobilize a temporary machine in ≤ 5 business days for peak windows.</li><li><span class="box"></span>Operator carries insurance (GL ≥ $5M / auto / workers&#39; comp / cyber).</li><li><span class="box"></span>Operator attests to quarterly KPI report + per-SKU velocity report.</li></ul>
+<h2>2. Telemetry RFP language</h2><p>Insert these clauses into the high-volume RFP. Each addresses a common gap.</p><dl><dt>Telemetry hardware</dt><dd>Cellular modem on every machine; supported systems include Cantaloupe, Nayax, 365 Retail Markets, AWM Smart Shelf, or comparable. Bidder attests to sub-15-minute heartbeat.</dd><dt>Velocity reporting</dt><dd>Per-SKU velocity by machine + by shift; daily report available to host via operator dashboard.</dd><dt>Stockout alerting</dt><dd>Auto-alert to operator restock crew when any SKU &lt; 20% of capacity; triggered automatically by telemetry.</dd><dt>Temperature monitoring</dt><dd>Refrigerated units report internal temp every 15 min; 4-hour SLA alarm at any excursion outside 35-40°F per FDA Food Code 3-501.16.</dd><dt>Payment failure alerting</dt><dd>Auto-alert when payment-failure rate exceeds 1.5% in any 4-hour window.</dd><dt>Open-data API</dt><dd>Host has read access to telemetry API for independent analysis; data retention ≥ 24 months.</dd></dl>
+<h2>3. Planogram tiering framework</h2><p>High-volume programs use a three-tier planogram. Each tier has a defined sell-through target and a refresh cadence.</p><table><thead><tr><th>Tier</th><th>Definition</th><th>Sell-through target</th><th>Refresh cadence</th></tr></thead><tbody><tr><td>Tier 1 — core</td><td>Top-20% velocity SKUs</td><td>≥ 70%</td><td>Quarterly refresh; double-face if velocity &gt; 80%</td></tr><tr><td>Tier 2 — anchors</td><td>Middle 60% velocity</td><td>40-60%</td><td>Quarterly review; rotation within tier</td></tr><tr><td>Tier 3 — discovery</td><td>Bottom 20% velocity</td><td>≥ 25%</td><td>Replace at end of each quarter if below 20%</td></tr></tbody></table>
+<h2>4. Shift-aware capacity planning</h2><p>Capacity = (per-shift velocity / restock cadence) × 1.3 safety factor. For high-volume, recompute monthly from telemetry.</p><ol class="steps"><li><strong>Telemetry baseline (monthly)</strong><p>Pull 30-day per-SKU velocity by shift. Identify top-5 SKUs per shift; compute capacity required given restock cadence.</p></li><li><strong>Planogram depth</strong><p>Double-face Tier-1 SKUs; right-size Tier-2; reduce Tier-3 to free slots.</p></li><li><strong>Restock cadence</strong><p>3-4x/week baseline for high-volume; 5x/week during peak windows. Shift-aware timing — restock before shift-1 start and pre-shift-3.</p></li><li><strong>Surge labor</strong><p>Operator commits to surge restock crew for month-end + holiday weekends. Documented in SLA addendum.</p></li><li><strong>Temporary capacity</strong><p>Mobile combo machine pre-staged for peak windows; ≤ 5 business-day mobilization.</p></li></ol>
+<h2>5. Inventory KPI dashboard</h2><dl><dt>Stockout rate (per-SKU)</dt><dd>Target &lt; 3% of SKU-hours; alert &gt; 5%.</dd><dt>Stockout rate (per machine)</dt><dd>Target &lt; 1% of machine-hours; alert &gt; 2%.</dd><dt>Sell-through by tier</dt><dd>Tier-1 ≥ 70%; Tier-2 40-60%; Tier-3 ≥ 25%.</dd><dt>Cashless mix</dt><dd>Target ≥ 75% at high-volume warehouse; alert &lt; 65%.</dd><dt>Refund rate</dt><dd>&lt; 2% of transactions; alert &gt; 2.5%.</dd><dt>Uptime per machine</dt><dd>≥ 98% per month; alert &lt; 95%.</dd><dt>Temperature excursion count</dt><dd>0-1 per month per machine; alert ≥ 3.</dd><dt>Payment failure rate</dt><dd>&lt; 1.5% of attempts; alert &gt; 2%.</dd></dl>
+<h2>6. QBR template</h2><p>Quarterly business review with operator + ops manager + EHS coordinator. Standing agenda.</p><ul class="checklist"><li><span class="box"></span>Telemetry KPI report — 13 weeks of stockout, sell-through, cashless mix, refund rate, uptime.</li><li><span class="box"></span>Per-SKU velocity report by machine + by shift; Tier-1/2/3 movements.</li><li><span class="box"></span>Planogram refresh recommendations — additions, deletions, tier moves.</li><li><span class="box"></span>Service ticket log + SLA adherence; root-cause for any tier breach.</li><li><span class="box"></span>Temperature excursion log + corrective action for any event.</li><li><span class="box"></span>Surge labor + temporary capacity utilization in the past quarter.</li><li><span class="box"></span>Next-quarter pivot plan — seasonal SKU adds, capacity changes.</li><li><span class="box"></span>Action items + owner + due date.</li></ul>
+<h2>7. Annual inventory recertification</h2><ul class="checklist"><li><span class="box"></span>12-month KPI trend report (stockout, sell-through, cashless mix, refund rate).</li><li><span class="box"></span>Planogram refresh — bottom-quartile SKU swap with telemetry-validated candidates.</li><li><span class="box"></span>Operator&#39;s surge labor + temporary capacity capability re-attested.</li><li><span class="box"></span>Telemetry firmware updated to current stable version.</li><li><span class="box"></span>Cold-chain temperature log reviewed; HACCP-style attestation refreshed.</li><li><span class="box"></span>Insurance certificates current.</li><li><span class="box"></span>Decision: maintain SLA / renegotiate / re-bid.</li></ul>
+<footer>This pack is a working inventory reference. Validate operator quotes and capability against published industry benchmarks (NAMA State of the Industry) and confirm temperature compliance attestation before commit.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

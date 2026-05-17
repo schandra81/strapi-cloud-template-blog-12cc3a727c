@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Office Micro-Market Design Playbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Office Micro-Market Design Playbook</h1>
+  <p class="subtitle">Layout, fixtures, lighting, signage, theft mitigation, and healthy-share integration</p>
+</header>
+<p>Design decisions made in the first 30 days of a micro-market project shape five years of operating cost, shrink rate, and employee NPS. This playbook codifies the layout, fixtures, lighting, signage, theft mitigation, and healthy-share design choices the LetUsVending operator network typically delivers — grounded in NFPA 70 (NEC), ADA Title III 2010 Standards, ASHRAE 90.1 (lighting power), and the FDA Food Code 2022 (cold-chain).</p>
+<h2>1. Footprint and zoning</h2><table><thead><tr><th>Headcount served</th><th>Footprint (sq ft)</th><th>Coolers</th><th>Ambient shelving</th><th>Kiosk count</th></tr></thead><tbody><tr><td>50-150 employees</td><td>120-180</td><td>1 × 30 cu ft glass-door</td><td>8-12 linear ft</td><td>1</td></tr><tr><td>150-400 employees</td><td>200-300</td><td>2 × 30 cu ft</td><td>16-24 linear ft</td><td>1-2</td></tr><tr><td>400-800 employees</td><td>350-500</td><td>3 × 30 cu ft + 1 freezer</td><td>28-40 linear ft</td><td>2-3</td></tr><tr><td>800+ employees</td><td>500-900</td><td>4-6 cooler doors + freezer</td><td>40-60 linear ft</td><td>3-4</td></tr></tbody></table>
+<h2>2. Fixture and equipment palette</h2><dl><dt>Glass-door coolers</dt><dd>AHRI-certified, ENERGY STAR-listed multi-deck merchandisers (True, Hussmann, Hill Phoenix or equivalent). LED interior, anti-condensate doors. Target ≤41°F per FDA Food Code 2022 §3-501.16.</dd><dt>Ambient gondola shelving</dt><dd>Modular steel, 4-5 shelves, 48-72 in run lengths. Adjustable to support 16-24 in deep planogram.</dd><dt>Self-checkout kiosk</dt><dd>365 Retail Markets MicroMarket, Avanti Markets, Three Square Market, or comparable. EMV + NFC + biometric/app options. PCI-DSS 4.0 compliant.</dd><dt>Trash + recycling station</dt><dd>Three-stream minimum (landfill / recycle / compost) where the building supports compost. ADA-compliant openings ≥15 in from finished floor.</dd><dt>Microwave + coffee station</dt><dd>Two 1000-1200 W microwaves per 200 employees; bean-to-cup coffee or pour-over depending on tier. GFCI-protected 20A circuits per NEC 210.8.</dd></dl>
+<h2>3. Lighting design</h2><ol class="steps"><li><strong>Ambient lighting</strong><p>30-50 footcandles at task surface (IES RP-3 for retail back-of-house). LED 3500-4000K for accurate food appearance. Maintain Color Rendering Index (CRI) ≥ 80.</p></li><li><strong>Cooler internal lighting</strong><p>LED strip integral to the cooler — replace any halogen with LED for energy + heat-load reasons.</p></li><li><strong>Accent lighting on healthy-share</strong><p>Spot LED on the healthy-share endcap. Thorndike et al. (Harvard 2014; 2020) found that visual prominence + light cueing lifts healthy-share velocity 10-30%.</p></li><li><strong>Energy compliance</strong><p>ASHRAE 90.1-2022 lighting power density (LPD) for refreshment areas: ≤ 1.0 W/sq ft. Verify against local energy code (Title 24, IECC 2021).</p></li></ol>
+<h2>4. Theft and shrink mitigation</h2><p>Industry-reported shrink in self-checkout micro-markets typically lands at 2-5% of revenue depending on workforce mix, visibility, and software controls. Design decisions reduce shrink before operations does.</p><ul class="checklist"><li><span class="box"></span>Camera coverage of every shelving run + kiosk (1080p minimum, 30-day retention) — coordinate with workplace privacy policy + state two-party-consent rules where applicable</li><li><span class="box"></span>Kiosk facing the room entry so the cashier-less checkout is the visible reference point</li><li><span class="box"></span>Workplace badge or fob integration to the kiosk account (reduces card-skimming and supports employer subsidy)</li><li><span class="box"></span>Random audit cycle by the operator (every 60-90 days) reconciles physical inventory to POS telemetry</li><li><span class="box"></span>AI-vision shrink alerts on the kiosk software where available (365 Pico, Avanti Markets Insights)</li><li><span class="box"></span>Signage on the wall: &#39;this is an honor market; thank you for scanning every item&#39;</li></ul>
+<h2>5. Healthy-share integration in the layout</h2><ol class="steps"><li><strong>Fresh-food cooler near entry</strong><p>Make the grab-and-go cooler the first surface members see. Eye-level fresh produce + protein-forward meals lifts healthy purchases without restricting choice.</p></li><li><strong>Healthy-share endcap</strong><p>Reserve one gondola endcap for ≤200 cal, ≤6g added sugar, ≤480mg sodium SKUs. Green-leaf shelf strip. Refresh quarterly with the RDN-reviewed planogram.</p></li><li><strong>Water + unsweetened beverages adjacent to coffee</strong><p>Adjacent placement lifts beverage healthy-share. Choice architecture, not restriction.</p></li><li><strong>Calorie + allergen visibility</strong><p>FDA 21 CFR 101.11 menu-labeling if chain coverage applies; FALCPA + FASTER Act allergen labels on every package; allergen filter in the kiosk.</p></li></ol>
+<h2>6. Power, plumbing, network</h2><table><thead><tr><th>Utility</th><th>Requirement</th><th>Notes</th></tr></thead><tbody><tr><td>Electrical</td><td>Two 20A 120V GFCI circuits per cooler door + one per kiosk; coffee station on its own 20A</td><td>NEC 210.8 GFCI; 210.52 receptacle spacing; coordinate with EE</td></tr><tr><td>Network</td><td>Wired Cat6 to kiosk and to each cooler with telemetry; 100 Mbps minimum, PoE preferred</td><td>Avoid Wi-Fi-only for payment kiosks — PCI scope risk</td></tr><tr><td>Plumbing (optional)</td><td>Cold-water line + drain for bean-to-cup coffee + filtered water dispenser</td><td>NSF/ANSI 42 + 53 carbon filter on incoming line</td></tr><tr><td>HVAC</td><td>Cooler heat-load: 6,000-9,000 BTU/hr per 30 cu ft cooler — add to room load</td><td>Coordinate with MEP; rooms &lt; 200 sq ft may need supplemental cooling</td></tr></tbody></table>
+<h2>7. Project timeline</h2><ol class="steps"><li><strong>Week 1-2 — discovery</strong><p>Headcount + shift mix + dietary-coverage + brand-system + footprint walk-down.</p></li><li><strong>Week 3-4 — schematic design</strong><p>Floor plan, planogram concept, kiosk skin, equipment schedule, MEP requirements.</p></li><li><strong>Week 5-8 — design development + sign-off</strong><p>Construction documents (if a build-out), procurement of fixtures and equipment, kiosk software config.</p></li><li><strong>Week 9-12 — installation + launch</strong><p>Equipment install, first-stock, member account creation, communication rollout, opening event.</p></li></ol>
+<h2>8. LetUsVending capability statement</h2><p>Through the LetUsVending operator network we can match an employer or property with operator partners equipped to deliver a full design + install + operate program — including space planning, equipment selection, NEC/ASHRAE-compliant utility coordination, kiosk software setup, RDN-reviewed planograms, and brand-system integration. Scope is set per site after a discovery call.</p>
+<footer>Informational reference. Confirm electrical, plumbing, fire, and energy-code requirements with a licensed AHJ engineer for your jurisdiction. Standards citations current at publication; verify the latest version before contracting.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

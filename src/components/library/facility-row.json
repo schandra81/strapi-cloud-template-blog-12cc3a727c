@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_facility_rows",
+  "info": {
+    "displayName": "Facility row",
+    "description": "Row in the FacilityBadgingMatrix table."
+  },
+  "options": {},
+  "attributes": {
+    "facility": { "type": "string", "required": true },
+    "badgingType": { "type": "string", "required": true },
+    "leadTime": { "type": "string", "required": true },
+    "status": { "type": "enumeration", "enum": ["standard", "expedited", "complex"], "default": "standard" }
+  }
+}

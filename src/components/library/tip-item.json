@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_tip_items",
+  "info": {
+    "displayName": "Tip / mistake",
+    "description": "Single numbered tip or mistake card"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "body": { "type": "text", "required": true }
+  }
+}

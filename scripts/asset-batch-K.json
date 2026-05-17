@@ -1,0 +1,116 @@
+[
+  {
+    "type": "playbook",
+    "slug": "vending-for-nursing-homes",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the nursing home playbook — Want the nursing home vending playbook (three populations + accessibility + dietary + HIPAA + state regulation)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-in-childrens-hospitals",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the pediatric hospital playbook — Want the children's hospital vending playbook (pediatric nutrition + allergy-aware + sensory-friendly + Joint Commission alignment)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "24-7-vending-services-for-hotel-guests",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the 24/7 amenity playbook — Want the 24/7 hotel vending and amenity playbook (placement portfolio, RFP framework, SLA matrix, planogram by placement type, guest communication kit)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "seasonal-vending-hotel-offerings",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the seasonal rotation playbook — Want the hotel seasonal vending rotation playbook (seasonal calendar, property-type patterns, LTO framework, communication kit, quarterly review template)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-hotel-loyalty-programs",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the loyalty playbook — Want the hotel vending loyalty integration playbook (brand SSO matrix + accrual scope + tier benefit framework + folio wiring checklist)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "case-study-logistics-hub-vending",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the logistics-hub playbook — Want the logistics hub vending refresh playbook (RFP framework, planogram template, SLA matrix, ESG checklist, worker-communication kit)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "case-study-micro-markets-logistics",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the micro-market playbook — Want the logistics hub micro-market playbook (space design, planogram template, shrink management framework, SLA matrix, worker-communication kit)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "future-vending-trends-logistics",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the future-readiness playbook — Want the logistics vending future-readiness playbook (capability audit, RFP language for modern requirements, AI cooler deployment framework, workforce-platform int"
+  },
+  {
+    "type": "playbook",
+    "slug": "large-scale-logistics-vending",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the playbook — Want the large-scale logistics vending operations playbook (master agreement, account team model, fleet management cadence)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-services-for-logistics-hubs",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the logistics hub playbook — Want the logistics hub vending playbook (workforce mix, equipment specs, energy drink safety overlay, micro-market vs vending decision)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-warehouse-worker-retention",
+    "category": "vending-for-logistics-hubs",
+    "excerpt": "Get the retention playbook — Want the warehouse amenity-for-retention playbook (workforce baseline framework, program design template, retention ROI model, operator RFP language, measurement cadence)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "breakroom-vending-upgrades-for-production-floors",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the breakroom upgrade playbook — Want the production-floor breakroom upgrade playbook — sequencing pathway, capital budget framework, and implementation timeline?"
+  },
+  {
+    "type": "playbook",
+    "slug": "custom-vending-programs-for-manufacturing",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the custom program playbook — Want the custom manufacturing vending program playbook — nine-dimension design framework, facility-profile-driven specifications, and ROI structure?"
+  },
+  {
+    "type": "playbook",
+    "slug": "energy-efficient-vending-manufacturing",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the energy-efficient vending playbook — Want the manufacturing energy-efficient vending playbook — ENERGY STAR specification, R-290 refrigerant, LED retrofit, sleep-mode programming, and scope 2 r"
+  },
+  {
+    "type": "playbook",
+    "slug": "healthy-vending-for-factory-workers",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the factory healthy vending playbook — Want the factory-floor healthy vending planogram playbook — protein-forward SKU mix, portable meals, subsidy structure, and EHS coordination?"
+  },
+  {
+    "type": "playbook",
+    "slug": "preventative-maintenance-manufacturing-vending",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the manufacturing PM playbook — Want the manufacturing vending PM playbook — weekly inspection, monthly preventive, quarterly comprehensive, annual major service, telemetry-driven proactive PM, an"
+  },
+  {
+    "type": "playbook",
+    "slug": "psychology-breakroom-design-factories",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the breakroom psychology playbook — Want the factory breakroom psychology design playbook — acoustic, lighting, visual, ergonomic, thermal, refreshment, and social space integration?"
+  },
+  {
+    "type": "playbook",
+    "slug": "robotics-automation-factory-vending",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the robotics deployment playbook — Want the factory vending robotics + automation playbook — phased deployment roadmap, capital framework, and ROI structure?"
+  },
+  {
+    "type": "playbook",
+    "slug": "shift-friendly-vending-options",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the shift-friendly vending playbook — Want the shift-friendly vending operational framework — restock cadence, service SLA, planogram tuning, and EHS coordination by shift configuration?"
+  }
+]

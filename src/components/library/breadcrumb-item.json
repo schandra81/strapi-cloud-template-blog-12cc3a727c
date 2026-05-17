@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_breadcrumb_items",
+  "info": {
+    "displayName": "Breadcrumb item",
+    "description": "Single link in a breadcrumb trail"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "href": { "type": "string" }
+  }
+}

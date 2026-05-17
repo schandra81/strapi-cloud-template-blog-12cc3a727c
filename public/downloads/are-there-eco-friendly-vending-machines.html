@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Eco-Friendly Vending RFP Framework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Eco-Friendly Vending RFP Framework</h1>
+  <p class="subtitle">ENERGY STAR, refrigerant compliance, telemetry, and packaging standards</p>
+</header>
+<p>Eco-friendly vending is a procurement-spec exercise, not a marketing label. This RFP framework gives qualifying hosts the technical criteria to require from operators — and the evidence types each criterion should be backed by.</p>
+<h2>1. ENERGY STAR equipment spec</h2><p>ENERGY STAR-certified refrigerated vending machines (RVMs) use 30-50% less energy than legacy units, per EPA. Snack vendors are unregulated by ENERGY STAR but can be specified for LED lighting and high-efficiency power supplies.</p><dl><dt>Refrigerated beverage</dt><dd>ENERGY STAR Version 3.0 certification mandatory. Annual kWh &lt; 1,500 for Class A (8 ft³+) units.</dd><dt>Glass-front coolers</dt><dd>ENERGY STAR Version 4.1 commercial refrigerator with ECM evaporator fans, LED case lighting, anti-condensate controls.</dd><dt>Snack vendors</dt><dd>LED interior lighting (not fluorescent); motion-activated lighting that dims to 20% when idle; ≥ 80 PLUS power supply.</dd><dt>Documentation</dt><dd>ENERGY STAR product certification listing URL; CEC Modernized Appliance Efficiency Database (MAEDbS) record number.</dd></dl>
+<h2>2. Refrigerant compliance — AIM Act + EPA SNAP</h2><p>The American Innovation and Manufacturing Act (AIM Act) and EPA SNAP rule restrict HFC refrigerants in new vending equipment. Operators procuring 2025+ inventory should be using low-GWP refrigerants.</p><dl><dt>Approved low-GWP</dt><dd>R-290 (propane, GWP 3), R-600a (isobutane, GWP 3), R-744 (CO2, GWP 1). Permitted under EPA SNAP Rule 23 for self-contained refrigeration.</dd><dt>Phased out / restricted</dt><dd>R-134a (GWP 1430), R-404A (GWP 3922) — restricted in new equipment manufactured after Jan 1, 2025 per AIM Act Subsection (i).</dd><dt>Charge limits</dt><dd>R-290 charge limit 150 g per circuit (UL 60335-2-89 / IEC 60335-2-89).</dd><dt>Documentation</dt><dd>Refrigerant type + charge weight on equipment nameplate; manufacturer compliance attestation.</dd></dl>
+<h2>3. Telemetry — waste-avoidance metric</h2><p>Cellular telemetry reduces operational waste: fewer truck rolls, less expired product, smaller carbon footprint per transaction.</p><dl><dt>Truck-roll reduction</dt><dd>Telemetry-driven restocking cuts visits by 30-50% vs fixed schedules. EPA SmartWay program documents the fuel-and-emissions delta.</dd><dt>Expiry waste</dt><dd>Per-SKU velocity tracking targets &lt; 2% expiry waste vs ~8% industry baseline.</dd><dt>Required data fields</dt><dd>Online/offline status, per-SKU velocity, last-restock timestamp, internal temperature, compressor runtime, door-open events.</dd><dt>Audit interface</dt><dd>Web dashboard + monthly CSV export. Host has read-only access to their site portfolio.</dd></dl>
+<h2>4. Packaging + product spec</h2><table><thead><tr><th>Category</th><th>Eco-preferred specs</th><th>Notes</th></tr></thead><tbody><tr><td>Bottled water</td><td>Aluminum cans (Open Water, PathWater) or rPET 100% bottles</td><td>Aluminum is infinitely recyclable; rPET reduces virgin PET demand</td></tr><tr><td>Snacks</td><td>Compostable wrappers (TerraCycle/BPI-certified) where feasible</td><td>Limited SKU availability; supplement with How2Recycle-labeled SKUs</td></tr><tr><td>Hot beverages</td><td>PLA-lined or PHA-lined cups; reusable mug discount $0.25</td><td>BPI commercial compost certification required for compostable cups</td></tr><tr><td>Coffee pods</td><td>Compostable pods (Cometeer, Pact Coffee) where machine compatible</td><td>Avoid #7 polypropylene pods unless reclamation program in place</td></tr></tbody></table>
+<h2>5. Operator commitments to require in RFP</h2><ul class="checklist"><li><span class="box"></span>ENERGY STAR-certified refrigerated inventory ≥ 80% of fleet by year 1; 100% by year 3.</li><li><span class="box"></span>Low-GWP refrigerants (R-290 / R-600a / R-744) in all post-2025 procurement.</li><li><span class="box"></span>Cellular telemetry on 100% of host placements.</li><li><span class="box"></span>Expiry waste &lt; 3% reported monthly; sustainability report annual.</li><li><span class="box"></span>Route optimization software (e.g., VendSys Optix, Cantaloupe Seed) in use; SmartWay-registered fleet.</li><li><span class="box"></span>Take-back program for retired equipment — refrigerant reclamation per Clean Air Act Section 608 + EPA-certified scrap recycler.</li></ul>
+<h2>6. Scorecard for evaluating operator responses</h2><p>Score each criterion 0-3 (0 = does not meet; 1 = partial; 2 = meets; 3 = exceeds with evidence). Minimum qualifying score: 18 of 24.</p><table><thead><tr><th>Criterion</th><th>Weight</th><th>Max score</th></tr></thead><tbody><tr><td>ENERGY STAR fleet share</td><td>1.5x</td><td>4.5</td></tr><tr><td>Refrigerant compliance evidence</td><td>1.5x</td><td>4.5</td></tr><tr><td>Telemetry coverage + data access</td><td>1.0x</td><td>3</td></tr><tr><td>Expiry waste metric + reporting</td><td>1.0x</td><td>3</td></tr><tr><td>Packaging eco-preferred SKU share</td><td>1.0x</td><td>3</td></tr><tr><td>Take-back + reclamation program</td><td>1.0x</td><td>3</td></tr><tr><td>SmartWay or comparable fleet cert</td><td>1.0x</td><td>3</td></tr></tbody></table>
+<h2>7. Reporting cadence + KPIs</h2><ol class="steps"><li><strong>Monthly</strong><p>kWh per machine, expiry waste %, truck-roll count, eco-SKU sell-through %.</p></li><li><strong>Quarterly</strong><p>Carbon footprint per transaction (kg CO2e), refrigerant inventory by GWP class, take-back tonnage.</p></li><li><strong>Annual</strong><p>Sustainability report aligned to GRI 305 (Emissions) and GRI 306 (Waste); third-party verification optional but preferred.</p></li></ol>
+<h2>8. Capability framing</h2><p>We are equipped to surface operators that can attest to ENERGY STAR, low-GWP refrigerant, and telemetry commitments at RFP. Operator availability varies by region; capability framing only.</p>
+<footer>This framework is informational. Reference EPA SNAP rule, AIM Act subsections, and ENERGY STAR product specifications for current authoritative requirements.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

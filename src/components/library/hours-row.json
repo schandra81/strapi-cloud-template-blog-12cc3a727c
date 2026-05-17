@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_hours_rows",
+  "info": {
+    "displayName": "Hours row",
+    "description": "Single hour row in the weekly hours grid. Slots field is JSON of [{status,label}] for Mon..Sun."
+  },
+  "options": {},
+  "attributes": {
+    "hour": { "type": "string", "required": true },
+    "slots": { "type": "json", "required": true }
+  }
+}

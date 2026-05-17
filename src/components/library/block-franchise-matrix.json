@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_franchise_matrix",
+  "info": {
+    "displayName": "Block · Franchise matrix",
+    "icon": "th-list",
+    "description": "FDD-style franchise comparison table."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "rows": { "type": "component", "repeatable": true, "component": "library.franchise-row" }
+  }
+}

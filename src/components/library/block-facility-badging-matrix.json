@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_facility_badging_matrix",
+  "info": {
+    "displayName": "Block · Facility badging matrix",
+    "icon": "shield-alt",
+    "description": "Table of facilities a partner is pre-cleared at — badging type, lead time, status."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "required": true },
+    "sub": { "type": "text" },
+    "rows": { "type": "component", "repeatable": true, "component": "library.facility-row" },
+    "footnote": { "type": "string" }
+  }
+}

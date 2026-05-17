@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_library_block_city_hero",
+  "info": {
+    "displayName": "Block · City hero",
+    "icon": "map-marker-alt",
+    "description": "Full-bleed city hero with breadcrumbs, facts, CTAs, and an optional How-it-works right rail."
+  },
+  "options": {},
+  "attributes": {
+    "cityName": { "type": "string", "required": true },
+    "state": { "type": "string", "required": true },
+    "stateCode": { "type": "string", "maxLength": 2 },
+    "intro": { "type": "text", "required": true },
+    "serviceName": { "type": "string", "default": "Vending Services" },
+    "primaryCtaLabel": { "type": "string" },
+    "primaryCtaHref": { "type": "string" },
+    "secondaryCtaLabel": { "type": "string" },
+    "secondaryCtaHref": { "type": "string" },
+    "facts": { "type": "component", "repeatable": true, "component": "library.city-fact" },
+    "heroImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "heroImageUrl": { "type": "string" },
+    "heroImageAlt": { "type": "string" },
+    "latitude": { "type": "decimal" },
+    "longitude": { "type": "decimal" },
+    "phone": { "type": "string" },
+    "variant": { "type": "enumeration", "enum": ["split", "background"], "default": "background" },
+    "breadcrumbs": { "type": "component", "repeatable": true, "component": "library.breadcrumb-item" },
+    "howItWorks": { "type": "component", "repeatable": true, "component": "library.howit-step" },
+    "howItWorksHeading": { "type": "string", "default": "How it works" },
+    "ratingValue": { "type": "decimal" },
+    "reviewCount": { "type": "integer" },
+    "openingHours": { "type": "json" },
+    "alsoServes": { "type": "json" },
+    "datePublished": { "type": "string" },
+    "dateModified": { "type": "string" },
+    "speakableSelectors": { "type": "json" }
+  }
+}

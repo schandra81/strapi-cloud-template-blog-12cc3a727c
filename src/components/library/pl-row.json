@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_pl_rows",
+  "info": {
+    "displayName": "P&L row",
+    "description": "Row in an operator P&L table"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "value": { "type": "string" },
+    "kind": { "type": "enumeration", "enum": ["revenue", "expense", "header-revenue", "header-expense"], "default": "revenue" }
+  }
+}

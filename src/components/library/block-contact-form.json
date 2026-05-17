@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_library_block_contact_form",
+  "info": {
+    "displayName": "Block · Contact Form (Quiz)",
+    "icon": "envelope",
+    "description": "Lead-capture quiz form. Compact variant hides the side image."
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "subheading": { "type": "string" },
+    "phoneLabel": { "type": "string" },
+    "phoneNumber": { "type": "string" },
+    "phoneLink": { "type": "string" },
+    "checklist": { "type": "json" },
+    "compact": { "type": "boolean", "default": true }
+  }
+}

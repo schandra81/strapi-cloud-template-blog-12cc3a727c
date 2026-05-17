@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>AI Vending Company Selection Framework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>AI Vending Company Selection Framework</h1>
+  <p class="subtitle">Category matrix, capability rubric, and reference-check protocol</p>
+</header>
+<p>This framework gives procurement and facilities a structured way to evaluate AI vending companies and operators. References to PCI-DSS 4.0, ADA Section 308, FDA Food Code 3-501.16, GDPR / CCPA where account or app data is captured, and standard insurance + COI expectations. Capability-framed: every claim in a vendor proposal should be attestable in writing and verifiable through reference call.</p>
+<h2>1. Category matrix — AI vending players</h2><p>AI vending splits into three categories: technology / vision-system platforms (sold to operators), turnkey cooler operators (who pick a platform + run the placement), and full-stack venture-funded entrants. Below is a representative landscape.</p><table><thead><tr><th>Category</th><th>Representative companies</th><th>Sells to</th><th>Differentiator</th><th>Verify by</th></tr></thead><tbody><tr><td>Vision-system platforms</td><td>AiFi, Trigo, Standard AI, Grabango, Zippin</td><td>Operators + retailers</td><td>Computer-vision accuracy, multi-SKU recognition, weight + camera fusion</td><td>Per-SKU mis-charge rate report</td></tr><tr><td>Cooler + kiosk OEMs with AI option</td><td>365 Retail Markets, Crane (PicAdvanced), Avanti Markets, AWM Smart Shelf</td><td>Operators</td><td>Integrated hardware + payment + back-office</td><td>Hardware spec + operator network</td></tr><tr><td>Turnkey cooler operators</td><td>Aramark, Compass, Canteen, regional operators using AiFi/Trigo/365</td><td>Hosts (facilities, multifamily, healthcare)</td><td>Service, restock, refund SLA, telemetry transparency</td><td>Reference call + on-site visit</td></tr><tr><td>Full-stack entrants (venture-funded)</td><td>Various 2020-2025 entrants in unattended retail</td><td>Hosts directly OR via real-estate partnerships</td><td>Brand experience, app-first model, premium SKU</td><td>Track record + reference call</td></tr><tr><td>Payment + telemetry only</td><td>Nayax, Cantaloupe (Seed)</td><td>Operators</td><td>Cashless payment + telemetry stack (not vision system)</td><td>Operator integration</td></tr></tbody></table>
+<h2>2. Capability rubric — score each shortlisted operator 1-5</h2><p>Score the operators you shortlist (not the platforms — operators deliver the service). Operator should attest in writing.</p><dl><dt>Reference accounts (≥ 3 comparable placements ≥ 12 months in service)</dt><dd>5 = ≥ 5 references in matching vertical; 3 = ≥ 3; 1 = none in vertical. Reference call required for top scorers.</dd><dt>Vision-system platform + accuracy</dt><dd>5 = ≥ 99% per-SKU accuracy with quarterly audit; 3 = ≥ 97% with annual audit; 1 = no published accuracy. Operator attests to platform choice (AiFi / Trigo / Standard AI / Grabango / 365 / AWM).</dd><dt>Telemetry + uptime SLA</dt><dd>5 = 98%+ uptime contractual, ≤ 30 min offline alert, ≤ 24 hr Tier-1 resolution; 3 = 97%+ uptime, ≤ 1 hr alert; 1 = no contractual SLA.</dd><dt>Payment + PCI-DSS 4.0</dt><dd>5 = current AOC + SAQ-B-IP, Apple Pay/Google Pay + contactless EMV, no PAN storage at cooler; 3 = current AOC; 1 = no AOC on file.</dd><dt>Refund SLA</dt><dd>5 = cashless auto-credit ≤ 24 hr + cash ≤ 7 days + self-serve QR/app channel; 3 = ≤ 48 hr cashless + ≤ 10 days cash; 1 = manual-only refund.</dd><dt>Restock cadence + planogram capability</dt><dd>5 = telemetry-driven cadence + quarterly planogram refresh + open velocity report; 3 = scheduled cadence + annual refresh; 1 = fixed cadence + no refresh framework.</dd><dt>Cold-chain compliance</dt><dd>5 = internal-temp telemetry + ≤ 4 hr excursion alert + FDA Food Code 3-501.16 attestation; 3 = manual log + monthly attestation; 1 = no telemetry.</dd><dt>ADA Section 308 compliance</dt><dd>5 = written attestation + annual on-site verification + VPAT for digital interface; 3 = written attestation only; 1 = no attestation.</dd><dt>Privacy / data handling (GDPR / CCPA)</dt><dd>5 = published privacy policy + DPA available + data export + deletion on request; 3 = published privacy policy; 1 = no policy where account data captured.</dd><dt>Insurance + liability</dt><dd>5 = $2M GL + $1M umbrella + additional-insured endorsement + product liability ≥ $1M; 3 = $1M GL only; 1 = below standard.</dd></dl>
+<h2>3. Reference check protocol</h2><p>Always run reference calls on shortlisted operators. Use the question bank below; document each call in the procurement file.</p><ol class="steps"><li><strong>Tenure + placement profile</strong><p>How long has the operator served you? How many machines? What format (AI cooler / micro-market / vending)? Was the placement vertical similar to yours?</p></li><li><strong>Uptime + service experience</strong><p>Has the operator met the contractual uptime SLA every month? How long does a Tier-1 ticket take to resolve in practice? Any month with &gt; 1 day of machine offline?</p></li><li><strong>Vision-system accuracy (AI cooler)</strong><p>What is the per-SKU mis-charge rate in practice? How often does the operator recalibrate? Has the host received any customer complaints about over-charging?</p></li><li><strong>Refund experience</strong><p>How does the refund flow work in practice? What is the typical time-to-credit? Have refunds ever been delayed beyond the SLA?</p></li><li><strong>Planogram responsiveness</strong><p>How often does the operator refresh the planogram? Did the operator drop slow-moving SKUs proactively, or only after host pressure?</p></li><li><strong>Account management quality</strong><p>Is the account manager responsive (24-48 hr email response)? How are QBRs run? Are open action items closed on time?</p></li><li><strong>Surprise issues</strong><p>What surprised you about working with this operator? What would you change in the contract if you started over?</p></li><li><strong>Recommendation</strong><p>Would you renew with this operator if the contract were up next quarter? Would you recommend them to a peer in your industry?</p></li></ol>
+<footer>This framework is informational and not legal advice. Procurement should validate all operator claims through written attestation and reference calls before contract execution. LetUsVending can connect host teams with operators equipped to deliver AI cooler programs at scale.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

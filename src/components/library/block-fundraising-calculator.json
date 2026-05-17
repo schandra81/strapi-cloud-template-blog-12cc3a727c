@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_library_block_fundraising_calculator",
+  "info": {
+    "displayName": "Block · Fundraising calculator",
+    "icon": "calculator",
+    "description": "Interactive sliders → annual commission. Schools cluster engagement."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "default": "Fundraising commission calculator" },
+    "sub": { "type": "string" },
+    "defaultMachines": { "type": "integer", "default": 2 },
+    "defaultTransactionsPerDay": { "type": "integer", "default": 35 },
+    "defaultTicketCents": { "type": "integer", "default": 175 },
+    "defaultCommissionPct": { "type": "integer", "default": 12 },
+    "schoolDays": { "type": "integer", "default": 180 },
+    "ctaLabel": { "type": "string", "default": "Get a real quote" },
+    "ctaHref": { "type": "string", "default": "/#get-machine" }
+  }
+}

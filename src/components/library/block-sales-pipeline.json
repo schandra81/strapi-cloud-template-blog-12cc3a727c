@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_sales_pipeline",
+  "info": {
+    "displayName": "Block · Sales pipeline",
+    "icon": "stream",
+    "description": "Kanban-style operator sales pipeline."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "stages": { "type": "component", "repeatable": true, "component": "library.pipe-stage" }
+  }
+}

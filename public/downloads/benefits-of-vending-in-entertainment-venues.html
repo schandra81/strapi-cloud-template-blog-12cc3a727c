@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Entertainment Venue Vending Benefit Framework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Entertainment Venue Vending Benefit Framework</h1>
+  <p class="subtitle">Benefit-stack measurement, operator capability matrix, and sponsor activation template</p>
+</header>
+<p>This framework gives entertainment venue operators (theaters, concert halls, arenas, family entertainment centers, theme parks, museums, ski resorts) a structured way to design, measure, and monetize a vending program. References to ADA Section 308 + 309 for accessible operable parts, NFPA 13 for sprinkler clearance, OSHA 1910.37 for egress widths, FDA Food Code 3-501.16 for cold-chain, FALCPA allergen labeling, and PCI-DSS 4.0 for cashless transactions. Capability-framed.</p>
+<h2>1. Benefit-stack measurement matrix</h2><p>Entertainment-venue vending produces 5 stackable benefits. Quantify each annually for executive review.</p><table><thead><tr><th>Benefit</th><th>How to measure</th><th>Typical year-1 value (mid-size venue)</th><th>Data source</th></tr></thead><tbody><tr><td>Per-cap concession lift</td><td>(Pre-vending per-cap) vs (post-vending per-cap × attendance)</td><td>$0.45-$1.20 per visitor</td><td>Concession POS + operator telemetry</td></tr><tr><td>Off-peak revenue capture</td><td>Vending revenue during F&amp;B-closed periods (early entry / post-event / off-hours)</td><td>$15K-$60K annually for mid-size venue</td><td>Operator telemetry</td></tr><tr><td>Queue deflection from main concession</td><td>Survey or POS time-stamp analysis</td><td>10-25% deflection during peak</td><td>Survey + POS</td></tr><tr><td>Member / season-ticket value-add</td><td>NPS lift among member cohort</td><td>Embedded in retention</td><td>Member survey</td></tr><tr><td>Sponsor / brand activation revenue</td><td>Commission + sponsor co-marketing dollars</td><td>$5K-$50K annually depending on activation tier</td><td>Sponsor contract</td></tr></tbody></table>
+<h2>2. Operator capability matrix</h2><p>Score each shortlisted operator 1-5. Entertainment venues add operational complexity (event-driven volume spikes, ADA event accommodation, FDA cold-chain in high-throughput periods).</p><dl><dt>Entertainment-venue reference accounts</dt><dd>5 = ≥ 3 active venue placements ≥ 12 months in service; 3 = ≥ 1 venue + ≥ 3 retail/hospitality references; 1 = none in entertainment vertical.</dd><dt>Event-volume capacity</dt><dd>5 = telemetry-triggered pre-event restock + on-site staffing during high-attendance events; 3 = scheduled cadence; 1 = standard cadence only.</dd><dt>Telemetry + uptime SLA</dt><dd>≥ 98% uptime; ≤ 30 min offline alert; ≤ 4 hr Tier-1 response during event windows; ≤ 24 hr off-event.</dd><dt>Payment + PCI-DSS 4.0</dt><dd>Apple Pay, Google Pay, contactless EMV; AOC + SAQ-B-IP on file; integration with venue POS or stored-value card where applicable.</dd><dt>Cold-chain compliance</dt><dd>Internal-temp telemetry alert ≤ 4 hr excursion; FDA Food Code 3-501.16 attestation; cold-chain log retained ≥ 12 months.</dd><dt>ADA + accessibility for diverse-ability events</dt><dd>Section 308 + 309 attestation; tactile / braille pricing where state code requires; alternate refund channel (not solely touchscreen).</dd><dt>Egress + life-safety placement compliance</dt><dd>Operator&#39;s site-survey lead confirms placement does not narrow egress below OSHA 1910.37; not obstructing fire-suppression coverage (NFPA 13).</dd><dt>Sponsor activation experience</dt><dd>5 = active sponsor program (Coca-Cola, Pepsi, Gatorade, beverage exclusivity) with measurable co-mkt dollars; 3 = standard category mix; 1 = no sponsor experience.</dd><dt>Insurance + liability</dt><dd>$2M GL + $1M umbrella + additional-insured endorsement to venue + management entity; food product liability ≥ $1M; event-specific COI on request.</dd></dl>
+<h2>3. Sponsor activation template</h2><p>Many venues monetize vending placements through beverage-exclusivity or sponsor-brand activations. Below is a template structure for the sponsor agreement.</p><dl><dt>Exclusivity scope</dt><dd>Define what categories are sponsor-exclusive (e.g., carbonated soft drinks, sports/electrolyte, water). Non-exclusive categories (snack, RTD coffee, premium beverage) remain operator-curated.</dd><dt>Exclusivity term + renewal</dt><dd>Standard 3-5 year term with renewal option. Sponsor pays an annual rights fee + product margin support.</dd><dt>Equipment branding</dt><dd>Sponsor wrap on machine face; LED top-light; sponsor logo on dispense bin; refund channel branded with venue + sponsor logos.</dd><dt>Volume commitments</dt><dd>Sponsor commits to product supply + delivery cadence aligned with venue event calendar. Venue commits to minimum facing share within exclusive categories.</dd><dt>Co-marketing</dt><dd>Sponsor co-funds resident communications kit (lobby poster, ticketed-event QR campaign, member newsletter feature). Quarterly co-marketing report.</dd><dt>Revenue sharing</dt><dd>Sponsor rights fee + product margin support paid to venue; operator commission tier negotiated separately.</dd><dt>Activation events</dt><dd>1-2 sponsor-branded sampling events per year tied to high-attendance event (season opener, special exhibit, festival weekend).</dd></dl>
+<footer>This framework is informational and not legal advice. Venues should confirm placement complies with local building code, fire marshal, ADA, and any sponsor agreement constraints. Operator capability claims should be verified through written attestation and reference calls. LetUsVending can connect venue teams with operators equipped to serve entertainment placements.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

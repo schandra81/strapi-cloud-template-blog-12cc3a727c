@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_meta_strip_items",
+  "info": {
+    "displayName": "Meta strip item",
+    "description": "Label / value pair shown in the hero meta strip"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "value": { "type": "string", "required": true }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_vendor_items",
+  "info": {
+    "displayName": "Vendor item",
+    "description": "Single vendor card in a vendor grid"
+  },
+  "options": {},
+  "attributes": {
+    "logoText": { "type": "string", "required": true },
+    "category": { "type": "string", "required": true },
+    "name": { "type": "string", "required": true },
+    "tagline": { "type": "string", "required": true },
+    "meta": { "type": "component", "repeatable": true, "component": "library.vendor-meta" }
+  }
+}

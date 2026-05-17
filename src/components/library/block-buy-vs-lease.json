@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_buy_vs_lease",
+  "info": {
+    "displayName": "Block · Buy vs lease comparison",
+    "icon": "balance-scale",
+    "description": "Side-by-side buy / lease decision card."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "buy": { "type": "component", "repeatable": false, "component": "library.bvl-option" },
+    "lease": { "type": "component", "repeatable": false, "component": "library.bvl-option" }
+  }
+}

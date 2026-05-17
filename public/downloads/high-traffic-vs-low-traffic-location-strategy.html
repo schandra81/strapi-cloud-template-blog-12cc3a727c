@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>High-Traffic vs Low-Traffic Vending Playbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>High-Traffic vs Low-Traffic Vending Playbook</h1>
+  <p class="subtitle">Equipment, telemetry, service cadence, commission structure, portfolio discipline</p>
+</header>
+<p>Vending portfolios that treat every placement identically underperform on both ends — they over-spec low-traffic placements and under-serve high-traffic ones. This playbook codifies the two operating envelopes (high-traffic / low-traffic) across equipment, telemetry, service cadence, commission, and the portfolio-mix discipline that keeps the route profitable.</p>
+<h2>1. Traffic classification</h2><table><thead><tr><th>Tier</th><th>Transactions/week</th><th>Examples</th><th>Operating envelope</th></tr></thead><tbody><tr><td>T1 — High-traffic</td><td>500+ / week</td><td>Hospital, airport, transit, large factory, university student union</td><td>Daily restock + premium equipment + full telemetry</td></tr><tr><td>T2 — Medium-traffic</td><td>150-500 / week</td><td>Mid-size office, mid-size manufacturing, mid-size school</td><td>2-3 visits/week + standard equipment + telemetry</td></tr><tr><td>T3 — Low-traffic</td><td>30-150 / week</td><td>Small office, small clinic, remote satellite, low-density placement</td><td>Weekly visit + standard equipment + telemetry</td></tr><tr><td>T4 — Marginal</td><td>≤ 30 / week</td><td>Underperforming placement — review for removal or relocation</td><td>Quarterly review for removal</td></tr></tbody></table>
+<h2>2. Equipment specification by tier</h2><p>Over-spec on T3-T4 placements destroys the route economics; under-spec on T1 placements destroys the customer experience. Equipment selection follows traffic.</p><dl><dt>T1 — High-traffic</dt><dd>Premium glass-front (USelect VM850, Crane Merchant Media), wide selection 40-60 SKUs, 21-32 in. screen, contactless + app pay, dispense camera. Or micro-market (365 Retail Markets, Avanti).</dd><dt>T2 — Medium-traffic</dt><dd>Standard glass-front (Crane Merchant Combo, AMS 39, Royal 660). Branded wrap. Cellular telemetry.</dd><dt>T3 — Low-traffic</dt><dd>Standard glass-front, possibly used + refurbished cabinet. Reliable cellular telemetry mandatory to avoid wasted truck rolls.</dd><dt>T4 — Marginal</dt><dd>Retain only if strategic (account relationship, future growth, brand obligation). Otherwise relocate to higher-traffic site.</dd></dl>
+<h2>3. Telemetry baseline — all tiers</h2><p>Cellular-modem-enabled telemetry (Cantaloupe Seed, Nayax, 365 Retail Markets, Crane Streamware) is mandatory across all tiers — the low-traffic placements need it most to avoid wasted truck rolls.</p><ul class="checklist"><li><span class="box"></span>Online status + heartbeat sub-15-min on T1-T2; sub-30-min on T3-T4</li><li><span class="box"></span>Per-SKU sell-through + cash/cashless mix + payment-failure rate</li><li><span class="box"></span>Refrigeration temperature monitoring on every refrigerated unit (33-41°F / 0°F frozen)</li><li><span class="box"></span>Route-optimization software (Vendsoft, VendingMetrics, VendMAX) consumes telemetry to schedule restock by actual depletion, not fixed days</li><li><span class="box"></span>Alert routing — Tier 1 alerts to dispatch within 5 min; Tier 2-3 batched into route morning briefing</li></ul>
+<h2>4. Service cadence by tier</h2><table><thead><tr><th>Tier</th><th>Restock cadence</th><th>Tier 1 SLA</th><th>Tier 2 SLA</th><th>Tier 3 SLA</th></tr></thead><tbody><tr><td>T1</td><td>Daily / 5x week</td><td>&lt; 8 hr</td><td>&lt; 24 hr / 3 day</td><td>&lt; 5 day</td></tr><tr><td>T2</td><td>2-3x week</td><td>&lt; 24 hr</td><td>&lt; 48 hr / 5-7 day</td><td>&lt; 14 day</td></tr><tr><td>T3</td><td>1x week</td><td>&lt; 24-48 hr</td><td>&lt; 72 hr / 7 day</td><td>&lt; 14 day</td></tr><tr><td>T4</td><td>Per-need (telemetry trigger)</td><td>&lt; 48 hr</td><td>&lt; 7 day</td><td>&lt; 21 day</td></tr></tbody></table>
+<h2>5. Commission structure by tier</h2><p>Commission rates flex with placement economics. T1 high-traffic placements can support higher host commission while still generating route margin; T3-T4 cannot.</p><ol class="steps"><li><strong>T1 commission</strong><p>10-25% of gross sales typical; 30%+ for marquee placements (university student union, airport food court). Some T1 placements bid as flat monthly rent + commission floor.</p></li><li><strong>T2 commission</strong><p>10-15% of gross sales typical. Tiered escalators per revenue band reward host for growing the placement.</p></li><li><strong>T3 commission</strong><p>0-10% of gross sales typical. Many T3 placements run zero-commission to fund the logistics premium.</p></li><li><strong>T4 commission</strong><p>Zero commission + relocation consideration. Or operator subsidy reversed (host pays a per-employee subsidy to retain access).</p></li><li><strong>Equipment investment recovery</strong><p>Premium equipment on T1 placements amortizes over 5-7 years against transaction volume; T3-T4 placements use existing or refurbished equipment to avoid capex sink.</p></li></ol>
+<h2>6. Portfolio mix discipline</h2><p>Healthy vending routes carry a portfolio mix — not all T1, not all T3. The mix balances revenue (T1-T2 carries), profitability (T3-T4 fills route windows), and relationship (T3-T4 doors open T1-T2 referrals).</p><ul class="checklist"><li><span class="box"></span>Target mix — 20-30% T1, 40-50% T2, 20-30% T3, &lt; 10% T4 by placement count</li><li><span class="box"></span>Revenue contribution — T1 should carry 50-70% of route revenue; T2 30-40%; T3 5-15%; T4 &lt; 5%</li><li><span class="box"></span>Route windows — T3-T4 stops fill the geography between T1-T2 anchors; net incremental drive-time minimized</li><li><span class="box"></span>Annual portfolio review — every placement reviewed for retention, repositioning, or removal based on 12-month trailing economics</li><li><span class="box"></span>T4 removal threshold — placements that miss revenue floor 2 quarters in a row + show no growth trajectory removed unless strategic</li><li><span class="box"></span>T1 prospect pipeline — 3-5 active T1 prospects in pipeline at any time to backfill churn or replace T4 capacity</li></ul>
+<h2>7. KPI scorecard — by tier</h2><table><thead><tr><th>Metric</th><th>T1</th><th>T2</th><th>T3</th></tr></thead><tbody><tr><td>Uptime</td><td>≥ 99%</td><td>≥ 98%</td><td>≥ 96%</td></tr><tr><td>Stockout SKU-hours</td><td>≤ 1%</td><td>≤ 2%</td><td>≤ 4%</td></tr><tr><td>Average transaction value</td><td>$3-$8</td><td>$2-$4</td><td>$2-$3</td></tr><tr><td>Tier 1 resolution time</td><td>&lt; 8 hr</td><td>&lt; 24 hr</td><td>&lt; 48 hr</td></tr><tr><td>Refund rate</td><td>&lt; 1%</td><td>&lt; 2%</td><td>&lt; 3%</td></tr><tr><td>Route-density (placements per route-hour)</td><td>Lower (1-2)</td><td>Higher (3-4)</td><td>Higher (4-6)</td></tr><tr><td>Annual revenue per placement</td><td>$30K-$100K+</td><td>$10K-$30K</td><td>$3K-$10K</td></tr></tbody></table>
+<footer>LetUsVending is equipped to coordinate operator selection, traffic-tier classification, equipment + commission structuring, and portfolio mix review for vending placements at every traffic level.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

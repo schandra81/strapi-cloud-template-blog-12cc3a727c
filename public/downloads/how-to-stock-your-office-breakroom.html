@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Office Breakroom Stocking Playbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Office Breakroom Stocking Playbook</h1>
+  <p class="subtitle">SKU category framework, replenishment model selection, allergen labeling, and healthy-share design</p>
+</header>
+<p>Office breakrooms move from &#39;we ordered Costco runs&#39; to a defensible managed program with three decisions: a SKU category framework, a replenishment model that fits headcount, and a healthy-share + allergen-labeling backbone. This playbook codifies the LetUsVending operator-network practice and references the FDA FALCPA + FASTER Act allergen rules, the 2020-2025 Dietary Guidelines for Americans, OSHA 1910.141 sanitation, and FDA Food Code 2022 for any fresh/perishable items.</p>
+<h2>1. SKU category framework</h2><p>Stock against five anchor categories with target facings/share by headcount. Audit quarterly via planogram photo so the lineup doesn&#39;t drift to whichever distributor ran a deal.</p><table><thead><tr><th>Category</th><th>Facings (50-150 emp)</th><th>Facings (150-400 emp)</th><th>Healthy-share target</th></tr></thead><tbody><tr><td>Coffee + tea + creamer</td><td>15-20% of stock value</td><td>12-18%</td><td>≥1 unsweet/half-sugar option</td></tr><tr><td>Beverages (water, soda, sparkling, energy, juice)</td><td>20-25%</td><td>20-25%</td><td>≥40% water/unsweet</td></tr><tr><td>Snacks (salty, sweet, protein bar, nuts, fruit)</td><td>30-40%</td><td>30-40%</td><td>≥35% better-for-you (≤200 cal, ≤10g added sugar, ≤480mg sodium)</td></tr><tr><td>Fresh + grab-and-go (fruit, yogurt, salad, wrap)</td><td>10-15% (if a cooler exists)</td><td>15-20%</td><td>All meet better-for-you definition</td></tr><tr><td>Pantry essentials (paper goods, condiments, utensils)</td><td>10-15%</td><td>10-15%</td><td>n/a</td></tr></tbody></table>
+<h2>2. Replenishment model selection</h2><ol class="steps"><li><strong>DIY (admin Costco/Sam&#39;s run)</strong><p>Works under ~30 employees. Hidden cost: 4-8 hours/week of admin time at $30-$60 loaded rate = $6,000-$25,000/yr. Allergen labeling and FALCPA compliance fall to admin.</p></li><li><strong>Pantry-delivery subscription (Crafty, SnackMagic, Mouth, Office Otter, et al.)</strong><p>Works 30-200 employees. Pre-curated SKU lists, weekly delivery, e-commerce reorder. Margin is ~15-25% above wholesale; no on-site service or fresh food unless added.</p></li><li><strong>Managed pantry + micro-market hybrid (operator)</strong><p>Works 100+ employees. Operator owns SKU sourcing, planogram, fresh-food cold-chain, healthy-share share, restock cadence, and refund flow. Telemetry-enabled. Allergen labels supplied with every SKU.</p></li><li><strong>Full corporate dining + barista (compass / aramark / sodexo / contract)</strong><p>Works 500+ employees or premium tier. Adds prepared-food kitchen, barista, catering. Highest cost, highest service level.</p></li></ol>
+<h2>3. Allergen and labeling compliance</h2><ul class="checklist"><li><span class="box"></span>FALCPA + FASTER Act top-9 allergen labels on every packaged SKU (milk, egg, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans, sesame)</li><li><span class="box"></span>FDA Nutrition Facts panel (21 CFR 101.9) on every packaged SKU; format including &#39;Added Sugars&#39; line</li><li><span class="box"></span>Allergen summary card visible at the pantry — lists top-9 allergens for every SKU in the lineup</li><li><span class="box"></span>Cross-contact signage at any open bulk dispenser</li><li><span class="box"></span>Date-marking + discard log for fresh/perishable items per FDA Food Code 2022 §3-501.17 (7-day max)</li><li><span class="box"></span>Refrigerated holding ≤41°F continuously per Food Code 2022 §3-501.16; thermometer visible inside cooler</li><li><span class="box"></span>OSHA 1910.141 sanitation: handwash sink within reasonable proximity, daily cleaning log</li></ul>
+<h2>4. Healthy-share design (operator-grade)</h2><dl><dt>Definition</dt><dd>Better-for-you = ≤200 cal/pack, ≤10g added sugar, ≤480mg sodium, OR whole-grain/protein-forward. Aligns with FDA 21 CFR 101.65(d)(2) &#39;healthy&#39; claim framework.</dd><dt>Placement</dt><dd>Eye-level + entry-side facings prioritize healthy-share (Thorndike et al., Harvard 2014/2020 — 10-30% velocity lift).</dd><dt>Dietary coverage</dt><dd>≥3 gluten-free, ≥3 dairy-free, ≥2 vegan, ≥3 high-protein, ≥2 low-sodium snacks; ≥4 water/unsweet beverages.</dd><dt>Signage</dt><dd>Green-leaf or &#39;better-for-you&#39; shelf strip on every qualifying facing. Sentence case, 1-1.5 in cap height for legibility.</dd><dt>RDN review</dt><dd>Quarterly registered-dietitian review where the operator supports it; report attached to QBR.</dd></dl>
+<h2>5. Restock cadence by headcount + model</h2><table><thead><tr><th>Headcount</th><th>Pantry-subscription cadence</th><th>Managed-operator cadence</th><th>Fresh-food cadence</th></tr></thead><tbody><tr><td>30-100</td><td>Weekly delivery</td><td>1-2 visits/week</td><td>n/a unless cooler</td></tr><tr><td>100-250</td><td>2x/week</td><td>2-3 visits/week</td><td>2x/week</td></tr><tr><td>250-500</td><td>2-3x/week or in-house stocker</td><td>3-4 visits/week, telemetry-driven</td><td>3x/week</td></tr><tr><td>500-1000</td><td>In-house stocker or operator</td><td>Daily or telemetry-on-demand</td><td>Daily</td></tr><tr><td>1000+</td><td>Operator-managed</td><td>Daily + dedicated route</td><td>Daily + dietitian audit</td></tr></tbody></table>
+<h2>6. Budget math</h2><ol class="steps"><li><strong>DIY benchmark</strong><p>$0.50-$2.50 per employee per day in product cost; admin overhead $6k-$25k/yr (often hidden).</p></li><li><strong>Pantry subscription</strong><p>$1.50-$4.00 per employee per day all-in, depending on healthy-share + fresh-food inclusion.</p></li><li><strong>Managed operator</strong><p>$2.00-$6.00 per employee per day for full managed pantry + fresh-food + healthy-share + allergen labeling + telemetry. Subsidy strategy decides what the employer absorbs vs. employee pays.</p></li><li><strong>Hybrid free / paid</strong><p>Most defensible budget posture: free coffee + water + fruit; paid (with healthy-share endcap) for everything else. Lands at $0.50-$1.50/employee/day employer cost.</p></li></ol>
+<h2>7. LetUsVending capability statement</h2><p>Through the LetUsVending operator network we can match an employer with operator partners equipped to deliver a managed breakroom — SKU sourcing, FALCPA-compliant labeling, FDA Food Code-compliant fresh-food, healthy-share planograms, telemetry-driven restock, and quarterly business reviews to HR and facilities. Scope is set per site after a discovery call covering headcount, kitchen access, and benefit tier.</p>
+<footer>Informational reference. Confirm labeling-rule application with counsel and a registered dietitian where claims are made. Standards citations current at publication; verify the latest version before contracting.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

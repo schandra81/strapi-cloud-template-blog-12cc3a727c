@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_city_image_strip",
+  "info": {
+    "displayName": "Block · City image strip",
+    "icon": "images",
+    "description": "2-3 contextual photos of a city's anchor sites with captions."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "text" },
+    "images": { "type": "component", "repeatable": true, "component": "library.image-strip-item" }
+  }
+}

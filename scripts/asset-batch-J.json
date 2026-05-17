@@ -1,0 +1,116 @@
+[
+  {
+    "type": "playbook",
+    "slug": "vending-at-train-and-bus-stations",
+    "category": "vending-for-airports",
+    "excerpt": "Get the transit station playbook — Want the transit station vending playbook (outdoor spec, transit-card integration, quick-grab planogram)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "seasonal-vending-apartment-products",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the seasonal vending playbook — Want the apartment seasonal vending playbook (four-season planogram, equipment specs, resident-survey template)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "snack-vending-for-construction-workers",
+    "category": "vending-for-construction-sites",
+    "excerpt": "Get the construction snack playbook — Want the construction snack vending playbook (high-calorie planogram, shift-transition restocking, outdoor-rated)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "after-hours-vending-in-dealerships",
+    "category": "vending-for-dealerships",
+    "excerpt": "Get the after-hours framework — Want the after-hours dealership vending playbook (staff planogram, telemetry SLA, power resilience)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "beverage-vending-in-dealership-waiting-areas",
+    "category": "vending-for-dealerships",
+    "excerpt": "Get the dealership vending playbook — Want the dealership service waiting area vending playbook (premium vs standard, CSI integration)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "branded-vending-for-dealerships",
+    "category": "vending-for-dealerships",
+    "excerpt": "Get the branded vending playbook — Want the dealership branded vending playbook (four tiers + manufacturer alignment + co-marketed partnerships)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "customer-experience-vending-in-dealerships",
+    "category": "vending-for-dealerships",
+    "excerpt": "Get the customer experience playbook — Want the dealership customer experience vending playbook (CSI integration, manufacturer standards, hospitality framing)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "customer-lounge-vending-for-dealerships",
+    "category": "vending-for-dealerships",
+    "excerpt": "Get the lounge vending playbook — Want the customer lounge vending playbook (tier-by-tier program design + manufacturer alignment + CSI integration)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "data-analytics-venue-vending",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the venue analytics framework — Want the venue vending analytics framework (telemetry stack RFP, BI integration playbook, category review cadence)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "interactive-vending-fan-engagement",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the interactive vending framework — Want the interactive venue vending framework (technology category combinations, sponsor activation playbook, mobile app integration spec, operator RFP template)"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-machine-uptime-venues",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the venue uptime playbook — Want the entertainment venue vending uptime playbook — telemetry, modern OEM, quarterly preventive, and event-day operations?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-security-measures-anti-vandalism",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the venue security playbook — Want the entertainment venue vending security playbook — chassis hardening, payment, telemetry, CCTV, personnel, and incident response?"
+  },
+  {
+    "type": "playbook",
+    "slug": "branded-vending-machines-for-gyms",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the branded vending playbook — Want the branded gym vending playbook — wrap design, sponsor coordination, and member-experience validation?"
+  },
+  {
+    "type": "playbook",
+    "slug": "gym-member-feedback-vending",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the feedback playbook — Want the gym member feedback program playbook — five channels, quarterly review, and 30-day SKU response?"
+  },
+  {
+    "type": "playbook",
+    "slug": "smoothie-vending-machines-for-gyms",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the smoothie playbook — Want the smoothie vending decision playbook — equipment vs staffed bar vs RTD comparison?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-for-yoga-studios",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the studio playbook — Want the yoga-studio vending playbook — quiet equipment, wellness planogram, and retail-counter coordination?"
+  },
+  {
+    "type": "playbook",
+    "slug": "24-7-vending-solutions-for-hospitals",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the hospital 24/7 vending playbook — Want the hospital 24/7 vending playbook — telemetry, restock cadence, service SLA, refund procedure, shift-aware planogram, Joint Commission food safety, and H"
+  },
+  {
+    "type": "playbook",
+    "slug": "hospital-vending-revenue",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the hospital vending revenue playbook — Want the hospital vending revenue playbook — commission structure, revenue drivers, telemetry reporting, and commission distribution to designated fund?"
+  },
+  {
+    "type": "playbook",
+    "slug": "micro-markets-vs-vending-in-hospitals",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the hospital coordination playbook — Want the hospital micro-market and vending coordination playbook — placement criteria, dietitian planogram, Joint Commission food-safety, telemetry SLA?"
+  }
+]

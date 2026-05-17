@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_sources",
+  "info": {
+    "displayName": "Source",
+    "description": "Footer-style numbered reference"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "url": { "type": "string", "required": true },
+    "note": { "type": "string" }
+  }
+}

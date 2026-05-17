@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_vendor_cards",
+  "info": {
+    "displayName": "Block · Vendor cards grid",
+    "icon": "building",
+    "description": "Best-companies grid for vendor listicles."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "vendors": { "type": "component", "repeatable": true, "component": "library.vendor-item" }
+  }
+}

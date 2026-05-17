@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_library_trust_employers",
+  "info": {
+    "displayName": "Trust strip employer",
+    "description": "Named anchor employer shown in the trust strip"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true }
+  }
+}

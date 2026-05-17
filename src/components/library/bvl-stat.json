@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_bvl_stats",
+  "info": {
+    "displayName": "Buy/lease stat",
+    "description": "Key/value stat for a buy-vs-lease option"
+  },
+  "options": {},
+  "attributes": {
+    "key": { "type": "string", "required": true },
+    "value": { "type": "string", "required": true }
+  }
+}

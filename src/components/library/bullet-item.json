@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_bullet_items",
+  "info": {
+    "displayName": "Bullet item",
+    "description": "Single bullet with optional bold lead-in"
+  },
+  "options": {},
+  "attributes": {
+    "text": { "type": "text", "required": true },
+    "emphasis": { "type": "string" }
+  }
+}

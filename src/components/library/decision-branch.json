@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_decision_branches",
+  "info": {
+    "displayName": "Decision branch",
+    "description": "Single Y/N branch in a decision tree"
+  },
+  "options": {},
+  "attributes": {
+    "yn": { "type": "enumeration", "enum": ["YES", "NO"], "required": true },
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text", "required": true },
+    "finalTone": { "type": "enumeration", "enum": ["go", "stop"] },
+    "finalLabel": { "type": "string" }
+  }
+}

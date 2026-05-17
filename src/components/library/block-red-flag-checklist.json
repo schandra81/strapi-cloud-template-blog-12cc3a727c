@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_red_flag_checklist",
+  "info": {
+    "displayName": "Block · Red-flag checklist",
+    "icon": "exclamation-triangle",
+    "description": "Numbered red-flag items with severity tags."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "iconText": { "type": "string", "default": "!" },
+    "flags": { "type": "component", "repeatable": true, "component": "library.red-flag" }
+  }
+}

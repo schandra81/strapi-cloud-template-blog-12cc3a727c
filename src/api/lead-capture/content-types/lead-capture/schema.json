@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lead_captures",
+  "info": {
+    "singularName": "lead-capture",
+    "pluralName": "lead-captures",
+    "displayName": "Lead capture",
+    "description": "Form submissions for gated resource downloads"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "maxLength": 200
+    },
+    "mobile": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": ["facility-manager", "vending-operator"],
+      "default": "facility-manager",
+      "required": false
+    },
+    "assetSlug": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "assetType": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "sourceUrl": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "userAgent": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "ipAddress": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "downloadUrl": {
+      "type": "string",
+      "maxLength": 500
+    }
+  }
+}

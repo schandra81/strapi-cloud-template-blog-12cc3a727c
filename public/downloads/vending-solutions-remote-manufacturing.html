@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Remote Manufacturing Vending Playbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Remote Manufacturing Vending Playbook</h1>
+  <p class="subtitle">Equipment, telemetry redundancy, restock cadence, service SLA, and on-site spare parts</p>
+</header>
+<p>Remote manufacturing sites — oilfield service yards, rural assembly plants, mining-adjacent operations, isolated processing facilities — break the assumptions consumer vending depends on. Cellular coverage is patchy. Driver routes are long. A single missed restock can mean a full week without service. This playbook specifies the redundancies that make remote vending reliable.</p>
+<h2>1. Site classification — drive-time + cellular</h2><p>Classify each remote site against the operator&#39;s depot drive-time and the cellular coverage profile. The combination drives equipment, telemetry, and contract structure.</p><dl><dt>Tier R1 — 60-120 min drive, full LTE coverage</dt><dd>Standard equipment + standard telemetry. Restock 1-2x/week. Most rural plants fall here.</dd><dt>Tier R2 — 120-240 min drive, intermittent LTE / 3G</dt><dd>Industrial-spec equipment + dual-carrier telemetry modem + on-site spare-parts kit. Restock 1x/week with 2-3 day buffer planogram.</dd><dt>Tier R3 — 240+ min drive, satellite-only or no coverage</dt><dd>Outdoor-rated industrial equipment + satellite telemetry (Iridium/Inmarsat) or store-and-forward LTE + 2-week planogram capacity + on-site service tech on retainer.</dd><dt>Tier R4 — Camp / FIFO site</dt><dd>Bespoke contract — operator co-locates restock with the camp&#39;s existing supply chain (weekly truck). Telemetry over camp Wi-Fi if available.</dd></dl>
+<h2>2. Telemetry redundancy</h2><p>Standard cellular telemetry assumes carrier-grade LTE at the placement. Remote sites need redundancy so the operator does not drive 4 hours to find a known-offline machine.</p><ol class="steps"><li><strong>Primary modem</strong><p>Cantaloupe Seed Pro, Nayax VPOS Touch, or 365 Retail Markets ConnectedFresh — dual-SIM (Verizon + AT&amp;T or T-Mobile).</p></li><li><strong>Backup channel</strong><p>Tier R3 adds Iridium SBD or Inmarsat IsatData Pro satellite telemetry for status pings every 4 hours when cellular is unavailable.</p></li><li><strong>Store-and-forward</strong><p>Telemetry firmware queues transactions and status events when offline, uploads on next connection. No transaction loss.</p></li><li><strong>On-machine status panel</strong><p>Local LED + dispatch-callable SMS code for on-site supervisor to manually trigger service request without depending on telemetry.</p></li></ol>
+<h2>3. Restock cadence + planogram buffer</h2><table><thead><tr><th>Tier</th><th>Restock cadence</th><th>Planogram buffer</th><th>Pre-positioned stock</th></tr></thead><tbody><tr><td>R1</td><td>1-2 visits/week</td><td>5-7 days of facings</td><td>None</td></tr><tr><td>R2</td><td>1 visit/week</td><td>10-14 days of facings + 3-day reserve under the cabinet</td><td>1 case top-30 SKUs on-site, host-controlled</td></tr><tr><td>R3</td><td>1 visit / 2 weeks</td><td>21-28 days of facings + on-site reserve cabinet</td><td>1 pallet rotating reserve, operator-keyed</td></tr><tr><td>R4</td><td>Co-loaded with camp supply truck</td><td>Sized to camp rotation (14-28 days)</td><td>Per camp procedure</td></tr></tbody></table>
+<h2>4. Service SLA — adjusted for drive time</h2><dl><dt>Tier 1 — revenue critical / cold-chain / payment</dt><dd>R1: &lt;24 hr ack + &lt;24 hr resolution. R2: &lt;24 hr ack + &lt;48 hr resolution. R3: &lt;24 hr ack + &lt;96 hr resolution; on-site spare-parts kit allows host-side first response.</dd><dt>Tier 2 — stockout / planogram</dt><dd>R1: &lt;48 hr / 5-7 day. R2-R3: addressed at next scheduled restock; planogram buffer absorbs.</dd><dt>Tier 3 — cosmetic / signage</dt><dd>Addressed at scheduled visit.</dd></dl>
+<h2>5. On-site spare parts kit (Tier R2-R3)</h2><p>Operator pre-positions a service kit on-site. Host-side facility tech can perform first-response actions over phone with operator dispatch, avoiding a 4-hour drive for a common failure.</p><ul class="checklist"><li><span class="box"></span>Bill validator (MEI VN2700 or Coinco BillPro) — 1 spare</li><li><span class="box"></span>Coin mech (Coinco Quantum or MEI Mars CF7000) — 1 spare</li><li><span class="box"></span>Card reader (Nayax VPOS Touch or Cantaloupe ePort G11) — 1 spare</li><li><span class="box"></span>Vending motor + helix kit — 2 of each common motor model</li><li><span class="box"></span>Refrigeration capacitor + condenser fan motor — 1 each</li><li><span class="box"></span>Door gasket — 1 (refrigerated unit)</li><li><span class="box"></span>Glass-front cleaning kit + sealed bezels — 1</li><li><span class="box"></span>Field service manual + emergency dispatch SMS code list</li></ul>
+<h2>6. Contract structure for remote service</h2><dl><dt>Pricing</dt><dd>Expect $0.10-$0.30 per-unit logistics premium on remote placements. Some operators bill a flat monthly service fee instead of pure commission for Tier R3 sites.</dd><dt>Commission</dt><dd>Commission rates 3-8% lower than urban equivalents to fund the logistics premium. Many remote sites run zero-commission with host subsidy instead.</dd><dt>Host subsidy</dt><dd>Some remote sites use a per-employee monthly subsidy ($5-$20) to lower per-unit prices for the workforce. Common in FIFO + camp settings.</dd><dt>SLA carve-outs</dt><dd>Contract explicitly carves out weather and access road closure as force-majeure events that extend SLA windows.</dd></dl>
+<h2>7. KPI scorecard for remote sites</h2><table><thead><tr><th>Metric</th><th>R1 target</th><th>R2 target</th><th>R3 target</th></tr></thead><tbody><tr><td>Uptime</td><td>≥ 98%</td><td>≥ 96%</td><td>≥ 94%</td></tr><tr><td>Stockout SKU-hours</td><td>≤ 2%</td><td>≤ 4%</td><td>≤ 6%</td></tr><tr><td>Tier 1 resolution time</td><td>&lt; 24 hr</td><td>&lt; 48 hr</td><td>&lt; 96 hr</td></tr><tr><td>First-response success without truck roll</td><td>n/a</td><td>≥ 50%</td><td>≥ 70%</td></tr><tr><td>Refund rate</td><td>&lt; 2%</td><td>&lt; 3%</td><td>&lt; 4%</td></tr></tbody></table>
+<footer>LetUsVending is equipped to coordinate operator selection, telemetry redundancy planning, and SLA structuring for remote manufacturing placements that don&#39;t fit standard urban service routes.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_arch_tiers",
+  "info": {
+    "displayName": "Architecture tier",
+    "description": "One horizontal tier in a system-architecture diagram"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "blocks": { "type": "component", "repeatable": true, "component": "library.arch-block" }
+  }
+}

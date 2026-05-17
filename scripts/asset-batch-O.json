@@ -1,0 +1,116 @@
+[
+  {
+    "type": "checklist",
+    "slug": "accessibility-in-public-vending",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the accessibility checklist — Want the public-building vending accessibility checklist — ADA dimensions, VPAT verification, and annual audit?"
+  },
+  {
+    "type": "checklist",
+    "slug": "advanced-payment-systems-government-vending",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the payment configuration checklist — Want the government vending payment configuration checklist (CAC, PIV, PCI, FIPS)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "cost-of-vending-services-for-schools",
+    "category": "vending-for-schools",
+    "excerpt": "Get the school cost framework — Want the school vending economic model (commission tiers, revenue projection, transparency checklist, RFP framework)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "healthy-snack-policy-for-schools",
+    "category": "vending-for-schools",
+    "excerpt": "Get the policy framework — Want the K-12 healthy snack policy drafting framework (ten-element checklist, operator MSA capability matrix, SFA Administrative Review prep)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "school-compliant-vending-options",
+    "category": "vending-for-schools",
+    "excerpt": "Get the school compliance checklist — Want the school vending compliance checklist (Smart Snacks, state overlays, audit documentation)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "vending-machine-accessibility-students",
+    "category": "vending-for-schools",
+    "excerpt": "Get the accessibility checklist — Want the student vending accessibility checklist (ADA + audio + nutrition + placement + 504 alignment)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "vending-machine-security-vandalism",
+    "category": "vending-for-schools",
+    "excerpt": "Get the school security checklist — Want the school vending security checklist (hardening + placement + programming + telemetry SLA)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "how-to-install-vending-in-your-warehouse",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the warehouse install checklist — Want the warehouse vending install checklist (site survey + electrical scope + cellular + 3-shift planogram)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "do-vending-machines-need-wifi-or-power",
+    "category": "vending-Info-for-businesses",
+    "excerpt": "Get the install survey checklist — Want the vending machine install survey checklist (power, GFCI, cellular, water, drainage)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "vending-machine-size-and-space-requirements",
+    "category": "vending-Info-for-businesses",
+    "excerpt": "Get the space requirement checklist — Want the vending size + space requirement checklist (dimensions + maneuvering + doorway + floor load)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "common-location-deal-breakers",
+    "category": "vending-machine-locators",
+    "excerpt": "Get the deal-breaker checklist — Want the deal-breaker checklist (12 walk-away signals + restructuring patterns)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "free-vending-location-leads-vs-paid-leads",
+    "category": "vending-machine-locators",
+    "excerpt": "Get the lead channel framework — Want the lead channel framework (free vs paid CRM funnel design + FTC disclosure checklist + retention tracking)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "interactive-vending-screens",
+    "category": "vending-technology",
+    "excerpt": "Get the touchscreen framework — Want the interactive vending screen framework (capability checklist + MDM + ADA + nutrition disclosure)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "telemetry-in-vending-machines",
+    "category": "vending-technology",
+    "excerpt": "Get the telemetry checklist — Want the telemetry verification checklist (operator coverage + signal + dashboard + PCI-DSS)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "vending-machine-inventory-tracking",
+    "category": "vending-technology",
+    "excerpt": "Get the inventory tracking checklist — Want the inventory tracking verification checklist (telemetry coverage + dashboard access + SLA + audit rights)?"
+  },
+  {
+    "type": "template",
+    "slug": "emergency-campus-vending-planning",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the emergency vending template — Want a fillable emergency vending plan template (EOP appendix + operator SOW + no-go matrix)?"
+  },
+  {
+    "type": "template",
+    "slug": "coffee-maker-cleaning-sanitation",
+    "category": "blog-category",
+    "excerpt": "Get the cleaning protocol template — Want the coffee equipment cleaning protocol template (cadence, supplies, staff training, operator scope)?"
+  },
+  {
+    "type": "template",
+    "slug": "fair-trade-coffee-workplace",
+    "category": "blog-category",
+    "excerpt": "Get the Fair Trade template — Want the Fair Trade workplace coffee template (certification framework, operator verification, ESG reporting integration)?"
+  },
+  {
+    "type": "template",
+    "slug": "how-to-stock-an-office-coffee-station",
+    "category": "blog-category",
+    "excerpt": "Get the stocking framework — Want the office coffee station stocking framework (par-stock template, supplier shortlist, multi-roast planogram, accessory inventory list)?"
+  }
+]

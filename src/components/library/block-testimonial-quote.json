@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_library_block_testimonial_quote",
+  "info": {
+    "displayName": "Block · Testimonial quote",
+    "icon": "quote-right",
+    "description": "Pull-quote with optional side image. Emits Review JSON-LD."
+  },
+  "options": {},
+  "attributes": {
+    "quote": { "type": "text", "required": true },
+    "name": { "type": "string", "required": true },
+    "role": { "type": "string" },
+    "avatarInitials": { "type": "string" },
+    "avatarImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "sideImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "emitReviewSchema": { "type": "boolean", "default": true }
+  }
+}

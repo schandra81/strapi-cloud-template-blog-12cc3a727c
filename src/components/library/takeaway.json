@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_library_takeaways",
+  "info": {
+    "displayName": "Takeaway",
+    "description": "Single key-takeaway bullet"
+  },
+  "options": {},
+  "attributes": {
+    "text": { "type": "text", "required": true }
+  }
+}

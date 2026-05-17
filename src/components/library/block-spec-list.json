@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_block_spec_list",
+  "info": {
+    "displayName": "Block · Spec list",
+    "icon": "list",
+    "description": "Bold-label specs / requirements list."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "required": true },
+    "items": { "type": "component", "repeatable": true, "component": "library.spec-item" }
+  }
+}

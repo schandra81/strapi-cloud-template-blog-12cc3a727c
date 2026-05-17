@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_library_block_cost_breakdown",
+  "info": {
+    "displayName": "Block · Cost breakdown",
+    "icon": "money",
+    "description": "Line items + total row. Dollar-intent table."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "items": { "type": "component", "repeatable": true, "component": "library.cost-line" },
+    "totalLabel": { "type": "string", "required": true },
+    "totalAmount": { "type": "string", "required": true }
+  }
+}

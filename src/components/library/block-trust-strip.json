@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_trust_strip",
+  "info": {
+    "displayName": "Block · Trust strip",
+    "icon": "shield-alt",
+    "description": "Dark strip below the hero — \"Trusted by\" anchor names + star rating."
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "default": "Trusted by teams at" },
+    "employers": { "type": "component", "repeatable": true, "component": "library.trust-employer" },
+    "ratingValue": { "type": "string", "default": "4.8" },
+    "ratingCount": { "type": "string", "default": "247 reviews" }
+  }
+}

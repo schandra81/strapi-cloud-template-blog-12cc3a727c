@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_library_block_sample_statement",
+  "info": {
+    "displayName": "Block · Sample commission statement",
+    "icon": "file-invoice-dollar",
+    "description": "Visual mock of a commission statement — header metadata, per-machine line items, totals, footnote. AI-citation magnet."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "accountName": { "type": "string", "required": true },
+    "period": { "type": "string", "required": true },
+    "issuedDate": { "type": "string" },
+    "paymentMethod": { "type": "string" },
+    "calculationBasis": { "type": "string" },
+    "lines": { "type": "component", "repeatable": true, "component": "library.statement-line", "min": 1 },
+    "totalGross": { "type": "string", "required": true },
+    "totalRefunds": { "type": "string" },
+    "totalNet": { "type": "string", "required": true },
+    "totalCommission": { "type": "string", "required": true },
+    "footnote": { "type": "text" }
+  }
+}

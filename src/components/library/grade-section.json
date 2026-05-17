@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_grade_sections",
+  "info": {
+    "displayName": "Grade section",
+    "description": "Row inside a grade-level card"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "text": { "type": "text", "required": true },
+    "pillTone": { "type": "enumeration", "enum": ["ok", "partial", "no"] },
+    "pillLabel": { "type": "string" }
+  }
+}

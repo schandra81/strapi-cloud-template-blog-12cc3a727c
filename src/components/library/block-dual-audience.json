@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_dual_audience",
+  "info": {
+    "displayName": "Block · Dual-audience layout",
+    "icon": "columns",
+    "description": "Side-by-side columns for two audiences (parent / admin, customer / employee)."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "left": { "type": "component", "repeatable": false, "component": "library.dual-column" },
+    "right": { "type": "component", "repeatable": false, "component": "library.dual-column" }
+  }
+}

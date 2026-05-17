@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_library_statement_lines",
+  "info": {
+    "displayName": "Statement line",
+    "description": "Single row in a sample commission statement (per machine or per SKU)."
+  },
+  "options": {},
+  "attributes": {
+    "machineLabel": { "type": "string", "required": true },
+    "location": { "type": "string" },
+    "units": { "type": "integer" },
+    "gross": { "type": "string", "required": true },
+    "refunds": { "type": "string" },
+    "net": { "type": "string", "required": true },
+    "rate": { "type": "string" },
+    "commission": { "type": "string", "required": true }
+  }
+}

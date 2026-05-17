@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Vending Receipt Implementation Guide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Vending Receipt Implementation Guide</h1>
+  <p class="subtitle">Email, SMS, app, and expense-platform integration</p>
+</header>
+<p>Yes — modern vending machines can issue receipts. The format varies by operator&#39;s payment platform: most issue digital receipts (email or SMS) by default; some support in-app receipts and direct integration to corporate expense platforms (Concur, Expensify, Ramp, Brex, Navan). This guide covers what to require in a host-site contract, what operators can deliver today, and how to integrate with downstream expense workflows.</p>
+<h2>1. Receipt formats supported by major platforms</h2><p>Major payment + telemetry platforms support different receipt formats. Specify which formats you require in your operator contract.</p><table><thead><tr><th>Platform</th><th>Email</th><th>SMS</th><th>In-app</th><th>Expense-platform feed</th></tr></thead><tbody><tr><td>Cantaloupe Seed</td><td>Yes</td><td>Yes</td><td>Yes (Cantaloupe app)</td><td>API available; partner integrations with Concur + Expensify</td></tr><tr><td>Nayax</td><td>Yes</td><td>Yes</td><td>Yes (Nayax Pay app)</td><td>API available; export to CSV / XLS</td></tr><tr><td>365 Retail Markets</td><td>Yes</td><td>Yes</td><td>Yes (365Pay app)</td><td>Direct Concur + Ramp integrations</td></tr><tr><td>USA Technologies / Verifone</td><td>Yes</td><td>Limited</td><td>Yes (USA Tech wallet)</td><td>API available</td></tr><tr><td>AWM Smart Shelf</td><td>Yes</td><td>Yes</td><td>Yes (AWM app)</td><td>Export to CSV; API for enterprise</td></tr></tbody></table>
+<h2>2. Receipt content requirements</h2><p>Receipts must contain the minimum content set below to be usable for corporate expense + tax filings. Reference IRS Publication 463 for substantiation rules.</p><ul class="checklist"><li><span class="box"></span>Operator legal name + address (matches W-9 / 1099 records).</li><li><span class="box"></span>Transaction date + time (timezone-disambiguated).</li><li><span class="box"></span>Itemized SKU list with per-SKU price (where machine supports — most modern platforms do).</li><li><span class="box"></span>Subtotal + sales tax (calculated per host jurisdiction) + total.</li><li><span class="box"></span>Payment method (last 4 of card, or wallet-token reference).</li><li><span class="box"></span>Transaction ID for operator-side reconciliation.</li><li><span class="box"></span>Refund / dispute contact (phone + URL).</li></ul>
+<h2>3. Email + SMS workflow</h2><p>Email + SMS are the simplest. Buyer associates email or phone with payment method (one-time, in operator&#39;s wallet app or via tap-to-pair card reader). All future transactions auto-send a receipt.</p><ol class="steps"><li><strong>First-time setup</strong><p>Buyer registers email + phone with operator wallet app, OR taps a registered card at the reader (Apple Pay / Google Pay tokens often carry email; some readers prompt at first tap).</p></li><li><strong>Per-transaction send</strong><p>Operator&#39;s payment platform sends receipt within 1-5 minutes of transaction.</p></li><li><strong>Opt-out option</strong><p>Buyer can opt out via unsubscribe link (email) or STOP keyword (SMS) per CAN-SPAM Act + TCPA.</p></li><li><strong>Multi-machine consolidation</strong><p>Some operators offer a weekly or monthly digest of all transactions across the operator network for a single payment method.</p></li></ol>
+<h2>4. In-app receipt + history</h2><dl><dt>Wallet app (operator)</dt><dd>Operator-branded wallet app (365Pay, Cantaloupe Seed, Nayax Pay) holds transaction history indefinitely; buyer downloads receipts as PDF on demand.</dd><dt>Employer / portal app</dt><dd>Where host-site negotiates a co-branded wallet (corporate, university), receipt history can be embedded in the host portal.</dd><dt>Wallet pass (Apple Wallet / Google Wallet)</dt><dd>Some operators support a wallet pass that holds transaction history; useful for frequent buyers.</dd></dl>
+<h2>5. Expense-platform integration</h2><p>For corporate buyers, the goal is no-touch reconciliation — vending charges flow into Concur / Expensify / Ramp / Brex / Navan without manual receipt upload.</p><ol class="steps"><li><strong>Direct integration (preferred)</strong><p>Operator&#39;s platform has a published Concur / Expensify / Ramp / Brex / Navan integration. Charges + receipts flow automatically; corporate-card transactions auto-match.</p></li><li><strong>Email-forward integration</strong><p>Operator-emailed receipt forwards to Concur receipt-store address; OCR matches to card transaction. Most expense platforms support this fallback.</p></li><li><strong>Export / API integration</strong><p>Operator provides CSV / API feed of transactions; corporate finance ingests via ETL. Useful for high-volume corporate hosts.</p></li><li><strong>Bulk receipt request</strong><p>Where above isn&#39;t available, buyer requests a bulk receipt PDF via operator portal monthly.</p></li></ol>
+<h2>6. Host-site contract requirements</h2><ul class="checklist"><li><span class="box"></span>Operator commits to providing email + SMS receipts at no additional cost to buyer or host.</li><li><span class="box"></span>Operator publishes receipt content per Section 2.</li><li><span class="box"></span>Operator commits to an integration with at least one major expense platform (Concur / Expensify / Ramp / Brex / Navan) — choose per host preference.</li><li><span class="box"></span>Operator commits to receipt-delivery SLA: 95% of receipts delivered within 5 minutes; 100% within 24 hours.</li><li><span class="box"></span>Operator provides refund + dispute workflow (per separate guide on refunds).</li><li><span class="box"></span>Operator complies with CAN-SPAM Act + TCPA for email + SMS; honors unsubscribe / STOP within 10 business days per FTC guidance.</li><li><span class="box"></span>Operator&#39;s data handling per applicable privacy framework (GDPR / CCPA / CPRA where buyer-base warrants).</li></ul>
+<h2>7. Troubleshooting</h2><dl><dt>‘I tapped and paid but no receipt.’</dt><dd>Buyer&#39;s payment method may not have email registered. Check wallet app; complete one-time pairing.</dd><dt>‘Receipt arrived but wrong amount.’</dt><dd>Sometimes a card auth + later capture rounds differently; operator&#39;s transaction ID resolves dispute.</dd><dt>‘Need a printed receipt.’</dt><dd>Most modern vending machines do not print; printed-receipt vending machines exist but are uncommon in new deployments due to paper + maintenance cost. Buyer requests PDF or screenshot.</dd><dt>‘Expense platform isn&#39;t matching.’</dt><dd>Confirm operator&#39;s merchant name on credit-card statement matches the receipt vendor name; finance may need to add an alias.</dd></dl>
+<footer>Informational guide — confirm operator capability before contract issue. Receipt content + integrations are operator-platform-specific and should be validated in the bid response.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

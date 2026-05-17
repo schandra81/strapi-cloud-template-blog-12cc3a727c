@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Apartment Free Vending Framework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Apartment Free Vending Framework</h1>
+  <p class="subtitle">Service-model variants, operator qualification, contract template</p>
+</header>
+<p>&#39;Free vending&#39; is a procurement-model term, not a product. This framework defines four service-model variants, the operator capability checklist for each, and the contract clauses that protect both host and operator.</p>
+<h2>1. Service-model variants</h2><p>Operator funding mechanics differ across the four models. Choose the model that fits the property&#39;s amenity-stack and budget.</p><table><thead><tr><th>Model</th><th>Resident pays</th><th>Host pays</th><th>Operator economics</th></tr></thead><tbody><tr><td>Traditional retail (not &#39;free&#39;)</td><td>Sticker price</td><td>$0</td><td>Operator margin from retail markup; host receives commission</td></tr><tr><td>Subsidized vending</td><td>Reduced or $0 (resident sees subsidy)</td><td>Monthly invoice for delta + admin fee</td><td>Operator margin from full price; host pays the gap</td></tr><tr><td>Fully-subsidized / &#39;free&#39;</td><td>$0</td><td>Full per-unit invoice + service fee</td><td>Operator passes COGS + service + margin to host</td></tr><tr><td>Amenity-fee model</td><td>$0 at point-of-sale</td><td>Monthly amenity fee per unit (often blended into HOA / amenity dues)</td><td>Operator runs as a managed amenity service</td></tr></tbody></table>
+<h2>2. When each variant fits</h2><dl><dt>Subsidized vending</dt><dd>Best fit: lifestyle / luxury 200-500 unit property positioning a &#39;free coffee + water&#39; lobby amenity. Host wants member-only incentive without giving away every SKU.</dd><dt>Fully-subsidized / &#39;free&#39;</dt><dd>Best fit: smaller premium developments, corporate housing, executive-suite buildings, owner-occupied co-ops. Host wants white-glove amenity.</dd><dt>Amenity-fee model</dt><dd>Best fit: build-to-rent, condo association, or premium developments where amenity fee is already itemized in lease / dues.</dd><dt>Traditional retail</dt><dd>Best fit: workforce / mid-tier where residents prefer real-cost transparency and price-sensitive shopping.</dd></dl>
+<h2>3. Operator qualification checklist</h2><ul class="checklist"><li><span class="box"></span>Multifamily-experience references in subsidized / free models (3 minimum).</li><li><span class="box"></span>Telemetry coverage 100% with read-only host dashboard.</li><li><span class="box"></span>Inventory + service cost transparency — operator can produce per-SKU cost-of-goods, per-restock labor cost, per-machine service overhead.</li><li><span class="box"></span>ENERGY STAR-certified cabinets to minimize host&#39;s energy-line responsibility.</li><li><span class="box"></span>Four-tier SLA with service-credit clause.</li><li><span class="box"></span>Member-app SDK (Cantaloupe Engage / Nayax Onyx / 365 Pay) for tracking even when resident pays $0 — needed for refund + abuse detection.</li><li><span class="box"></span>Abuse-detection on free models — velocity cap per resident credential, anti-stockpiling controls.</li><li><span class="box"></span>Insurance — $2M GL + product + auto, host additional insured.</li></ul>
+<h2>4. Free-model pricing structure</h2><p>Operators on fully-subsidized models invoice host on a transparent line-item basis to avoid commercial dispute.</p><table><thead><tr><th>Line item</th><th>Typical pricing</th></tr></thead><tbody><tr><td>COGS pass-through</td><td>Operator&#39;s wholesale cost + 5-10% handling</td></tr><tr><td>Cabinet rental / depreciation</td><td>$75-$200/cabinet/month (capex amortized)</td></tr><tr><td>Telemetry + software</td><td>$25-$60/cabinet/month</td></tr><tr><td>Field service + restock labor</td><td>$60-$120/visit (cadence-dependent)</td></tr><tr><td>Operator overhead + margin</td><td>10-18% of total line items above</td></tr><tr><td>Total per cabinet per month (typical range)</td><td>$650-$2,500 (sku-mix dependent)</td></tr></tbody></table>
+<h2>5. Abuse-prevention spec (free / subsidized)</h2><p>Without controls, free models invite stockpiling. The controls below preserve the amenity for the resident community.</p><dl><dt>Per-credential velocity cap</dt><dd>Member-app SDK enforces N items / hour / credential (e.g., 2 items / hr); rolling window.</dd><dt>Per-credential daily cap</dt><dd>Max items / day / credential (e.g., 6 items / day).</dd><dt>SKU restrictions</dt><dd>Premium SKUs ($5+ retail) optionally locked to mid-tier credential (e.g., longer-tenure residents) or excluded from free tier.</dd><dt>Abuse-pattern alerts</dt><dd>Operator monitors for velocity anomalies; top-quartile users flagged for property review.</dd><dt>Host escalation</dt><dd>Property manager has authority to suspend credential or downgrade tier.</dd></dl>
+<h2>6. Contract template clauses</h2><ul class="checklist"><li><span class="box"></span>Service-model variant named (subsidized / fully-subsidized / amenity-fee).</li><li><span class="box"></span>Per-line-item invoice schema attached.</li><li><span class="box"></span>Monthly invoice with telemetry-backed transaction log + per-SKU detail.</li><li><span class="box"></span>Abuse-prevention controls documented; threshold parameters set.</li><li><span class="box"></span>Audit rights — host can review COGS evidence on a sample-basis quarterly.</li><li><span class="box"></span>30-day notice for SKU additions / removals from free / subsidized tier.</li><li><span class="box"></span>Cap on monthly invoice — host&#39;s max exposure stated (e.g., $2,500 / cabinet / month ceiling); excess routed to traditional pay-tier.</li><li><span class="box"></span>Equipment-removal at contract end, host-owns-nothing.</li><li><span class="box"></span>Insurance, ADA, ENERGY STAR attestations.</li></ul>
+<h2>7. Resident communication for free / subsidized programs</h2><ul class="checklist"><li><span class="box"></span>Lobby signage explaining the amenity (sponsored, member-only, daily limits).</li><li><span class="box"></span>Resident-portal announcement at launch — what&#39;s free vs paid, how to access, daily caps.</li><li><span class="box"></span>Member-app onboarding — first-use flow shows tier, limits, premium-tier upsell.</li><li><span class="box"></span>Refund flow visible — even $0 transactions need recourse if no-vend.</li><li><span class="box"></span>Property-manager direct-line to operator for resident escalations.</li><li><span class="box"></span>Quarterly survey on planogram preferences + utilization.</li></ul>
+<h2>8. Capability framing</h2><p>We are equipped to match qualifying multifamily hosts with operators experienced in subsidized and fully-subsidized vending models. Specific invoice ranges and feasible cabinet count depend on resident behavior + planogram tier — described honestly at intake. Capability framing only.</p>
+<footer>Invoice line items and abuse-prevention thresholds are reference values. Confirm against operator proposals and your property&#39;s amenity budget.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

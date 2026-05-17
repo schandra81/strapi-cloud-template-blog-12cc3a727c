@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_library_block_author_card",
+  "info": {
+    "displayName": "Block · Author card",
+    "icon": "user",
+    "description": "Author byline with bio + outbound links. Emits Person JSON-LD (E-E-A-T)."
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "role": { "type": "string" },
+    "bio": { "type": "text", "required": true },
+    "avatar": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "links": { "type": "component", "repeatable": true, "component": "library.author-link" }
+  }
+}

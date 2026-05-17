@@ -117,6 +117,37 @@
       "type": "component",
       "component": "blocks.locations-grid",
       "repeatable": false
+    },
+    "contentBlocks": {
+      "type": "dynamiczone",
+      "components": [
+        "library.block-city-hero",
+        "library.block-trust-strip",
+        "library.block-tldr-quick-answer",
+        "library.block-key-takeaways",
+        "library.block-stat-strip",
+        "library.block-spec-list",
+        "library.block-city-industry-grid",
+        "library.block-city-anchor-employers",
+        "library.block-comparison-table",
+        "library.block-cost-breakdown",
+        "library.block-timeline",
+        "library.block-tip-cards",
+        "library.block-case-study",
+        "library.block-testimonial-quote",
+        "library.block-inline-cta",
+        "library.block-contact-form",
+        "library.block-facility-badging-matrix",
+        "library.block-city-image-strip",
+        "library.block-tip-cards",
+        "library.block-lead-magnet",
+        "library.block-nearby-cities-grid",
+        "library.block-tabbed-faq",
+        "library.block-author-card",
+        "library.block-source-citations",
+        "library.block-related-guides",
+        "library.block-rich-text"
+      ]
     }
   }
 }

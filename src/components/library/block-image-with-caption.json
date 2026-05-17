@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_image_with_caption",
+  "info": {
+    "displayName": "Block · Image with caption",
+    "icon": "image",
+    "description": "Standalone image block with caption + credit. Emits ImageObject."
+  },
+  "options": {},
+  "attributes": {
+    "image": { "type": "media", "multiple": false, "required": true, "allowedTypes": ["images"] },
+    "alt": { "type": "string", "required": true },
+    "caption": { "type": "string" },
+    "credit": { "type": "string" }
+  }
+}

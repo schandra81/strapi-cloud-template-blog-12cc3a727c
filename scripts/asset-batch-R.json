@@ -1,0 +1,116 @@
+[
+  {
+    "type": "rfp template",
+    "slug": "custom-branding-venue-vending",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the branding framework — Want the venue branded vending framework (six-category execution methods, design approval cadence, refresh cycle planning, operator RFP template)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "luxury-vending-in-entertainment-venues",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the luxury venue framework — Want the luxury entertainment venue framework (RFP template, operator capability matrix, SKU catalog, insurance requirements)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "merchandising-strategies-venue-vending",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the merchandising framework — Want the venue vending merchandising framework (eight-strategy specification, planogram by zone, anchor pricing structure, operator RFP template)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "pop-up-vending-special-events",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the pop-up vending framework — Want the pop-up vending framework (RFP template, deployment timeline, permit checklist, sponsor-integration playbook)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "psychology-vending-purchases-events",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the event-psychology framework — Want the event-audience vending psychology framework (seven-driver framework, zone-specific design, pricing structure, operator RFP template)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "sound-light-vending-experiences",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the sound and light framework — Want the venue vending sound and light experience framework (six-category design, sensory accommodation protocol, OSHA compliance, operator RFP template)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "stadium-and-arena-vending-services",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the stadium and arena framework — Want the stadium and arena vending services framework (RFP template, format-mix planning, operator capability matrix, CVP template, sponsor activation guide)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "vending-vip-suites-premium",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the VIP suite framework — Want the VIP suite vending framework (RFP template, suite-billing integration playbook, premium SKU catalog, capability matrix)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "vending-for-different-gym-types",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the gym vending RFP template — Want the gym vending RFP template with format-specific planogram, equipment, and SLA requirements?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "secure-vending-design-public",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the security RFP template — Want the public-building vending security RFP template (layer-by-layer spec, operator credentialing checklist, incident-response SLA)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "specialty-vending-public-facilities",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the specialty RFP template — Want the specialty public-facility vending RFP template (eight categories, compliance overlays, multi-category RFP framework)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "vending-public-park-events",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the parks RFP template — Want the parks-system vending RFP template (permanent + event provisions, with outdoor-rated equipment specs)?"
+  },
+  {
+    "type": "guide",
+    "slug": "addressing-student-food-insecurity-vending",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the food-security vending guide — Want the campus food-security vending implementation guide (eligibility models, planogram, FERPA checklist)?"
+  },
+  {
+    "type": "guide",
+    "slug": "gamification-campus-vending-rewards",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the gamification design guide — Want the campus vending gamification program design guide (integration, benefit design, measurement)?"
+  },
+  {
+    "type": "guide",
+    "slug": "renewable-energy-campus-vending",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the renewable-vending guide — Want the campus renewable-vending strategy guide (efficiency, matching, solar pilot)?"
+  },
+  {
+    "type": "guide",
+    "slug": "specialty-vending-campus-needs",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the specialty placement guide — Want the campus specialty vending placement guide (categories, costs, vendor selection)?"
+  },
+  {
+    "type": "guide",
+    "slug": "can-vending-machines-provide-receipts",
+    "category": "vending-faq",
+    "excerpt": "Get the receipt implementation guide — Want the vending receipt implementation guide (email, SMS, app, expense integration)?"
+  },
+  {
+    "type": "guide",
+    "slug": "do-businesses-earn-commission-from-vending",
+    "category": "vending-faq",
+    "excerpt": "Get the commission guide — Want the vending commission benchmarking guide (rate + basis + cadence + statement format)?"
+  },
+  {
+    "type": "guide",
+    "slug": "how-do-vending-machine-refunds-work",
+    "category": "vending-faq",
+    "excerpt": "Get the refund workflow guide — Want the operator-side refund workflow guide (telemetry triggers, SLA examples, host-site reporting)?"
+  }
+]

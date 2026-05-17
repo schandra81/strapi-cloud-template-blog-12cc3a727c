@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Fresh-Food Vending Evaluation Pack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Fresh-Food Vending Evaluation Pack</h1>
+  <p class="subtitle">Site qualification, operator rubric, supply-chain interview script</p>
+</header>
+<p>Fresh-food vending (TCS/PHF — Time/Temperature Control for Safety / Potentially Hazardous Food) is regulated under FDA Food Code Chapter 3 and state retail food code. This pack qualifies sites and evaluates operators against the supply-chain and HACCP capabilities required.</p>
+<h2>1. What &#39;fresh food&#39; means in vending</h2><p>Fresh-food vending covers TCS items — refrigerated salads, sandwiches, fruit cups, parfaits, hot entrees (in heated micro-markets), sushi, and dairy. Hold temperatures are 41°F or below (cold) per FDA Food Code 3-501.16, or 135°F or above (hot).</p><dl><dt>Cold fresh</dt><dd>Salads, wraps, sandwiches, sushi, yogurt, fresh fruit cups, hummus packs — hold 35-41°F.</dd><dt>Hot fresh</dt><dd>Heated micro-market entrees, paninis — hold ≥ 135°F or via fast-reheat tech with consumer microwave.</dd><dt>Out of scope</dt><dd>Shelf-stable snacks, packaged baked goods, candy — not regulated as TCS.</dd></dl>
+<h2>2. Site qualification checklist</h2><ul class="checklist"><li><span class="box"></span>Daily foot-traffic ≥ 100 unique visitors for break-even on fresh program.</li><li><span class="box"></span>Dedicated 208V/20A or 115V/15A circuit for refrigerated cabinet; surge protection.</li><li><span class="box"></span>Ambient temperature controlled (no outdoor / non-conditioned placement).</li><li><span class="box"></span>Floor load &gt; 800 lb concentrated; service clearance 36 in front, 6 in sides + rear.</li><li><span class="box"></span>Cellular signal &gt; -95 dBm or guest Wi-Fi for telemetry + temperature monitoring.</li><li><span class="box"></span>Trash + recycling within 25 ft for packaging disposal.</li><li><span class="box"></span>Site permit allowance — confirm with facility for TCS food sales (state retail food permit + sales tax registration).</li></ul>
+<h2>3. Operator evaluation rubric</h2><p>Score each criterion 0-3 (0 = does not meet, 3 = exceeds with evidence). Minimum qualifying score: 22 of 30.</p><table><thead><tr><th>Criterion</th><th>Evidence required</th><th>Max score</th></tr></thead><tbody><tr><td>State retail food permit</td><td>Current permit + inspection score</td><td>3</td></tr><tr><td>HACCP plan</td><td>Written plan, last update date</td><td>3</td></tr><tr><td>Commissary or co-pack agreement</td><td>Commissary license + supply contract</td><td>3</td></tr><tr><td>Refrigerated transport</td><td>Refer truck cert + temp-log capability</td><td>3</td></tr><tr><td>Telemetry on cold cabinets</td><td>Vendor + alert SLA</td><td>3</td></tr><tr><td>Pull-and-rotate cadence</td><td>Daily or 2x daily evidence</td><td>3</td></tr><tr><td>Recall procedure</td><td>Written 4-hour recall SOP</td><td>3</td></tr><tr><td>Allergen labeling</td><td>FALCPA-compliant labels per SKU</td><td>3</td></tr><tr><td>Date-marking SOP</td><td>Per FDA 3-501.17 evidence</td><td>3</td></tr><tr><td>Insurance + liability</td><td>$2M GL + product-liability cert</td><td>3</td></tr></tbody></table>
+<h2>4. Equipment platforms commonly used</h2><dl><dt>AVI / Coca-Cola Freestyle Fresh</dt><dd>Refrigerated grab-and-go with RFID checkout; 25-45 SKU capacity; common in healthcare + corporate.</dd><dt>365 Retail Markets PicoCooler / SmartCooler</dt><dd>Self-checkout cooler, app or kiosk pay, badge-integrated for closed-loop.</dd><dt>AWM Smart Shelf</dt><dd>AI-vision cooler — open door, take items, auto-charge. 40-60 SKU capacity.</dd><dt>Avanti Markets MicroMarket</dt><dd>Open-shelf micro-market with self-checkout kiosk; fresh + frozen + ambient combined.</dd><dt>Refrigerated spiral vendor</dt><dd>Crane Merchant 6 / Fastcorp 632 retrofit for refrigerated SKUs; lower capacity but lower capex.</dd></dl>
+<h2>5. Supply-chain interview script</h2><p>Use this script during operator selection. Each question should yield a documentable answer.</p><ol class="steps"><li><strong>Commissary</strong><p>Where is the commissary? Who owns it? When was the last health-department inspection and what was the score?</p></li><li><strong>Co-pack relationships</strong><p>Which co-packers supply prepped salads / wraps / sandwiches? Are co-packers FSMA-PCQI certified?</p></li><li><strong>Transport</strong><p>Refrigerated transport — own fleet or 3PL? Average dock-to-machine time? Temperature data logger on every trip?</p></li><li><strong>Restock cadence</strong><p>Daily or 2x daily for high-turn sites? Pull-and-rotate schedule documented?</p></li><li><strong>Date marking</strong><p>How is the consume-by date determined? Is it per FDA 3-501.17 (≤ 7 days at 41°F)? Operator-side discard SOP at expiry?</p></li><li><strong>Recall capability</strong><p>If a supplier issues a recall, how fast can the operator pull SKUs from every machine in the portfolio? Documented &lt; 4 hours?</p></li><li><strong>Waste metric</strong><p>What is the current waste % on fresh? Industry baseline 8-12%; capable operators run 4-6%.</p></li><li><strong>Cold-chain audit rights</strong><p>Can host pull cold-chain logs and audit randomly?</p></li></ol>
+<h2>6. Cold-chain SLA template</h2><dl><dt>Monitoring</dt><dd>Cellular telemetry probe, 5-minute sampling, dashboard visible to operator + host.</dd><dt>Tier 1 alert</dt><dd>Internal temp &gt; 41°F for ≥ 30 min → immediate operator dispatch, 4-hour on-site SLA, SKU pull + full credit.</dd><dt>Tier 2 alert</dt><dd>Compressor short-cycle, door ajar &gt; 5 min → 24-hour response.</dd><dt>Door-open audit</dt><dd>Every dispense event timestamped; sustained door-open beyond authorized restock flagged.</dd><dt>Product loss</dt><dd>Operator-borne discard at excursion or expiry; never passed to host or sold post-excursion.</dd></dl>
+<h2>7. Reporting + governance</h2><ul class="checklist"><li><span class="box"></span>Monthly cold-chain log export.</li><li><span class="box"></span>Per-SKU waste % and discard log.</li><li><span class="box"></span>Pull-and-rotate event log.</li><li><span class="box"></span>Recall drill record (annual).</li><li><span class="box"></span>Quarterly business review with planogram refresh.</li><li><span class="box"></span>Annual operator audit (random — host or third party).</li></ul>
+<h2>8. Capability framing</h2><p>We are equipped to match qualifying hosts with operators that hold state retail food permits, run HACCP plans, and operate refrigerated transport. We do not represent that any specific operator currently has capacity in your service area — that is confirmed at intake.</p>
+<footer>This pack is informational. Confirm food-code requirements with the state or local health authority of jurisdiction.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

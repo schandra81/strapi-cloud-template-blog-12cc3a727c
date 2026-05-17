@@ -1,0 +1,116 @@
+[
+  {
+    "type": "pack",
+    "slug": "custom-coffee-service-packages-for-corporate-offices",
+    "category": "blog-category",
+    "excerpt": "Get the custom OCS framework — Want the custom OCS package framework — seven dimensions, matrix-mapped bundles, and reference-check guidance?"
+  },
+  {
+    "type": "pack",
+    "slug": "office-coffee-machine-maintenance",
+    "category": "blog-category",
+    "excerpt": "Get the coffee maintenance pack — Want the office coffee maintenance pack (daily checklist, OCS contract scope, descaling cadence, water filtration spec, quarterly PM documentation)?"
+  },
+  {
+    "type": "pack",
+    "slug": "smart-office-coffee-machine-features",
+    "category": "blog-category",
+    "excerpt": "Get the smart machine pack — Want the smart office coffee machine pack (six-feature framework, equipment shortlist, mobile app onboarding, network connectivity spec, OCS integration)?"
+  },
+  {
+    "type": "pack",
+    "slug": "carbon-footprint-of-vending-machines",
+    "category": "eco-friendly-vending",
+    "excerpt": "Get the carbon framework — Want the vending carbon footprint analysis framework (electricity + refrigerant + vehicle + packaging) and reduction stack?"
+  },
+  {
+    "type": "pack",
+    "slug": "eco-friendly-vending-in-offices",
+    "category": "eco-friendly-vending",
+    "excerpt": "Get the office sustainability framework — Want the office vending sustainability framework (ENERGY STAR + low-GWP + telemetry + packaging + recycling + ESG reporting)?"
+  },
+  {
+    "type": "pack",
+    "slug": "eco-friendly-vending-in-schools",
+    "category": "eco-friendly-vending",
+    "excerpt": "Get the eco-school framework — Want the eco-friendly school vending framework (ENERGY STAR + low-GWP + telemetry + packaging + recycling + hydration)?"
+  },
+  {
+    "type": "pack",
+    "slug": "sustainable-packaging-in-vending",
+    "category": "eco-friendly-vending",
+    "excerpt": "Get the sustainable packaging framework — Want the sustainable packaging vending framework (seven shifts, supplier procurement criteria, corporate sustainability mandate alignment)?"
+  },
+  {
+    "type": "pack",
+    "slug": "healthy-snack-options-for-vending-machines",
+    "category": "healthy-vending-service",
+    "excerpt": "Get the healthy snack pack — Want the healthy snack vending pack (threshold framework, SKU catalog by category, planogram templates, measurement framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "healthy-vending-machines-for-schools",
+    "category": "healthy-vending-service",
+    "excerpt": "Get the school vending pack — Want the school healthy vending pack (Smart Snacks compliance framework, SKU catalog, audit documentation template, operator selection checklist)?"
+  },
+  {
+    "type": "pack",
+    "slug": "low-sugar-vending-machine-products",
+    "category": "healthy-vending-service",
+    "excerpt": "Get the low-sugar pack — Want the low-sugar vending pack (threshold framework, SKU catalog, planogram templates, measurement framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "non-gmo-vending-products",
+    "category": "healthy-vending-service",
+    "excerpt": "Get the Non-GMO pack — Want the Non-GMO vending pack (certification framework comparison, certified SKU catalog by category, planogram templates, measurement framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "plant-based-protein-vending-choices",
+    "category": "healthy-vending-service",
+    "excerpt": "Get the plant-based vending pack — Want the plant-based protein vending planogram framework (six categories + demographic matching + velocity tracking)?"
+  },
+  {
+    "type": "pack",
+    "slug": "breakroom-snack-and-beverage-packages",
+    "category": "office-vending-services",
+    "excerpt": "Get the package toolkit — Want the office snack and beverage package toolkit (survey template, archetype selector, planogram framework, ESG sourcing checklist, quarterly review template)?"
+  },
+  {
+    "type": "pack",
+    "slug": "refrigerated-vending-machines-for-offices",
+    "category": "office-vending-services",
+    "excerpt": "Get the refrigerated equipment pack — Want the refrigerated office vending equipment pack (glass-front + combo + fresh food + AI cooler specifications + ENERGY STAR + R-290 + HACCP framework)?"
+  },
+  {
+    "type": "pack",
+    "slug": "seasonal-promotional-vending",
+    "category": "office-vending-services",
+    "excerpt": "Get the seasonal vending pack — Want the seasonal + promotional vending pack (annual calendar + five mechanics + ERG + DEI + wellness integration + brand partnership + member-app reward)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-for-shared-workspaces",
+    "category": "office-vending-services",
+    "excerpt": "Get the coworking vending pack — Want the shared workspace vending pack (operator-neutral + tenant-management integration + multi-language + dietary inclusivity + hospitality-grade aesthetic)?"
+  },
+  {
+    "type": "pack",
+    "slug": "vending-machines-for-tech-startups",
+    "category": "office-vending-services",
+    "excerpt": "Get the tech startup pack — Want the tech startup vending pack (stage transitions + dietary inclusivity + wellness-app integration + ESG sourcing)?"
+  },
+  {
+    "type": "pack",
+    "slug": "waste-recycling-vending",
+    "category": "office-vending-services",
+    "excerpt": "Get the sustainability framework — Want the office vending waste + recycling framework (packaging + bins + supplier + telemetry + ESG QBR)?"
+  },
+  {
+    "type": "pack",
+    "slug": "frozen-food-vending-machines",
+    "category": "specialty-vending-machines",
+    "excerpt": "Get the frozen vending pack — Want the frozen food vending pack (equipment specifications, FSMA compliance framework, placement criteria, operator capability profile)?"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_clause_flags",
+  "info": {
+    "displayName": "Clause flag",
+    "description": "Negotiate / watch flag pill on a contract clause card"
+  },
+  "options": {},
+  "attributes": {
+    "tone": { "type": "enumeration", "enum": ["neg", "watch"], "default": "neg" },
+    "label": { "type": "string", "required": true }
+  }
+}

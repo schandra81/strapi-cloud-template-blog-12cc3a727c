@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_arch_blocks",
+  "info": {
+    "displayName": "Architecture block",
+    "description": "Single block in a system-architecture tier"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "sub": { "type": "string" },
+    "variant": { "type": "enumeration", "enum": ["default", "dark", "blue", "orange"], "default": "default" }
+  }
+}

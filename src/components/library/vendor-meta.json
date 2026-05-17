@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_vendor_meta",
+  "info": {
+    "displayName": "Vendor meta",
+    "description": "Bold label / plain value pair shown on vendor cards"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "value": { "type": "string", "required": true }
+  }
+}

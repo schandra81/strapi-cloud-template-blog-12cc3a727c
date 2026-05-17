@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_library_block_contract_clause",
+  "info": {
+    "displayName": "Block · Contract clause card",
+    "icon": "file-contract",
+    "description": "Single contract clause with quote, flags, and a tip."
+  },
+  "options": {},
+  "attributes": {
+    "clauseNumber": { "type": "string" },
+    "title": { "type": "string", "required": true },
+    "subtitle": { "type": "string" },
+    "quote": { "type": "text", "required": true },
+    "flags": { "type": "component", "repeatable": true, "component": "library.clause-flag" },
+    "tipTitle": { "type": "string", "default": "Tip" },
+    "tipBody": { "type": "text" }
+  }
+}

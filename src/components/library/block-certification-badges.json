@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_block_certification_badges",
+  "info": {
+    "displayName": "Block · Certification badges",
+    "icon": "certificate",
+    "description": "Row of certification badges."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "badges": { "type": "component", "repeatable": true, "component": "library.cert-badge" }
+  }
+}

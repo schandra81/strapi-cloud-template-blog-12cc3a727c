@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_security_layer_stack",
+  "info": {
+    "displayName": "Block · Security layer stack",
+    "icon": "shield-halved",
+    "description": "Vertical stack of defense-in-depth layers, each with a tagline and feature list. Reusable for any 'layered architecture' explainer."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "layers": { "type": "component", "repeatable": true, "component": "library.security-layer", "min": 2 },
+    "footnote": { "type": "text" }
+  }
+}

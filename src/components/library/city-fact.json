@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_city_facts",
+  "info": {
+    "displayName": "City fact",
+    "description": "Label / value fact tile shown in city hero"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "value": { "type": "string", "required": true },
+    "wide": { "type": "boolean", "default": false }
+  }
+}

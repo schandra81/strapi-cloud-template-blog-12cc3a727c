@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>School Vending Food-Waste Reduction Framework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>School Vending Food-Waste Reduction Framework</h1>
+  <p class="subtitle">Telemetry, shelf-life management, donation, packaging, and a measurement dashboard</p>
+</header>
+<p>USDA estimates 30-40% of the US food supply is wasted (USDA ERS food-loss reports), with school food service contributing significantly. Vending-specific waste comes from expired perishables, slow-moving SKUs, and oversized packaging. This framework codifies five levers — telemetry, shelf-life management, donation, packaging, and dashboard reporting — so a district is equipped to drive vending waste below 5% of perishable SKU volume.</p>
+<h2>1. Telemetry foundation</h2><p>Without per-SKU telemetry, waste reduction is guesswork. Telemetry baselines waste rates and signals when shelf-life or planogram changes are needed. Cantaloupe, Nayax, 365 Retail Markets, AWM Smart Shelf, or comparable systems support the metrics below.</p><dl><dt>Per-SKU velocity</dt><dd>Daily velocity by SKU; bottom-20% velocity SKUs are candidates for planogram swap.</dd><dt>Shelf-life remaining</dt><dd>Per-SKU days-to-expiration tracked at restock; alerts when stock-on-hand exceeds expected sell-through.</dd><dt>Temperature excursion</dt><dd>Refrigerated units: 4-hour SLA alarm at any deviation outside 35-40°F (FDA Food Code Section 3-501.16).</dd><dt>Stockout vs. expiration ratio</dt><dd>Target stockouts and expirations at parity; expired-volume &gt; 2x stockouts indicates over-stocking.</dd></dl>
+<h2>2. Shelf-life management</h2><p>Shelf-life management has three rules: first-in-first-out at every restock, planogram depth right-sized to sell-through, and removal of any item within 2 days of expiration.</p><ol class="steps"><li><strong>FIFO at every restock</strong><p>Restock crew rotates older stock forward; new stock loaded behind. Operator attests to FIFO compliance at each visit.</p></li><li><strong>Right-sized planogram depth</strong><p>Depth = (telemetry-derived weekly velocity / restock cadence) × 1.3 safety factor. Excess depth drives expirations.</p></li><li><strong>2-day pull rule</strong><p>Any SKU within 2 days of best-by date is pulled and either donated (where permitted) or discarded; documented in the operator log.</p></li><li><strong>Slow-mover demotion</strong><p>SKUs with &lt; 25% sell-through over 4 weeks are demoted to lower-traffic slots or pulled from planogram.</p></li></ol>
+<h2>3. Donation pathway (Bill Emerson Good Samaritan Act)</h2><p>The Bill Emerson Good Samaritan Food Donation Act (42 U.S.C. § 1791) protects donors of apparently wholesome food from civil and criminal liability. Vending operators can donate near-expiration SKUs to local pantries or backpack programs through Feeding America&#39;s partner network.</p><ul class="checklist"><li><span class="box"></span>Operator has a signed donation MOU with a local Feeding America partner or pantry.</li><li><span class="box"></span>Donation log maintained at the operator warehouse; weight + date + recipient.</li><li><span class="box"></span>Refrigerated donations maintain cold chain per FDA Food Code 3-501.16 (≤ 41°F).</li><li><span class="box"></span>District wellness committee informed of donation pathway.</li><li><span class="box"></span>Annual review of donation volume + recipient relationships.</li></ul>
+<h2>4. Packaging strategy</h2><p>Packaging contributes both to waste volume and to spoilage risk. Single-serve packaging with proper barrier properties extends shelf life and reduces overpurchasing.</p><dl><dt>Barrier packaging</dt><dd>Multi-layer film for fresh-food extends shelf life 30-50% vs single-layer (per FDA Food Code-aligned packaging guidance).</dd><dt>Single-serve sizing</dt><dd>Smart Snacks-compliant single-serve packs reduce both calorie exposure and over-purchasing waste.</dd><dt>Date labeling clarity</dt><dd>FDA + USDA endorse &#39;Best If Used By&#39; as the standard quality date; reduces premature discard.</dd><dt>Recyclable / compostable</dt><dd>Where commercial composting is available, switch hot-food packaging to certified compostable per BPI standards.</dd></dl>
+<h2>5. Measurement dashboard</h2><p>Dashboard combines telemetry and operator-log data into five KPIs reported quarterly.</p><table><thead><tr><th>KPI</th><th>Definition</th><th>Target</th><th>Alert threshold</th></tr></thead><tbody><tr><td>Expired-unit rate</td><td>Expired units / total restocked units</td><td>&lt; 3%</td><td>&gt; 5%</td></tr><tr><td>Donation rate</td><td>Donated units / total restocked units</td><td>1-3%</td><td>&lt; 0.5% indicates donation pathway is underused</td></tr><tr><td>Stockout rate</td><td>Stockout hours / total operating hours</td><td>&lt; 3%</td><td>&gt; 5%</td></tr><tr><td>Sell-through (bottom 25%)</td><td>Sell-through rate of bottom-quartile SKUs</td><td>≥ 20%</td><td>&lt; 15% triggers planogram swap</td></tr><tr><td>Temperature excursion count</td><td>Excursions outside 35-40°F per machine per month</td><td>0-1</td><td>≥ 3 triggers hardware review</td></tr></tbody></table>
+<h2>6. Quarterly review checklist</h2><ul class="checklist"><li><span class="box"></span>Expired-unit rate report by machine and by SKU category.</li><li><span class="box"></span>Donation log review with operator + wellness committee.</li><li><span class="box"></span>Planogram refresh list (bottom-quartile SKU swap).</li><li><span class="box"></span>Temperature excursion log with root-cause for each event.</li><li><span class="box"></span>Packaging review — any SKUs to migrate to extended-shelf-life packaging?</li><li><span class="box"></span>Annual food-waste reduction target set for next quarter.</li></ul>
+<h2>7. Operator capability checklist</h2><ul class="checklist"><li><span class="box"></span>Operator has 24+ months of K-12 fresh-food experience.</li><li><span class="box"></span>Operator&#39;s telemetry reports per-SKU velocity, shelf-life days, and temperature alarms.</li><li><span class="box"></span>Operator carries a signed donation MOU with a Feeding America partner.</li><li><span class="box"></span>Operator attests to FIFO at every restock visit.</li><li><span class="box"></span>Operator&#39;s 2-day pull rule is documented in the SLA.</li><li><span class="box"></span>Operator delivers quarterly food-waste KPI report.</li></ul>
+<footer>This framework is a working operational reference. Confirm the donation pathway with local public health authorities and ensure cold-chain compliance per FDA Food Code 3-501.16 for any refrigerated donations.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

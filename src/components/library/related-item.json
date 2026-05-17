@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_related_items",
+  "info": {
+    "displayName": "Related item",
+    "description": "Card in a related-guides grid"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "title": { "type": "string", "required": true },
+    "description": { "type": "string", "required": true },
+    "href": { "type": "string", "required": true }
+  }
+}

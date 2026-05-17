@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_library_bvl_options",
+  "info": {
+    "displayName": "Buy/lease option",
+    "description": "Single buy or lease option card"
+  },
+  "options": {},
+  "attributes": {
+    "iconText": { "type": "string", "required": true },
+    "name": { "type": "string", "required": true },
+    "tag": { "type": "string", "required": true },
+    "stats": { "type": "component", "repeatable": true, "component": "library.bvl-stat" },
+    "whenToChoose": { "type": "text", "required": true },
+    "isBest": { "type": "boolean", "default": false }
+  }
+}

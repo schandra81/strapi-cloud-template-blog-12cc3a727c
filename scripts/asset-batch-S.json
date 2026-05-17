@@ -1,0 +1,116 @@
+[
+  {
+    "type": "guide",
+    "slug": "best-vending-machines-for-industrial-facilities",
+    "category": "vending-for-warehouses",
+    "excerpt": "Get the industrial equipment guide — Want the industrial vending equipment selection framework — heavy-duty specifications, site survey checklist, and service contract structure?"
+  },
+  {
+    "type": "toolkit",
+    "slug": "breakroom-refreshment-solutions",
+    "category": "office-vending-services",
+    "excerpt": "Get the breakroom toolkit — Want the layered breakroom refreshment program toolkit (employee survey template, RFP framework, planogram design, ESG checklist, quarterly review template)?"
+  },
+  {
+    "type": "toolkit",
+    "slug": "managing-vending-contracts-agencies",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the agency toolkit — Want the agency contract-management toolkit (quarterly agenda, commission reconciliation template, healthy-vending audit checklist)?"
+  },
+  {
+    "type": "toolkit",
+    "slug": "vending-government-employee-wellness",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the wellness vending toolkit — Want the federal wellness vending implementation toolkit (planogram template, subsidy structure, outcome measurement framework)?"
+  },
+  {
+    "type": "toolkit",
+    "slug": "customer-satisfaction-vending-management",
+    "category": "vending-management-companies",
+    "excerpt": "Get the satisfaction toolkit — Want the customer satisfaction measurement toolkit (NPS survey, SLA tracker, end-user feedback templates)?"
+  },
+  {
+    "type": "toolkit",
+    "slug": "vending-management-post-implementation",
+    "category": "vending-management-companies",
+    "excerpt": "Get the governance toolkit — Want the post-implementation governance toolkit (QBR template, SLA tracker, annual review checklist)?"
+  },
+  {
+    "type": "worksheet",
+    "slug": "high-capacity-coffee-makers-for-large-offices",
+    "category": "blog-category",
+    "excerpt": "Get the large-office coffee framework — Want the high-capacity office coffee framework (cup-volume sizing worksheet, multi-machine specification template, service contract matrix, OCS RFP template)?"
+  },
+  {
+    "type": "worksheet",
+    "slug": "gym-vending-profit",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the economics worksheet — Want the gym vending economics worksheet — revenue scenarios, commission tiers, and self-vs-operator comparison?"
+  },
+  {
+    "type": "worksheet",
+    "slug": "gym-vending-roi-calculator",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the ROI worksheet — Want the gym vending ROI worksheet (format benchmarks, commission tier negotiation, ancillary value calculation)?"
+  },
+  {
+    "type": "worksheet",
+    "slug": "stocking-gym-vending-machines",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the planogram worksheet — Want the gym vending planogram worksheet — category share, top SKUs, and rotation cadence?"
+  },
+  {
+    "type": "pdf",
+    "slug": "what-are-the-dimensions-of-a-vending-machine",
+    "category": "",
+    "excerpt": "Get the site-survey PDF — Want a free site-survey checklist (PDF) you can hand to your facilities team before the install?"
+  },
+  {
+    "type": "pdf",
+    "slug": "how-are-vending-machines-installed",
+    "category": "vending-faq",
+    "excerpt": "Get the site survey PDF — Want the 28-point pre-install site survey checklist (PDF) you can hand to facilities before the operator arrives?"
+  },
+  {
+    "type": "matrix",
+    "slug": "ai-vending-data-analytics-product-trends",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the analytics framework — Want the AI vending data analytics framework (capability matrix + analytics platform + planogram + customer cohort)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "best-ai-vending-companies-2025",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the AI vending selection framework — Want the AI vending company selection framework (category matrix + capability rubric + reference checks)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "how-to-choose-office-coffee-service",
+    "category": "blog-category",
+    "excerpt": "Get the OCS framework — Want the office coffee service framework (RFP + capability matrix + service model + bean tier + maintenance SLA)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "office-coffee-vendors-near-me",
+    "category": "blog-category",
+    "excerpt": "Get the vendor selection framework — Want the office coffee vendor selection framework (category matrix + capability rubric + service radius + SLA)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "vending-machine-financing-options",
+    "category": "vending-business-startup",
+    "excerpt": "Get the financing framework — Want the vending financing decision framework (cash vs equipment financing vs SBA vs lease + credit-tier APR matrix + total cost of capital calculator)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "vending-services-for-apartment-buildings",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the apartment vending framework — Want the apartment building vending placement framework (program tier + zone matrix + operator capability)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "benefits-of-vending-in-entertainment-venues",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the benefit framework — Want the entertainment venue vending benefit framework (benefit-stack measurement, operator capability matrix, sponsor activation template)?"
+  }
+]

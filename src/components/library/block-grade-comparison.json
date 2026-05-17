@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_grade_comparison",
+  "info": {
+    "displayName": "Block · Grade-level comparison",
+    "icon": "graduation-cap",
+    "description": "K-5 / 6-8 / 9-12 side-by-side cards."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "grades": { "type": "component", "repeatable": true, "component": "library.grade-card" }
+  }
+}

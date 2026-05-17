@@ -26,6 +26,11 @@ export interface AdminApiToken extends Struct.CollectionTypeSchema {
       Schema.Attribute.SetMinMaxLength<{
         minLength: 1;
       }>;
+    adminPermissions: Schema.Attribute.Relation<
+      'oneToMany',
+      'admin::permission'
+    >;
+    adminUserOwner: Schema.Attribute.Relation<'manyToOne', 'admin::user'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -39,6 +44,9 @@ export interface AdminApiToken extends Struct.CollectionTypeSchema {
         minLength: 1;
       }>;
     expiresAt: Schema.Attribute.DateTime;
+    kind: Schema.Attribute.Enumeration<['content-api', 'admin']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'content-api'>;
     lastUsedAt: Schema.Attribute.DateTime;
     lifespan: Schema.Attribute.BigInteger;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
@@ -56,7 +64,6 @@ export interface AdminApiToken extends Struct.CollectionTypeSchema {
     >;
     publishedAt: Schema.Attribute.DateTime;
     type: Schema.Attribute.Enumeration<['read-only', 'full-access', 'custom']> &
-      Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'read-only'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -134,6 +141,7 @@ export interface AdminPermission extends Struct.CollectionTypeSchema {
         minLength: 1;
       }>;
     actionParameters: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<{}>;
+    apiToken: Schema.Attribute.Relation<'manyToOne', 'admin::api-token'>;
     conditions: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -385,6 +393,8 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
+    apiTokens: Schema.Attribute.Relation<'oneToMany', 'admin::api-token'> &
+      Schema.Attribute.Private;
     blocked: Schema.Attribute.Boolean &
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
@@ -559,6 +569,48 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
       'manyToOne',
       'api::blog-category.blog-category'
     >;
+    contentBlocks: Schema.Attribute.DynamicZone<
+      [
+        'library.block-rich-text',
+        'library.block-tldr-quick-answer',
+        'library.block-key-takeaways',
+        'library.block-stat-strip',
+        'library.block-comparison-table',
+        'library.block-cost-breakdown',
+        'library.block-timeline',
+        'library.block-tip-cards',
+        'library.block-case-study',
+        'library.block-spec-list',
+        'library.block-compliance-card',
+        'library.block-lead-magnet',
+        'library.block-testimonial-quote',
+        'library.block-inline-cta',
+        'library.block-source-citations',
+        'library.block-related-guides',
+        'library.block-hours-grid',
+        'library.block-grade-comparison',
+        'library.block-nutrition-label',
+        'library.block-decision-tree',
+        'library.block-red-flag-checklist',
+        'library.block-contract-clause',
+        'library.block-vendor-cards',
+        'library.block-dual-audience',
+        'library.block-fundraising-calculator',
+        'library.block-buy-vs-lease',
+        'library.block-pl-table',
+        'library.block-franchise-matrix',
+        'library.block-system-architecture',
+        'library.block-sales-pipeline',
+        'library.block-floorplan',
+        'library.block-certification-badges',
+        'library.block-image-with-caption',
+        'library.block-author-card',
+        'library.block-sample-statement',
+        'library.block-tabbed-faq',
+        'library.block-dimension-diagram',
+        'library.block-security-layer-stack',
+      ]
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -705,6 +757,36 @@ export interface ApiCityCity extends Struct.CollectionTypeSchema {
     cityStats: Schema.Attribute.Component<'shared.stat', true>;
     cityVendingScene: Schema.Attribute.RichText;
     cityYoutubeVideoUrl: Schema.Attribute.String;
+    contentBlocks: Schema.Attribute.DynamicZone<
+      [
+        'library.block-city-hero',
+        'library.block-trust-strip',
+        'library.block-tldr-quick-answer',
+        'library.block-key-takeaways',
+        'library.block-stat-strip',
+        'library.block-spec-list',
+        'library.block-city-industry-grid',
+        'library.block-city-anchor-employers',
+        'library.block-comparison-table',
+        'library.block-cost-breakdown',
+        'library.block-timeline',
+        'library.block-tip-cards',
+        'library.block-case-study',
+        'library.block-testimonial-quote',
+        'library.block-inline-cta',
+        'library.block-contact-form',
+        'library.block-facility-badging-matrix',
+        'library.block-city-image-strip',
+        'library.block-tip-cards',
+        'library.block-lead-magnet',
+        'library.block-nearby-cities-grid',
+        'library.block-tabbed-faq',
+        'library.block-author-card',
+        'library.block-source-citations',
+        'library.block-related-guides',
+        'library.block-rich-text',
+      ]
+    >;
     contentStatus: Schema.Attribute.Enumeration<
       ['needs-content', 'ai-draft', 'human-reviewed', 'published']
     > &
@@ -922,6 +1004,78 @@ export interface ApiLandingPageLandingPage extends Struct.SingleTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+  };
+}
+
+export interface ApiLeadCaptureLeadCapture extends Struct.CollectionTypeSchema {
+  collectionName: 'lead_captures';
+  info: {
+    description: 'Form submissions for gated resource downloads';
+    displayName: 'Lead capture';
+    pluralName: 'lead-captures';
+    singularName: 'lead-capture';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    assetSlug: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 200;
+      }>;
+    assetType: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 40;
+      }>;
+    category: Schema.Attribute.Enumeration<
+      ['facility-manager', 'vending-operator']
+    > &
+      Schema.Attribute.DefaultTo<'facility-manager'>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    downloadUrl: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 500;
+      }>;
+    email: Schema.Attribute.Email &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 200;
+      }>;
+    ipAddress: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 64;
+      }>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::lead-capture.lead-capture'
+    > &
+      Schema.Attribute.Private;
+    mobile: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 40;
+      }>;
+    name: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 200;
+      }>;
+    publishedAt: Schema.Attribute.DateTime;
+    sourceUrl: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 500;
+      }>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    userAgent: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 500;
+      }>;
   };
 }
 
@@ -1491,6 +1645,7 @@ declare module '@strapi/strapi' {
       'api::global.global': ApiGlobalGlobal;
       'api::industry.industry': ApiIndustryIndustry;
       'api::landing-page.landing-page': ApiLandingPageLandingPage;
+      'api::lead-capture.lead-capture': ApiLeadCaptureLeadCapture;
       'api::operator-page.operator-page': ApiOperatorPageOperatorPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

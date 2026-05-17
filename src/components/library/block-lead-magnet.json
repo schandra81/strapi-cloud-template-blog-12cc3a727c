@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_library_block_lead_magnet",
+  "info": {
+    "displayName": "Block · Lead magnet",
+    "icon": "download",
+    "description": "Downloadable resource CTA card. Conversion surface."
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "subtitle": { "type": "string", "required": true },
+    "buttonLabel": { "type": "string", "required": true },
+    "buttonHref": { "type": "string", "required": true },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "iconText": { "type": "string", "default": "★" }
+  }
+}

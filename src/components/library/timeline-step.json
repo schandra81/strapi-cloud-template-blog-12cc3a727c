@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_timeline_steps",
+  "info": {
+    "displayName": "Timeline step",
+    "description": "Single step in a numbered process timeline"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" },
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text", "required": true },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images"] }
+  }
+}

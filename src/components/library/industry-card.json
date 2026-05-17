@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_industry_cards",
+  "info": {
+    "displayName": "Industry card",
+    "description": "One vertical / industry tile on a city page (e.g. Office, Schools, Healthcare)"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "description": { "type": "string" },
+    "href": { "type": "string", "required": true },
+    "iconText": { "type": "string" }
+  }
+}

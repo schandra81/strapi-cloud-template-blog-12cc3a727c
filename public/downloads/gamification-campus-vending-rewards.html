@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Campus Vending Gamification Program Design Guide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Campus Vending Gamification Program Design Guide</h1>
+  <p class="subtitle">Integration architecture, benefit design, measurement, and operator scoping</p>
+</header>
+<p>Use this guide to design a gamification + rewards program tied to campus vending. Well-designed gamification can lift cashless conversion 15-25% and average ticket 5-12% (industry benchmarks from Cantaloupe, Nayax, and 365 Retail Markets case data), while also serving institutional goals around wellness, food security, and student engagement. Bad design rewards bad behavior — this guide covers both sides.</p>
+<h2>1. Integration architecture</h2><p>Three integration layers determine what is technically possible: payment, identity, and content.</p><dl><dt>Payment integration</dt><dd>Vending operator&#39;s payment platform (Apple Pay / Google Pay / NFC + chip) must support promotional pricing rules and points accrual. Confirm operator&#39;s platform — Cantaloupe Seed, Nayax Engagement, 365 Retail Markets, or comparable.</dd><dt>Identity integration</dt><dd>Pseudonymous token from campus card platform (Blackboard, CBORD, TouchNet, Atrium) so accrual ties to a student without exposing PII to operator. FERPA-aligned data minimization.</dd><dt>Content + reward integration</dt><dd>Reward catalog hosted in campus app or operator app; redemption flow either a one-tap at machine or a code-generated voucher. Confirm UX before launch.</dd></dl>
+<h2>2. Benefit design</h2><p>Benefit design separates programs that build habit from programs that subsidize buyers who would have bought anyway. The framework below mixes accrual + activity rewards.</p><table><thead><tr><th>Reward type</th><th>Mechanic</th><th>Best for</th></tr></thead><tbody><tr><td>Accrual (points per dollar)</td><td>Earn N points per $; redeem at threshold (e.g., $25 = 1 free drink)</td><td>Drives baseline cashless conversion + repeat use</td></tr><tr><td>Streak (consecutive-day or visit)</td><td>Maintain N-day streak; bonus point or unlock</td><td>Habit formation; useful for wellness goals</td></tr><tr><td>Challenge (category-specific)</td><td>Buy from 3 healthy categories in 1 week; unlock reward</td><td>Drives mix shift toward wellness-aligned SKUs</td></tr><tr><td>Time-of-day micro-reward</td><td>10% off between 7-9 AM (breakfast push)</td><td>Smooths velocity, builds morning habit</td></tr><tr><td>Social / cohort</td><td>Residence-hall cohort competition; top hall earns vending credit pool</td><td>Engagement + community-building</td></tr><tr><td>Wellness-tied</td><td>Integration with rec-center check-in (worked out + vending purchase same day = bonus)</td><td>Reinforces wellness behavior</td></tr></tbody></table>
+<h2>3. Anti-pattern guard</h2><p>Gamification can backfire. Watch for these.</p><ul class="checklist"><li><span class="box"></span>Avoid rewards that drive over-consumption of high-calorie / high-sugar SKUs. Cap daily redemptions; weight reward catalog toward water + balanced SKUs.</li><li><span class="box"></span>Avoid rewards that disadvantage low-income students. Open accrual to all transactions including SNAP-WIC where supported; never require minimum spend to participate.</li><li><span class="box"></span>Avoid identifiable individual leaderboards. Cohort or anonymous-percentile only; protects FERPA + student dignity.</li><li><span class="box"></span>Avoid time-locked rewards that exclude shift students or evening attendees. Multiple redemption windows preferred.</li><li><span class="box"></span>Avoid mandatory app download. Provide tap-and-go fallback for students without smartphone access.</li></ul>
+<h2>4. Measurement framework</h2><ol class="steps"><li><strong>Baseline metrics (pre-launch)</strong><p>Cashless conversion %, average ticket, units per transaction, monthly active token count, category-mix %.</p></li><li><strong>Engagement metrics (post-launch)</strong><p>Token enrollment %, redemption rate, repeat-redemption rate, streak length distribution, challenge-completion rate.</p></li><li><strong>Mix-shift metrics</strong><p>% of units in healthy-category SKUs pre- vs. post-launch; correlate with wellness-tied challenges.</p></li><li><strong>Revenue metrics</strong><p>Average ticket lift; UPT lift; net revenue lift after reward cost; payback period on program operating cost.</p></li><li><strong>Equity metrics</strong><p>Enrollment + redemption by college, by year, by Pell-status (institutional aggregate only). Ensures program isn&#39;t concentrating benefit on already-advantaged students.</p></li></ol>
+<h2>5. Operator scoping checklist</h2><ul class="checklist"><li><span class="box"></span>Operator&#39;s platform supports promotional pricing rules (time-of-day, category-specific, code-redemption).</li><li><span class="box"></span>Operator integrates with campus card platform via documented API (Blackboard / CBORD / TouchNet / Atrium).</li><li><span class="box"></span>Operator provides telemetry-level data on redemption events (FERPA-aligned aggregate).</li><li><span class="box"></span>Operator&#39;s app or campus-app integration UX tested with student focus group before launch.</li><li><span class="box"></span>Reward cost (foregone revenue + administrative cost) shared between institution + operator per signed schedule.</li><li><span class="box"></span>Quarterly review cadence with student affairs, auxiliary services, and operator to refresh challenge catalog.</li></ul>
+<h2>6. Launch + iteration cadence</h2><dl><dt>Pilot (Months 1-3)</dt><dd>Launch with 2-3 mechanics (accrual + 1 challenge); measure baseline lift; gather student-focus-group feedback.</dd><dt>Scale (Months 4-6)</dt><dd>Roll out across full vending network; add wellness-tied + cohort mechanics.</dd><dt>Iterate (ongoing)</dt><dd>Refresh challenge catalog quarterly; sunset mechanics that don&#39;t deliver mix-shift or engagement; add seasonal moments (finals, orientation, homecoming).</dd><dt>Annual review</dt><dd>Full program review with student affairs, dining, auxiliary, and operator; renew or restructure based on outcomes.</dd></dl>
+<footer>Informational guide — confirm with student affairs, FERPA + IT security, and operator before launch. Reward economics should be modeled before commitment.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

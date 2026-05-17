@@ -1,0 +1,116 @@
+[
+  {
+    "type": "playbook",
+    "slug": "benefits-of-micro-markets-for-employees",
+    "category": "micro-market-services",
+    "excerpt": "Get the employee-benefit playbook — Want the office micro-market employee-benefit playbook — assortment, fresh-food, healthy-share, subsidy integration, and engagement-survey measurement?"
+  },
+  {
+    "type": "playbook",
+    "slug": "branding-office-micro-market",
+    "category": "micro-market-services",
+    "excerpt": "Get the branding playbook — Want the office micro-market branding playbook — palette, signage, kiosk skin, wall graphics, accessibility, and workplace navigation integration?"
+  },
+  {
+    "type": "playbook",
+    "slug": "healthy-options-in-micro-markets",
+    "category": "micro-market-services",
+    "excerpt": "Get the healthy-options playbook — Want the micro-market healthy-options playbook — assortment, planograms, dietitian coordination, labeling, dietary coverage, and measurement?"
+  },
+  {
+    "type": "playbook",
+    "slug": "micro-market-design-ideas-for-offices",
+    "category": "micro-market-services",
+    "excerpt": "Get the micro-market design playbook — Want the office micro-market design playbook — layout, fixtures, lighting, signage, theft mitigation, and healthy-share integration?"
+  },
+  {
+    "type": "playbook",
+    "slug": "micro-market-services-for-apartment-complexes",
+    "category": "micro-market-services",
+    "excerpt": "Get the apartment micro-market playbook — Want the apartment micro-market playbook — placement, fob integration, late-night planogram, revenue-share, and amenity-ROI measurement?"
+  },
+  {
+    "type": "playbook",
+    "slug": "how-to-stock-your-office-breakroom",
+    "category": "office-vending-services",
+    "excerpt": "Get the breakroom stocking playbook — Want the office breakroom stocking playbook — SKU category framework, replenishment model selection, allergen labeling, and healthy-share design?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-vs-company-snacks",
+    "category": "office-vending-services",
+    "excerpt": "Get the decision playbook — Want the vending-vs-pantry decision playbook — cost models, assortment comparison, workforce-experience signal, and hybrid program design?"
+  },
+  {
+    "type": "playbook",
+    "slug": "coffee-vending-machines",
+    "category": "specialty-vending-machines",
+    "excerpt": "Get the coffee vending playbook — Want the coffee vending machine selection playbook — category-by-category sizing, water filtration, maintenance cadence, and OCS-vs-DIY framework?"
+  },
+  {
+    "type": "playbook",
+    "slug": "how-to-start-a-vending-machine-business",
+    "category": "vending-business-startup",
+    "excerpt": "Get the launch playbook — Want the launch playbook with parallel track execution and anchor account development?"
+  },
+  {
+    "type": "playbook",
+    "slug": "how-to-stock-your-first-vending-machine",
+    "category": "vending-business-startup",
+    "excerpt": "Get the stocking playbook — Want the first-machine stocking playbook with planogram templates and sourcing reference?"
+  },
+  {
+    "type": "playbook",
+    "slug": "vending-machine-repair-basics",
+    "category": "vending-business-startup",
+    "excerpt": "Get the repair playbook — Want the vending repair playbook with parts inventory + preventive schedule + dispatch protocol?"
+  },
+  {
+    "type": "playbook",
+    "slug": "can-you-get-both-snack-and-drink-machines",
+    "category": "vending-faq",
+    "excerpt": "Get the configuration playbook — Want the snack-and-drink configuration playbook — combo, paired, and multi-machine bank scoping?"
+  },
+  {
+    "type": "playbook",
+    "slug": "how-are-vending-prices-determined",
+    "category": "vending-faq",
+    "excerpt": "Get the pricing playbook — Want the vending pricing playbook — cost-plus structure, placement multipliers, commission obligations, category margins, and market benchmarks?"
+  },
+  {
+    "type": "playbook",
+    "slug": "refunds-for-vending-machine-errors",
+    "category": "vending-faq",
+    "excerpt": "Get the refund ops playbook — Want the vending refund operations playbook (operator RFP language, SLA matrix, customer dispute flow, escalation paths)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "airport-vending-contracts-and-permits",
+    "category": "vending-for-airports",
+    "excerpt": "Get the airport playbook — Want the airport vending permit + RFP playbook (five layers, master concessionaire framework, TSA badging timeline)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "best-places-for-airport-vending",
+    "category": "vending-for-airports",
+    "excerpt": "Get the airport placement playbook — Want the airport vending placement playbook (zones, telemetry-driven sizing, concession coordination)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "inflight-vending-kiosks",
+    "category": "vending-for-airports",
+    "excerpt": "Get the airport vending playbook — Want the airport vending playbook covering gate-area, lounge, and emergency capability?"
+  },
+  {
+    "type": "playbook",
+    "slug": "managing-airport-vending-logistics",
+    "category": "vending-for-airports",
+    "excerpt": "Get the airport ops playbook — Want the airport vending operations playbook (telemetry dispatch model, SIDA badge program template, zone staging design)?"
+  },
+  {
+    "type": "playbook",
+    "slug": "seasonal-airport-vending-trends",
+    "category": "vending-for-airports",
+    "excerpt": "Get the airport seasonal playbook — Want the airport vending seasonal playbook (calendar pivots, planogram shifts, surge crew planning)?"
+  }
+]

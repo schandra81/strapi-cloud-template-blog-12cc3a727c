@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Vending Pricing Playbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Vending Pricing Playbook</h1>
+  <p class="subtitle">Cost-plus structure, placement multipliers, commission obligations, category margins, and market benchmarks</p>
+</header>
+<p>Vending pricing is not &#39;whatever feels right.&#39; It&#39;s a cost-plus structure shaped by category margin targets, placement-class multipliers, commission obligations, and a defensible market benchmark. This playbook codifies the structure LetUsVending operator partners use — referenced against NAMA operator-survey margin norms (Automatic Merchandiser Industry Census), BLS CPI Food-Away-From-Home, FDA 21 CFR 101.8 vending calorie disclosure, and IRS Pub 583 sales-tax handling.</p>
+<h2>1. Cost-plus pricing equation</h2><p>Every shelf price decomposes to four layers. Mature operators carry this math per-SKU in a pricing model.</p><ol class="steps"><li><strong>Layer 1 — landed product cost</strong><p>Wholesale unit cost + freight + receiving labor. Snack landed cost $0.30-$0.95; soda $0.40-$0.55 / 12 oz can; energy $1.50-$2.00 / 8.4 oz can; KIND/RXBAR-class $1.00-$1.55.</p></li><li><strong>Layer 2 — operating cost</strong><p>Route labor, fuel, telemetry SIM, payment processing, depreciation. Industry benchmark $0.30-$0.65 per dispensed item.</p></li><li><strong>Layer 3 — margin target</strong><p>Snack 55-65%; soda 35-45%; energy 40-50%; healthy-share 45-55%; cold-food 40-50%. Blended ~50%.</p></li><li><strong>Layer 4 — placement adjustment</strong><p>Placement-class multiplier (next section) +/- before rounding to a customer-facing price tier ($0.25 increments).</p></li></ol>
+<h2>2. Placement-class multipliers</h2><table><thead><tr><th>Placement class</th><th>Pricing index (baseline = 1.00)</th><th>Examples</th></tr></thead><tbody><tr><td>Class A — captive premium</td><td>1.30-1.60</td><td>Airports, stadiums, hotels, hospitals (visitor zones), tollway plazas</td></tr><tr><td>Class B — captive standard</td><td>1.10-1.25</td><td>Workplaces, healthcare staff areas, large multifamily, college dorms</td></tr><tr><td>Class C — convenience baseline</td><td>1.00</td><td>Workplaces with nearby retail, suburban office parks</td></tr><tr><td>Class D — competitive</td><td>0.85-1.00</td><td>Industrial sites with on-site canteen, schools, military commissaries</td></tr><tr><td>Class E — subsidized</td><td>0.50-0.80 (employer buy-down)</td><td>Employer-subsidized snacks, free-vend programs, recognition events</td></tr></tbody></table>
+<h2>3. Commission obligations + how they roll up</h2><dl><dt>Why commissions exist</dt><dd>Site grants exclusive space + utilities; operator pays a percentage of gross or net as compensation. NAMA operator surveys put median commission at 5-8% of gross at workplace placements.</dd><dt>Commission structure types</dt><dd>Flat % of gross (simplest), tiered % (graduates with volume), $/case, $/vend (rare), or category-tiered (commodity vs. healthy-share split).</dd><dt>Commission cap protection</dt><dd>Operator typically caps commission at a level that preserves a minimum operating margin — sometimes phrased as &#39;commission paid on gross above $X/month&#39;.</dd><dt>Public-sector + concession contracts</dt><dd>Airport / federal-building / school commissions often higher (10-25%+) and routed through a master concessionaire — see the airport playbooks.</dd><dt>Pricing-uplift to fund commission</dt><dd>Class B+ pricing implicitly funds the commission; commission % must be modeled into Layer 4 of the cost-plus equation, not bolted on after the fact.</dd></dl>
+<h2>4. Category margin targets</h2><table><thead><tr><th>Category</th><th>Wholesale band</th><th>Shelf price band</th><th>Margin target</th></tr></thead><tbody><tr><td>Salty snacks (1.5-2 oz pack)</td><td>$0.40-$0.55</td><td>$1.50-$2.25</td><td>55-65%</td></tr><tr><td>Sweet baked + candy</td><td>$0.40-$1.00</td><td>$1.50-$2.75</td><td>55-65%</td></tr><tr><td>Protein bar / healthy-share</td><td>$1.00-$1.55</td><td>$2.50-$3.50</td><td>45-55%</td></tr><tr><td>Soda (12 oz can)</td><td>$0.40-$0.55</td><td>$1.50-$2.25</td><td>35-45%</td></tr><tr><td>Water (16.9 oz)</td><td>$0.15-$0.30</td><td>$1.50-$2.50</td><td>60-75%</td></tr><tr><td>Energy drink (8.4-16 oz)</td><td>$1.50-$2.30</td><td>$3.50-$4.50</td><td>40-50%</td></tr><tr><td>Cold food entrée</td><td>$3.00-$4.50</td><td>$6.50-$9.50</td><td>40-50%</td></tr></tbody></table>
+<h2>5. Market benchmark references</h2><ul class="checklist"><li><span class="box"></span>BLS CPI Food-Away-From-Home — track annual % change to time pricing reviews</li><li><span class="box"></span>NAMA Industry Census — annual margin + commission norms by placement class</li><li><span class="box"></span>Automatic Merchandiser annual State-of-the-Industry — pricing-tier distribution</li><li><span class="box"></span>Local convenience-store / c-store retail audit (Circle K, 7-Eleven, Wawa, Sheetz) — primary in-market reference</li><li><span class="box"></span>Airport / stadium pricing audit when bidding Class A</li><li><span class="box"></span>Costco / Sam&#39;s bulk-equivalent pricing as the floor on price defensibility for staff who &#39;know what it costs at Costco&#39;</li></ul>
+<h2>6. Pricing review cadence</h2><ol class="steps"><li><strong>Monthly — telemetry review</strong><p>Velocity by SKU at current price. Outliers (top 5 fastest, top 5 slowest) flagged for review.</p></li><li><strong>Quarterly — pricing tier review</strong><p>Round-to-$0.25 tier review against current wholesale + freight; document the rationale for any change in the operator&#39;s pricing log.</p></li><li><strong>Annually — pricing-class confirmation</strong><p>Re-classify placement at contract anniversary if foot traffic, headcount, or competitive context has shifted.</p></li><li><strong>Event-driven — commodity shock</strong><p>Sustained &gt;10% wholesale move on a category triggers an interim pricing review; communicate change to host site in advance.</p></li></ol>
+<h2>7. Sales tax + receipt detail</h2><ul class="checklist"><li><span class="box"></span>State + local sales tax applied per jurisdiction — many states exempt &#39;food for home consumption&#39; but tax &#39;food sold through vending&#39;</li><li><span class="box"></span>Itemized receipt available via the kiosk app for cashless transactions (PCI-DSS 4.0 tokenization)</li><li><span class="box"></span>Calorie disclosure per 21 CFR 101.8 (vending calorie rule) — required where operator has 20+ machines, regardless of price</li><li><span class="box"></span>FALCPA + FASTER Act allergen labels on every SKU regardless of pricing</li><li><span class="box"></span>Sales-tax reporting cadence per state (monthly / quarterly); operator retains records 4-7 years per IRS Pub 583</li></ul>
+<h2>8. LetUsVending capability statement</h2><p>Through the LetUsVending operator network we can model the cost-plus pricing equation against your placement class, commission structure, and category mix — and match you with operator partners equipped to publish defensible per-SKU pricing, BLS-indexed pricing reviews, and quarterly margin transparency for the host site. Pricing models are scoped per site after a discovery call.</p>
+<footer>Informational reference, not pricing advice. Confirm sales-tax application and any local pricing-disclosure rules with counsel. Citations current at publication.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

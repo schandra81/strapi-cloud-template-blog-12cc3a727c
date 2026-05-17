@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_system_architecture",
+  "info": {
+    "displayName": "Block · System architecture",
+    "icon": "sitemap",
+    "description": "Tiered stack diagram for tech / AI cooler posts."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "tiers": { "type": "component", "repeatable": true, "component": "library.arch-tier" }
+  }
+}

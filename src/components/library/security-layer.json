@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_security_layers",
+  "info": {
+    "displayName": "Security layer",
+    "description": "One ring of defense-in-depth (e.g., Physical, Payment, Telemetry). Holds a JSON list of features."
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "tagline": { "type": "string" },
+    "accent": { "type": "enumeration", "enum": ["blue", "orange", "green", "red", "slate"], "default": "blue" },
+    "features": { "type": "json" }
+  }
+}

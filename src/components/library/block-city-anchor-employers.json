@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_city_anchor_employers",
+  "info": {
+    "displayName": "Block · City anchor employers",
+    "icon": "building",
+    "description": "Pill list of major employers/institutions where vending has been placed in this city."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "default": "Major employers we serve in the area" },
+    "sub": { "type": "text" },
+    "employers": { "type": "component", "repeatable": true, "component": "library.trust-employer", "min": 1 }
+  }
+}

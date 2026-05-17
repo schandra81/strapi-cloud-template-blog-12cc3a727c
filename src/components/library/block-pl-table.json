@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_library_block_pl_table",
+  "info": {
+    "displayName": "Block · Operator P&L table",
+    "icon": "chart-line",
+    "description": "P&L table with summary output panel + KPIs."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "rows": { "type": "component", "repeatable": true, "component": "library.pl-row" },
+    "totalLabel": { "type": "string", "required": true },
+    "totalAmount": { "type": "string", "required": true },
+    "outputLabel": { "type": "string", "default": "ANNUAL NET" },
+    "outputAmount": { "type": "string", "required": true },
+    "outputSub": { "type": "string" },
+    "kpis": { "type": "component", "repeatable": true, "component": "library.stat-item" }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_cert_badges",
+  "info": {
+    "displayName": "Certification badge",
+    "description": "Single certification badge"
+  },
+  "options": {},
+  "attributes": {
+    "iconText": { "type": "string", "required": true },
+    "name": { "type": "string", "required": true },
+    "sub": { "type": "string" },
+    "color": { "type": "enumeration", "enum": ["blue", "orange", "green", "purple", "red"], "default": "blue" }
+  }
+}

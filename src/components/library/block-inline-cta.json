@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_inline_cta",
+  "info": {
+    "displayName": "Block · Inline CTA",
+    "icon": "arrow-right",
+    "description": "Mid-content conversion CTA banner."
+  },
+  "options": {},
+  "attributes": {
+    "text": { "type": "string", "required": true },
+    "buttonLabel": { "type": "string", "required": true },
+    "buttonHref": { "type": "string", "required": true }
+  }
+}

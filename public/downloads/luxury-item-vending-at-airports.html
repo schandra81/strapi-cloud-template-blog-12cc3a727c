@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Luxury Airport Vending Evaluation Packet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Luxury Airport Vending Evaluation Packet</h1>
+  <p class="subtitle">Gateway-traffic data, equipment vendor list, ROI model</p>
+</header>
+<p>Luxury airport vending (electronics, beauty, premium accessories) is a sub-concession product with high MAG thresholds, hardened equipment, and audit-grade reporting. This packet helps qualifying hosts and concessionaires evaluate the opportunity against the gateway-traffic data and equipment options.</p>
+<h2>1. Gateway-traffic qualification</h2><p>Luxury vending breaks even at very different traffic thresholds than snack/beverage vending. Use FAA CY enplanement and ACI-NA passenger-volume data to qualify gateway terminals.</p><table><thead><tr><th>Gateway tier</th><th>Annual enplanements (FAA)</th><th>Luxury fit</th></tr></thead><tbody><tr><td>Large hub (Cat I)</td><td>≥ 1% of US enplanements (~7M+ origin enplanements)</td><td>Strong — multiple luxury placements per terminal</td></tr><tr><td>Large hub (Cat II)</td><td>0.25-1% (~1.8M-7M)</td><td>Strong — terminal anchor placement</td></tr><tr><td>Medium hub</td><td>0.05-0.25% (~365K-1.8M)</td><td>Selective — international or premium-airline concourse only</td></tr><tr><td>Small hub / non-hub</td><td>&lt; 0.05%</td><td>Generally not viable for luxury vending</td></tr></tbody></table>
+<h2>2. Category-specific traffic gates</h2><dl><dt>Consumer electronics</dt><dd>Best at international gateways with &gt; 8M annual passengers; OEM mix from Apple Authorized Reseller (Best Buy Express has historical precedent) or Brookstone-style.</dd><dt>Beauty (Benefit, Glamsquad)</dt><dd>Concourse-anchor placement in terminals with &gt; 15% international female travelers (per airport demographic survey).</dd><dt>Premium accessories</dt><dd>Travel pillows, premium chargers, designer eyewear — viable at large/medium hubs with &gt; 4M passengers.</dd><dt>Watches / jewelry</dt><dd>Highest MAG, longest sell cycle; restrict to top-10 US gateways or international premium concourses (e.g., LAX TBIT, JFK T4, MIA D-concourse).</dd></dl>
+<h2>3. Equipment vendor list — luxury-grade</h2><table><thead><tr><th>Vendor / model</th><th>Best for</th><th>Capex range</th></tr></thead><tbody><tr><td>Best Buy Express (kiosk model)</td><td>Electronics — historical airport precedent</td><td>Operator-owned, ~$25-$50K/unit</td></tr><tr><td>IntelliVend Luxury Tower</td><td>Premium accessories, beauty</td><td>$20-$40K/unit</td></tr><tr><td>Apex Supply Chain / Selectivend Custom</td><td>High-mix premium SKUs, RFID inventory</td><td>$18-$35K/unit</td></tr><tr><td>Brookstone-style kiosk (custom)</td><td>Travel essentials + premium electronics</td><td>$25-$45K/unit</td></tr><tr><td>Vending Design Works custom</td><td>Brand-immersive cabinet, jewelry / watches</td><td>$40-$80K/unit</td></tr><tr><td>AWM Smart Shelf AI cooler (premium pivot)</td><td>Premium fresh + sushi + bottled wine</td><td>$15-$30K/unit</td></tr></tbody></table>
+<h2>4. Hardened security + asset protection</h2><dl><dt>Cabinet</dt><dd>14-gauge steel; tamper-resistant T-handle (Medeco / Abloy / Sargent Greenleaf); electronic audit-trail lock; smash-resistant glass (ANSI Z97.1 tempered laminated).</dd><dt>Anti-theft</dt><dd>RFID inventory tracking; tilt + motion sensors with on-machine alarm + airport-CCTV integration; auto-lockdown on tamper.</dd><dt>Anchoring</dt><dd>Floor-anchored 3/8-inch bolts into concrete or stanchion-mounted with anti-pry brackets.</dd><dt>Insurance</dt><dd>Operator carries product-floor insurance covering inventory value per cabinet ($25K-$200K depending on SKU mix). Airport additional insured.</dd><dt>Cash handling</dt><dd>Predominantly cashless / EMV; cash if accepted requires armored-car pickup ≥ 2x weekly with concession-office reconciliation.</dd></dl>
+<h2>5. ROI model framework</h2><p>Luxury vending ROI hinges on average transaction value (ATV) × conversion rate × dwell-zone traffic. Use the framework below to model a placement.</p><table><thead><tr><th>Input variable</th><th>Typical range</th><th>Source</th></tr></thead><tbody><tr><td>Daily passenger throughput at zone</td><td>5K-50K</td><td>Airport concession map + ACI-NA stats</td></tr><tr><td>Dwell-time exposure %</td><td>10-25%</td><td>Airport dwell-study or concessionaire data</td></tr><tr><td>Conversion rate (impression → tx)</td><td>0.05-0.30%</td><td>Brookstone / Best Buy Express disclosed benchmarks</td></tr><tr><td>Average transaction value (ATV)</td><td>$15-$120</td><td>SKU-mix dependent</td></tr><tr><td>COGS % of revenue</td><td>55-70%</td><td>Premium electronics 60-70%; beauty 55-65%</td></tr><tr><td>Concession fee (MAG + % rent)</td><td>10-20% of gross</td><td>Airport concession contract</td></tr><tr><td>Operating + service overhead</td><td>10-15% of gross</td><td>Field service + replenishment</td></tr><tr><td>Operator margin target</td><td>5-15% of gross</td><td>Sustainable threshold for capex amortization</td></tr></tbody></table>
+<h2>6. Concession compliance</h2><ul class="checklist"><li><span class="box"></span>Sub-concession agreement with existing terminal concessionaire (or direct concession via airport RFP).</li><li><span class="box"></span>ACDBE plan documented where airport receives FAA AIP funding (49 CFR Part 23).</li><li><span class="box"></span>TSA SIDA / AOA badging for all field-service staff (49 CFR 1542); STA clearance current.</li><li><span class="box"></span>Airport insurance certificate ≥ $5M GL with airport additional insured.</li><li><span class="box"></span>Buy-local / local-brand mandate compliance where applicable (e.g., SFO, JFK, LAX).</li><li><span class="box"></span>Monthly gross-sales statement + percentage-rent remittance; annual audit.</li></ul>
+<h2>7. SKU selection framework</h2><dl><dt>Travel-utility electronics</dt><dd>Phone chargers (USB-C / Lightning), portable battery packs, noise-canceling earbuds, USB hubs — high turn, low ATV ($25-$80).</dd><dt>Premium beauty / personal care</dt><dd>Travel-size luxury skincare, fragrance, premium cosmetics — mid turn, mid-high ATV ($25-$95).</dd><dt>Accessories + comfort</dt><dd>Memory-foam neck pillows, premium eye masks, designer earplugs — high turn, low-mid ATV ($20-$60).</dd><dt>Premium F&amp;B (capable cabinets)</dt><dd>Half-bottle premium wine, artisan chocolate, premium tea — high turn, mid ATV ($15-$45).</dd><dt>Watches / jewelry / sunglasses</dt><dd>Restricted to top gateways; low turn, high ATV ($150-$500+); requires lockable secure cabinet.</dd></dl>
+<h2>8. Capability framing</h2><p>We are equipped to identify operators and equipment vendors that can deliver luxury airport vending against the framework above. Specific terminal placement requires airport concession authority and existing-concessionaire coordination; capability framing only, no representation of pre-placed work.</p>
+<footer>Traffic thresholds, ATV ranges, and concession fee shares are reference values. Confirm against the specific airport&#39;s concession office and demographic data.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

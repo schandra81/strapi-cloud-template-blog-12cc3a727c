@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Warehouse Quiet-Zone Vending Playbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Warehouse Quiet-Zone Vending Playbook</h1>
+  <p class="subtitle">Placement strategy, low-noise equipment specification, acoustic infrastructure</p>
+</header>
+<p>Warehouse quiet zones — designated break areas adjacent to noise-controlled work cells, hearing-conservation zones, recorded-call rooms, or quality-control areas — cannot host standard vending. Refrigeration compressors, dispense mechanics, and dropping cans push standard equipment to 55-72 dBA at 1 m, which violates the quiet-zone purpose. This playbook codifies placement, equipment spec, and acoustic infrastructure that keeps the quiet zone quiet.</p>
+<h2>1. Quiet-zone classification</h2><p>Classify the placement against the target ambient level. Quiet-zone vending placement design follows the same hierarchy.</p><dl><dt>Q1 — Library / recorded-call / studio quiet</dt><dd>Target ambient ≤ 35 dBA. No vending inside; vending placement is in a vestibule or 30+ ft offset behind sound-rated wall.</dd><dt>Q2 — Hearing-conservation break room</dt><dd>Target ambient ≤ 50 dBA per OSHA 1910.95 hearing-conservation program intent. Low-noise equipment + enclosure required.</dd><dt>Q3 — Standard breakroom adjacent to quiet work</dt><dd>Target ambient ≤ 60 dBA. Low-noise equipment; enclosure optional.</dd><dt>Q4 — Standard breakroom (no quiet constraint)</dt><dd>No constraint; standard equipment acceptable.</dd></dl>
+<h2>2. Low-noise equipment specification</h2><table><thead><tr><th>Equipment type</th><th>Standard dBA at 1m</th><th>Low-noise spec dBA at 1m</th><th>Source</th></tr></thead><tbody><tr><td>Snack glass-front</td><td>45-55 (steady)</td><td>≤ 42 (Crane Merchant Combo low-noise variant; AMS Sensit 3 quiet kit)</td><td>Manufacturer spec sheet</td></tr><tr><td>Cold beverage glass-front</td><td>55-65 (compressor cycle)</td><td>≤ 48 (Royal RVCC quiet kit; Vendo 821 low-noise package)</td><td>Manufacturer spec sheet</td></tr><tr><td>Refrigerated food</td><td>55-65 (compressor + can-drop)</td><td>≤ 50 (Crane Merchant Media quiet kit)</td><td>Manufacturer spec sheet</td></tr><tr><td>Frozen</td><td>60-72 (compressor cycle)</td><td>≤ 55 (Crane 158 frozen quiet kit)</td><td>Manufacturer spec sheet</td></tr><tr><td>Coffee tower / bean-to-cup</td><td>55-72 (grinder + brew)</td><td>≤ 55 sustained + ≤ 65 peak during brew (Crane Café System Quiet; Franke Sinfonia Quiet)</td><td>Manufacturer spec sheet</td></tr><tr><td>Ice-maker (where present)</td><td>60-70 (cycle)</td><td>Site away from quiet zone or specify low-noise ice variant (Hoshizaki KM-Q series)</td><td>Manufacturer spec sheet</td></tr></tbody></table>
+<h2>3. Placement design for Q1-Q2 zones</h2><ol class="steps"><li><strong>Vestibule offset</strong><p>Q1 placement is in a vestibule or alcove separated from the quiet zone by a sound-rated door (STC 35+) and a 6-10 ft pass-through corridor. Workers exit the quiet zone, transit corridor, reach vending.</p></li><li><strong>Wall transmission</strong><p>Q2 wall between breakroom + quiet work area STC 45-50 (gypsum + insulation + double-stud common construction).</p></li><li><strong>Floor + ceiling isolation</strong><p>Equipment on isolation pad (vibration absorbing rubber/cork) to reduce structure-borne transmission. Ceiling tile NRC ≥ 0.70 in breakroom.</p></li><li><strong>Dispense bin design</strong><p>Soft-drop dispense (no can-drop into metal bin); padded or angled bin reduces impact. Low-noise equipment kits include padded bin.</p></li><li><strong>Compressor scheduling</strong><p>Some equipment supports compressor-pause scheduling (e.g., during recorded-call windows). Telemetry-controlled where applicable.</p></li></ol>
+<h2>4. Acoustic infrastructure</h2><p>Beyond equipment, the breakroom itself needs treatment to keep ambient levels in target. Treatment is one-time capex paired with low-noise equipment selection.</p><ul class="checklist"><li><span class="box"></span>Wall partition STC 45-50 between breakroom + quiet work zone (Q2-Q3); STC 55+ (Q1)</li><li><span class="box"></span>Sound-rated door STC 35+ (Q2-Q3) or STC 45+ (Q1) on the breakroom-quiet zone threshold</li><li><span class="box"></span>Ceiling tile NRC ≥ 0.70 in breakroom; baffles or clouds for high-ceiling spaces</li><li><span class="box"></span>Wall-mounted acoustic panels (NRC ≥ 0.85) on 25-50% of wall surface in breakroom</li><li><span class="box"></span>Floor isolation pad under refrigerated equipment to dampen vibration to slab</li><li><span class="box"></span>Air-handler grille selection — low-velocity diffusers to avoid HVAC contribution to ambient</li><li><span class="box"></span>Quiet-zone signage posted at boundary with target dBA + worker reporting path</li></ul>
+<h2>5. Operational support structure</h2><dl><dt>Restock cadence</dt><dd>Telemetry-driven. Restock visits scheduled during non-quiet windows where applicable (shift change, lunch, dinner).</dd><dt>Service SLA — Tier 1</dt><dd>Offline, cold-chain, payment — &lt;24 hr ack + &lt;24 hr resolution. Acoustic kit failure (e.g., compressor noise spike) flagged as Tier 1.</dd><dt>Acoustic verification</dt><dd>dBA measurement at 1 m from equipment + at quiet-zone boundary on install + annually. Operator provides measurement report.</dd><dt>Telemetry alert — noise</dt><dd>Compressor runtime + cycle frequency tracked; abnormal cycle pattern flags potential refrigeration issue before audible noise complaint.</dd></dl>
+<h2>6. Compliance + safety overlay</h2><ul class="checklist"><li><span class="box"></span>OSHA 1910.95 hearing-conservation program — vending placement does not undermine engineering controls in adjacent work areas</li><li><span class="box"></span>ANSI/NAMA 2-2011 §4 — 36 in. service clearance maintained (acoustic enclosure design does not block service)</li><li><span class="box"></span>ADA 2010 Standards §305 + §308 — clear-floor-space + reach range maintained behind acoustic curtains or enclosures</li><li><span class="box"></span>FDA 21 CFR §101.8 — calorie disclosure visible (acoustic panels do not obscure)</li><li><span class="box"></span>FALCPA + ADA — allergen + accessibility signage placement preserved</li><li><span class="box"></span>NFPA + AHJ — any enclosure construction permitted; no obstruction of sprinkler coverage or egress</li></ul>
+<h2>7. KPI scorecard</h2><table><thead><tr><th>Metric</th><th>Target</th><th>Reporting</th></tr></thead><tbody><tr><td>Ambient dBA at quiet-zone boundary</td><td>≤ Q-tier target (35 / 50 / 60)</td><td>Annual + on issue</td></tr><tr><td>Equipment dBA at 1 m</td><td>≤ low-noise spec</td><td>Annual</td></tr><tr><td>Compressor cycle frequency</td><td>Within mfr spec ± 10%</td><td>Telemetry — continuous</td></tr><tr><td>Noise complaint count</td><td>0 per quarter</td><td>Quarterly</td></tr><tr><td>Uptime</td><td>≥ 98%</td><td>Monthly</td></tr><tr><td>Tier 1 resolution time</td><td>&lt; 24 hr</td><td>Monthly</td></tr></tbody></table>
+<footer>LetUsVending is equipped to coordinate operator + low-noise equipment selection, acoustic infrastructure scoping, and dBA verification for warehouse quiet-zone vending placements.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_block_tabbed_faq",
+  "info": {
+    "displayName": "Block · Tabbed FAQ",
+    "icon": "question-circle",
+    "description": "Audience-tabbed FAQ accordion. Emits FAQPage JSON-LD."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "default": "Frequently asked questions" },
+    "faqs": { "type": "component", "repeatable": true, "component": "library.faq-item", "min": 1 }
+  }
+}

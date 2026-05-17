@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_dual_columns",
+  "info": {
+    "displayName": "Dual-audience column",
+    "description": "One of two columns in a dual-audience layout"
+  },
+  "options": {},
+  "attributes": {
+    "tag": { "type": "string", "required": true },
+    "title": { "type": "string", "required": true },
+    "sub": { "type": "string" },
+    "specs": { "type": "component", "repeatable": true, "component": "library.dual-spec" }
+  }
+}

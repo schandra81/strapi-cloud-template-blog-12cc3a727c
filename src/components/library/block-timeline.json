@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_library_block_timeline",
+  "info": {
+    "displayName": "Block · Timeline / HowTo",
+    "icon": "clock",
+    "description": "Process timeline. Emits HowTo JSON-LD."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "howToName": { "type": "string" },
+    "totalTime": { "type": "string", "description": "ISO 8601 duration (e.g. P30D)" },
+    "steps": { "type": "component", "repeatable": true, "component": "library.timeline-step" }
+  }
+}

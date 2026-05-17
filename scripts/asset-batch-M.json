@@ -1,0 +1,116 @@
+[
+  {
+    "type": "playbook",
+    "slug": "how-to-find-vending-machine-locations",
+    "category": "vending-machine-locators",
+    "excerpt": "Get the acquisition playbook — Want the vending location acquisition playbook (6 channels + location criteria + survey checklist + scam avoidance)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "how-to-buy-your-first-vending-machine",
+    "category": "",
+    "excerpt": "Download the checklist — Want the full 28-point inspection checklist as a PDF you can take to the seller?"
+  },
+  {
+    "type": "checklist",
+    "slug": "accessible-campus-vending-features",
+    "category": "ai-vending-coolers",
+    "excerpt": "Download the ADA audit checklist — Want the 28-point ADA campus vending audit checklist as a PDF you can hand to your operator?"
+  },
+  {
+    "type": "checklist",
+    "slug": "best-micro-market-vendors-near-me",
+    "category": "micro-market-services",
+    "excerpt": "Get the operator evaluation framework — Want the micro-market operator evaluation framework (geography + capability + 6 criteria + reference checklist)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "legal-aspects-operating-micro-markets",
+    "category": "micro-market-services",
+    "excerpt": "Get the legal framework — Want the micro-market legal framework checklist (8 regulatory frameworks + MSA scope + audit cadence + state-specific addendum)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "micro-market-installation-checklist",
+    "category": "micro-market-services",
+    "excerpt": "Get the install checklist — Want the 12-phase micro-market install checklist (site survey + electrical + data + cold-chain + PCI-DSS + HR badge + soft launch)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "micro-market-kiosk-installation-guide",
+    "category": "micro-market-services",
+    "excerpt": "Get the install checklist — Want the full 10-phase micro-market installation checklist with photo / sign-off templates?"
+  },
+  {
+    "type": "checklist",
+    "slug": "micro-market-solutions-for-schools",
+    "category": "micro-market-services",
+    "excerpt": "Get the K-12 framework — Want the K-12 micro-market evaluation framework (Smart Snacks compliance checklist, capability matrix, RFP template, audit support requirements)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "combo-vending-machines-for-office-breakrooms",
+    "category": "office-vending-services",
+    "excerpt": "Get the framework — Want the office combo vs pair vs AI cooler framework (employee-count threshold, operator capability checklist, RFP template)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "employee-vending-feedback",
+    "category": "office-vending-services",
+    "excerpt": "Get the feedback framework — Want the employee vending feedback framework (five-mechanism infrastructure checklist, operator MSA capability matrix, QBR agenda template)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "micro-market-vs-specialty-vending",
+    "category": "specialty-vending-machines",
+    "excerpt": "Get the format-selection framework — Want the format-selection framework (placement criteria, infrastructure checklist, revenue projection, operator capability profile)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "do-you-need-a-license-for-vending",
+    "category": "vending-business-startup",
+    "excerpt": "Get the licensing framework — Want the licensing framework with state-by-state checklist and renewal timeline?"
+  },
+  {
+    "type": "checklist",
+    "slug": "how-to-grow-your-vending-business",
+    "category": "vending-business-startup",
+    "excerpt": "Get the growth framework — Want the vending business growth framework (six-dimension shift checklist, structured-account RFP capability matrix, eight-phase growth playbook)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "pros-and-cons-of-owning-a-vending-machine",
+    "category": "vending-business-startup",
+    "excerpt": "Get the ownership framework — Want the ownership decision framework with capability + capital + account discipline checklist?"
+  },
+  {
+    "type": "checklist",
+    "slug": "vending-business-checklist",
+    "category": "vending-business-startup",
+    "excerpt": "Get the checklist — Want the full pre-launch checklist with state-by-state filings and proposal templates?"
+  },
+  {
+    "type": "checklist",
+    "slug": "where-to-buy-vending-machines",
+    "category": "vending-business-startup",
+    "excerpt": "Get the buying framework — Want the vending equipment buying channel framework (OEM vs dealer vs refurbisher vs auction + warranty checklist + condition assessment)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "common-clauses-in-vending-contracts",
+    "category": "vending-contracts",
+    "excerpt": "Get the clause checklist — Want the vending contract clause checklist (term, exclusivity, commission, termination, insurance)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "early-termination-of-vending-contracts",
+    "category": "vending-contracts",
+    "excerpt": "Get the termination framework — Want the vending contract termination framework (trigger checklist, cure period scoping, exit fee benchmarks, transition timeline template)?"
+  },
+  {
+    "type": "checklist",
+    "slug": "how-to-negotiate-a-vending-contract",
+    "category": "vending-contracts",
+    "excerpt": "Get the negotiation framework — Want the vending contract negotiation framework (seven-lever checklist, RFP capability matrix, MSA amendment template)?"
+  }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Manufacturing Planogram Pack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Manufacturing Planogram Pack</h1>
+  <p class="subtitle">Meal-format coverage, hydration share, shift-tuned SKU velocity, healthy share alignment</p>
+</header>
+<p>A factory planogram is different from an office planogram. Long shifts, heavy physical work, limited break windows, and three-shift coverage push the SKU mix toward meal-format options, real hydration share, and shift-tuned velocity. This pack codifies the planogram dimensions that matter, with benchmark splits and an RFP-ready specification.</p>
+<h2>1. Planogram dimensions that matter on a factory floor</h2><p>Five dimensions determine whether a factory planogram performs. Operators are evaluated on all five at quarterly review.</p><table><thead><tr><th>Dimension</th><th>Target</th><th>Why it matters</th></tr></thead><tbody><tr><td>Meal-format coverage</td><td>≥ 15% of slots</td><td>30-minute lunch windows leave no time to cross the parking lot for fast food</td></tr><tr><td>Hydration share</td><td>30-45% of slots (seasonal)</td><td>OSHA heat-illness guidance — water + electrolyte access in heat ≥ 90°F</td></tr><tr><td>Better-for-you share</td><td>≥ 30% of slots</td><td>Aligns with corporate wellness goals; supports recruiting / retention messaging</td></tr><tr><td>Shift-3 SKU coverage</td><td>≥ 20% of slots tuned for overnight</td><td>Caffeine + comfort + calorie-dense; different velocity from shift-1</td></tr><tr><td>Allergen + dietary labeling</td><td>100% of SKUs</td><td>FALCPA federal allergen disclosure; supports DEI / accessibility</td></tr></tbody></table>
+<h2>2. Recommended slot allocation — 40-slot machine baseline</h2><p>Baseline for a single 40-selection combo machine. Adjust per shift volume and floor demographics.</p><table><thead><tr><th>Category</th><th>Slots</th><th>Examples</th></tr></thead><tbody><tr><td>Meal-format (sandwiches, wraps, microwaveable bowls)</td><td>6-8</td><td>Turkey sandwich, hummus wrap, chicken-rice bowl, mac-and-cheese cup</td></tr><tr><td>Protein-forward snacks</td><td>5-7</td><td>Jerky, hard-boiled eggs, protein bars, mixed nuts, cheese sticks</td></tr><tr><td>Fresh / refrigerated</td><td>4-6</td><td>Fruit cups, yogurt, hummus + pretzel, fresh salad</td></tr><tr><td>Salty snacks</td><td>5-7</td><td>Chips, pretzels, popcorn, crackers</td></tr><tr><td>Sweet snacks</td><td>4-6</td><td>Cookies, candy, granola bars (sweet)</td></tr><tr><td>Hydration (water, sports drinks, juice)</td><td>6-8</td><td>Water bottle (16 oz / 1 L), electrolyte drink, 100% juice</td></tr><tr><td>Coffee / energy</td><td>3-5</td><td>Cold-brew can, energy drink, iced coffee</td></tr></tbody></table>
+<h2>3. Shift-tuned SKU velocity</h2><p>Each shift weights different categories. Telemetry should drive shift-specific top-10 every quarter.</p><dl><dt>Shift-1 (6 AM – 2 PM)</dt><dd>Breakfast bars (granola, oat), fresh fruit, yogurt, coffee, water, balanced lunch combo. ~20% breakfast SKUs early in shift; transitions to lunch by 11 AM.</dd><dt>Shift-2 (2 PM – 10 PM)</dt><dd>Lunch + snack mix. Higher salty-snack share; sports drinks for evening hydration; coffee push 2-4 PM and 7-9 PM.</dd><dt>Shift-3 (10 PM – 6 AM)</dt><dd>Caffeine-heavy (energy drink, coffee, cold brew); comfort + calorie-dense snacks; hot-beverage demand in cold months; minimal fresh-meal velocity (consider longer-shelf alternatives).</dd></dl>
+<h2>4. Hydration share — OSHA-aligned</h2><p>Hydration share isn&#39;t just a wellness number — it&#39;s an EHS coordination point. OSHA Heat Illness Prevention guidance recommends 1 cup of water every 15-20 minutes for workers in heat ≥ 90°F.</p><ul class="checklist"><li><span class="box"></span>Water (16 oz / 1 L bottle) present in ≥ 4 slots.</li><li><span class="box"></span>Electrolyte beverage (sports drink or electrolyte powder) present in ≥ 2 slots.</li><li><span class="box"></span>Total hydration share ≥ 40% during heat-advisory months (May-September in most US climates).</li><li><span class="box"></span>Water priced at or below cost where corporate policy supports. Subsidy model documented in operator contract.</li><li><span class="box"></span>Telemetry alerts on water stockout — same Tier-1 SLA as payment failure.</li></ul>
+<h2>5. Healthy share — corporate wellness alignment</h2><p>Frame healthy share against an external standard. Most large employers use a traffic-light system or a published nutrition framework.</p><dl><dt>FDA / USDA dietary guidelines reference</dt><dd>Better-for-you criteria: ≤ 200 mg sodium per serving (snacks), ≤ 10 g added sugar, ≥ 3 g fiber or ≥ 5 g protein. Document the specific criteria your program uses.</dd><dt>Traffic-light labeling (UK FSA model, adapted)</dt><dd>Green / amber / red shelf tags. Green ≥ 30% of slots.</dd><dt>Partnership for a Healthier America (PHA) framework</dt><dd>Public framework many large employers adopt. Operator should be able to certify per-SKU PHA alignment.</dd></dl>
+<h2>6. Allergen + dietary labeling — FALCPA / FASTER Act</h2><ul class="checklist"><li><span class="box"></span>All 9 major allergens labeled per FALCPA (1985 / 2004) and FASTER Act (2021 — sesame): milk, egg, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame.</li><li><span class="box"></span>Allergen summary card on the machine face listing SKUs with each major allergen.</li><li><span class="box"></span>Gluten-free, vegan, kosher, and halal SKU indicators where applicable.</li><li><span class="box"></span>Calorie display on machine face for SKUs with packaging (most US large-employer machines now disclose calories at point of selection).</li><li><span class="box"></span>Operator provides quarterly nutrition report (sodium, sugar, fiber, protein per SKU).</li></ul>
+<h2>7. RFP-ready planogram specification</h2><p>Lift directly into your RFP. Operator must commit to meet or exceed.</p><ol class="steps"><li><strong>SKU count + rotation cadence</strong><p>Minimum 36 SKUs (combo machine). Quarterly planogram refresh based on telemetry. New SKUs trialed every 6 months.</p></li><li><strong>Meal-format coverage</strong><p>≥ 15% of slots meal-format (sandwich, wrap, microwaveable bowl).</p></li><li><strong>Hydration share</strong><p>≥ 30% baseline; ≥ 40% during heat-advisory months.</p></li><li><strong>Better-for-you share</strong><p>≥ 30% of slots meet documented better-for-you criteria.</p></li><li><strong>Shift coverage</strong><p>Per-shift top-10 reviewed quarterly. ≥ 20% of slots tuned for shift-3 demand at sites with overnight shifts.</p></li><li><strong>Allergen + nutrition disclosure</strong><p>100% FALCPA labeling; calorie display on machine face; quarterly nutrition report.</p></li><li><strong>Special-diet certification</strong><p>Operator certifies which SKUs are gluten-free, vegan, kosher, halal.</p></li></ol>
+<h2>8. Capability framing</h2><p>LetUsVending is an operator network and advisory. We are equipped to translate your facility profile into a planogram specification and coordinate operator response. The operator selected via this framework executes the planogram and owns the SKU-level merchandising relationship.</p>
+<footer>This pack is informational. Nutrition criteria, dietary labels, and corporate wellness alignment should be reviewed with your HR / EHS / wellness team before publication.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

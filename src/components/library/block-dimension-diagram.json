@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_library_block_dimension_diagram",
+  "info": {
+    "displayName": "Block · Dimension diagram",
+    "icon": "ruler",
+    "description": "Labeled front + side silhouette with width / depth / height arrows and a spec strip. Use for any 'will this machine fit' question."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "machineName": { "type": "string", "required": true },
+    "width": { "type": "string", "required": true },
+    "depth": { "type": "string", "required": true },
+    "height": { "type": "string", "required": true },
+    "footprint": { "type": "string" },
+    "weightEmpty": { "type": "string" },
+    "weightLoaded": { "type": "string" },
+    "doorwayClearance": { "type": "string" },
+    "note": { "type": "text" }
+  }
+}

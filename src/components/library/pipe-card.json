@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_pipe_cards",
+  "info": {
+    "displayName": "Pipeline card",
+    "description": "Single card inside a sales-pipeline stage"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "meta": { "type": "string" },
+    "hot": { "type": "boolean", "default": false }
+  }
+}

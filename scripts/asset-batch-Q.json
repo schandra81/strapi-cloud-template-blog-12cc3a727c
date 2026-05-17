@@ -1,0 +1,116 @@
+[
+  {
+    "type": "template",
+    "slug": "hospital-vending-revenue-use",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the revenue framework — Want the hospital vending revenue framework (allocation model menu, board policy template, monthly reporting cadence, community benefit alignment)?"
+  },
+  {
+    "type": "template",
+    "slug": "vending-hospital-volunteer-lounges",
+    "category": "vending-for-healthcare",
+    "excerpt": "Get the volunteer-lounge framework — Want the volunteer-lounge vending framework (equipment pairing, subsidy mechanism options, planogram by cohort, quarterly review template)?"
+  },
+  {
+    "type": "template",
+    "slug": "hotel-vending-contracts-guide",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the hotel contract template — Want the hotel vending contract template (eight dimensions, SLA clauses, equipment ownership comparison)?"
+  },
+  {
+    "type": "template",
+    "slug": "vending-machine-placement-strategies-for-hotels",
+    "category": "vending-for-hotels",
+    "excerpt": "Get the hotel placement template — Want the hotel vending placement planning template (zone matrix + traffic study + brand-tier playbook)?"
+  },
+  {
+    "type": "template",
+    "slug": "vending-services-for-manufacturing-plants",
+    "category": "vending-for-manufacturing-companies",
+    "excerpt": "Get the service contract template — Want the manufacturing plant vending service contract template (SLA, restock cadence, planogram tuning, preventive maintenance)?"
+  },
+  {
+    "type": "template",
+    "slug": "vending-in-big-box-stores",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the RFP response template — Want the big-box vending RFP response template (telemetry, sustainability, SLA, pricing) operators use to score top of stack?"
+  },
+  {
+    "type": "template",
+    "slug": "vending-solutions-for-school-districts",
+    "category": "vending-for-schools",
+    "excerpt": "Get the district RFP framework — Want the multi-school district vending RFP framework (operator capability profile, evaluation criteria, contract template)?"
+  },
+  {
+    "type": "template",
+    "slug": "vending-location-agreements-and-contracts",
+    "category": "vending-machine-locators",
+    "excerpt": "Get the agreement framework — Want the vending location agreement framework (12 core clauses + attorney guidance + modern operator templates)?"
+  },
+  {
+    "type": "template",
+    "slug": "vending-management-service-level-agreements-explained",
+    "category": "vending-management-companies",
+    "excerpt": "Get the SLA template — Want the vending SLA template (7 dimensions + financial remedy + termination workflow)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "green-vending-initiatives-campus",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the green-vending RFP template — Want the campus green-vending RFP template (sustainability spec + STARS reporting + bonus structures)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "university-vending-procurement-guide",
+    "category": "ai-vending-coolers",
+    "excerpt": "Get the procurement framework — Want the university vending procurement framework (RFP template + evaluation rubric + contract terms)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "touchless-coffee-machines-for-offices",
+    "category": "blog-category",
+    "excerpt": "Get the touchless coffee framework — Want the touchless office coffee framework (technology comparison, equipment spec, OCS operator RFP template, cleaning protocol)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "micro-markets-in-warehouses",
+    "category": "micro-market-services",
+    "excerpt": "Get the warehouse framework — Want the warehouse micro-market framework (industrial equipment spec, three-shift planogram, OSHA placement plan, RFP template)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "touchless-office-vending-machines",
+    "category": "office-vending-services",
+    "excerpt": "Get the touchless RFP template — Want the touchless office vending RFP template (operator capability checks, mobile-app + contactless requirements, SLA scope)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "what-to-look-for-in-a-vending-company",
+    "category": "vending-faq",
+    "excerpt": "Get the operator RFP template — Want the vending operator RFP template (telemetry + SLA + reporting + reference-check script)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "vending-airport-emergency-preparedness",
+    "category": "vending-for-airports",
+    "excerpt": "Get the airport emergency RFP template — Want the airport emergency vending RFP template (power, telemetry, free-vend, planogram)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "vending-contracts-for-property-managers",
+    "category": "vending-for-apartments",
+    "excerpt": "Get the contract framework — Want the apartment vending contract framework (eight sections + negotiation workflow + RFP template + legal review checklist)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "vending-services-for-construction-sites",
+    "category": "vending-for-construction-sites",
+    "excerpt": "Get the construction-site RFP template — Want the construction-site vending RFP template (outdoor spec, hydration planogram, relocation service)?"
+  },
+  {
+    "type": "rfp template",
+    "slug": "amusement-park-vending-machines",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the park vending framework — Want the amusement park vending framework (zone-by-zone SKU planograms, weather-sealing spec, hurricane protocol, operator RFP template)?"
+  }
+]

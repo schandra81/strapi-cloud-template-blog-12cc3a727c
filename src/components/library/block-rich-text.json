@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_block_rich_text",
+  "info": {
+    "displayName": "Block · Rich text",
+    "icon": "align-left",
+    "description": "Wraps a markdown/rich-text body inside the dynamic zone. Use for prose between structured blocks."
+  },
+  "options": {},
+  "attributes": {
+    "body": { "type": "richtext", "required": true }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_compliance_rows",
+  "info": {
+    "displayName": "Compliance row",
+    "description": "Row in a compliance pass/warn/fail check"
+  },
+  "options": {},
+  "attributes": {
+    "criterion": { "type": "string", "required": true },
+    "small": { "type": "string" },
+    "status": { "type": "enumeration", "enum": ["pass", "warn", "fail"], "default": "pass" },
+    "detail": { "type": "string", "required": true }
+  }
+}

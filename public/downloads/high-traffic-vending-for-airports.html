@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>High-Traffic Airport Vending Pack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>High-Traffic Airport Vending Pack</h1>
+  <p class="subtitle">99.5% uptime, multi-lingual / multi-currency, hardened security, concession compliance</p>
+</header>
+<p>Airport vending operates under concession compliance (ACI-NA, ACDBE), TSA secured-area constraints, and 99.5%+ uptime expectations. This pack codifies the equipment, payment, telemetry, and compliance spec a capable operator can attest to.</p>
+<h2>1. Uptime + service architecture</h2><p>Airport hosts measure machine uptime against published 99.5% concession-standard SLAs. The architecture below makes that achievable.</p><dl><dt>Telemetry</dt><dd>Sub-5-minute heartbeat (Cantaloupe Seed Pro, Nayax VPOS Touch, 365 Retail ePort 6). Dual-carrier cellular (LTE Cat-M1 primary, fallback) at airport placements.</dd><dt>On-call coverage</dt><dd>24/7 operator on-call with badged-staff dispatch authority for secure-area access; 90-minute on-site SLA airside, 60-minute SLA landside.</dd><dt>Mean time to repair</dt><dd>Tier 1 events resolved &lt; 4 hours airside (badge + escort cycle); &lt; 2 hours landside.</dd><dt>Restock cadence</dt><dd>Daily restock at high-traffic placements (&gt;200 transactions/day); 2x daily at concourse anchors.</dd></dl>
+<h2>2. Multi-lingual + multi-currency UI</h2><p>International gateway terminals require multilingual interfaces. Payment platforms (Nayax, Cantaloupe ePort Connect) support each capability natively.</p><dl><dt>Languages</dt><dd>Minimum English + Spanish at all US placements. International gateway add: Mandarin, Japanese, Korean, Arabic, French, German, Portuguese based on terminal demographics.</dd><dt>Display fallback</dt><dd>Icon-based UI with universal symbols (cup, plug, allergen) as backup to text.</dd><dt>Currencies accepted</dt><dd>USD plus contactless EMV (Visa, Mastercard, Amex, JCB, UnionPay, Discover, Diners). Apple Pay, Google Pay, Samsung Pay, WeChat Pay, Alipay.</dd><dt>Foreign-card surcharge</dt><dd>Operator absorbs international interchange (~2.4-3.0%) into pricing, not surcharge-on-machine (concession contract typically prohibits surcharging).</dd><dt>Receipt</dt><dd>Email or SMS receipt option for travelers needing expense reimbursement; printed-receipt option where concession requires.</dd></dl>
+<h2>3. Hardened security spec</h2><p>Airport placements face higher-than-average tamper, vandalism, and theft attempts. Equipment hardening reduces operator service cost and concession-breach risk.</p><dl><dt>Cabinet</dt><dd>Steel cabinet 14-gauge minimum; high-security T-handle lock (Medeco, Abloy) or electronic lock (Sargent Greenleaf). Anti-fishing device on coin/bill validator.</dd><dt>Glass</dt><dd>Tempered laminated glass (ANSI Z97.1) on glass-front coolers; impact-rated polycarbonate for high-risk concourse zones.</dd><dt>Bill validator</dt><dd>MEI VN-2000 / Cashcode SM with anti-stringing + anti-bleach detection; cassette auto-lock on tamper.</dd><dt>Anchoring</dt><dd>Floor-anchor bolts (3/8 in) into concrete; or J-bolt installer for unitized counter installs.</dd><dt>CCTV integration</dt><dd>Camera coverage from airport CCTV system documented in operator placement file; incident-response process tied to airport ops center.</dd></dl>
+<h2>4. Concession compliance — what operators must hold</h2><ol class="steps"><li><strong>Concession agreement</strong><p>Operator party to airport concession agreement (or sub-concessionaire) with MAG / percentage rent structure documented.</p></li><li><strong>ACDBE participation</strong><p>Where airport receives federal funding (FAA AIP), Airport Concession Disadvantaged Business Enterprise plan applies per 49 CFR Part 23. Operator&#39;s ACDBE participation rate documented.</p></li><li><strong>TSA badging</strong><p>All field-service staff hold airport SIDA / AOA badge per TSA regulation 49 CFR 1542; fingerprint + STA clearance current.</p></li><li><strong>Insurance</strong><p>GL $5M, auto $2M, products $2M, workers comp per jurisdiction. Airport additional insured.</p></li><li><strong>Concession fees</strong><p>MAG (minimum annual guarantee) + percentage rent structure; settlement monthly with audited gross sales.</p></li><li><strong>Buy-local + healthy-vending mandates</strong><p>Some airports (e.g., LAX, SFO, JFK) mandate local product or healthy-vending percentages. Operator&#39;s planogram compliant + reportable.</p></li></ol>
+<h2>5. Planogram framework — landside vs airside</h2><table><thead><tr><th>Zone</th><th>Top categories</th><th>Price tier</th></tr></thead><tbody><tr><td>Landside arrivals / baggage claim</td><td>Bottled water, snacks, electronics adapters, travel pillows, OTC meds</td><td>Mid (1.0-1.3x retail)</td></tr><tr><td>Landside ticketing / pre-security</td><td>Bottled beverages, snacks, gum / mints, single-serve coffee</td><td>Mid (1.0-1.3x retail)</td></tr><tr><td>Airside concourse anchor</td><td>Premium beverages, hot snacks, fresh micro-market, sushi cooler</td><td>Premium (1.3-1.7x retail)</td></tr><tr><td>Airside satellite gates</td><td>Cold drinks, energy drinks, packaged snacks, water, OTC meds</td><td>Premium (1.3-1.7x retail)</td></tr><tr><td>Crew-only / employee corridor</td><td>Healthy snacks, hot food micro-market, badge-paid</td><td>Subsidized / wholesale + admin fee</td></tr></tbody></table>
+<h2>6. International traveler additions</h2><dl><dt>OTC + travel essentials</dt><dd>Pain reliever, antacid, allergy, melatonin, electrolyte; phone-charger, adapter, eye-mask, neck pillow.</dd><dt>Allergen + religious diet labeling</dt><dd>Halal-certified, Kosher-certified, gluten-free, dairy-free shelf labels in multiple languages.</dd><dt>Local-product representation</dt><dd>Per concession buy-local mandate — 15-30% planogram share for in-state or in-region SKUs at most major US airports.</dd><dt>Duty-free vs general</dt><dd>General-merchandise vending does not displace duty-free; coordinate with terminal concession map to avoid overlap.</dd></dl>
+<h2>7. Reporting + governance</h2><p>Airport concession contracts require granular reporting. Capable operators automate via payment platform.</p><ul class="checklist"><li><span class="box"></span>Daily transaction file (TSV / CSV / API) — transaction ID, machine ID, SKU, qty, gross sales, payment method, currency.</li><li><span class="box"></span>Monthly gross sales statement + percentage-rent calculation + remittance.</li><li><span class="box"></span>Monthly uptime report per machine; airport-defined SLA adherence %.</li><li><span class="box"></span>Quarterly concession review — sales trend, top SKUs, capex requests, concession-fee reconciliation.</li><li><span class="box"></span>Annual ACDBE participation report (where applicable).</li><li><span class="box"></span>Annual operator audit / inspection by airport concession office.</li></ul>
+<h2>8. Capability framing</h2><p>We are equipped to surface vending operators that hold airport concession experience (or can sub-concession with an existing concessionaire) and meet TSA badging, ACDBE, and uptime spec. Specific terminal placement requires the airport&#39;s concession-bid or sub-concession-assignment process; capability framing only.</p>
+<footer>Concession terms, MAG / percentage rent, and ACDBE rules vary by airport. Coordinate with the airport concession office and operator counsel.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

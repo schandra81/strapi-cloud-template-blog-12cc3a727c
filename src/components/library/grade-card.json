@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_library_grade_cards",
+  "info": {
+    "displayName": "Grade card",
+    "description": "Single grade-level card (e.g. K-5, 6-8, 9-12)"
+  },
+  "options": {},
+  "attributes": {
+    "iconText": { "type": "string", "required": true },
+    "iconVariant": { "type": "enumeration", "enum": ["default", "mid", "hs"], "default": "default" },
+    "name": { "type": "string", "required": true },
+    "range": { "type": "string", "required": true },
+    "sections": { "type": "component", "repeatable": true, "component": "library.grade-section" },
+    "linkHref": { "type": "string" },
+    "linkLabel": { "type": "string" },
+    "highlight": { "type": "boolean", "default": false }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_spec_items",
+  "info": {
+    "displayName": "Spec item",
+    "description": "Key/value spec row (label + value)"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "value": { "type": "text", "required": true }
+  }
+}

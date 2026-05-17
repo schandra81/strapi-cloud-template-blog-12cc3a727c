@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_cost_lines",
+  "info": {
+    "displayName": "Cost line",
+    "description": "Line item in a cost breakdown table"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "range": { "type": "string" },
+    "amount": { "type": "string", "required": true }
+  }
+}

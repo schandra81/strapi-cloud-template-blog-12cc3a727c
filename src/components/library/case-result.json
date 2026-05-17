@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_case_results",
+  "info": {
+    "displayName": "Case result",
+    "description": "Result KPI for a case study"
+  },
+  "options": {},
+  "attributes": {
+    "number": { "type": "string", "required": true },
+    "label": { "type": "string", "required": true }
+  }
+}

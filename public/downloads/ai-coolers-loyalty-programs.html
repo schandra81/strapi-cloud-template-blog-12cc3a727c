@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>AI Cooler Loyalty Integration Playbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>AI Cooler Loyalty Integration Playbook</h1>
+  <p class="subtitle">SSO, accrual, tier-based pricing, and behavior triggers</p>
+</header>
+<p>AI coolers (camera-vision smart fridges with frictionless checkout) create the cleanest place to run a loyalty program inside vending. Identity is already established at the door tap, transactions are per-SKU, and the member experience supports tier-aware pricing without slowing throughput. This playbook codifies the operational practices that keep loyalty programs at adoption parity with the operator app and at SSO-friction parity with corporate single-sign-on. It maps to PCI DSS v4.0, ADA Section 309.4, NIST IR 8259 (IoT baseline), and standard FTC unfair/deceptive-practice guidance.</p>
+<h2>1. Identity + SSO baseline</h2><p>Loyalty value compounds with identity persistence. Every transaction must resolve to a stable member ID without member action.</p><dl><dt>Identity source</dt><dd>Corporate IdP (Okta, Azure AD, Ping) or host badge system (HID iCLASS, Lenel, Brivo). Operator integrates via SAML 2.0, OIDC, or badge tap (MIFARE, iCLASS).</dd><dt>SSO friction target</dt><dd>Door-tap to identity-resolved state in ≤ 2 seconds. Manual login fallback retained for app-only members.</dd><dt>Joiner/leaver</dt><dd>IdP joiner provisions member account within 24 hours; leaver de-provisions within 24 hours of HR ticket. Service-account credentials rotated annually.</dd><dt>MFA</dt><dd>Phishing-resistant MFA (FIDO2 / WebAuthn) on operator admin console; member identity inherits from corporate SSO MFA, not duplicated at the cooler.</dd></dl>
+<h2>2. Accrual mechanics</h2><ol class="steps"><li><strong>Base accrual</strong><p>1 point per 1 USD spent (or per host-defined unit). Posted to member balance within 24 hours of transaction settlement. Refunded transactions reverse points within 48 hours.</p></li><li><strong>Healthy-share bonus</strong><p>1.5x or 2x accrual on healthy-flagged SKUs (NANA threshold: ≤ 200 cal, ≤ 230 mg sodium, ≤ 35% calories from fat). Drives wellness committee KPI without changing planogram.</p></li><li><strong>Streak bonus</strong><p>Bonus on 5+ consecutive weekdays of activity. Capped at one bonus per member per month to prevent gaming.</p></li><li><strong>Referral / activation bonus</strong><p>One-time bonus on first transaction (activation) and on referred member&#39;s first transaction (referral). 90-day expiry to avoid drift.</p></li><li><strong>Negative signals</strong><p>Refund flag reverses accrual. Excessive refund pattern (&gt; 5% of transactions for a single member over 30 days) triggers review, not auto-block.</p></li></ol>
+<h2>3. Tier-based pricing</h2><p>Tier-based pricing is the lever most affected by privacy and labor-law analysis. Confirm with HR + legal before launch where tier eligibility intersects with protected-class factors.</p><table><thead><tr><th>Tier</th><th>Pricing posture</th><th>Eligibility example</th></tr></thead><tbody><tr><td>L1 — Member (default)</td><td>Catalog price</td><td>All identity-resolved members</td></tr><tr><td>L2 — Active (4+ visits/month)</td><td>5-10% discount on selected SKUs</td><td>Behavioral; reset monthly</td></tr><tr><td>L3 — Healthy-streak</td><td>10% on healthy SKUs</td><td>Behavioral, opt-in</td></tr><tr><td>L4 — Wellness program</td><td>20% on healthy SKUs (host-subsidized)</td><td>Voluntary enrollment in host wellness program</td></tr><tr><td>L5 — Tenure / role (host-defined)</td><td>Set by host</td><td>Reviewed by HR/legal for protected-class neutrality</td></tr></tbody></table>
+<h2>4. Behavior triggers + notifications</h2><dl><dt>Re-engagement</dt><dd>Member inactive 14 days → push notification with a single-use bonus. Send rate-limited to 1 per 30 days.</dd><dt>Healthy-share nudge</dt><dd>Member viewed healthy SKU but selected non-healthy → next-visit prompt suggests a comparable healthy alternative (opt-in).</dd><dt>Stock alert</dt><dd>Member&#39;s frequently-purchased SKU back in stock after stockout → notification with SKU.</dd><dt>Birthday / anniversary</dt><dd>Optional, opt-in, single-use bonus. No demographic collection beyond what member voluntarily provides.</dd><dt>Notification cadence cap</dt><dd>Maximum 3 marketing notifications per member per week; transactional (refund, receipt) unlimited.</dd></dl>
+<h2>5. Privacy + data architecture</h2><ul class="checklist"><li><span class="box"></span>Member identity + balance + transaction history stored; no compensation, no benefits-eligibility, no protected-class data.</li><li><span class="box"></span>Camera-vision raw frames not retained — feature vectors only; deletion within 24 hours of cart finalization.</li><li><span class="box"></span>Member dashboard exposes data collected, purpose, retention, and &#39;delete my data&#39; button. Deletion within 30 days.</li><li><span class="box"></span>Consent log retained for the duration of the relationship plus 3 years.</li><li><span class="box"></span>Sub-processor list disclosed; DPA signed; data residency stated (US-based for US placements).</li><li><span class="box"></span>Camera-vision model card available under NDA; bias-testing methodology documented.</li></ul>
+<h2>6. Accessibility + safety guardrails</h2><ul class="checklist"><li><span class="box"></span>ADA Section 309.4 — door, screen, and any input within reach range and ≤ 5 lbf operating force.</li><li><span class="box"></span>Allergen labeling per FALCPA on every SKU; member allergen list (opt-in) surfaced at door tap.</li><li><span class="box"></span>Healthy-share floor enforced — loyalty mechanics cannot displace healthy planogram allocation.</li><li><span class="box"></span>No exclusionary pricing on essentials (water, basic snacks) — must remain at base tier for all members.</li><li><span class="box"></span>Tier-eligibility rules reviewed for protected-class neutrality with HR + legal before launch.</li></ul>
+<h2>7. Pilot KPIs (90 days)</h2><table><thead><tr><th>Metric</th><th>Definition</th><th>Target</th></tr></thead><tbody><tr><td>Activation</td><td>% of eligible members with first transaction in 30 days</td><td>60% at corporate, 40% at residential</td></tr><tr><td>Repeat</td><td>% of activated with 2nd in 30 days</td><td>70%</td></tr><tr><td>Loyalty-enrollment opt-in</td><td>% of activated who enroll in loyalty (where opt-in)</td><td>50%+</td></tr><tr><td>Per-member monthly transactions</td><td>Median</td><td>8+ at corporate</td></tr><tr><td>Healthy-share consumption</td><td>% of transactions on healthy SKUs</td><td>Tracks at or above planogram allocation</td></tr><tr><td>NPS — loyalty members</td><td>In-app survey at days 30/60/90</td><td>+30 minimum</td></tr></tbody></table>
+<h2>8. Pre-signing red flags</h2><ul class="checklist"><li><span class="box"></span>Tier eligibility tied to demographic / protected-class factors.</li><li><span class="box"></span>Raw camera frames retained past 24 hours by default.</li><li><span class="box"></span>Notification cadence uncapped — risk of member fatigue + spam reports.</li><li><span class="box"></span>Operator declines to publish model card or DPA.</li><li><span class="box"></span>Refund flow does not reverse loyalty accrual — accounting drift risk.</li></ul>
+<footer>This playbook is informational and not legal, privacy, or HR advice. Tier-pricing programs that intersect with employee benefits or compensation should be reviewed by HR, payroll, and counsel before launch.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_clearance_specs",
+  "info": {
+    "displayName": "Clearance spec",
+    "description": "Single clearance requirement (e.g., 'Behind machine — 6 in for ventilation')."
+  },
+  "options": {},
+  "attributes": {
+    "zone": { "type": "string", "required": true },
+    "value": { "type": "string", "required": true },
+    "reason": { "type": "string" }
+  }
+}

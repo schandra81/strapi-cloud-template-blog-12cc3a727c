@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_tldr_quick_answer",
+  "info": {
+    "displayName": "Block · TL;DR quick answer",
+    "icon": "lightbulb",
+    "description": "Paragraph + bulleted list. Featured-snippet target."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "required": true },
+    "paragraph": { "type": "text", "required": true },
+    "bullets": { "type": "component", "repeatable": true, "component": "library.bullet-item" }
+  }
+}

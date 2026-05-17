@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_library_block_case_study",
+  "info": {
+    "displayName": "Block · Case study card",
+    "icon": "briefcase",
+    "description": "Single case study summary with KPI results."
+  },
+  "options": {},
+  "attributes": {
+    "tag": { "type": "string", "default": "Case study" },
+    "title": { "type": "string", "required": true },
+    "context": { "type": "text", "required": true },
+    "meta": { "type": "component", "repeatable": true, "component": "library.case-meta" },
+    "results": { "type": "component", "repeatable": true, "component": "library.case-result" }
+  }
+}

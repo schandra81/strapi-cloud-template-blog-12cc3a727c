@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_dimension_callouts",
+  "info": {
+    "displayName": "Dimension callout",
+    "description": "Single labeled measurement on a dimension diagram."
+  },
+  "options": {},
+  "attributes": {
+    "axis": { "type": "enumeration", "enum": ["width", "depth", "height"], "required": true },
+    "value": { "type": "string", "required": true },
+    "label": { "type": "string" }
+  }
+}

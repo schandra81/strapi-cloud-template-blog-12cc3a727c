@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Ice Cream Vending Placement Pack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Ice Cream Vending Placement Pack</h1>
+  <p class="subtitle">Equipment match, cold-chain SLA, seasonal demand plan, and commission framework</p>
+</header>
+<p>Ice cream vending is a cold-chain program with hard-failure modes (a temperature excursion above 10°F for &gt;2 hours is product loss). This pack codifies the equipment match, telemetry SLA, seasonal restock cadence, and commission framework that capable operators can attest to in writing.</p>
+<h2>1. Equipment match — cabinet selection</h2><p>Ice cream cabinets are not snack cabinets with a freezer kit. Hold temperatures of -10°F to 0°F per FDA Food Code 3-501.16 require dedicated freezer-rated equipment with active defrost cycles.</p><dl><dt>Fastcorp 632 / U-Select-It Vendors</dt><dd>Robotic-arm freezer vendor, 21-22 SKU capacity, -10°F to 0°F hold, ENERGY STAR Tier 2 in current models. Best for &gt;100 transactions/week.</dd><dt>Fuji Electric FFV / GPL ice cream</dt><dd>Spiral or shelf-based freezer, 6-12 SKU capacity, 0°F to 10°F hold. Best for 30-80 transactions/week pilots.</dd><dt>Hardened outdoor models</dt><dd>NEMA 3R or IP54-rated cabinet for covered patios, pool decks, marinas. Auto-shutdown above 100°F ambient. Required for non-conditioned spaces.</dd><dt>Power requirement</dt><dd>208V/20A or 115V/15A circuit dedicated, with surge protection. Compressor inrush current 30A momentary.</dd></dl>
+<h2>2. Cold-chain SLA template (operator-side)</h2><p>Cold-chain failure is the dominant risk for ice cream programs. The SLA below should be in the operator contract addendum, with telemetry attestation.</p><dl><dt>Temperature monitoring</dt><dd>Cellular telemetry probe (Cantaloupe Seed, Nayax VPOS Touch, 365 Retail) with 5-minute sampling. Probe placed in product zone, not return air.</dd><dt>Alert threshold — Tier 1</dt><dd>Internal temperature &gt; 10°F sustained 30+ minutes. Operator pager + on-call dispatch. 4-hour on-site response SLA.</dd><dt>Alert threshold — Tier 2</dt><dd>Compressor short-cycling, defrost overrun, door-ajar &gt; 5 minutes. 24-hour response SLA.</dd><dt>Product loss policy</dt><dd>Excursion &gt; 2 hours at &gt;10°F: full SKU pull and credit to host. Operator-borne loss; not passed to host.</dd><dt>Power-loss procedure</dt><dd>Battery-backed telemetry survives 4-hour outage. SMS alert to host facilities + operator at minute 15. Restock-and-credit on resumption.</dd></dl>
+<h2>3. Seasonal demand plan</h2><p>Ice cream sell-through swings 4-6x between Q1 and Q3 in temperate climates. The cadence and planogram must flex with it.</p><table><thead><tr><th>Season</th><th>Demand index</th><th>Restock cadence</th><th>Planogram weight</th></tr></thead><tbody><tr><td>Q1 (Jan-Mar)</td><td>0.4-0.6x baseline</td><td>Bi-weekly</td><td>60% novelty / 40% pint; remove melt-prone premium</td></tr><tr><td>Q2 (Apr-Jun)</td><td>1.0-1.5x baseline</td><td>Weekly</td><td>70% novelty / 30% pint; add seasonal SKUs</td></tr><tr><td>Q3 (Jul-Sep)</td><td>1.8-2.4x baseline</td><td>2x weekly + telemetry top-off</td><td>75% novelty / 15% pint / 10% premium; full planogram</td></tr><tr><td>Q4 (Oct-Dec)</td><td>0.5-0.8x baseline</td><td>Bi-weekly</td><td>Shift to indulgent / holiday SKUs; reduce diet/light</td></tr></tbody></table>
+<h2>4. SKU mix framework</h2><dl><dt>Core novelty (40-50%)</dt><dd>Drumstick, Klondike, Magnum, Häagen-Dazs Stickbar, Snickers Ice Cream — $2.50-$4.00 price points.</dd><dt>Premium pint (15-20%)</dt><dd>Ben &amp; Jerry&#39;s, Häagen-Dazs pints — $5.50-$7.50 price points; only at premium sites (Class-A office, luxury multifamily, hospital concourse).</dd><dt>Better-for-you (10-15%)</dt><dd>Halo Top, Yasso Greek yogurt bars, Outshine fruit bars — $3.00-$4.50; mandatory at fitness, healthcare, school placements.</dd><dt>Kids / family (10-15%)</dt><dd>Push pops, fudgesicles, Bomb Pops, character licensed — $1.50-$3.00; required at multifamily and family-rec placements.</dd><dt>Allergen-aware (5-10%)</dt><dd>Dairy-free Oatly, So Delicious coconut bars; clearly labeled per FALCPA. Allergen summary card on machine face.</dd></dl>
+<h2>5. Site qualification checklist</h2><ul class="checklist"><li><span class="box"></span>Indoor or weather-protected covered location with ambient &lt; 95°F sustained.</li><li><span class="box"></span>Dedicated 208V/20A or 115V/15A circuit available within 6 feet of placement.</li><li><span class="box"></span>Cellular signal &gt; -95 dBm (LTE Cat-M1) for telemetry; or Wi-Fi credentials provided.</li><li><span class="box"></span>Floor load &gt; 600 lb concentrated (freezer + compressor weight).</li><li><span class="box"></span>Foot-traffic estimate &gt; 200 unique visitors/week for break-even.</li><li><span class="box"></span>Drainage or evaporator pan accessible (defrost condensate management).</li><li><span class="box"></span>Service access clearance — 36 inches in front, 6 inches sides + rear.</li></ul>
+<h2>6. Commission framework</h2><p>Ice cream commission structures differ from snack/beverage due to higher COGS (35-45% vs 22-30%) and seasonal volatility. Capable operators offer tiered structures keyed to gross revenue.</p><table><thead><tr><th>Monthly gross revenue</th><th>Typical host commission</th><th>Notes</th></tr></thead><tbody><tr><td>&lt; $500</td><td>0-3%</td><td>Below operator break-even on service cost; commission often waived in exchange for placement</td></tr><tr><td>$500 - $1,500</td><td>5-8%</td><td>Standard tier; quarterly settlement</td></tr><tr><td>$1,500 - $3,000</td><td>8-12%</td><td>Mid tier; monthly settlement with telemetry-backed reporting</td></tr><tr><td>&gt; $3,000</td><td>12-18%</td><td>Premium tier; monthly settlement, audit-rights clause, planogram co-design</td></tr></tbody></table>
+<h2>7. Quarterly business review checklist</h2><ul class="checklist"><li><span class="box"></span>Per-machine uptime report (compressor + payment + telemetry separately).</li><li><span class="box"></span>Temperature-excursion log + root-cause notes.</li><li><span class="box"></span>Per-SKU velocity report and planogram refresh recommendations.</li><li><span class="box"></span>Seasonal cadence adjustment for upcoming quarter.</li><li><span class="box"></span>Commission settlement with telemetry-export evidence.</li><li><span class="box"></span>Energy consumption (kWh) report — ENERGY STAR units run 40-50% below legacy baselines.</li><li><span class="box"></span>Action items + owner + due date.</li></ul>
+<h2>8. Capability — what to expect from a placement partner</h2><p>We are equipped to match qualifying hosts with operators that hold cold-chain SLA contracts and run ENERGY STAR Tier 2 freezer vendors with cellular telemetry. Capability framing only — placement timing depends on operator capacity in your service area.</p>
+<footer>This pack is an operational reference. Update temperature thresholds, commission tiers, and SKU mix to match your operator contract and jurisdiction.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_stat_items",
+  "info": {
+    "displayName": "Stat item",
+    "description": "Single number with label and optional sub-label"
+  },
+  "options": {},
+  "attributes": {
+    "number": { "type": "string", "required": true },
+    "label": { "type": "string", "required": true },
+    "sub": { "type": "string" },
+    "accent": { "type": "enumeration", "enum": ["orange", "blue"], "default": "orange" }
+  }
+}

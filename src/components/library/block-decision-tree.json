@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_block_decision_tree",
+  "info": {
+    "displayName": "Block · Decision tree",
+    "icon": "code-branch",
+    "description": "Single-question Y/N tree. Exactly 2 branches."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "question": { "type": "string", "required": true },
+    "branches": { "type": "component", "repeatable": true, "component": "library.decision-branch", "min": 2, "max": 2 }
+  }
+}

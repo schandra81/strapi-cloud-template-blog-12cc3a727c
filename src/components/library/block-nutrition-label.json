@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_library_block_nutrition_label",
+  "info": {
+    "displayName": "Block · Nutrition label",
+    "icon": "apple",
+    "description": "FDA-format nutrition label + compliance pass/warn/fail rows."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "servingSize": { "type": "string", "required": true },
+    "calories": { "type": "string", "required": true },
+    "rows": { "type": "component", "repeatable": true, "component": "library.nutrient-row" },
+    "allergens": { "type": "string" },
+    "compliance": { "type": "component", "repeatable": true, "component": "library.compliance-row" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_block_stat_strip",
+  "info": {
+    "displayName": "Block · Stat callout strip",
+    "icon": "chart-pie",
+    "description": "Dark KPI strip. Use sparingly."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "stats": { "type": "component", "repeatable": true, "component": "library.stat-item" }
+  }
+}

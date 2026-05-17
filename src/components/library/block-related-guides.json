@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_block_related_guides",
+  "info": {
+    "displayName": "Block · Related guides",
+    "icon": "link",
+    "description": "Sister-page card grid for internal linking."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "default": "Related guides" },
+    "items": { "type": "component", "repeatable": true, "component": "library.related-item" }
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "type": "matrix",
+    "slug": "best-selling-entertainment-venue-vending-products",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the planogram framework — Want the entertainment venue planogram framework (zone-specific SKU catalog, event overlay matrix, seasonal shift protocol, category review cadence)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "bowling-alley-vending-services",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the bowling alley framework — Want the bowling alley vending framework (venue-type format matrix, equipment spec, league-bowler SKU catalog)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "concert-venue-vending-options",
+    "category": "vending-for-entertainment-venues",
+    "excerpt": "Get the concert venue framework — Want the concert venue vending framework (format-by-venue-type matrix, equipment spec, operator capability vetting checklist)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "gym-vending-security",
+    "category": "vending-for-gyms",
+    "excerpt": "Get the gym framework — Want the gym vending security framework (facility-type capability matrix, member-access integration checklist, environmental positioning guide)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "public-building-vending-logistics",
+    "category": "vending-for-public-buildings",
+    "excerpt": "Get the credential matrix — Want the credential matrix template (per-tech, per-building, expiration tracking) operators use for government-account fleets?"
+  },
+  {
+    "type": "matrix",
+    "slug": "placement-of-vending-in-retail-centers",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the placement framework — Want the retail-center placement framework (zone matrix + equipment match + foot-traffic study + master service agreement)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "revenue-opportunities-retail-vending",
+    "category": "vending-for-retail-locations",
+    "excerpt": "Get the retail revenue framework — Want the retail vending revenue framework (7-layer stack + capability matrix + sample monthly statement)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "national-vs-local-vending-companies",
+    "category": "vending-management-companies",
+    "excerpt": "Get the operator selection framework — Want the national vs local operator selection framework (RFP criteria + capability matrix + scoring rubric)?"
+  },
+  {
+    "type": "matrix",
+    "slug": "iot-integration-in-vending",
+    "category": "vending-technology",
+    "excerpt": "Get the IoT integration framework — Want the IoT integration framework (five layers + capability matrix + ERP + host integration + QBR)?"
+  }
+]

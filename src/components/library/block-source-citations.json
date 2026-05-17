@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_block_source_citations",
+  "info": {
+    "displayName": "Block · Source citations",
+    "icon": "link",
+    "description": "Numbered citation footer. Article.citation authority signal."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "default": "Sources" },
+    "sources": { "type": "component", "repeatable": true, "component": "library.source" }
+  }
+}

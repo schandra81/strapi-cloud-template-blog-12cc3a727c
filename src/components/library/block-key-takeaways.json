@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_block_key_takeaways",
+  "info": {
+    "displayName": "Block · Key takeaways",
+    "icon": "check",
+    "description": "Bulleted highlights. List-snippet bait."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "default": "Key takeaways" },
+    "takeaways": { "type": "component", "repeatable": true, "component": "library.takeaway" }
+  }
+}

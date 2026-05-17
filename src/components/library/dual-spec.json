@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_dual_specs",
+  "info": {
+    "displayName": "Dual-audience spec",
+    "description": "Key/value spec row inside a dual-audience column"
+  },
+  "options": {},
+  "attributes": {
+    "k": { "type": "string", "required": true },
+    "v": { "type": "string", "required": true }
+  }
+}

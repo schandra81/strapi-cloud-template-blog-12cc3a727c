@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_library_block_floorplan",
+  "info": {
+    "displayName": "Block · Floorplan",
+    "icon": "map",
+    "description": "Inline SVG floorplan + legend. svgInner is raw inner SVG (use viewBox)."
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "string" },
+    "svgInner": { "type": "text", "required": true },
+    "viewBox": { "type": "string", "default": "0 0 400 220" },
+    "legend": { "type": "json" }
+  }
+}

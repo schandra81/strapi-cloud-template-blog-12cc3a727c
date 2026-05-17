@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_library_block_city_industry_grid",
+  "info": {
+    "displayName": "Block · City industry grid",
+    "icon": "th",
+    "description": "Grid of industry-specific links for a city (office, schools, healthcare, etc.)"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "sub": { "type": "text" },
+    "cityName": { "type": "string" },
+    "items": { "type": "component", "repeatable": true, "component": "library.industry-card", "min": 1 }
+  }
+}

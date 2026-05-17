@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_library_compliance_limits",
+  "info": {
+    "displayName": "Compliance limit",
+    "description": "Single nutrient / regulatory cap"
+  },
+  "options": {},
+  "attributes": {
+    "nutrient": { "type": "string", "required": true },
+    "limit": { "type": "string", "required": true },
+    "unit": { "type": "string" },
+    "context": { "type": "string" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_faq_items",
+  "info": {
+    "displayName": "FAQ item",
+    "description": "Single Q/A in a tabbed FAQ block. Audience tag groups items into tabs."
+  },
+  "options": {},
+  "attributes": {
+    "question": { "type": "string", "required": true },
+    "answer": { "type": "text", "required": true },
+    "audience": { "type": "string" }
+  }
+}

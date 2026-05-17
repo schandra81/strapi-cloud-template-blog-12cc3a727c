@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_library_case_meta",
+  "info": {
+    "displayName": "Case meta item",
+    "description": "Label / value metadata pair for a case study"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "value": { "type": "string", "required": true }
+  }
+}

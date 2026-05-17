@@ -1,0 +1,177 @@
+import { seedPost, tldr, statStrip, comparisonTable, specList, costBreakdown, sampleStatement, tipCards, decisionTree, caseStudy, inlineCta, authorCard, tabbedFaq, sourceCitations, relatedGuides } from "../_seed-helper.mjs";
+
+await seedPost("hospital-vending-revenue", [
+  tldr({
+    heading: "How does hospital vending revenue actually work — commission structures, revenue drivers, and program economics?",
+    paragraph:
+      "Hospital vending revenue typically flows to the hospital through operator commission rather than direct capital and operating P&L exposure. Under standard hospital vending contracts, the operator funds equipment capital ($4-10K per vending machine, $25-60K per micro-market), carries operations (restock, service, telemetry, sourcing, fresh-food handling), and pays the hospital a commission on gross or net sales — 5-12% typical commission rate on vending machines, 8-15% on micro-markets at hospital placements (higher than office baseline due to 24/7 demand and higher sales volume). For a modern 200-400 bed hospital deploying 12-20 vending machines plus 1-3 micro-markets, gross vending program sales typically run $250K-$600K annually, with commission revenue to hospital $20K-$75K annually. Revenue drivers across hospital vending: (1) 24/7 access at patient-family adjacency placements (ED waiting, ICU family rooms, surgical waiting, MRI/imaging waiting) supporting long vigils and waiting periods drives the highest sales-per-machine in the program; (2) off-hours staff coverage at residency call rooms, OR nursing lounges, and 3rd-shift staff lounges where cafeteria is closed; (3) parking-garage entry/exit placements catching arriving and departing visitor traffic; (4) gift-shop adjacency capturing impulse purchases; (5) healthy-share planogram execution (HHS 50%, FITPICK 35%) supporting hospital wellness program alignment and avoiding the criticism vending machines historically attracted. Hospital commission revenue often flows to specific funds — wellness program, patient experience program, staff appreciation fund, or general operating revenue depending on hospital policy. Some hospital systems negotiate higher commission rates in exchange for longer contract terms, exclusive operator agreements across multiple campuses, or specific equipment specifications. Modern contracts include commission floor guarantees, telemetry-verified sales reporting (monthly), and quarterly commission reconciliation with hospital food-service management.",
+    bullets: [
+      { emphasis: "Commission structure: 5-12% vending, 8-15% micro-markets at hospitals:",
+        text: "Operator funds equipment capital and carries operations; hospital receives commission on gross or net sales. Higher commission rates than office baseline due to 24/7 demand and higher volume." },
+      { emphasis: "$20-75K annual commission revenue typical at 200-400 bed hospital:",
+        text: "12-20 vending machines plus 1-3 micro-markets producing $250-600K gross program sales annually. Commission flows to wellness, patient experience, staff appreciation, or general operating fund depending on hospital policy." },
+      { emphasis: "Five revenue drivers across hospital vending:",
+        text: "Patient-family adjacency placements at ED/ICU/OR/MRI waiting, off-hours staff coverage, parking-garage entry/exit, gift-shop adjacency, healthy-share planogram execution. Driver-specific placement strategy drives program revenue." },
+    ],
+  }),
+  statStrip({
+    heading: "Hospital vending revenue benchmarks",
+    stats: [
+      { number: "5-12%", label: "vending machine commission rate", sub: "8-15% micro-market", accent: "blue" },
+      { number: "$20-75K", label: "annual commission to hospital", sub: "200-400 bed typical", accent: "green" },
+      { number: "$250-600K", label: "gross program sales", sub: "200-400 bed deployment", accent: "blue" },
+      { number: "$0", label: "direct hospital capital cost", sub: "operator funds equipment", accent: "blue" },
+    ],
+  }),
+  comparisonTable({
+    heading: "Hospital vending commission structures",
+    sub: "Four commission structure variants in modern hospital contracts. Match structure to hospital program scope and operator capability.",
+    headers: ["Commission structure", "Rate range", "Reporting basis", "Hospital fit"],
+    rows: [
+      ["Gross sales commission", "5-12% vending / 8-15% micro-market", "Gross before refunds and shrinkage", "Standard hospital contract"],
+      ["Net sales commission", "8-15% vending / 12-18% micro-market", "After refunds and shrinkage", "Operator-preferred at higher-shrinkage sites"],
+      ["Tiered commission (volume-based)", "5% under $X; 8% $X-Y; 12% over $Y", "Gross or net depending on contract", "Multi-campus hospital systems"],
+      ["Commission with floor guarantee", "8% with $X annual minimum floor", "Gross with minimum guarantee", "Larger hospitals seeking revenue certainty"],
+      ["Exclusive operator agreement", "10-15% with multi-campus exclusivity", "Gross", "Health system with multiple hospitals"],
+      ["Specific-purpose commission", "8% routed to wellness program", "Gross with designated fund", "Wellness-program-aligned hospitals"],
+    ],
+  }),
+  costBreakdown({
+    heading: "Hospital vending program economics (300-bed hospital, full deployment)",
+    sub: "Annual revenue and commission flow for a 300-bed hospital deploying 14 vending machines plus 2 micro-markets. Operator carries equipment capital and operations; hospital pays $0 direct capital cost.",
+    items: [
+      { label: "Vending machine gross sales (14 machines × $18K avg annual)", amount: "$252K", range: "Patient-family + staff + visitor traffic" },
+      { label: "Micro-market gross sales (2 markets × $120K avg annual)", amount: "$240K", range: "Central staff lounge + main lobby" },
+      { label: "Total program gross sales", amount: "$492K", range: "Hospital vending program annual" },
+      { label: "Vending commission to hospital (8% gross average)", amount: "$20K", range: "5-12% range across machines" },
+      { label: "Micro-market commission to hospital (10% gross average)", amount: "$24K", range: "8-15% range across markets" },
+      { label: "Total commission revenue to hospital (annual)", amount: "$44K", range: "$3,700 monthly average" },
+      { label: "Direct hospital capital cost (operator-funded)", amount: "$0", range: "Operator funds $100-150K equipment" },
+      { label: "Direct hospital operating cost", amount: "$0", range: "Operator carries operations" },
+    ],
+    totalLabel: "Net hospital annual P&L from vending program",
+    totalAmount: "+$44K (zero direct cost)",
+  }),
+  sampleStatement({
+    heading: "Sample monthly commission statement",
+    sub: "Illustrative monthly operator commission statement to hospital food-service management for a 300-bed hospital program (14 vending machines + 2 micro-markets). Real statements include line-item per-machine detail.",
+    accountName: "300-Bed Regional Hospital — Vending Program",
+    period: "Month of [Period]",
+    issuedDate: "[Statement Date]",
+    paymentMethod: "ACH transfer to hospital designated account",
+    calculationBasis: "Gross sales commission, telemetry-verified",
+    lines: [
+      { machineLabel: "ED Waiting Vending (2 machines)", location: "ED waiting area", units: 1850, gross: "$3,650", refunds: "$45", net: "$3,605", commission: "$288" },
+      { machineLabel: "ICU Family Room Vending (3 machines)", location: "ICU family rooms", units: 1240, gross: "$2,560", refunds: "$28", net: "$2,532", commission: "$203" },
+      { machineLabel: "Surgical Waiting Vending (2 machines)", location: "Surgical / OR waiting", units: 980, gross: "$2,020", refunds: "$22", net: "$1,998", commission: "$160" },
+      { machineLabel: "Residency Call Room Vending (2 machines)", location: "Residency call rooms", units: 1420, gross: "$2,890", refunds: "$31", net: "$2,859", commission: "$229" },
+      { machineLabel: "Patient-Floor Corridors Vending (3 machines)", location: "Patient floors", units: 1680, gross: "$3,180", refunds: "$40", net: "$3,140", commission: "$251" },
+      { machineLabel: "Parking Garage Vending (2 machines)", location: "Parking garage entry/exit", units: 1340, gross: "$2,610", refunds: "$25", net: "$2,585", commission: "$207" },
+      { machineLabel: "Central Staff Lounge Micro-Market", location: "Central staff lounge", units: 2890, gross: "$10,840", refunds: "$140", net: "$10,700", commission: "$1,070" },
+      { machineLabel: "Main Lobby Micro-Market", location: "Main lobby visitor area", units: 2120, gross: "$8,420", refunds: "$95", net: "$8,325", commission: "$833" },
+    ],
+    totalGross: "$36,170",
+    totalRefunds: "$426",
+    totalNet: "$35,744",
+    totalCommission: "$3,241",
+    footnote: "Commission rates: 8% gross on vending machines, 10% gross on micro-markets. Telemetry-verified sales data from operator platforms (Cantaloupe / Nayax / 365 Retail Markets). Refunds processed through operator-managed system. Monthly statement reconciled with hospital food-service management on commission distribution to designated fund.",
+  }),
+  specList({
+    heading: "Hospital vending revenue program specifications",
+    items: [
+      { label: "Commission rate negotiation and structure", value: "5-12% vending commission rate, 8-15% micro-market rate at hospital placements (higher than office baseline due to 24/7 demand and higher volume). Negotiate gross vs net basis (gross simpler; net favors operator at higher-shrinkage sites). Tiered commission for multi-campus systems. Commission floor guarantee for revenue certainty. Specific-purpose commission routing where hospital policy designates fund (wellness, patient experience, staff appreciation)." },
+      { label: "Telemetry-verified sales reporting", value: "Monthly commission statement from operator with telemetry-verified sales data (Cantaloupe, Nayax, 365 Retail Markets, Avanti Markets). Per-machine sales detail, refund processing, net sales, commission calculation. Quarterly commission reconciliation with hospital food-service management. Annual audit with hospital finance where commission revenue feeds budget reporting." },
+      { label: "Five revenue drivers across deployment", value: "1) Patient-family adjacency at ED waiting, ICU family rooms, surgical waiting, MRI/imaging waiting — highest sales-per-machine; 2) Off-hours staff coverage at residency call rooms, OR nursing lounges, 3rd-shift staff lounges; 3) Parking-garage entry/exit catching visitor traffic; 4) Gift-shop adjacency for impulse purchases; 5) Healthy-share planogram execution (HHS 50%, FITPICK 35%) supporting wellness alignment." },
+      { label: "Vending machine sales-per-unit drivers", value: "Patient-family adjacency placements typically produce $18-25K annual sales per machine (ED waiting, ICU family, surgical waiting). Staff lounge placements $12-18K. Distributed patient-floor corridors $8-15K. Parking-garage placements $15-22K (high transit volume). Gift-shop adjacency $10-16K. Off-hours residency call rooms $14-20K (continuous 24/7 demand)." },
+      { label: "Micro-market sales-per-unit drivers", value: "Central staff lounge micro-market typically produces $100K-$200K annual gross sales (broad assortment, daily restocking, fresh-food access). Main lobby visitor area micro-market $80K-$150K (visitor traffic, broader assortment). Large departmental breakroom micro-market $60K-$120K. Revenue scales with daily transaction volume, floor space, assortment depth, and design quality." },
+      { label: "Commission distribution to designated funds", value: "Hospital policy designates commission revenue distribution. Common destinations: wellness program (supporting health and well-being initiatives), patient experience program (supporting HCAHPS scoring initiatives), staff appreciation fund (supporting employee recognition), general operating revenue (supporting hospital operating budget). Coordinate distribution with hospital finance + food-service management + designated program lead." },
+      { label: "Contract term and refresh", value: "Hospital vending contracts typically 3-5 year initial term with refresh windows. Longer terms (5-7 years) negotiated in exchange for higher commission rates or capital commitments. Equipment lifecycle 7-10 years for industrial-rated heavy-duty equipment. Contract refresh aligned with equipment lifecycle refresh and successive ENERGY STAR specification updates. Annual review with operator on commission performance and program optimization." },
+      { label: "Healthy-share alignment and revenue", value: "HHS 50% / FITPICK 35% / progressive 75% healthy-share targets execute through operator planogram with on-site dietitian validation. Healthy-share execution supports hospital wellness program alignment and avoids vending machine criticism historically. Revenue impact: healthy-share planograms produce comparable sales-per-machine vs traditional planograms at well-executed deployments; some hospitals see lift from family/visitor purchasing healthy options at patient-family adjacency placements." },
+      { label: "Patient-family adjacency sales characteristics", value: "Patient-family adjacency placements (ED waiting, ICU family rooms, surgical waiting, MRI/imaging waiting) produce highest sales-per-machine in hospital program. Long vigils and waiting periods drive consumption. Diet-friendly options (lactose-free, gluten-free, diabetic-friendly) for family members with patient dietary alignment. Some hospitals subsidize patient-family adjacency vending as patient experience investment with commission revenue lower at subsidized placements." },
+      { label: "Monthly commission reporting cadence", value: "Operator monthly commission statement to hospital food-service management with per-machine sales detail. Telemetry-verified data from operator platforms. Refund processing transparency. Net sales calculation. Commission calculation per contract terms. ACH transfer to hospital designated account or fund. Quarterly commission reconciliation. Annual program review with operator." },
+    ],
+  }),
+  decisionTree({
+    heading: "Is your hospital vending program optimized for revenue?",
+    question: "Does your vending program run patient-family adjacency placements at ED/ICU/OR/MRI waiting, off-hours staff coverage at residency call rooms, parking-garage entry/exit placements, gift-shop adjacency, dietitian-validated healthy-share planogram, telemetry-verified monthly commission reporting, and contract commission structure aligned with hospital fund designation?",
+    yesBranch: {
+      title: "Optimized hospital vending program — verify commission performance",
+      description: "Program structure supports the five revenue drivers. Verify commission rate competitive (5-12% vending, 8-15% micro-market), telemetry-verified monthly statements, quarterly reconciliation with food-service management, annual program review. Commission revenue distribution aligned with hospital policy (wellness, patient experience, staff appreciation, general operating). $20-75K annual commission revenue range typical at 200-400 bed hospital.",
+      finalTone: "go",
+      finalLabel: "Optimized",
+    },
+    noBranch: {
+      title: "Under-optimized program — restructure for revenue and commission",
+      description: "Missing revenue drivers (patient-family adjacency, off-hours coverage, parking-garage, gift-shop adjacency, healthy-share) leaves substantial commission revenue unrealized. Office-grade commission rates (3-5%) or office-grade reporting cadence reduce revenue further. Restructure: deploy across five revenue drivers, negotiate hospital-grade commission rates, telemetry-verified monthly reporting, quarterly reconciliation, annual program review.",
+      finalTone: "stop",
+      finalLabel: "Restructure",
+    },
+  }),
+  caseStudy({
+    tag: "Capability scenario · 300-bed regional hospital",
+    title: "Hospital vending program producing $44K annual commission revenue at a 300-bed regional hospital",
+    context: "Capability description for a 300-bed regional hospital deploying 14 vending machines distributed across ED waiting, ICU family rooms, surgical waiting, residency call rooms, patient-floor corridors, parking-garage entry/exit plus 2 micro-markets at central staff lounge and main lobby. Total program annual gross sales $492K with 8% vending commission and 10% micro-market commission producing $44K annual commission revenue to hospital. Commission designated to wellness program and patient experience fund.",
+    meta: [
+      { label: "Beds", value: "300 inpatient" },
+      { label: "Vending machines", value: "14 across departments" },
+      { label: "Micro-markets", value: "2 (staff lounge + lobby)" },
+      { label: "Commission rate", value: "8% vending / 10% micro-market" },
+      { label: "Annual commission revenue", value: "$44K" },
+    ],
+    results: [
+      { number: "$492K", label: "annual program gross sales" },
+      { number: "$44K", label: "annual commission to hospital" },
+      { number: "$0", label: "direct hospital capital cost" },
+      { number: "Monthly", label: "telemetry-verified statement cadence" },
+    ],
+  }),
+  tipCards({
+    heading: "Five hospital vending revenue mistakes",
+    sub: "Documented in hospital food-service contract reviews and program post-implementation analyses. All preventable with appropriate commission structure and revenue-driver execution.",
+    items: [
+      { title: "Office-grade commission rates at hospital placements", body: "Office vending baseline 3-5% commission rates leave substantial revenue unrealized at hospital placements with 24/7 demand and higher volume. Hospital-grade commission rates 5-12% on vending machines and 8-15% on micro-markets reflect the revenue reality. Negotiate hospital-grade rates at contract renewal. Multi-campus systems can negotiate higher rates in exchange for exclusivity." },
+      { title: "Missing patient-family adjacency placements", body: "Patient-family adjacency placements (ED waiting, ICU family rooms, surgical waiting, MRI/imaging waiting) produce highest sales-per-machine in the hospital program. Long vigils and waiting periods drive consumption. Deploying without patient-family adjacency leaves the highest-revenue placements unrealized. Coordinate placement planning with facilities, clinical leads, and operator at deployment design." },
+      { title: "Office-grade reporting cadence without telemetry verification", body: "Office-grade quarterly or annual commission reporting fails to support hospital program scale and revenue stakes. Specify telemetry-verified monthly commission statement with per-machine sales detail, refund processing transparency, net sales calculation. Quarterly commission reconciliation with food-service management. Operators without telemetry capability cannot support hospital reporting standards." },
+      { title: "No designated commission distribution to specific fund", body: "Commission revenue routed to general operating budget without designated fund attribution loses program visibility. Designate commission distribution to wellness program, patient experience program, staff appreciation fund, or other hospital priority. Program visibility supports continued program investment and program-specific stakeholder alignment. Coordinate distribution with hospital finance + food-service management + designated program lead." },
+      { title: "Skipping healthy-share planogram execution", body: "Healthy-share planogram execution (HHS 50%, FITPICK 35%) supports hospital wellness program alignment and avoids vending machine criticism historically. Some hospitals see revenue lift from family/visitor purchasing healthy options at patient-family adjacency placements. On-site dietitian validation drives credibility. Skipping healthy-share execution misses both wellness alignment and revenue opportunity." },
+    ],
+  }),
+  inlineCta({
+    text: "Want the hospital vending revenue playbook — commission structure, revenue drivers, telemetry reporting, and commission distribution to designated fund?",
+    buttonLabel: "Get the hospital vending revenue playbook",
+    buttonHref: "/#get-machine",
+  }),
+  authorCard({
+    bio: "Bobby Mac is equipped to help hospital food-service management and finance teams structure vending and micro-market programs for revenue performance — commission rate negotiation across gross vs net basis and tiered structures and floor guarantees and exclusive operator agreements, telemetry-verified monthly commission reporting with per-machine sales detail, five revenue drivers across patient-family adjacency and off-hours staff coverage and parking-garage and gift-shop adjacency and healthy-share planogram execution, commission distribution to designated funds including wellness and patient experience and staff appreciation, contract term and refresh planning, and quarterly reconciliation with food-service management. The benchmarks reflect operator-side data from hospital deployments.",
+  }),
+  tabbedFaq({
+    faqs: [
+      { question: "How does hospital vending revenue work?", answer: "Operator funds equipment capital ($4-10K vending, $25-60K micro-market) and carries operations; hospital pays $0 direct capital cost. Hospital receives commission on gross or net sales — 5-12% vending, 8-15% micro-market at hospital placements (higher than office baseline due to 24/7 demand and higher volume). For 200-400 bed hospital, $20-75K annual commission revenue typical.", audience: "CFOs" },
+      { question: "What commission rate should we negotiate?", answer: "5-12% on vending machines, 8-15% on micro-markets at hospital placements. Higher rates (10-15%) for larger multi-campus systems with exclusivity or longer contract terms. Negotiate gross vs net basis (gross simpler; net favors operator at higher-shrinkage sites). Tiered commission for volume-based scaling. Commission floor guarantee for revenue certainty. Specific-purpose commission routing where hospital policy designates fund.", audience: "Procurement" },
+      { question: "Where does commission revenue go?", answer: "Hospital policy designates distribution. Common destinations: wellness program, patient experience program, staff appreciation fund, or general operating revenue. Coordinate distribution with hospital finance + food-service management + designated program lead. Designated fund attribution supports program visibility and continued program investment.", audience: "Food Service Directors" },
+      { question: "What drives hospital vending sales?", answer: "Five revenue drivers: 1) Patient-family adjacency at ED waiting, ICU family rooms, surgical waiting, MRI/imaging waiting; 2) Off-hours staff coverage at residency call rooms, OR nursing lounges, 3rd-shift staff lounges; 3) Parking-garage entry/exit catching visitor traffic; 4) Gift-shop adjacency for impulse purchases; 5) Healthy-share planogram execution supporting wellness alignment.", audience: "Facilities" },
+      { question: "How much can a hospital earn annually?", answer: "200-400 bed hospital typically earns $20-75K annual commission revenue from vending program (12-20 vending machines plus 1-3 micro-markets producing $250-600K gross program sales annually). Larger hospitals and multi-campus systems earn substantially more. Real numbers depend on commission rate, deployment scale, revenue-driver execution, and operator capability.", audience: "CFOs" },
+      { question: "How is commission reported and verified?", answer: "Monthly commission statement from operator with telemetry-verified sales data (Cantaloupe, Nayax, 365 Retail Markets, Avanti Markets). Per-machine sales detail, refund processing, net sales, commission calculation. Quarterly commission reconciliation with hospital food-service management. Annual audit with hospital finance where commission revenue feeds budget reporting.", audience: "Finance" },
+      { question: "Does healthy-share execution affect revenue?", answer: "Healthy-share planogram execution (HHS 50%, FITPICK 35%) produces comparable sales-per-machine vs traditional planograms at well-executed deployments; some hospitals see lift from family/visitor purchasing healthy options at patient-family adjacency placements. Healthy-share execution supports hospital wellness program alignment and avoids vending machine criticism. On-site dietitian validation drives credibility.", audience: "Wellness" },
+      { question: "What's the contract term?", answer: "Hospital vending contracts typically 3-5 year initial term with refresh windows. Longer terms (5-7 years) negotiated in exchange for higher commission rates or capital commitments. Equipment lifecycle 7-10 years for industrial-rated heavy-duty equipment. Contract refresh aligned with equipment lifecycle refresh. Annual review with operator on commission performance and program optimization.", audience: "Procurement" },
+    ],
+  }),
+  sourceCitations({
+    sources: [
+      { label: "HHS — Health and Sustainability Guidelines for Federal Concessions and Vending", url: "https://www.gsa.gov/cdnstatic/Health_and_Sustainability_Guidelines_for_Federal_Concessions_and_Vending_Operations.pdf", note: "Federal healthy-share targets informing hospital wellness program alignment" },
+      { label: "CMS — HCAHPS patient experience survey", url: "https://www.hcahpsonline.org/", note: "Federal patient experience survey scoring family satisfaction informing patient-family adjacency placements" },
+      { label: "The Joint Commission — hospital food service and safety standards", url: "https://www.jointcommission.org/", note: "Federal accreditation standards covering hospital food service and program compliance" },
+      { label: "CDC — Food Service Guidelines for Federal Facilities", url: "https://www.cdc.gov/nutrition/php/food-service-guidelines/index.html", note: "Public health guidance on healthcare nutrition standards informing planogram design" },
+      { label: "NAMA — National Automatic Merchandising Association — hospital vending operations", url: "https://www.namanow.org/", note: "Industry association guidance on hospital vending commission structures and operator practice" },
+    ],
+  }),
+  relatedGuides({
+    heading: "Related hospital vending guides",
+    items: [
+      { eyebrow: "Sister guide", title: "Micro-markets vs vending in hospitals", description: "Service-model comparison and placement criteria for hospital deployments.", href: "/vending-for-healthcare/micro-markets-vs-vending-in-hospitals" },
+      { eyebrow: "Operations", title: "Hospital vending revenue use", description: "How hospitals deploy vending commission revenue across wellness, patient experience, and staff appreciation programs.", href: "/vending-for-healthcare/hospital-vending-revenue-use" },
+      { eyebrow: "Hub", title: "All hospital vending guides", description: "Equipment, planogram, food safety, patient-family adjacency, micro-markets, revenue, and coordination with cafeteria food service.", href: "/vending-for-healthcare" },
+    ],
+  }),
+]);
+process.exit(0);

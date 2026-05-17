@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Vending Service-Call SLA Pack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Vending Service-Call SLA Pack</h1>
+  <p class="subtitle">Four-tier SLA, refund standards, telemetry spec, credit mechanism, monthly scorecard</p>
+</header>
+<p>Service responsiveness is the single most-cited host complaint in NAMA&#39;s annual customer survey. This pack codifies a four-tier SLA framework, with telemetry, refunds, and a monthly scorecard a capable operator can attest to in writing.</p>
+<h2>1. Four-tier SLA framework</h2><p>Not every service event is the same urgency. The four-tier framework matches response time to business impact, keeping operator service cost sustainable while protecting host experience.</p><table><thead><tr><th>Tier</th><th>Examples</th><th>Acknowledge SLA</th><th>Resolve SLA</th></tr></thead><tbody><tr><td>Tier 1 — Critical</td><td>Machine offline, cold-chain excursion, payment system down, security incident</td><td>&lt; 1 hour</td><td>&lt; 24 hours</td></tr><tr><td>Tier 2 — Stockout / Hot SKU</td><td>Top-10 SKU sold out, planogram outage</td><td>&lt; 4 hours</td><td>&lt; 48 hours</td></tr><tr><td>Tier 3 — Standard</td><td>Single SKU stockout, slot jam, planogram refresh request</td><td>&lt; 24 hours</td><td>&lt; 5 business days</td></tr><tr><td>Tier 4 — Cosmetic</td><td>Signage refresh, wrap touch-up, cabinet cleaning</td><td>&lt; 5 business days</td><td>&lt; 14 business days</td></tr></tbody></table>
+<h2>2. Telemetry spec — what enables the SLA</h2><p>Without telemetry, an operator cannot meet a &lt; 1-hour acknowledge SLA. The telemetry baseline below is non-negotiable for a Tier 1 program.</p><dl><dt>Hardware</dt><dd>Cellular modem (LTE Cat-M1 or NB-IoT) on every machine. Cantaloupe Seed, Nayax VPOS Touch, 365 Retail Markets ePort, AWM Smart Shelf.</dd><dt>Heartbeat interval</dt><dd>≤ 15 minutes. Sub-5-minute for cold-chain placements.</dd><dt>Monitored events</dt><dd>Online/offline, payment-system status, internal temperature (refrigerated), door-open, compressor short-cycle, bill-validator jam, motor stall.</dd><dt>Alert routing</dt><dd>Tier 1 events → operator on-call SMS + email + dashboard. Tier 2-4 events → ticketing queue with auto-priority.</dd><dt>Host visibility</dt><dd>Read-only dashboard or weekly digest with per-machine uptime, last-restock, ticket status.</dd></dl>
+<h2>3. Refund standards</h2><p>Consumer refund flow is part of the SLA. Slow refunds undermine member trust and generate disproportionate complaints to host facilities team.</p><ol class="steps"><li><strong>Cashless refund</strong><p>Self-service via on-machine touchpad, operator app, or QR-code-to-refund. Auto-credit to original payment method within 24 hours of trigger.</p></li><li><strong>Cash refund</strong><p>Member submits refund slip with name + transaction time. Credit on next route visit (≤ 7 days) or check / Venmo dispatch (≤ 14 days).</p></li><li><strong>Refund audit</strong><p>Monthly refund report to host with reason codes (no-vend, stockout, jam, cold-chain, expired). Refund rate &gt; 2% of transactions triggers planogram + machine quality review.</p></li><li><strong>Member transparency</strong><p>Refund-flow instructions on machine face, in member app, and in host onboarding email — three touchpoints minimum.</p></li></ol>
+<h2>4. Credit mechanism — SLA non-compliance</h2><p>Capable operators include service-credit clauses in the contract. The framework below sets credit at a level meaningful to host but sustainable to operator.</p><table><thead><tr><th>Breach</th><th>Credit to host</th></tr></thead><tbody><tr><td>Tier 1 acknowledge SLA missed</td><td>$50 per occurrence</td></tr><tr><td>Tier 1 resolve SLA missed (&gt;24h)</td><td>$100 per occurrence + waive month&#39;s commission floor</td></tr><tr><td>Tier 2 acknowledge or resolve SLA missed</td><td>$25 per occurrence</td></tr><tr><td>Cold-chain product-loss event</td><td>Full SKU replacement + month commission credit</td></tr><tr><td>Refund SLA missed (&gt;24h cashless)</td><td>$10 per occurrence to host, full refund to member</td></tr><tr><td>Uptime &lt; 95% for the month</td><td>Pro-rata commission credit (e.g., 92% uptime = 8% commission credit)</td></tr></tbody></table>
+<h2>5. Monthly service scorecard template</h2><p>Operator delivers this scorecard by 10th business day of the following month. Each metric is telemetry-backed.</p><dl><dt>Uptime %</dt><dd>Per machine, per month. Target ≥ 98% for snack/beverage; ≥ 99% for fresh/cold-chain.</dd><dt>Ticket counts by tier</dt><dd>Total tickets, with mean and 90th-percentile resolve time per tier.</dd><dt>SLA adherence %</dt><dd>% of tickets that met acknowledge SLA + % that met resolve SLA, separately.</dd><dt>Refund volume + reason codes</dt><dd>Total refunds, % of transactions, top reason.</dd><dt>Stockout incidents</dt><dd>Per machine, per SKU. Time-to-restock from telemetry alert.</dd><dt>Cold-chain excursions</dt><dd>Count, duration, root-cause, product-loss disposition.</dd><dt>Service-credit summary</dt><dd>Credits earned by host under section 4 clauses.</dd></dl>
+<h2>6. Site-side preparation that improves SLA outcomes</h2><ul class="checklist"><li><span class="box"></span>Service-access clearance documented at install (36 in front, 6 in sides + rear).</li><li><span class="box"></span>Cellular signal verified &gt; -95 dBm at install; fallback Wi-Fi credentialed if signal marginal.</li><li><span class="box"></span>Single point of contact (POC) at host for after-hours access — name, mobile, badge access procedure.</li><li><span class="box"></span>Power circuit dedicated, surge-protected, with breaker labeled.</li><li><span class="box"></span>Site listed in operator dispatch system with directions, parking, loading-dock notes.</li><li><span class="box"></span>Spare key or access code stored with operator dispatch (with host facilities approval).</li></ul>
+<h2>7. Contract clauses to require</h2><ul class="checklist"><li><span class="box"></span>Four-tier SLA defined as Section 1 above, with telemetry-backed evidence.</li><li><span class="box"></span>Monthly service scorecard delivered by 10th business day, signed.</li><li><span class="box"></span>Service-credit schedule per Section 4, with cap at 25% of month&#39;s net revenue.</li><li><span class="box"></span>Refund SLA — 24-hour cashless / 7-day cash — with audit log.</li><li><span class="box"></span>30-day cure period before termination-for-cause on SLA breach pattern (3+ months below 90% adherence).</li><li><span class="box"></span>Audit rights — host can pull dispatch records and reconcile against scorecard quarterly.</li></ul>
+<h2>8. Capability framing</h2><p>We are equipped to surface operators that can attest to telemetry, four-tier SLA, refund SLA, and monthly scorecard delivery. Specific service-call resolve time depends on route density and after-hours coverage in your service area — described honestly at intake.</p>
+<footer>SLA tier definitions and credit amounts are reference values. Negotiate to the operating reality of your portfolio.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

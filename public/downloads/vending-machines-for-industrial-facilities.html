@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Industrial Facility Vending Equipment &amp; Operations Playbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #111827; line-height: 1.5; }
+  header { border-bottom: 3px solid #2563EB; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.875rem; margin: 0 0 0.5rem; color: #111827; }
+  .subtitle { color: #6B7280; margin: 0; font-style: italic; }
+  h2 { color: #2563EB; margin-top: 2rem; border-bottom: 1px solid #E5E7EB; padding-bottom: 0.375rem; }
+  p { margin: 0.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; border: 1px solid #D1D5DB; }
+  th { background: #2563EB; color: white; font-weight: 600; }
+  tr:nth-child(even) td { background: #F9FAFB; }
+  ul.checklist { list-style: none; padding: 0; }
+  ul.checklist li { padding: 0.375rem 0; display: flex; align-items: flex-start; gap: 0.625rem; }
+  ul.checklist .box { display: inline-block; width: 1rem; height: 1rem; border: 2px solid #2563EB; border-radius: 3px; margin-top: 0.125rem; flex-shrink: 0; }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; }
+  ol.steps li { counter-increment: step; padding: 0.75rem 0 0.75rem 2.5rem; position: relative; border-bottom: 1px solid #E5E7EB; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 0; top: 0.75rem; width: 1.75rem; height: 1.75rem; background: #2563EB; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem; }
+  ol.steps li strong { display: block; margin-bottom: 0.25rem; }
+  ol.steps li p { margin: 0; color: #4B5563; }
+  dl { margin: 1rem 0; }
+  dt { font-weight: 600; color: #111827; margin-top: 0.875rem; }
+  dd { margin: 0.25rem 0 0 0; color: #4B5563; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #E5E7EB; color: #6B7280; font-size: 0.875rem; font-style: italic; }
+  .brand { color: #2563EB; font-weight: 600; }
+  @media print { body { padding: 0; max-width: none; } header { page-break-after: avoid; } h2 { page-break-after: avoid; } ol.steps li, ul.checklist li, dt { page-break-inside: avoid; } table { page-break-inside: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Industrial Facility Vending Equipment &amp; Operations Playbook</h1>
+  <p class="subtitle">Equipment specification, environmental ratings, and operations discipline for industrial sites</p>
+</header>
+<p>Industrial sites — heavy manufacturing, foundries, distribution centers, refineries, mining services — punish consumer-grade vending equipment. This playbook specifies the equipment, placement discipline, and service operations that survive the environment and serve the workforce.</p>
+<h2>1. Environmental classification</h2><p>Before specifying equipment, classify each placement against the actual exposure. The same plant can have three different classes within 500 ft of each other.</p><dl><dt>Class A — Climate-controlled office / control room</dt><dd>60-78°F, 30-60% RH, low dust. Standard glass-front equipment acceptable.</dd><dt>Class B — Conditioned breakroom on production floor</dt><dd>65-85°F, dust intrusion possible, vibration low. Standard equipment plus dust filters and sealed bezels.</dd><dt>Class C — Production floor, semi-conditioned</dt><dd>55-95°F, high dust, vibration moderate. Industrial-spec cabinet (gauge-thicker steel, sealed gaskets), filtered intake, NEMA 12-rated electronics enclosure.</dd><dt>Class D — Outdoor / loading dock / weather-exposed</dt><dd>Outdoor temperature range, weather, UV. Outdoor-rated cabinet (NEMA 4 enclosure, weather hood, freeze-protected condensate). Crane 167 Outdoor or AMS Outdoor-spec.</dd></dl>
+<h2>2. Equipment specification by class</h2><table><thead><tr><th>Class</th><th>Snack</th><th>Cold beverage</th><th>Refrigerated food</th><th>Notes</th></tr></thead><tbody><tr><td>A</td><td>Crane 187 / AMS 39</td><td>Royal 660 / Vendo 721</td><td>Crane Merchant Media food</td><td>Standard install</td></tr><tr><td>B</td><td>AMS 39 with dust filters</td><td>Royal 660 with filtered intake</td><td>Crane food + glass cleaning kit</td><td>Quarterly filter change</td></tr><tr><td>C</td><td>AMS Sensit 3 industrial / Crane Merchant Combo</td><td>Royal RVCC outdoor-spec</td><td>Outdoor-rated only</td><td>NEMA 12 electronics, sealed bezels, weekly cabinet wipe-down</td></tr><tr><td>D</td><td>Outdoor cabinet (custom or AMS Outdoor)</td><td>Royal Outdoor or Cantaloupe-equipped outdoor</td><td>Not recommended unless heated enclosure</td><td>Weather hood, condensate freeze protection, GFCI</td></tr></tbody></table>
+<h2>3. Placement discipline</h2><ol class="steps"><li><strong>Worker-time math</strong><p>Workers should not lose more than 5 min of a 15-min break walking to/from a machine. Place clusters within 200 ft of any work station; satellites within 100 ft of high-density work cells.</p></li><li><strong>Travel-path safety</strong><p>Placements off forklift lanes per OSHA 1910.176(a); 36 in. service clearance per ANSI/NAMA 2-2011 §4; ADA 30 in. x 48 in. approach per 2010 ADA Standards §305.</p></li><li><strong>Power + cooling load</strong><p>Aggregate cluster load &lt; 80% of dedicated 20A 120V branch per NEC 210.23. Refrigerated units on dedicated circuits. Heat rejection routed away from break seating.</p></li><li><strong>Sanitation perimeter</strong><p>Food consumption areas separated from production per OSHA 1910.141(g)(2). Vending placement aligns with this perimeter, not inside production zone.</p></li><li><strong>Lockout coordination</strong><p>Vending power circuits documented in the site electrical drawings so they remain energized during equipment lockout/tagout (LOTO) per OSHA 1910.147.</p></li></ol>
+<h2>4. Operational support structure</h2><dl><dt>Restock cadence</dt><dd>2-5 visits/week depending on size. Pre-shift-1 restock window 5-6 AM; mid-shift telemetry-driven top-off for high-velocity machines.</dd><dt>Service SLA — Tier 1</dt><dd>Offline, cold-chain excursion, payment system down — &lt;24 hr acknowledgement, &lt;24 hr resolution.</dd><dt>Service SLA — Tier 2</dt><dd>SKU stockout, planogram refresh — 24-48 hr ack, 5-7 day resolution.</dd><dt>Service SLA — Tier 3</dt><dd>Cosmetic, signage, cleaning — 5 day ack, 14 day resolution.</dd><dt>Preventive maintenance</dt><dd>Quarterly PM visit: filter change, gasket inspection, refrigeration coil clean, payment reader firmware check, telemetry battery check.</dd></dl>
+<h2>5. Telemetry baseline</h2><p>Industrial sites cannot rely on visual restock checks — the breakroom is often unstaffed for shifts at a time. Telemetry is the operational nervous system.</p><dl><dt>Required telemetry</dt><dd>Cantaloupe Seed, Nayax, 365 Retail Markets, or Crane Streamware — cellular-modem-enabled with sub-15-min heartbeat. No host LAN dependency.</dd><dt>Monitored metrics</dt><dd>Online/offline, last-restock timestamp, per-SKU velocity, cash/cashless mix, payment-failure rate, refrigeration temperature, door-open events.</dd><dt>Alert thresholds</dt><dd>Offline &gt;30 min triggers operator alert. Temperature excursion outside 33-41°F (refrigerated) or above 0°F (frozen) triggers immediate alert with 4-hour SLA.</dd></dl>
+<h2>6. Planogram for industrial workforce</h2><p>Industrial workforces show higher calorie demand, higher hydration demand, and stronger preference for familiar mainstream brands. Per ACOEM industrial-workforce guidance, hydration share should be elevated.</p><ul class="checklist"><li><span class="box"></span>Snack: 60-70% mainstream salty/sweet (Frito-Lay, Mondelez, Hershey); 20-30% protein/meal-replacement; 10-20% better-for-you SKUs per NAMA FitPick</li><li><span class="box"></span>Beverage: 30%+ water + electrolyte + unsweetened (ACOEM hydration guidance); 40% carbonated; 20% energy; 10% other</li><li><span class="box"></span>Food/fresh: meal-replacement weight (sandwiches, wraps, protein bowls) over snack-only mix</li><li><span class="box"></span>Shift-3 surge: caffeine + hot-snack + comfort food weighting per shift-3 velocity data</li></ul>
+<h2>7. KPI scorecard</h2><table><thead><tr><th>Metric</th><th>Target</th><th>Reporting</th></tr></thead><tbody><tr><td>Uptime per machine</td><td>≥ 98%</td><td>Monthly</td></tr><tr><td>Stockout SKU-hours</td><td>≤ 2%</td><td>Weekly</td></tr><tr><td>Tier 1 resolution time</td><td>&lt; 24 hr</td><td>Monthly</td></tr><tr><td>Refund rate</td><td>&lt; 2%</td><td>Quarterly</td></tr><tr><td>Preventive maintenance compliance</td><td>100% on-schedule</td><td>Quarterly</td></tr><tr><td>Per-shift velocity adherence</td><td>Within 10% of forecast</td><td>Quarterly</td></tr></tbody></table>
+<footer>LetUsVending is equipped to source industrial-spec operators and coordinate the equipment specification + SLA terms in this playbook.<br/><span class="brand">LetUsVending</span> — vending operator network &amp; advisory.</footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_library_citations",
+  "info": {
+    "displayName": "Citation",
+    "description": "Source citation with optional URL and last-verified date"
+  },
+  "options": {},
+  "attributes": {
+    "text": { "type": "string", "required": true },
+    "url": { "type": "string" },
+    "date": { "type": "string" }
+  }
+}
