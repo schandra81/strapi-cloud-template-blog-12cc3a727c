@@ -76,6 +76,28 @@
       "relation": "manyToOne",
       "target": "api::blog-section.blog-section",
       "inversedBy": "posts"
+    },
+    "contentBlocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.hero",
+        "blocks.cta",
+        "blocks.faq",
+        "blocks.how-it-works",
+        "blocks.stats-strip",
+        "blocks.why-choose-us",
+        "blocks.testimonials",
+        "blocks.lead-form-showcase",
+        "blocks.locations-grid",
+        "blocks.machine-types",
+        "blocks.email-notification",
+        "blocks.landing-cta",
+        "blocks.landing-hero",
+        "blocks.landing-lead-form-showcase",
+        "blocks.landing-locations-grid",
+        "blocks.landing-stats-strip",
+        "blocks.landing-why-choose-us"
+      ]
     }
   }
 }

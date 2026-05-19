@@ -559,6 +559,27 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
       'manyToOne',
       'api::blog-category.blog-category'
     >;
+    contentBlocks: Schema.Attribute.DynamicZone<
+      [
+        'blocks.hero',
+        'blocks.cta',
+        'blocks.faq',
+        'blocks.how-it-works',
+        'blocks.stats-strip',
+        'blocks.why-choose-us',
+        'blocks.testimonials',
+        'blocks.lead-form-showcase',
+        'blocks.locations-grid',
+        'blocks.machine-types',
+        'blocks.email-notification',
+        'blocks.landing-cta',
+        'blocks.landing-hero',
+        'blocks.landing-lead-form-showcase',
+        'blocks.landing-locations-grid',
+        'blocks.landing-stats-strip',
+        'blocks.landing-why-choose-us',
+      ]
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
